@@ -1,0 +1,15 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "my movie app package.json",
+
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hotpotatoes-client"
+  },
+  "author": "ywrth",
+  "license": "ISC"
+}
