@@ -1,0 +1,1 @@
+{"mappings":"AAEA","sources":["Documents/GitHub/hotpotatoes-client/src/index.scss"],"sourcesContent":["$color: steelblue;\n\n.my-flix {\n  color: $color;\n}"],"names":[],"version":3,"file":"index.ad439d5e.css.map","sourceRoot":"/__parcel_source_root/"}
