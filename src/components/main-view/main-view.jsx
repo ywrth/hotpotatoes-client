@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { MovieCard } from "../movie-card/movie-card"; // Importing the MovieCard component
 import { MovieView } from "../movie-view/movie-view"; // Importing the MovieView component
 
-export const MainView = () => {
+const MainView = () => {
   const [movies, setMovies] = useState([
     // An array of movie objects, each containing details like id, title, description, etc.
 
@@ -76,3 +76,5 @@ export const MainView = () => {
     </div>
   );
 };
+
+export default MainView; // Exporting the MainView component
