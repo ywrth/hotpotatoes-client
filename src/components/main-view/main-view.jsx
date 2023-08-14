@@ -10,7 +10,7 @@ export const MainView = () => {
       id: 1,
       title: "Banshees of Inisherin",
       description:
-        "British-Irish playwright and filmmaker. He is known for his absurdist black humour which often challenges the modern theatre aesthetic.",
+        "Set on a remote island off the west coast of Ireland, movie follows lifelong friends Padraic (Colin Farrell) and Colm (Brendan Gleeson), who find themselves at an impasse when Colm unexpectedly puts an end to their friendship",
       image:
         "https://i0.wp.com/filmpluskritik.com/wp-content/uploads/2023/01/the-banshees-of-inisherin-007_BOI_16149_C_rgb.jpg?resize=1536%2C964&ssl=1",
       director: "Martin McDonagh",

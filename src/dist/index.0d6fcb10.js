@@ -2944,24 +2944,20 @@ try {
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _client = require("react-dom/client");
 var _mainView = require("./components/main-view/main-view");
-// Import statement to indicate that you need to bundle `./index.scss`
 var _indexScss = require("./index.scss");
-// Main component (will eventually use all the others)
 const App = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _mainView.MainView), {}, void 0, false, {
         fileName: "src/index.jsx",
-        lineNumber: 9,
+        lineNumber: 7,
         columnNumber: 10
     }, undefined);
 };
 _c = App;
-// Finds the root of your app
 const container = document.querySelector("#root");
 const root = (0, _client.createRoot)(container);
-// Tells React to render your app in the root DOM element
-root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(MyFlixApplication, {}, void 0, false, {
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(App, {}, void 0, false, {
     fileName: "src/index.jsx",
-    lineNumber: 17,
+    lineNumber: 12,
     columnNumber: 13
 }, undefined));
 var _c;
@@ -27180,7 +27176,7 @@ const MainView = ()=>{
         {
             id: 1,
             title: "Banshees of Inisherin",
-            description: "British-Irish playwright and filmmaker. He is known for his absurdist black humour which often challenges the modern theatre aesthetic.",
+            description: "Set on a remote island off the west coast of Ireland, movie follows lifelong friends Padraic (Colin Farrell) and Colm (Brendan Gleeson), who find themselves at an impasse when Colm unexpectedly puts an end to their friendship",
             image: "https://i0.wp.com/filmpluskritik.com/wp-content/uploads/2023/01/the-banshees-of-inisherin-007_BOI_16149_C_rgb.jpg?resize=1536%2C964&ssl=1",
             director: "Martin McDonagh",
             genre: "Drama"
@@ -27251,7 +27247,7 @@ const MainView = ()=>{
         columnNumber: 5
     }, undefined);
 };
-_s(MainView, "QWhhsdE3Vds/7lH+A/PG/uaD1Qs=");
+_s(MainView, "Bm5yEK+F4gLfCHYpMcS0loowST8=");
 _c = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
@@ -27261,7 +27257,39 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","react":"21dqq","../movie-view/movie-view":"ggaUx","react/jsx-dev-runtime":"iTorj","../movie-card/movie-card":"bwuIu"}],"iBa6n":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"bwuIu":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$67b2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$67b2.prelude(module);
+
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "MovieCard", ()=>MovieCard);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+const MovieCard = ({ movie, onMovieClick })=>{
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        onClick: ()=>{
+            onMovieClick(movie);
+        },
+        children: movie.title
+    }, void 0, false, {
+        fileName: "src/components/movie-card/movie-card.jsx",
+        lineNumber: 3,
+        columnNumber: 7
+    }, undefined);
+};
+_c = MovieCard;
+var _c;
+$RefreshReg$(_c, "MovieCard");
+
+  $parcel$ReactRefreshHelpers$67b2.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"iBa6n":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27564,38 +27592,6 @@ var _c;
 $RefreshReg$(_c, "Movieiew");
 
   $parcel$ReactRefreshHelpers$e9f6.postlude(module);
-} finally {
-  window.$RefreshReg$ = prevRefreshReg;
-  window.$RefreshSig$ = prevRefreshSig;
-}
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"bwuIu":[function(require,module,exports) {
-var $parcel$ReactRefreshHelpers$67b2 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
-var prevRefreshReg = window.$RefreshReg$;
-var prevRefreshSig = window.$RefreshSig$;
-$parcel$ReactRefreshHelpers$67b2.prelude(module);
-
-try {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "MovieCard", ()=>MovieCard);
-var _jsxDevRuntime = require("react/jsx-dev-runtime");
-const MovieCard = ({ movie, onMovieClick })=>{
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        onClick: ()=>{
-            onMovieClick(movie);
-        },
-        children: movie.title
-    }, void 0, false, {
-        fileName: "src/components/movie-card/movie-card.jsx",
-        lineNumber: 3,
-        columnNumber: 7
-    }, undefined);
-};
-_c = MovieCard;
-var _c;
-$RefreshReg$(_c, "MovieCard");
-
-  $parcel$ReactRefreshHelpers$67b2.postlude(module);
 } finally {
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
