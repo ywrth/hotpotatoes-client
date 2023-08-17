@@ -8,8 +8,8 @@ export const MainView = () => {
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   useEffect(() => {
-    // Fetch movies from your API here
-    fetch("https://hotpotatoes.onrender.com/movies") // Update with your API URL
+    // Fetch movies from my API
+    fetch("https://hotpotatoes.onrender.com/movies") //
       .then((response) => response.json())
       .then((data) => {
         setMovies(data); // Update the movies state with fetched data
