@@ -5,18 +5,26 @@ import { MovieView } from "../movie-view/movie-view"; // Importing the MovieView
 import { LoginView } from "../login-view/login-view";
 
 export const MainView = () => {
-  const [movies, setMovies] = useState([]); // Initialize movies state with an empty array
+  const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
-
-  // Add user state
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    // Fetch movies from my API
-    fetch("https://hotpotatoes.onrender.com/movies") //
+    fetch("https://hotpotatoes.onrender.com/movies")
       .then((response) => response.json())
       .then((data) => {
-        setMovies(data); // Update the movies state with fetched data
+        const moviesFromApi = data.map((movie) => {
+          return {
+            id: movie.id,
+            title: movie.title,
+            description: movie.description,
+            image: movie.image,
+            director: movie.director,
+            genre: movie.genre,
+          };
+        });
+
+        setMovies(moviesFromApi);
       })
       .catch((error) => {
         console.error("Error fetching movies:", error);
