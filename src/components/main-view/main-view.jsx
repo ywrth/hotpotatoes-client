@@ -23,6 +23,11 @@ export const MainView = () => {
       });
   }, []);
 
+  // Handle user login
+  if (!user) {
+    return <LoginView />;
+  }
+
   if (selectedMovie) {
     return (
       <MovieView
