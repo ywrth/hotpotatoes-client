@@ -46,3 +46,31 @@ export const MainView = () => {
     </div>
   );
 };
+
+// PropTypes for the updated components
+MainView.propTypes = {
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      title: PropTypes.string.isRequired,
+      description: PropTypes.string.isRequired,
+      image: PropTypes.string.isRequired,
+      director: PropTypes.string.isRequired,
+      genre: PropTypes.string.isRequired,
+    })
+  ),
+  selectedMovie: PropTypes.shape({
+    id: PropTypes.number.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    director: PropTypes.string.isRequired,
+    genre: PropTypes.string.isRequired,
+  }),
+};
+
+// Default props if needed
+MainView.defaultProps = {
+  movies: [],
+  selectedMovie: null,
+};
