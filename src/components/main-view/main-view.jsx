@@ -8,6 +8,9 @@ export const MainView = () => {
   const [movies, setMovies] = useState([]); // Initialize movies state with an empty array
   const [selectedMovie, setSelectedMovie] = useState(null);
 
+  // Add user state
+  const [user, setUser] = useState(null);
+
   useEffect(() => {
     // Fetch movies from my API
     fetch("https://hotpotatoes.onrender.com/movies") //
