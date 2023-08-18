@@ -15,12 +15,12 @@ export const MainView = () => {
       .then((data) => {
         const moviesFromApi = data.map((movie) => {
           return {
-            id: movie.id,
-            title: movie.title,
-            description: movie.description,
-            image: movie.image,
-            director: movie.director,
-            genre: movie.genre,
+            _id: movie._id,
+            title: movie.Title,
+            description: movie.Description,
+            image: movie.ImageURL,
+            director: movie.Director,
+            genre: movie.Genre,
           };
         });
 
@@ -35,6 +35,10 @@ export const MainView = () => {
   if (!user) {
     return <LoginView onLoggedIn={(user) => setUser(user)} />;
   }
+
+  const handleLogout = () => {
+    setUser(null);
+  };
 
   if (selectedMovie) {
     return (
@@ -71,7 +75,7 @@ export const MainView = () => {
 MainView.propTypes = {
   movies: PropTypes.arrayOf(
     PropTypes.shape({
-      _id: PropTypes.number.isRequired,
+      id: PropTypes.number.isRequired,
       title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
@@ -80,7 +84,7 @@ MainView.propTypes = {
     })
   ),
   selectedMovie: PropTypes.shape({
-    _id: PropTypes.number.isRequired,
+    id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,

@@ -27181,12 +27181,12 @@ const MainView = ()=>{
         fetch("https://hotpotatoes.onrender.com/movies").then((response)=>response.json()).then((data)=>{
             const moviesFromApi = data.map((movie)=>{
                 return {
-                    id: movie.id,
-                    title: movie.title,
-                    description: movie.description,
-                    image: movie.image,
-                    director: movie.director,
-                    genre: movie.genre
+                    _id: movie._id,
+                    title: movie.Title,
+                    description: movie.Description,
+                    image: movie.ImageURL,
+                    director: movie.Director,
+                    genre: movie.Genre
                 };
             });
             setMovies(moviesFromApi);
@@ -27202,6 +27202,9 @@ const MainView = ()=>{
         lineNumber: 36,
         columnNumber: 12
     }, undefined);
+    const handleLogout = ()=>{
+        setUser(null);
+    };
     if (selectedMovie) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27209,7 +27212,7 @@ const MainView = ()=>{
                 children: "Logout"
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 42,
+                lineNumber: 46,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieView.MovieView), {
@@ -27217,7 +27220,7 @@ const MainView = ()=>{
                 onBackClick: ()=>setSelectedMovie(null)
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 43,
+                lineNumber: 47,
                 columnNumber: 9
             }, undefined)
         ]
@@ -27226,7 +27229,7 @@ const MainView = ()=>{
         children: "The list is empty!"
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 52,
+        lineNumber: 56,
         columnNumber: 12
     }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27237,12 +27240,12 @@ const MainView = ()=>{
                 }
             }, movie.id, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 58,
+                lineNumber: 62,
                 columnNumber: 9
             }, undefined))
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 56,
+        lineNumber: 60,
         columnNumber: 5
     }, undefined);
 };
@@ -27251,7 +27254,7 @@ _c = MainView;
 // PropTypes for the updated components
 MainView.propTypes = {
     movies: (0, _propTypesDefault.default).arrayOf((0, _propTypesDefault.default).shape({
-        _id: (0, _propTypesDefault.default).number.isRequired,
+        id: (0, _propTypesDefault.default).number.isRequired,
         title: (0, _propTypesDefault.default).string.isRequired,
         description: (0, _propTypesDefault.default).string.isRequired,
         image: (0, _propTypesDefault.default).string.isRequired,
@@ -27259,7 +27262,7 @@ MainView.propTypes = {
         genre: (0, _propTypesDefault.default).string.isRequired
     })),
     selectedMovie: (0, _propTypesDefault.default).shape({
-        _id: (0, _propTypesDefault.default).number.isRequired,
+        id: (0, _propTypesDefault.default).number.isRequired,
         title: (0, _propTypesDefault.default).string.isRequired,
         description: (0, _propTypesDefault.default).string.isRequired,
         image: (0, _propTypesDefault.default).string.isRequired,
@@ -28057,7 +28060,7 @@ _c = MovieCard;
 // Here is where we define all the props constraints for the BookCard
 MovieCard.propTypes = {
     movie: (0, _propTypesDefault.default).shape({
-        _id: (0, _propTypesDefault.default).number.isRequired,
+        id: (0, _propTypesDefault.default).number.isRequired,
         title: (0, _propTypesDefault.default).string.isRequired,
         description: (0, _propTypesDefault.default).string.isRequired,
         image: (0, _propTypesDefault.default).string.isRequired,
@@ -28074,7 +28077,7 @@ $RefreshReg$(_c, "MovieCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","prop-types":"3XW4F"}],"iBa6n":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"3XW4F","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"iBa6n":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
