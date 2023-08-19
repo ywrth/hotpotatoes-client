@@ -17,10 +17,10 @@ export const MainView = () => {
           return {
             _id: movie._id,
             Title: movie.Title,
-            description: movie.Description,
-            image: movie.ImageURL,
-            director: movie.Director,
-            genre: movie.Genre,
+            Description: movie.Description,
+            ImageURL: movie.ImageURL,
+            Director: movie.Director,
+            Genre: movie.Genre,
           };
         });
 
@@ -61,7 +61,7 @@ export const MainView = () => {
       {movies.map((movie) => (
         <MovieCard
           key={movie._id}
-          movie={movie}
+          movie={movie} // Prop name should be "movie"
           onMovieClick={(newSelectedMovie) => {
             setSelectedMovie(newSelectedMovie);
           }}
@@ -76,7 +76,7 @@ MainView.propTypes = {
   movies: PropTypes.arrayOf(
     PropTypes.shape({
       _id: PropTypes.number.isRequired,
-      itle: PropTypes.string.isRequired,
+      Title: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
       director: PropTypes.string.isRequired,
@@ -85,7 +85,7 @@ MainView.propTypes = {
   ),
   selectedMovie: PropTypes.shape({
     _id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,
     director: PropTypes.string.isRequired,
