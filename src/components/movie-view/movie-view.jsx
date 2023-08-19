@@ -1,27 +1,20 @@
-export const MovieView = ({ movie, onBackClick }) => {
-    return (
-      <div>
-        <div>
-          <img src={movie.image} />
-        </div>
-        <div>
-          <span>Title: </span>
-          <span>{movie.title}</span>
-        </div>
-        <div>
-          <span>Description: </span>
-          <span>{movie.description}</span>
-        </div>
-        <div>
-          <span>Genre: </span>
-          <span>{movie.genre}</span>
-        </div>
-        <div>
-          <span>Director: </span>
-          <span>{movie.director}</span>
-        </div>
-        <button onClick={onBackClick}>Back</button>
-      </div>
-    );
-  };
-  
+// Here you import the PropTypes library
+import PropTypes from "prop-types";
+
+// The BookCard function component
+export const MovieCard = ({ movie, onMovieClick }) => {
+  return <div onClick={() => onMovieClick(movie)}>{movie.Title}</div>;
+};
+
+// Here is where we define all the props constraints for the BookCard
+MovieCard.propTypes = {
+  movie: PropTypes.shape({
+    _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+    Title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    image: PropTypes.string.isRequired,
+    director: PropTypes.string.isRequired,
+    genre: PropTypes.string.isRequired,
+  }).isRequired,
+  onMovieClick: PropTypes.func.isRequired,
+};
