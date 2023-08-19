@@ -13,16 +13,14 @@ export const MainView = () => {
     fetch("https://hotpotatoes.onrender.com/movies")
       .then((response) => response.json())
       .then((data) => {
-        const moviesFromApi = data.map((movie) => {
-          return {
-            _id: movie._id,
-            Title: movie.Title,
-            description: movie.Description,
-            image: movie.ImageURL,
-            director: movie.Director,
-            genre: movie.Genre,
-          };
-        });
+        const moviesFromApi = data.map((movie) => ({
+          _id: movie._id,
+          Title: movie.Title,
+          Description: movie.Description,
+          ImageURL: movie.ImageURL,
+          Director: movie.Director,
+          Genre: movie.Genre,
+        }));
 
         setMovies(moviesFromApi);
       })
