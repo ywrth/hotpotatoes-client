@@ -16,7 +16,7 @@ export const MainView = () => {
         const moviesFromApi = data.map((movie) => {
           return {
             _id: movie._id,
-            title: movie.Title,
+            Title: movie.Title,
             description: movie.Description,
             image: movie.ImageURL,
             director: movie.Director,
@@ -60,7 +60,7 @@ export const MainView = () => {
     <div>
       {movies.map((movie) => (
         <MovieCard
-          key={movie.id}
+          key={movie._id}
           movie={movie}
           onMovieClick={(newSelectedMovie) => {
             setSelectedMovie(newSelectedMovie);
@@ -75,8 +75,8 @@ export const MainView = () => {
 MainView.propTypes = {
   movies: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.number.isRequired,
-      title: PropTypes.string.isRequired,
+      _id: PropTypes.number.isRequired,
+      itle: PropTypes.string.isRequired,
       description: PropTypes.string.isRequired,
       image: PropTypes.string.isRequired,
       director: PropTypes.string.isRequired,
@@ -84,7 +84,7 @@ MainView.propTypes = {
     })
   ),
   selectedMovie: PropTypes.shape({
-    id: PropTypes.number.isRequired,
+    _id: PropTypes.number.isRequired,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired,
     image: PropTypes.string.isRequired,

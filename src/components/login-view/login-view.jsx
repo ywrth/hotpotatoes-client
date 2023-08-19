@@ -1,11 +1,11 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export const LoginView = ({ onLoggedIn }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
 
-  const handleSubmit = (event) => {
-    // this prevents the default behavior of the form which is to reload the entire page
+  const handleSubmit = async (event) => {
     event.preventDefault();
 
     const data = {
@@ -13,16 +13,23 @@ export const LoginView = ({ onLoggedIn }) => {
       secret: password,
     };
 
-    fetch("https://openlibrary.org/account/login.json", {
-      method: "POST",
-      body: JSON.stringify(data),
-    }).then((response) => {
+    try {
+      const response = await fetch(
+        "https://openlibrary.org/account/login.json",
+        {
+          method: "POST",
+          body: JSON.stringify(data),
+        }
+      );
+
       if (response.ok) {
         onLoggedIn(username);
       } else {
-        alert("Login failed");
+        setError("Login failed");
       }
-    });
+    } catch (error) {
+      setError("An error occurred while logging in");
+    }
   };
 
   return (
@@ -46,6 +53,7 @@ export const LoginView = ({ onLoggedIn }) => {
         />
       </label>
       <button type="submit">Submit</button>
+      {error && <p>{error}</p>}
     </form>
   );
 };
