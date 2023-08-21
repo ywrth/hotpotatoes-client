@@ -3,6 +3,7 @@ import PropTypes from "prop-types"; // Import PropTypes
 import { MovieCard } from "../movie-card/movie-card"; // Importing the MovieCard component
 import { MovieView } from "../movie-view/movie-view"; // Importing the MovieView component
 import { LoginView } from "../login-view/login-view";
+import { SignupView } from "../signup-view/signup-view";
 
 export const MainView = () => {
   const [movies, setMovies] = useState([]);
