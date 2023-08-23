@@ -1,5 +1,6 @@
 // Here you import the PropTypes library
 import PropTypes from "prop-types";
+import "./movie-view.scss";
 
 // The BookCard function component
 export const MovieCard = ({ movie, onMovieClick }) => {
