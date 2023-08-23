@@ -35,7 +35,13 @@ export const MainView = () => {
   };
 
   if (!user) {
-    return <LoginView onLoggedIn={(user) => setUser(user)} />;
+    return (
+      <>
+        <LoginView onLoggedIn={(user) => setUser(user)} />
+        or
+        <SignupView /> {/* Adding the SignupView here */}
+      </>
+    );
   }
 
   if (selectedMovie) {
