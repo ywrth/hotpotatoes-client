@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types"; // Import PropTypes
-import { MovieCard } from "../movie-card/movie-card"; // Importing the MovieCard component
-import { MovieView } from "../movie-view/movie-view"; // Importing the MovieView component
+import PropTypes from "prop-types";
+import { MovieCard } from "../movie-card/movie-card";
+import { MovieView } from "../movie-view/movie-view";
 import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
 
@@ -14,16 +14,14 @@ export const MainView = () => {
     fetch("https://hotpotatoes.onrender.com/movies")
       .then((response) => response.json())
       .then((data) => {
-        const moviesFromApi = data.map((movie) => {
-          return {
-            _id: movie._id,
-            Title: movie.Title,
-            Description: movie.Description,
-            ImageURL: movie.ImageURL,
-            Director: movie.Director,
-            Genre: movie.Genre,
-          };
-        });
+        const moviesFromApi = data.map((movie) => ({
+          _id: movie._id,
+          Title: movie.Title,
+          Description: movie.Description,
+          ImageURL: movie.ImageURL,
+          Director: movie.Director,
+          Genre: movie.Genre,
+        }));
 
         setMovies(moviesFromApi);
       })
@@ -32,28 +30,12 @@ export const MainView = () => {
       });
   }, []);
 
-  // Handle user login
-  if (!user) {
-    return <LoginView onLoggedIn={(user) => setUser(user)} />;
-  }
-
   const handleLogout = () => {
     setUser(null);
   };
 
   if (!user) {
-    return (
-      <>
-        <LoginView
-          onLoggedIn={(user, token) => {
-            setUser(user);
-            setToken(token);
-          }}
-        />
-        or
-        <SignupView />
-      </>
-    );
+    return <LoginView onLoggedIn={(user) => setUser(user)} />;
   }
 
   if (selectedMovie) {
@@ -74,10 +56,11 @@ export const MainView = () => {
 
   return (
     <div>
+      <button onClick={handleLogout}>Logout</button>
       {movies.map((movie) => (
         <MovieCard
           key={movie._id}
-          movie={movie} // Prop name should be "movie"
+          movie={movie}
           onMovieClick={(newSelectedMovie) => {
             setSelectedMovie(newSelectedMovie);
           }}
@@ -87,30 +70,23 @@ export const MainView = () => {
   );
 };
 
-// PropTypes for the updated components
 MainView.propTypes = {
   movies: PropTypes.arrayOf(
     PropTypes.shape({
       _id: PropTypes.number.isRequired,
       Title: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
-      director: PropTypes.string.isRequired,
-      genre: PropTypes.string.isRequired,
+      Description: PropTypes.string.isRequired,
+      ImageURL: PropTypes.string.isRequired,
+      Director: PropTypes.string.isRequired,
+      Genre: PropTypes.string.isRequired,
     })
   ),
   selectedMovie: PropTypes.shape({
     _id: PropTypes.number.isRequired,
     Title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    director: PropTypes.string.isRequired,
-    genre: PropTypes.string.isRequired,
+    Description: PropTypes.string.isRequired,
+    ImageURL: PropTypes.string.isRequired,
+    Director: PropTypes.string.isRequired,
+    Genre: PropTypes.string.isRequired,
   }),
-};
-
-// Default props if needed
-MainView.defaultProps = {
-  movies: [],
-  selectedMovie: null,
 };

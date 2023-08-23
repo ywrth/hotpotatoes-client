@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export const SignupView = () => {
   const [username, setUsername] = useState("");
@@ -8,6 +8,11 @@ export const SignupView = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    // Client-side validation
+    if (!validateInputs()) {
+      return;
+    }
 
     const data = {
       username: username,
@@ -28,64 +33,74 @@ export const SignupView = () => {
           alert("Signup successful");
           window.location.reload();
         } else {
-          return response.json(); // if the response is not ok, try to parse it as json
+          return response.json();
         }
       })
       .then((data) => {
         if (data) {
-          // if the response was not ok and could be parsed as json
-          console.error("Signup failed:", data); // print out the parsed error message
+          console.error("Signup failed:", data);
           alert("Signup failed once again");
         }
       })
-
       .catch((error) => {
         console.error("An error occurred:", error);
       });
   };
 
+  const validateInputs = () => {
+    // Perform additional client-side validation here
+    if (username.length < 3) {
+      alert("Username must be at least 3 characters long.");
+      return false;
+    }
+
+    if (password.length < 6) {
+      alert("Password must be at least 6 characters long.");
+      return false;
+    }
+
+    // You can add more validation rules here (e.g., email format)
+
+    return true;
+  };
+
   return (
     <form onSubmit={handleSubmit}>
-      <label>
-        Username:
-        <input
-          type="text"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-          required
-          minLength="3"
-        />
-      </label>
+      <label htmlFor="username">Username:</label>
+      <input
+        type="text"
+        id="username"
+        value={username}
+        onChange={(e) => setUsername(e.target.value)}
+        required
+      />
 
-      <label>
-        Password:
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          required
-        />
-      </label>
+      <label htmlFor="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+        required
+      />
 
-      <label>
-        Email:
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
-        />
-      </label>
+      <label htmlFor="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+        required
+      />
 
-      <label>
-        Birthday:
-        <input
-          type="date"
-          value={birthday}
-          onChange={(e) => setBirthday(e.target.value)}
-          required
-        />
-      </label>
+      <label htmlFor="birthday">Birthday:</label>
+      <input
+        type="date"
+        id="birthday"
+        value={birthday}
+        onChange={(e) => setBirthday(e.target.value)}
+        required
+      />
 
       <button type="submit">Submit</button>
     </form>
