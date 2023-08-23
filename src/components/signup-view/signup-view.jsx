@@ -15,13 +15,14 @@ export const SignupView = () => {
     }
 
     const data = {
-      username: username,
-      password: password,
-      email: email,
-      birthday: birthday,
+      Username: username,
+      Password: password,
+      Email: email,
+      Birthday: birthday,
     };
 
     fetch("https://hotpotatoes.onrender.com/users", {
+      // Replace SIGNUP_URL with your API address
       method: "POST",
       body: JSON.stringify(data),
       headers: {
@@ -33,13 +34,7 @@ export const SignupView = () => {
           alert("Signup successful");
           window.location.reload();
         } else {
-          return response.json();
-        }
-      })
-      .then((data) => {
-        if (data) {
-          console.error("Signup failed:", data);
-          alert("Signup failed once again");
+          alert("Signup failed");
         }
       })
       .catch((error) => {
@@ -66,42 +61,43 @@ export const SignupView = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label htmlFor="username">Username:</label>
-      <input
-        type="text"
-        id="username"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-        required
-      />
-
-      <label htmlFor="password">Password:</label>
-      <input
-        type="password"
-        id="password"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-        required
-      />
-
-      <label htmlFor="email">Email:</label>
-      <input
-        type="email"
-        id="email"
-        value={email}
-        onChange={(e) => setEmail(e.target.value)}
-        required
-      />
-
-      <label htmlFor="birthday">Birthday:</label>
-      <input
-        type="date"
-        id="birthday"
-        value={birthday}
-        onChange={(e) => setBirthday(e.target.value)}
-        required
-      />
-
+      <label>
+        Username:
+        <input
+          type="text"
+          value={username}
+          onChange={(e) => setUsername(e.target.value)}
+          required
+          minLength="3"
+        />
+      </label>
+      <label>
+        Password:
+        <input
+          type="password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          required
+        />
+      </label>
+      <label>
+        Email:
+        <input
+          type="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          required
+        />
+      </label>
+      <label>
+        Birthday:
+        <input
+          type="date"
+          value={birthday}
+          onChange={(e) => setBirthday(e.target.value)}
+          required
+        />
+      </label>
       <button type="submit">Submit</button>
     </form>
   );
