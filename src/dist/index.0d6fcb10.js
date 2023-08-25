@@ -28495,8 +28495,7 @@ const LoginView = ({ onLoggedIn })=>{
                         id: "username",
                         name: "username",
                         value: username,
-                        onChange: (e)=>setUsername(e.target.value),
-                        autoComplete: "username" // Add this attribute
+                        onChange: (e)=>setUsername(e.target.value)
                     }, void 0, false, {
                         fileName: "src/components/login-view/login-view.jsx",
                         lineNumber: 32,
@@ -28513,22 +28512,19 @@ const LoginView = ({ onLoggedIn })=>{
                     "Password:",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
                         type: "password",
-                        id: "password" // Add an id attribute
-                        ,
-                        name: "password" // Add a name attribute
-                        ,
+                        id: "password",
+                        name: "password",
                         value: password,
-                        onChange: (e)=>setUsername(e.target.value),
-                        autoComplete: "username" // Add this attribute
+                        onChange: (e)=>setPassword(e.target.value)
                     }, void 0, false, {
                         fileName: "src/components/login-view/login-view.jsx",
-                        lineNumber: 43,
+                        lineNumber: 42,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -28536,7 +28532,7 @@ const LoginView = ({ onLoggedIn })=>{
                 children: "Submit"
             }, void 0, false, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 52,
+                lineNumber: 50,
                 columnNumber: 7
             }, undefined)
         ]

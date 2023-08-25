@@ -35,18 +35,16 @@ export const LoginView = ({ onLoggedIn }) => {
           name="username"
           value={username}
           onChange={(e) => setUsername(e.target.value)}
-          autoComplete="username" // Add this attribute
         />
       </label>
       <label>
         Password:
         <input
           type="password"
-          id="password" // Add an id attribute
-          name="password" // Add a name attribute
+          id="password"
+          name="password"
           value={password}
-          onChange={(e) => setUsername(e.target.value)}
-          autoComplete="username" // Add this attribute
+          onChange={(e) => setPassword(e.target.value)}
         />
       </label>
       <button type="submit">Submit</button>
