@@ -27187,21 +27187,16 @@ const MainView = ()=>{
                 Authorization: `Bearer ${token}`
             }
         }).then((response)=>response.json()).then((data)=>{
-            console.log(data);
-            const moviesFromApi = data.movies.map((movies)=>{
+            console.log("Data from API:", data);
+            const moviesFromApi = data.map((movie)=>{
                 return {
-                    _id: movies._id,
-                    Title: movies.Title,
-                    Description: movies.Description,
-                    Genres: movies.Genres,
-                    Genre: {
-                        Name: movies.Genre.Name
-                    },
-                    Director: {
-                        Name: movies.Director.Name
-                    },
-                    ImageURL: movies.ImageURL,
-                    Featured: movies.Featured
+                    _id: movie._id,
+                    Title: movie.Title,
+                    Description: movie.Description,
+                    Genre: Genre.Name,
+                    Director: Director.Name,
+                    ImageURL: movie.ImageURL,
+                    Featured: movie.Featured
                 };
             });
             setMovies(moviesFromApi);
@@ -27220,13 +27215,13 @@ const MainView = ()=>{
                 onLoggedIn: (user)=>setUser(user)
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 54,
+                lineNumber: 49,
                 columnNumber: 9
             }, undefined),
             "or",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signupView.SignupView), {}, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 56,
+                lineNumber: 51,
                 columnNumber: 9
             }, undefined),
             " "
@@ -27239,7 +27234,7 @@ const MainView = ()=>{
                 children: "Logout"
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 64,
+                lineNumber: 59,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieView.MovieView), {
@@ -27247,7 +27242,7 @@ const MainView = ()=>{
                 onBackClick: ()=>setSelectedMovie(null)
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 65,
+                lineNumber: 60,
                 columnNumber: 9
             }, undefined)
         ]
@@ -27256,9 +27251,9 @@ const MainView = ()=>{
         children: "The list is empty!"
     }, void 0, false, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 74,
+        lineNumber: 69,
         columnNumber: 12
-    }, undefined);
+    }, undefined); // Point (e): Ensure this condition is not triggered
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -27266,23 +27261,23 @@ const MainView = ()=>{
                 children: "Logout"
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 79,
+                lineNumber: 74,
                 columnNumber: 7
             }, undefined),
             movies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
-                    movie: movies,
+                    movie: movie,
                     onMovieClick: (newSelectedMovie)=>{
                         setSelectedMovie(newSelectedMovie);
                     }
-                }, movies._id, false, {
+                }, movie._id, false, {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 81,
+                    lineNumber: 76,
                     columnNumber: 9
                 }, undefined))
         ]
     }, void 0, true, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 78,
+        lineNumber: 73,
         columnNumber: 5
     }, undefined);
 };
@@ -27314,6 +27309,8 @@ MainView.propTypes = {
         })
     })
 };
+// ... LoginView, MovieCard, and MovieView components remain the same ...
+exports.default = MainView;
 var _c;
 $RefreshReg$(_c, "MainView");
 
@@ -28108,12 +28105,12 @@ MovieCard.propTypes = {
             (0, _propTypesDefault.default).string
         ]).isRequired,
         Title: (0, _propTypesDefault.default).string.isRequired,
-        description: (0, _propTypesDefault.default).string.isRequired,
-        image: (0, _propTypesDefault.default).string.isRequired,
-        director: (0, _propTypesDefault.default).shape({
+        Description: (0, _propTypesDefault.default).string.isRequired,
+        ImageURL: (0, _propTypesDefault.default).string.isRequired,
+        Director: (0, _propTypesDefault.default).shape({
             Name: (0, _propTypesDefault.default).string.isRequired
         }).isRequired,
-        genre: (0, _propTypesDefault.default).shape({
+        Genre: (0, _propTypesDefault.default).shape({
             Name: (0, _propTypesDefault.default).string.isRequired
         }).isRequired
     }).isRequired,

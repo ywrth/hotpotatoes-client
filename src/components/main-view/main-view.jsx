@@ -21,21 +21,16 @@ export const MainView = () => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-        const moviesFromApi = data.movies.map((movies) => {
+        console.log("Data from API:", data);
+        const moviesFromApi = data.map((movie) => {
           return {
-            _id: movies._id,
-            Title: movies.Title,
-            Description: movies.Description,
-            Genres: movies.Genres,
-            Genre: {
-              Name: movies.Genre.Name,
-            },
-            Director: {
-              Name: movies.Director.Name,
-            },
-            ImageURL: movies.ImageURL,
-            Featured: movies.Featured,
+            _id: movie._id,
+            Title: movie.Title,
+            Description: movie.Description,
+            Genre: Genre.Name,
+            Director: Director.Name,
+            ImageURL: movie.ImageURL,
+            Featured: movie.Featured,
           };
         });
         setMovies(moviesFromApi);
@@ -71,7 +66,7 @@ export const MainView = () => {
   }
 
   if (movies.length === 0) {
-    return <div>The list is empty!</div>;
+    return <div>The list is empty!</div>; // Point (e): Ensure this condition is not triggered
   }
 
   return (
@@ -79,8 +74,8 @@ export const MainView = () => {
       <button onClick={handleLogout}>Logout</button>
       {movies.map((movie) => (
         <MovieCard
-          key={movies._id}
-          movie={movies}
+          key={movie._id}
+          movie={movie}
           onMovieClick={(newSelectedMovie) => {
             setSelectedMovie(newSelectedMovie);
           }}
@@ -118,3 +113,7 @@ MainView.propTypes = {
     }),
   }),
 };
+
+// ... LoginView, MovieCard, and MovieView components remain the same ...
+
+export default MainView;
