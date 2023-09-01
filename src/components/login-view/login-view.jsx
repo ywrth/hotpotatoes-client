@@ -8,21 +8,25 @@ export const LoginView = ({ onLoggedIn }) => {
     // this prevents the default behavior of the form which is to reload the entire page
     event.preventDefault();
 
-    const data = {
-      access: username,
-      secret: password,
+    const input = {
+      Username: username,
+      Password: password,
     };
-
     fetch("https://hotpotatoes.onrender.com/login", {
       method: "POST",
-      body: JSON.stringify(data),
-    }).then((response) => {
-      if (response.ok) {
-        onLoggedIn(username);
-      } else {
-        alert("Login failed");
-      }
-    });
+      body: JSON.stringify(input),
+      headers: { "Content-Type": "application/json" },
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("data:", data);
+        if (data.user) {
+          console.log("username:", data.user.username);
+          onLoggedIn(data.user.Username);
+        } else {
+          alert("Login failed");
+        }
+      });
   };
 
   return (
