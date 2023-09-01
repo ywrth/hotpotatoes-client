@@ -7,6 +7,6 @@ const App = () => {
   return <MainView />;
 };
 
-const container = document.querySelector("#root");
+const container = document.querySelector("#root"); // Add this line
 const root = createRoot(container);
 root.render(<App />);

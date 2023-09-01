@@ -27,13 +27,18 @@ export const MainView = () => {
             _id: movie._id,
             Title: movie.Title,
             Description: movie.Description,
-            Genre: Genre.Name,
-            Director: Director.Name,
+            Genre: movie.Genre.Name, // Corrected to movie.Genre.Name
+            Director: movie.Director.Name, // Corrected to movie.Director.Name
             ImageURL: movie.ImageURL,
             Featured: movie.Featured,
           };
         });
+
         setMovies(moviesFromApi);
+      })
+      .catch((error) => {
+        // Add this .catch block for error handling
+        console.error("Error fetching data from API:", error);
       });
   }, [token]);
 
@@ -66,7 +71,8 @@ export const MainView = () => {
   }
 
   if (movies.length === 0) {
-    return <div>The list is empty!</div>; // Point (e): Ensure this condition is not triggered
+    console.log("The movies array is empty!");
+    return <div>The list is empty!</div>;
   }
 
   return (
