@@ -22,20 +22,20 @@ export const MainView = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
-        const moviesFromApi = data.map((movie) => {
+        const moviesFromApi = data.movies.map((movies) => {
           return {
-            _id: movie._id,
-            Title: movie.Title,
-            Description: movie.Description,
-            Genres: movie.Genres,
+            _id: movies._id,
+            Title: movies.Title,
+            Description: movies.Description,
+            Genres: movies.Genres,
             Genre: {
-              Name: movie.Genre.Name,
+              Name: movies.Genre.Name,
             },
             Director: {
-              Name: movie.Director.Name,
+              Name: movies.Director.Name,
             },
-            ImagePath: movie.ImagePath,
-            Featured: movie.Featured,
+            ImageURL: movies.ImageURL,
+            Featured: movies.Featured,
           };
         });
         setMovies(moviesFromApi);
@@ -79,8 +79,8 @@ export const MainView = () => {
       <button onClick={handleLogout}>Logout</button>
       {movies.map((movie) => (
         <MovieCard
-          key={movie._id}
-          movie={movie}
+          key={movies._id}
+          movie={movies}
           onMovieClick={(newSelectedMovie) => {
             setSelectedMovie(newSelectedMovie);
           }}
@@ -96,7 +96,7 @@ MainView.propTypes = {
       _id: PropTypes.string.isRequired,
       Title: PropTypes.string.isRequired,
       Description: PropTypes.string.isRequired,
-      ImagePath: PropTypes.string.isRequired,
+      ImageURL: PropTypes.string.isRequired,
       Director: PropTypes.shape({
         Name: PropTypes.string.isRequired,
       }),
@@ -109,7 +109,7 @@ MainView.propTypes = {
     _id: PropTypes.string.isRequired,
     Title: PropTypes.string.isRequired,
     Description: PropTypes.string.isRequired,
-    ImagePath: PropTypes.string.isRequired,
+    ImageURL: PropTypes.string.isRequired,
     Director: PropTypes.shape({
       Name: PropTypes.string.isRequired,
     }),

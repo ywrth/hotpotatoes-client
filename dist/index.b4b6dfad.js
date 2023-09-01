@@ -27188,20 +27188,20 @@ const MainView = ()=>{
             }
         }).then((response)=>response.json()).then((data)=>{
             console.log(data);
-            const moviesFromApi = data.map((movie)=>{
+            const moviesFromApi = data.movies.map((movies)=>{
                 return {
-                    _id: movie._id,
-                    Title: movie.Title,
-                    Description: movie.Description,
-                    Genres: movie.Genres,
+                    _id: movies._id,
+                    Title: movies.Title,
+                    Description: movies.Description,
+                    Genres: movies.Genres,
                     Genre: {
-                        Name: movie.Genre.Name
+                        Name: movies.Genre.Name
                     },
                     Director: {
-                        Name: movie.Director.Name
+                        Name: movies.Director.Name
                     },
-                    ImagePath: movie.ImagePath,
-                    Featured: movie.Featured
+                    ImageURL: movies.ImageURL,
+                    Featured: movies.Featured
                 };
             });
             setMovies(moviesFromApi);
@@ -27270,11 +27270,11 @@ const MainView = ()=>{
                 columnNumber: 7
             }, undefined),
             movies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
-                    movie: movie,
+                    movie: movies,
                     onMovieClick: (newSelectedMovie)=>{
                         setSelectedMovie(newSelectedMovie);
                     }
-                }, movie._id, false, {
+                }, movies._id, false, {
                     fileName: "src/components/main-view/main-view.jsx",
                     lineNumber: 81,
                     columnNumber: 9
@@ -27293,7 +27293,7 @@ MainView.propTypes = {
         _id: (0, _propTypesDefault.default).string.isRequired,
         Title: (0, _propTypesDefault.default).string.isRequired,
         Description: (0, _propTypesDefault.default).string.isRequired,
-        ImagePath: (0, _propTypesDefault.default).string.isRequired,
+        ImageURL: (0, _propTypesDefault.default).string.isRequired,
         Director: (0, _propTypesDefault.default).shape({
             Name: (0, _propTypesDefault.default).string.isRequired
         }),
@@ -27305,7 +27305,7 @@ MainView.propTypes = {
         _id: (0, _propTypesDefault.default).string.isRequired,
         Title: (0, _propTypesDefault.default).string.isRequired,
         Description: (0, _propTypesDefault.default).string.isRequired,
-        ImagePath: (0, _propTypesDefault.default).string.isRequired,
+        ImageURL: (0, _propTypesDefault.default).string.isRequired,
         Director: (0, _propTypesDefault.default).shape({
             Name: (0, _propTypesDefault.default).string.isRequired
         }),
@@ -28316,7 +28316,7 @@ const MovieView = ({ movie, onBackClick })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: movie.ImagePath,
+                    src: movie.ImageURL,
                     alt: movie.Title
                 }, void 0, false, {
                     fileName: "src/components/movie-view/movie-view.jsx",
