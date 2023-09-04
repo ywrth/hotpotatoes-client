@@ -3,10 +3,14 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export const MovieView = ({ movie, onBackClick }) => {
+  const handleHardClick = () => {
+    onBackClick();
+  };
+
   return (
-    <div>
-      <div>
-        <img src={movie.ImageURL} alt={movie.Title} />
+    <div onClick={handleHardClick} className="movie-card">
+      <div className="container">
+        <img src={movie.ImageURL} alt={movie.Title} className="img-fluid" />
       </div>
       <div>
         <span>Title: </span>
@@ -36,7 +40,7 @@ MovieView.propTypes = {
     _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Title: PropTypes.string.isRequired,
     Description: PropTypes.string.isRequired,
-    ImageURL: PropTypes.string.isRequired, // Corrected from 'ImagePath' to 'ImageURL'
+    ImageURL: PropTypes.string.isRequired,
     Director: PropTypes.string.isRequired,
     Genre: PropTypes.string.isRequired,
   }).isRequired,
