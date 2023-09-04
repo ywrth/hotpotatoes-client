@@ -41,9 +41,9 @@ export const LoginView = ({ onLoggedIn }) => {
   };
 
   useEffect(() => {
-    // Fetch movie data after the user has logged in
     const token = localStorage.getItem("token");
     if (token) {
+      // Fetch movie data using the token
       fetch("https://hotpotatoes.onrender.com/movies", {
         headers: { Authorization: `Bearer ${token}` },
       })
@@ -56,7 +56,7 @@ export const LoginView = ({ onLoggedIn }) => {
           console.error("Error fetching data from API:", error);
         });
     }
-  }, [onLoggedIn]);
+  }, [onLoggedIn]); // Only run this effect when the user logs in
 
   return (
     <form onSubmit={handleSubmit}>

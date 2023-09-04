@@ -28518,9 +28518,9 @@ const LoginView = ({ onLoggedIn })=>{
         });
     };
     (0, _react.useEffect)(()=>{
-        // Fetch movie data after the user has logged in
         const token = localStorage.getItem("token");
-        if (token) fetch("https://hotpotatoes.onrender.com/movies", {
+        if (token) // Fetch movie data using the token
+        fetch("https://hotpotatoes.onrender.com/movies", {
             headers: {
                 Authorization: `Bearer ${token}`
             }
@@ -28532,7 +28532,7 @@ const LoginView = ({ onLoggedIn })=>{
         });
     }, [
         onLoggedIn
-    ]);
+    ]); // Only run this effect when the user logs in
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
         onSubmit: handleSubmit,
         children: [
