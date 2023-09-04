@@ -27325,7 +27325,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"3XW4F","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","../signup-view/signup-view":"4OGiN"}],"3XW4F":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"3XW4F","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"3XW4F":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28133,7 +28133,7 @@ $RefreshReg$(_c, "MovieCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"3XW4F","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","react":"21dqq"}],"iBa6n":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"3XW4F","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"iBa6n":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28470,7 +28470,7 @@ $RefreshReg$(_c, "MovieView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"3XW4F","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","react":"21dqq"}],"9YtA0":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"3XW4F","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"9YtA0":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9fee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28612,7 +28612,7 @@ $RefreshReg$(_c, "LoginView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","react":"21dqq"}],"4OGiN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"4OGiN":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$73d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
