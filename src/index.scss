@@ -1,6 +1,2 @@
-$color: steelblue;
-
-.my-flix {
-  color: $color;
-}
-
+@import './custom-bootstrap.scss'; // Import your custom Bootstrap variables
+@import '~bootstrap/scss/bootstrap.scss'; // Import the main Bootstrap SCSS
