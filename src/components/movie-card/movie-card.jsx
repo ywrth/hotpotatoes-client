@@ -13,8 +13,8 @@ MovieCard.propTypes = {
   movie: PropTypes.shape({
     _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Title: PropTypes.string.isRequired,
-    Description: PropTypes.string.isRequired, // Updated 'description' to 'Description'
-    ImageURL: PropTypes.string.isRequired, // Updated 'image' to 'ImageURL'
+    Description: PropTypes.string.isRequired, // Corrected 'description' to 'Description'
+    ImageURL: PropTypes.string.isRequired, // Corrected 'image' to 'ImageURL'
     Director: PropTypes.shape({
       Name: PropTypes.string.isRequired,
       // Other director properties if applicable
