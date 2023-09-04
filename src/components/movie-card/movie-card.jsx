@@ -1,48 +1,37 @@
 import PropTypes from "prop-types";
+import { Button, Card } from "react-bootstrap";
+
+import "./movie-card.scss";
 
 export const MovieCard = ({ movie, onMovieClick }) => {
-  return <div onClick={() => onMovieClick(movie)}>{movie.Title}</div>;
-};
+  const handleCardClick = () => {
+    onMovieClick(movie);
+  };
 
-MovieCard.propTypes = {
-  movie: PropTypes.shape({
-    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-    Title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    director: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
-      // Other director properties if applicable
-    }).isRequired,
-    genre: PropTypes.string.isRequired,
-  }).isRequired,
-  onMovieClick: PropTypes.func.isRequired,
-};
-// Here you import the PropTypes library
-import PropTypes from "prop-types";
-
-// The BookCard function component
-export const MovieCard = ({ movie, onMovieClick }) => {
   return (
-    <div onClick={() => onMovieClick(movie)}>
-      {/* Access _id as movie._id */}
-      {movie.Title}
+    <div className="movie-card" onClick={handleCardClick}>
+      <Card className="h-100">
+        <Card.Img variant="top" src={movie.ImageURL} />
+        <Card.Body>
+          <Card.Title>{movie.Title}</Card.Title>
+          <Card.Text>{movie.Director}</Card.Text>
+          <Button variant="link">Open</Button>
+        </Card.Body>
+      </Card>
     </div>
   );
 };
 
-// Here is where we define all the props constraints for the BookCard
 MovieCard.propTypes = {
   movie: PropTypes.shape({
-    id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+    _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    Director: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
-      // Other director properties if applicable
-    }).isRequired,
-    genre: PropTypes.string.isRequired,
+    Description: PropTypes.string.isRequired,
+    ImageURL: PropTypes.string.isRequired,
+    Director: PropTypes.string.isRequired,
+    Genre: PropTypes.string.isRequired,
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired,
 };
+
+export default MovieCard;
