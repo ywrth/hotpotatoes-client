@@ -7,11 +7,10 @@ export const MovieView = ({ movie, onBackClick }) => {
   return (
     <div className="movie-view-container">
       <Container className="movie-view-content">
-        <img src={movie.ImageURL} alt={movie.Title} className="img-fluid" />
-        <div>
-          <span style={{ fontWeight: "bold" }}>Title: </span>
-          <span>{movie.Title}</span>
+        <div className="title-section">
+          <h1 className="custom-title">{movie.Title}</h1>
         </div>
+        <img src={movie.ImageURL} alt={movie.Title} className="img-fluid" />
         <div>
           <span style={{ fontWeight: "bold" }}>Description: </span>
           <span>{movie.Description}</span>
