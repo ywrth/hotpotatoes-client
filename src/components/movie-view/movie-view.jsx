@@ -9,23 +9,23 @@ export const MovieView = ({ movie, onBackClick }) => {
       <Container className="movie-view-content">
         <img src={movie.ImageURL} alt={movie.Title} className="img-fluid" />
         <div>
-          <span>Title: </span>
+          <span style={{ fontWeight: "bold" }}>Title: </span>
           <span>{movie.Title}</span>
         </div>
         <div>
-          <span>Description: </span>
+          <span style={{ fontWeight: "bold" }}>Description: </span>
           <span>{movie.Description}</span>
         </div>
         <div>
-          <span>Genre: </span>
+          <span style={{ fontWeight: "bold" }}>Genre: </span>
           <span>{movie.Genre}</span>
         </div>
         <div>
-          <span>Director: </span>
+          <span style={{ fontWeight: "bold" }}>Director: </span>
           <span>{movie.Director}</span>
         </div>
         <button onClick={onBackClick} className="back-button">
-          Back
+          <span style={{ marginTop: "10px" }}>Back</span>
         </button>
       </Container>
     </div>

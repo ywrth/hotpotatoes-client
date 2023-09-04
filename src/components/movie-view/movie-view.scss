@@ -2,7 +2,7 @@
     padding: 4px 12px 4px 12px;
     color: whitesmoke;
     background-color: dodgerblue;
-    border: none;
+    border: 10px;
     border-radius: 4px;
   }
 
@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* This centers the content vertically on the page */
-    background-color: #fff; /* Set your desired background color */
   }
   
   .movie-view-content {

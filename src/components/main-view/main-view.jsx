@@ -6,7 +6,7 @@ import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container"; // Import Container from react-bootstrap
+import Container from "react-bootstrap/Container";
 
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
@@ -53,12 +53,10 @@ export const MainView = () => {
 
   return (
     <Container>
-      {/* Wrap the entire content in a Container */}
       <div>
         {!user ? (
           <Row className="justify-content-md-center">
             <Col md={5}>
-              <h2>LOGIN</h2>
               <LoginView onLoggedIn={(user) => setUser(user)} />
             </Col>
             <Col md={5}>
@@ -67,7 +65,7 @@ export const MainView = () => {
             </Col>
           </Row>
         ) : selectedMovie ? (
-          <Col md={8} style={{ border: "1px solid black" }}>
+          <Col md={8}>
             <MovieView
               style={{ border: "1px solid green" }}
               movie={selectedMovie}

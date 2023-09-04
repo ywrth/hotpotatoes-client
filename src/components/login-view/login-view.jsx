@@ -75,7 +75,8 @@ export const LoginView = ({ onLoggedIn }) => {
 
   return (
     <Container>
-      <Row className="justify-content-md-center">
+      <Row className="justify-content-md-left">
+        <h2>LOGIN</h2>
         <Col md={6}>
           <Form onSubmit={handleSubmit}>
             <Form.Group controlId="formUsername">
