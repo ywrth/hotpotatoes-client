@@ -14,6 +14,7 @@ export const MainView = () => {
   const [selectedMovie, setSelectedMovie] = useState(null);
 
   useEffect(() => {
+    console.log("my token", token);
     if (!token) return;
 
     fetch("https://hotpotatoes.onrender.com/movies", {
@@ -119,7 +120,5 @@ MainView.propTypes = {
     }),
   }),
 };
-
-// ... LoginView, MovieCard, and MovieView components remain the same ...
 
 export default MainView;

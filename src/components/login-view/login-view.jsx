@@ -1,17 +1,21 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 export const LoginView = ({ onLoggedIn }) => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleSubmit = (event) => {
-    // this prevents the default behavior of the form which is to reload the entire page
     event.preventDefault();
+
+    setIsLoading(true); // Show loading indicator
 
     const input = {
       Username: username,
       Password: password,
     };
+
     fetch("https://hotpotatoes.onrender.com/login", {
       method: "POST",
       body: JSON.stringify(input),
@@ -19,18 +23,26 @@ export const LoginView = ({ onLoggedIn }) => {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log("data:", data);
+        setIsLoading(false); // Hide loading indicator
         if (data.user) {
-          console.log("username:", data.user.username);
           onLoggedIn(data.user.Username);
+          localStorage.setItem("token", data.token);
+          setUsername(""); // Clear username field
+          setPassword(""); // Clear password field
         } else {
-          alert("Login failed");
+          setError("Login failed. Please check your credentials.");
         }
+      })
+      .catch((error) => {
+        setIsLoading(false); // Hide loading indicator
+        setError("An error occurred. Please try again later.");
+        console.error("Login error:", error);
       });
   };
 
   return (
     <form onSubmit={handleSubmit}>
+      {error && <div className="error">{error}</div>}
       <label>
         Username:
         <input
@@ -53,7 +65,9 @@ export const LoginView = ({ onLoggedIn }) => {
           autoComplete="current-password"
         />
       </label>
-      <button type="submit">Submit</button>
+      <button type="submit" disabled={isLoading}>
+        {isLoading ? "Logging in..." : "Submit"}
+      </button>
     </form>
   );
 };

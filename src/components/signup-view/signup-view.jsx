@@ -3,8 +3,11 @@ import React, { useState } from "react";
 export const SignupView = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [passwordConfirm, setPasswordConfirm] = useState("");
   const [email, setEmail] = useState("");
   const [birthday, setBirthday] = useState("");
+  const [error, setError] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -22,7 +25,6 @@ export const SignupView = () => {
     };
 
     fetch("https://hotpotatoes.onrender.com/users", {
-      // Replace SIGNUP_URL with your API address
       method: "POST",
       body: JSON.stringify(data),
       headers: {
@@ -31,36 +33,56 @@ export const SignupView = () => {
     })
       .then((response) => {
         if (response.ok) {
-          alert("Signup successful");
-          window.location.reload();
+          setSuccessMessage("Signup successful! You can now log in.");
+          clearForm();
         } else {
-          alert("Signup failed");
+          setError("Signup failed. Please try again.");
         }
       })
       .catch((error) => {
         console.error("An error occurred:", error);
+        setError("An error occurred. Please try again later.");
       });
   };
 
   const validateInputs = () => {
-    // Perform additional client-side validation here
     if (username.length < 3) {
-      alert("Username must be at least 3 characters long.");
+      setError("Username must be at least 3 characters long.");
       return false;
     }
 
     if (password.length < 6) {
-      alert("Password must be at least 6 characters long.");
+      setError("Password must be at least 6 characters long.");
       return false;
     }
 
-    // You can add more validation rules here (e.g., email format)
+    if (password !== passwordConfirm) {
+      setError("Passwords do not match.");
+      return false;
+    }
+
+    // Basic email format validation
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailPattern.test(email)) {
+      setError("Invalid email address.");
+      return false;
+    }
 
     return true;
   };
 
+  const clearForm = () => {
+    setUsername("");
+    setPassword("");
+    setPasswordConfirm("");
+    setEmail("");
+    setBirthday("");
+  };
+
   return (
     <form onSubmit={handleSubmit}>
+      {error && <div className="error">{error}</div>}
+      {successMessage && <div className="success">{successMessage}</div>}
       <label>
         Username:
         <input
@@ -77,6 +99,15 @@ export const SignupView = () => {
           type="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
+          required
+        />
+      </label>
+      <label>
+        Confirm Password:
+        <input
+          type="password"
+          value={passwordConfirm}
+          onChange={(e) => setPasswordConfirm(e.target.value)}
           required
         />
       </label>
@@ -102,5 +133,3 @@ export const SignupView = () => {
     </form>
   );
 };
-
-export default SignupView;
