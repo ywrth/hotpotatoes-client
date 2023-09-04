@@ -100,6 +100,7 @@ export const SignupView = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           required
+          autoComplete="new-password"
         />
       </Form.Group>
 
@@ -110,6 +111,7 @@ export const SignupView = () => {
           value={passwordConfirm}
           onChange={(e) => setPasswordConfirm(e.target.value)}
           required
+          autoComplete="new-password"
         />
       </Form.Group>
 
@@ -120,6 +122,7 @@ export const SignupView = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
           required
+          autoComplete="email"
         />
       </Form.Group>
 
