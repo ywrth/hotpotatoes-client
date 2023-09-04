@@ -1,0 +1,21 @@
+.back-button {
+    padding: 4px 12px 4px 12px;
+    color: whitesmoke;
+    background-color: dodgerblue;
+    border: 10px;
+    border-radius: 4px;
+  }
+
+  .movie-view-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* This centers the content vertically on the page */
+  }
+  
+  .movie-view-content {
+    padding: 20px; /* Add some padding around the content */
+
+  }
+
+  
