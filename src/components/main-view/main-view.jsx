@@ -75,7 +75,7 @@ export const MainView = () => {
               Logout
             </Button>
             {selectedMovie ? (
-              <Col md={8} style={{ border: "1px solid black" }}>
+              <Col md={8}>
                 <MovieView
                   movie={selectedMovie}
                   onBackClick={() => setSelectedMovie(null)}
