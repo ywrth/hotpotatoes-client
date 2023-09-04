@@ -47,16 +47,26 @@ export const LoginView = ({ onLoggedIn }) => {
       fetch("https://hotpotatoes.onrender.com/movies", {
         headers: { Authorization: `Bearer ${token}` },
       })
-        .then((response) => response.json())
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error("Network response was not ok");
+          }
+          return response.json();
+        })
         .then((data) => {
           console.log("Data from API:", data);
-          // Process and set the movie data as needed
+          // Check if the data is empty or undefined
+          if (!data || data.length === 0) {
+            console.warn("Movie data is empty.");
+          } else {
+            // Process and set the movie data as needed
+          }
         })
         .catch((error) => {
           console.error("Error fetching data from API:", error);
         });
     }
-  }, [onLoggedIn]); // Only run this effect when the user logs in
+  }, [onLoggedIn]);
 
   return (
     <form onSubmit={handleSubmit}>

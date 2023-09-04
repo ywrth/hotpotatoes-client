@@ -51,9 +51,14 @@ export const MainView = () => {
   if (!user) {
     return (
       <>
-        <LoginView onLoggedIn={(user) => setUser(user)} />
+        <LoginView
+          onLoggedIn={(user, token) => {
+            setUser(user);
+            setToken(token); // Set the token here
+          }}
+        />
         or
-        <SignupView /> {}
+        <SignupView />
       </>
     );
   }
