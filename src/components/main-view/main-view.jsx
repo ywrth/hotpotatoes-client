@@ -7,6 +7,7 @@ import { SignupView } from "../signup-view/signup-view";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button"; // Import Button from react-bootstrap
 
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
@@ -64,28 +65,39 @@ export const MainView = () => {
               <SignupView />
             </Col>
           </Row>
-        ) : selectedMovie ? (
-          <Col md={8}>
-            <MovieView
-              movie={selectedMovie}
-              onBackClick={() => setSelectedMovie(null)}
-            />
-          </Col>
-        ) : movies.length === 0 ? (
-          <div>The list is empty!</div>
         ) : (
-          <Row>
-            {movies.map((movie) => (
-              <Col className="mb-5" key={movie._id} md={3}>
-                <MovieCard
-                  movie={movie}
-                  onMovieClick={(newSelectedMovie) => {
-                    setSelectedMovie(newSelectedMovie);
-                  }}
+          <div>
+            <Button
+              variant="primary"
+              onClick={handleLogout}
+              className="mb-2" // Add margin-bottom spacing
+            >
+              Logout
+            </Button>
+            {selectedMovie ? (
+              <Col md={8} style={{ border: "1px solid black" }}>
+                <MovieView
+                  movie={selectedMovie}
+                  onBackClick={() => setSelectedMovie(null)}
                 />
               </Col>
-            ))}
-          </Row>
+            ) : movies.length === 0 ? (
+              <div>The list is empty!</div>
+            ) : (
+              <Row>
+                {movies.map((movie) => (
+                  <Col className="mb-5" key={movie._id} md={3}>
+                    <MovieCard
+                      movie={movie}
+                      onMovieClick={(newSelectedMovie) => {
+                        setSelectedMovie(newSelectedMovie);
+                      }}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            )}
+          </div>
         )}
       </div>
     </Container>
