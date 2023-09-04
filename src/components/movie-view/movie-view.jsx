@@ -33,19 +33,11 @@ MovieView.propTypes = {
     _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Title: PropTypes.string.isRequired,
     Description: PropTypes.string.isRequired,
-    ImageURL: PropTypes.string.isRequired, // Corrected from 'ImagePath' to 'ImageURL'
-    Director: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
-      Bio: PropTypes.string.isRequired,
-      Birth: PropTypes.oneOfType([PropTypes.number, PropTypes.string])
-        .isRequired,
-    }).isRequired,
-    Genre: PropTypes.shape({
-      Name: PropTypes.string.isRequired,
-      Description: PropTypes.string.isRequired,
-    }).isRequired,
+    ImageURL: PropTypes.string.isRequired,
+    Director: PropTypes.string.isRequired,
+    Genre: PropTypes.string.isRequired,
   }).isRequired,
-  onBackClick: PropTypes.func.isRequired,
+  onMovieClick: PropTypes.func.isRequired,
 };
 
 export default MovieView;
