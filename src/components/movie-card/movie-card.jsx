@@ -13,15 +13,15 @@ MovieCard.propTypes = {
   movie: PropTypes.shape({
     _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Title: PropTypes.string.isRequired,
-    Description: PropTypes.string.isRequired, // Corrected 'description' to 'Description'
-    ImageURL: PropTypes.string.isRequired, // Corrected 'image' to 'ImageURL'
+    Description: PropTypes.string.isRequired,
+    ImageURL: PropTypes.string.isRequired,
     Director: PropTypes.shape({
       Name: PropTypes.string.isRequired,
-      // Other director properties if applicable
+      Bio: PropTypes.string.isRequired,
     }).isRequired,
     Genre: PropTypes.shape({
       Name: PropTypes.string.isRequired,
-      // Other genre properties if applicable
+      Description: PropTypes.string.isRequired,
     }).isRequired,
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired,
