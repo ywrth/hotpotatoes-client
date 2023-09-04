@@ -1,100 +1,136 @@
 import React, { useState, useEffect } from "react";
-import PropTypes from "prop-types"; // Import PropTypes
-import { MovieCard } from "../movie-card/movie-card"; // Importing the MovieCard component
-import { MovieView } from "../movie-view/movie-view"; // Importing the MovieView component
+import PropTypes from "prop-types";
+import { MovieCard } from "../movie-card/movie-card";
+import { MovieView } from "../movie-view/movie-view";
 import { LoginView } from "../login-view/login-view";
+import { SignupView } from "../signup-view/signup-view";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Button from "react-bootstrap/Button"; // Import Button from react-bootstrap
 
 export const MainView = () => {
+  const storedUser = JSON.parse(localStorage.getItem("user"));
+  const storedToken = localStorage.getItem("token");
+  const [user, setUser] = useState(storedUser ? storedUser : null);
+  const [token, setToken] = useState(storedToken ? storedToken : null);
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
-  const [user, setUser] = useState(null);
 
   useEffect(() => {
-    fetch("https://hotpotatoes.onrender.com/movies")
+    console.log("my token", token);
+    if (!token) return;
+
+    fetch("https://hotpotatoes.onrender.com/movies", {
+      headers: { Authorization: `Bearer ${token}` },
+    })
       .then((response) => response.json())
       .then((data) => {
+        console.log("Data from API:", data);
         const moviesFromApi = data.map((movie) => {
           return {
             _id: movie._id,
             Title: movie.Title,
-            description: movie.Description,
-            image: movie.ImageURL,
-            director: movie.Director,
-            genre: movie.Genre,
+            Description: movie.Description,
+            Genre: movie.Genre.Name,
+            Director: movie.Director.Name,
+            ImageURL: movie.ImageURL,
+            Featured: movie.Featured,
           };
         });
 
         setMovies(moviesFromApi);
       })
       .catch((error) => {
-        console.error("Error fetching movies:", error);
+        console.error("Error fetching data from API:", error);
       });
-  }, []);
-
-  // Handle user login
-  if (!user) {
-    return <LoginView onLoggedIn={(user) => setUser(user)} />;
-  }
+  }, [token]);
 
   const handleLogout = () => {
     setUser(null);
+    setToken(null);
+    localStorage.clear();
   };
 
-  if (selectedMovie) {
-    return (
-      <>
-        <button onClick={handleLogout}>Logout</button>
-        <MovieView
-          movie={selectedMovie}
-          onBackClick={() => setSelectedMovie(null)}
-        />
-      </>
-    );
-  }
-
-  if (movies.length === 0) {
-    return <div>The list is empty!</div>;
-  }
-
   return (
-    <div>
-      {movies.map((movie) => (
-        <MovieCard
-          key={movie._id}
-          movie={movie}
-          onMovieClick={(newSelectedMovie) => {
-            setSelectedMovie(newSelectedMovie);
-          }}
-        />
-      ))}
-    </div>
+    <Container>
+      <div>
+        {!user ? (
+          <Row className="justify-content-md-center">
+            <Col md={5}>
+              <LoginView onLoggedIn={(user) => setUser(user)} />
+            </Col>
+            <Col md={5}>
+              <h2>REGISTER</h2>
+              <SignupView />
+            </Col>
+          </Row>
+        ) : (
+          <div>
+            <Button
+              variant="primary"
+              onClick={handleLogout}
+              className="mb-2" // Add margin-bottom spacing
+            >
+              Logout
+            </Button>
+            {selectedMovie ? (
+              <Col md={8} style={{ border: "1px solid black" }}>
+                <MovieView
+                  movie={selectedMovie}
+                  onBackClick={() => setSelectedMovie(null)}
+                />
+              </Col>
+            ) : movies.length === 0 ? (
+              <div>The list is empty!</div>
+            ) : (
+              <Row>
+                {movies.map((movie) => (
+                  <Col className="mb-5" key={movie._id} md={3}>
+                    <MovieCard
+                      movie={movie}
+                      onMovieClick={(newSelectedMovie) => {
+                        setSelectedMovie(newSelectedMovie);
+                      }}
+                    />
+                  </Col>
+                ))}
+              </Row>
+            )}
+          </div>
+        )}
+      </div>
+    </Container>
   );
 };
 
-// PropTypes for the updated components
 MainView.propTypes = {
   movies: PropTypes.arrayOf(
     PropTypes.shape({
-      _id: PropTypes.number.isRequired,
-      itle: PropTypes.string.isRequired,
-      description: PropTypes.string.isRequired,
-      image: PropTypes.string.isRequired,
-      director: PropTypes.string.isRequired,
-      genre: PropTypes.string.isRequired,
+      _id: PropTypes.string.isRequired,
+      Title: PropTypes.string.isRequired,
+      Description: PropTypes.string.isRequired,
+      ImageURL: PropTypes.string.isRequired,
+      Director: PropTypes.shape({
+        Name: PropTypes.string.isRequired,
+      }),
+      Genre: PropTypes.shape({
+        Name: PropTypes.string.isRequired,
+      }),
     })
   ),
   selectedMovie: PropTypes.shape({
-    _id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    director: PropTypes.string.isRequired,
-    genre: PropTypes.string.isRequired,
+    _id: PropTypes.string.isRequired,
+    Title: PropTypes.string.isRequired,
+    Description: PropTypes.string.isRequired,
+    ImageURL: PropTypes.string.isRequired,
+    Director: PropTypes.shape({
+      Name: PropTypes.string.isRequired,
+    }),
+    Genre: PropTypes.shape({
+      Name: PropTypes.string.isRequired,
+    }),
   }),
 };
 
-// Default props if needed
-MainView.defaultProps = {
-  movies: [],
-  selectedMovie: null,
-};
+export default MainView;
