@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 export const LoginView = ({ onLoggedIn }) => {
   const [username, setUsername] = useState("");
@@ -39,6 +39,24 @@ export const LoginView = ({ onLoggedIn }) => {
         console.error("Login error:", error);
       });
   };
+
+  useEffect(() => {
+    // Fetch movie data after the user has logged in
+    const token = localStorage.getItem("token");
+    if (token) {
+      fetch("https://hotpotatoes.onrender.com/movies", {
+        headers: { Authorization: `Bearer ${token}` },
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log("Data from API:", data);
+          // Process and set the movie data as needed
+        })
+        .catch((error) => {
+          console.error("Error fetching data from API:", error);
+        });
+    }
+  }, [onLoggedIn]);
 
   return (
     <form onSubmit={handleSubmit}>

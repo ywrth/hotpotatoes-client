@@ -28,8 +28,8 @@ export const MainView = () => {
             _id: movie._id,
             Title: movie.Title,
             Description: movie.Description,
-            Genre: movie.Genre.Name, // Corrected to movie.Genre.Name
-            Director: movie.Director.Name, // Corrected to movie.Director.Name
+            Genre: movie.Genre.Name,
+            Director: movie.Director.Name,
             ImageURL: movie.ImageURL,
             Featured: movie.Featured,
           };
@@ -38,7 +38,6 @@ export const MainView = () => {
         setMovies(moviesFromApi);
       })
       .catch((error) => {
-        // Add this .catch block for error handling
         console.error("Error fetching data from API:", error);
       });
   }, [token]);
@@ -54,7 +53,7 @@ export const MainView = () => {
       <>
         <LoginView onLoggedIn={(user) => setUser(user)} />
         or
-        <SignupView /> {/* Adding the SignupView here */}
+        <SignupView /> {}
       </>
     );
   }

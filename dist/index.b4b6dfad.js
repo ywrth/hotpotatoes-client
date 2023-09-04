@@ -27203,7 +27203,6 @@ const MainView = ()=>{
             });
             setMovies(moviesFromApi);
         }).catch((error)=>{
-            // Add this .catch block for error handling
             console.error("Error fetching data from API:", error);
         });
     }, [
@@ -27220,13 +27219,13 @@ const MainView = ()=>{
                 onLoggedIn: (user)=>setUser(user)
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 55,
+                lineNumber: 54,
                 columnNumber: 9
             }, undefined),
             "or",
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _signupView.SignupView), {}, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 57,
+                lineNumber: 56,
                 columnNumber: 9
             }, undefined),
             " "
@@ -27239,7 +27238,7 @@ const MainView = ()=>{
                 children: "Logout"
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 65,
+                lineNumber: 64,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieView.MovieView), {
@@ -27247,7 +27246,7 @@ const MainView = ()=>{
                 onBackClick: ()=>setSelectedMovie(null)
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 66,
+                lineNumber: 65,
                 columnNumber: 9
             }, undefined)
         ]
@@ -27258,7 +27257,7 @@ const MainView = ()=>{
             children: "The list is empty!"
         }, void 0, false, {
             fileName: "src/components/main-view/main-view.jsx",
-            lineNumber: 76,
+            lineNumber: 75,
             columnNumber: 12
         }, undefined);
     }
@@ -27269,7 +27268,7 @@ const MainView = ()=>{
                 children: "Logout"
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 81,
+                lineNumber: 80,
                 columnNumber: 7
             }, undefined),
             movies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieCard.MovieCard), {
@@ -27279,13 +27278,13 @@ const MainView = ()=>{
                     }
                 }, movie._id, false, {
                     fileName: "src/components/main-view/main-view.jsx",
-                    lineNumber: 83,
+                    lineNumber: 82,
                     columnNumber: 9
                 }, undefined))
         ]
     }, void 0, true, {
         fileName: "src/components/main-view/main-view.jsx",
-        lineNumber: 80,
+        lineNumber: 79,
         columnNumber: 5
     }, undefined);
 };
@@ -28518,6 +28517,22 @@ const LoginView = ({ onLoggedIn })=>{
             console.error("Login error:", error);
         });
     };
+    (0, _react.useEffect)(()=>{
+        // Fetch movie data after the user has logged in
+        const token = localStorage.getItem("token");
+        if (token) fetch("https://hotpotatoes.onrender.com/movies", {
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        }).then((response)=>response.json()).then((data)=>{
+            console.log("Data from API:", data);
+        // Process and set the movie data as needed
+        }).catch((error)=>{
+            console.error("Error fetching data from API:", error);
+        });
+    }, [
+        onLoggedIn
+    ]);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("form", {
         onSubmit: handleSubmit,
         children: [
@@ -28526,7 +28541,7 @@ const LoginView = ({ onLoggedIn })=>{
                 children: error
             }, void 0, false, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 45,
+                lineNumber: 63,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -28541,13 +28556,13 @@ const LoginView = ({ onLoggedIn })=>{
                         autoComplete: "username"
                     }, void 0, false, {
                         fileName: "src/components/login-view/login-view.jsx",
-                        lineNumber: 48,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 46,
+                lineNumber: 64,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
@@ -28562,13 +28577,13 @@ const LoginView = ({ onLoggedIn })=>{
                         autoComplete: "current-password"
                     }, void 0, false, {
                         fileName: "src/components/login-view/login-view.jsx",
-                        lineNumber: 59,
+                        lineNumber: 77,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 57,
+                lineNumber: 75,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -28577,17 +28592,17 @@ const LoginView = ({ onLoggedIn })=>{
                 children: isLoading ? "Logging in..." : "Submit"
             }, void 0, false, {
                 fileName: "src/components/login-view/login-view.jsx",
-                lineNumber: 68,
+                lineNumber: 86,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/login-view/login-view.jsx",
-        lineNumber: 44,
+        lineNumber: 62,
         columnNumber: 5
     }, undefined);
 };
-_s(LoginView, "tYAATjfTwoK2jgLaFeeeWPrXQOI=");
+_s(LoginView, "JE2k0bxBJG3rFfhuoIG2++6YvlI=");
 _c = LoginView;
 var _c;
 $RefreshReg$(_c, "LoginView");
