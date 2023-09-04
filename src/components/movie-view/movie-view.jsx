@@ -1,20 +1,46 @@
-// Here you import the PropTypes library
+import "./movie-view.scss";
+import React from "react";
 import PropTypes from "prop-types";
+import Container from "react-bootstrap/Container"; // Import Container from react-bootstrap
 
-// The BookCard function component
-export const MovieCard = ({ movie, onMovieClick }) => {
-  return <div onClick={() => onMovieClick(movie)}>{movie.Title}</div>;
+export const MovieView = ({ movie, onBackClick }) => {
+  return (
+    <div className="movie-view-container">
+      <Container className="movie-view-content">
+        <div className="title-section">
+          <h1 className="custom-title">{movie.Title}</h1>
+        </div>
+        <img src={movie.ImageURL} alt={movie.Title} className="img-fluid" />
+        <div>
+          <span style={{ fontWeight: "bold" }}>Description: </span>
+          <span>{movie.Description}</span>
+        </div>
+        <div>
+          <span style={{ fontWeight: "bold" }}>Genre: </span>
+          <span>{movie.Genre}</span>
+        </div>
+        <div>
+          <span style={{ fontWeight: "bold" }}>Director: </span>
+          <span>{movie.Director}</span>
+        </div>
+        <button onClick={onBackClick} className="back-button">
+          <span style={{ marginTop: "10px" }}>Back</span>
+        </button>
+      </Container>
+    </div>
+  );
 };
 
-// Here is where we define all the props constraints for the BookCard
-MovieCard.propTypes = {
+MovieView.propTypes = {
   movie: PropTypes.shape({
     _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Title: PropTypes.string.isRequired,
-    description: PropTypes.string.isRequired,
-    image: PropTypes.string.isRequired,
-    director: PropTypes.string.isRequired,
-    genre: PropTypes.string.isRequired,
+    Description: PropTypes.string.isRequired,
+    ImageURL: PropTypes.string.isRequired,
+    Director: PropTypes.string.isRequired,
+    Genre: PropTypes.string.isRequired,
   }).isRequired,
-  onMovieClick: PropTypes.func.isRequired,
+  onBackClick: PropTypes.func.isRequired,
 };
+
+export default MovieView;
