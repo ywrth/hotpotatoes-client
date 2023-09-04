@@ -6,6 +6,7 @@ import { LoginView } from "../login-view/login-view";
 import { SignupView } from "../signup-view/signup-view";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container"; // Import Container from react-bootstrap
 
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
@@ -51,43 +52,46 @@ export const MainView = () => {
   };
 
   return (
-    <div>
-      {!user ? (
-        <Row className="justify-content-md-center">
-          <Col md={5}>
-            <h2>LOGIN</h2>
-            <LoginView onLoggedIn={(user) => setUser(user)} />
-          </Col>
-          <Col md={5}>
-            <h2>REGISTER</h2>
-            <SignupView />
-          </Col>
-        </Row>
-      ) : selectedMovie ? (
-        <Col md={8} style={{ border: "1px solid black" }}>
-          <MovieView
-            style={{ border: "1px solid green" }}
-            movie={selectedMovie}
-            onBackClick={() => setSelectedMovie(null)}
-          />
-        </Col>
-      ) : movies.length === 0 ? (
-        <div>The list is empty!</div>
-      ) : (
-        <>
-          {movies.map((movie) => (
-            <Col className="mb-5" key={movie._id} md={3}>
-              <MovieCard
-                movie={movie}
-                onMovieClick={(newSelectedMovie) => {
-                  setSelectedMovie(newSelectedMovie);
-                }}
-              />
+    <Container>
+      {/* Wrap the entire content in a Container */}
+      <div>
+        {!user ? (
+          <Row className="justify-content-md-center">
+            <Col md={5}>
+              <h2>LOGIN</h2>
+              <LoginView onLoggedIn={(user) => setUser(user)} />
             </Col>
-          ))}
-        </>
-      )}
-    </div>
+            <Col md={5}>
+              <h2>REGISTER</h2>
+              <SignupView />
+            </Col>
+          </Row>
+        ) : selectedMovie ? (
+          <Col md={8} style={{ border: "1px solid black" }}>
+            <MovieView
+              style={{ border: "1px solid green" }}
+              movie={selectedMovie}
+              onBackClick={() => setSelectedMovie(null)}
+            />
+          </Col>
+        ) : movies.length === 0 ? (
+          <div>The list is empty!</div>
+        ) : (
+          <Row>
+            {movies.map((movie) => (
+              <Col className="mb-5" key={movie._id} md={3}>
+                <MovieCard
+                  movie={movie}
+                  onMovieClick={(newSelectedMovie) => {
+                    setSelectedMovie(newSelectedMovie);
+                  }}
+                />
+              </Col>
+            ))}
+          </Row>
+        )}
+      </div>
+    </Container>
   );
 };
 
