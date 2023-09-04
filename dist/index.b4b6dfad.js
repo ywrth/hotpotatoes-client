@@ -27083,9 +27083,6 @@ const MainView = ()=>{
             }, undefined) : selectedMovie ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
                 md: 8,
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _movieView.MovieView), {
-                    style: {
-                        border: "1px solid green"
-                    },
                     movie: selectedMovie,
                     onBackClick: ()=>setSelectedMovie(null)
                 }, void 0, false, {
@@ -27101,7 +27098,7 @@ const MainView = ()=>{
                 children: "The list is empty!"
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 76,
+                lineNumber: 75,
                 columnNumber: 11
             }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _rowDefault.default), {
                 children: movies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _colDefault.default), {
@@ -27114,17 +27111,17 @@ const MainView = ()=>{
                             }
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 81,
+                            lineNumber: 80,
                             columnNumber: 17
                         }, undefined)
                     }, movie._id, false, {
                         fileName: "src/components/main-view/main-view.jsx",
-                        lineNumber: 80,
+                        lineNumber: 79,
                         columnNumber: 15
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/main-view/main-view.jsx",
-                lineNumber: 78,
+                lineNumber: 77,
                 columnNumber: 11
             }, undefined)
         }, void 0, false, {
