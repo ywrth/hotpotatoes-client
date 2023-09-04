@@ -51,13 +51,18 @@ export const MainView = () => {
   };
 
   return (
-    <Row className="justify-content-md-center">
+    <div>
       {!user ? (
-        <Col md={5}>
-          <LoginView onLoggedIn={(user) => setUser(user)} />
-          or
-          <SignupView />
-        </Col>
+        <Row className="justify-content-md-center">
+          <Col md={5}>
+            <h2>LOGIN</h2>
+            <LoginView onLoggedIn={(user) => setUser(user)} />
+          </Col>
+          <Col md={5}>
+            <h2>REGISTER</h2>
+            <SignupView />
+          </Col>
+        </Row>
       ) : selectedMovie ? (
         <Col md={8} style={{ border: "1px solid black" }}>
           <MovieView
@@ -71,7 +76,7 @@ export const MainView = () => {
       ) : (
         <>
           {movies.map((movie) => (
-            <Col className="mb-5" ąkey={movie._id} md={3}>
+            <Col className="mb-5" key={movie._id} md={3}>
               <MovieCard
                 movie={movie}
                 onMovieClick={(newSelectedMovie) => {
@@ -82,7 +87,7 @@ export const MainView = () => {
           ))}
         </>
       )}
-    </Row>
+    </div>
   );
 };
 
