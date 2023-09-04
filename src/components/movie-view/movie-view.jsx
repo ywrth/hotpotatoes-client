@@ -33,7 +33,7 @@ MovieView.propTypes = {
     _id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
     Title: PropTypes.string.isRequired,
     Description: PropTypes.string.isRequired,
-    ImagePath: PropTypes.string.isRequired, // Corrected 'ImageURL' to 'ImagePath'
+    ImageURL: PropTypes.string.isRequired, // Corrected from 'ImagePath' to 'ImageURL'
     Director: PropTypes.shape({
       Name: PropTypes.string.isRequired,
       Bio: PropTypes.string.isRequired,
