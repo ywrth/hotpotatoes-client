@@ -1,9 +1,10 @@
+import React from "react";
 import PropTypes from "prop-types";
 import { Button, Card } from "react-bootstrap";
 
 import "./movie-card.scss";
 
-export const MovieCard = ({ movie, onMovieClick }) => {
+export const MovieCard = ({ movie, onMovieClick, showLogoutButton }) => {
   const handleCardClick = () => {
     onMovieClick(movie);
   };
@@ -15,7 +16,15 @@ export const MovieCard = ({ movie, onMovieClick }) => {
         <Card.Body>
           <Card.Title>{movie.Title}</Card.Title>
           <Card.Text>{movie.Director}</Card.Text>
-          <Button variant="link">Open</Button>
+          {showLogoutButton && (
+            <div className="mt-22">
+              {" "}
+              {/* Add spacing classes here */}
+              <Button variant="primary" onClick={handleLogout}>
+                Logout
+              </Button>
+            </div>
+          )}
         </Card.Body>
       </Card>
     </div>
@@ -32,6 +41,7 @@ MovieCard.propTypes = {
     Genre: PropTypes.string.isRequired,
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired,
+  showLogoutButton: PropTypes.bool,
 };
 
 export default MovieCard;
