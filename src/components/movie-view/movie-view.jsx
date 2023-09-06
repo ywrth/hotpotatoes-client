@@ -3,16 +3,20 @@ import { Card, Button } from "react-bootstrap";
 import { Link, useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-export const MovieView = ({ movies, user, token, setuser, onBackClick }) => {
+export const MovieView = ({ movies, user, token, setuser }) => {
   const { movieTitle } = useParams();
   const movie = movies.find((movie) => movie.Title === movieTitle);
   const [isFavourite, setIsFavourite] = useState(false);
 
   useEffect(() => {
-    if (user.favourite_movies && user.favourite_movies.includes(movie._id)) {
+    if (
+      user &&
+      user.favourite_movies &&
+      user.favourite_movies.includes(movie._id)
+    ) {
       setIsFavourite(true);
     }
-  }, []);
+  }, [user, movie._id]);
 
   const addToFavourite = () => {
     fetch(
@@ -78,9 +82,9 @@ export const MovieView = ({ movies, user, token, setuser, onBackClick }) => {
           <Card.Text>
             Description: {movie.Description}
             <br />
-            Director: {movie.Director}
+            Director: {movie.Director.Name} {/* Access Name property */}
             <br />
-            Genre: {movie.Genre}
+            Genre: {movie.Genre.Name} {/* Access Name property */}
             <br />
           </Card.Text>
           <Link to={"/"}>
@@ -92,36 +96,6 @@ export const MovieView = ({ movies, user, token, setuser, onBackClick }) => {
       </Card>
     </div>
   );
-
-  /* Alternative Layout:
-  return (
-    <div className="movie-view-container">
-      <Container className="movie-view-content">
-        <div className="title-section">
-          <h1 className="custom-title">{movie.Title}</h1>
-        </div>
-        <img src={movie.ImageURL} alt={movie.Title} className="img-fluid" />
-        <div>
-          <span style={{ fontWeight: "bold" }}>Description: </span>
-          <span>{movie.Description}</span>
-        </div>
-        <div>
-          <span style={{ fontWeight: "bold" }}>Genre: </span>
-          <span>{movie.Genre}</span>
-        </div>
-        <div>
-          <span style={{ fontWeight: "bold" }}>Director: </span>
-          <span>{movie.Director}</span>
-        </div>
-        <Link to={`/`}>
-          <button onClick={onBackClick} className="back-button">
-            <span style={{ marginTop: "10px" }}>Back</span>
-          </button>
-        </Link>
-      </Container>
-    </div>
-  );
-  */
 };
 
 MovieView.propTypes = {
@@ -131,14 +105,13 @@ MovieView.propTypes = {
       Title: PropTypes.string.isRequired,
       Description: PropTypes.string.isRequired,
       ImageURL: PropTypes.string.isRequired,
-      Director: PropTypes.string.isRequired,
-      Genre: PropTypes.string.isRequired,
+      Director: PropTypes.shape({
+        Name: PropTypes.string.isRequired,
+      }).isRequired, // Director is an object with Name property
+      Genre: PropTypes.shape({
+        Name: PropTypes.string.isRequired,
+      }).isRequired, // Genre is an object with Name property
     })
   ).isRequired,
-  user: PropTypes.object.isRequired,
-  token: PropTypes.string.isRequired,
-  setuser: PropTypes.func.isRequired,
-  onBackClick: PropTypes.func.isRequired,
 };
-
 export default MovieView;

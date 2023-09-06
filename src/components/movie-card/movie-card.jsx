@@ -23,6 +23,8 @@ export const MovieCard = ({
           <Card.Title>{movie.Title}</Card.Title>
           {/* Access director's Name from the director object */}
           <Card.Text>Director: {movie.Director.Name}</Card.Text>
+          {/* Access genre's Name from the genre object */}
+          <Card.Text>Genre: {movie.Genre.Name}</Card.Text>
           <Link to={`/movies/${movie.Title}`}>
             <Button variant="link">Open</Button>
           </Link>
@@ -51,7 +53,11 @@ MovieCard.propTypes = {
       Name: PropTypes.string.isRequired, // Assuming Name is a string
       // Add more PropTypes as needed for other director properties (e.g., Bio, Birth)
     }).isRequired,
-    Genre: PropTypes.string.isRequired,
+    // Adjust the PropTypes for the Genre field
+    Genre: PropTypes.shape({
+      Name: PropTypes.string.isRequired, // Assuming Name is a string
+      Description: PropTypes.string.isRequired, // Assuming Description is a string
+    }).isRequired,
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired,
   showLogoutButton: PropTypes.bool,

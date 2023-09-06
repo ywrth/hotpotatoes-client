@@ -1,3 +1,4 @@
+// MainView.js
 import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import { MovieCard } from "../movie-card/movie-card";
@@ -57,6 +58,10 @@ export const MainView = () => {
     // Store user object and token in localStorage if needed
   };
 
+  const handleMovieClick = (clickedMovie) => {
+    setSelectedMovie(clickedMovie);
+  };
+
   return (
     <BrowserRouter>
       <NavigationBar user={user} onLogout={handleLogout} />
@@ -110,6 +115,7 @@ export const MainView = () => {
                     user={user}
                     token={token}
                     setuser={(user) => setUser(user)}
+                    selectedMovie={selectedMovie} // Pass selectedMovie
                   />
                 </Col>
               )
@@ -135,6 +141,7 @@ export const MainView = () => {
                     >
                       <MovieCard
                         movie={movie}
+                        onMovieClick={handleMovieClick}
                         user={user}
                         token={token}
                         setuser={(user) => setUser(user)}

@@ -1,4 +1,19 @@
+.movieCard {
+  text-align: left;
+  border-bottom: 1px solid #3d72e2;
+  margin: 20px;
+  padding: 20px;
+}
 
+.movieCard:hover {
+  background-color: #5f89e6;
+}
+
+.card-image {
+  max-width: 30%;
+  max-height: 20%;
+  margin: 20px auto;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   :root {
