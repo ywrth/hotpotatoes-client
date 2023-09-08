@@ -14,12 +14,22 @@ import "../movie-card/movie-card.scss";
 import { MovieCard } from "../movie-card/movie-card.jsx";
 
 export const ProfileView = ({ user, movies, token, updateUsername }) => {
-  const [username, setUsername] = useState(undefined);
-  const [password, setPassword] = useState(undefined);
-  const [email, setEmail] = useState(undefined);
-  const [birthday, setBirthday] = useState(undefined);
+  const [username, setUsername] = useState(null);
+  const [password, setPassword] = useState(null);
+  const [email, setEmail] = useState(null);
+  const [birthday, setBirthday] = useState(null);
   const [show, setShow] = useState(false);
   const [deregister, setDeregister] = useState(false);
+
+  useEffect(() => {
+    // Initialize state variables with user data when user prop changes
+    if (user) {
+      setUsername(user.username || "");
+      setEmail(user.email || "");
+      setBirthday(user.birthday || "");
+    }
+  }, [user]);
+
   const favourite_movies = movies.filter(
     (movie) => user.favourite_movies && user.favourite_movies.includes(movie.id)
   );
@@ -57,7 +67,6 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
       })
       .then((res) => {
         if (res.username) {
-          localStorage.setItem("user", JSON.stringify(res.username));
           localStorage.setItem("userObject", JSON.stringify(res));
           updateUsername(res);
           alert("Your account is updated");
@@ -71,7 +80,7 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
       });
     setShow(false);
   };
-  deleteUser = () => {
+  const deleteUser = () => {
     fetch("https://hotpotatoes.onrender.com/users/" + username, {
       method: "DELETE",
       headers: {
@@ -170,7 +179,7 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Username</Form.Label>
                 <Form.Control
-                  type="email"
+                  type="username"
                   placeholder={username}
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
@@ -192,9 +201,9 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
                 <Form.Label>Email address</Form.Label>
                 <Form.Control
                   type="email"
-                  placeholder={email}
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="Enter your username"
+                  value={username || ""}
+                  onChange={(e) => setUsername(e.target.value)}
                   required
                 />
               </Form.Group>
