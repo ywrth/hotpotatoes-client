@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Row, Col, Alert } from "react-bootstrap";
 
 export const LoginView = ({ onLoggedIn }) => {
   const [username, setUsername] = useState("");
@@ -70,51 +70,55 @@ export const LoginView = ({ onLoggedIn }) => {
   }, [onLoggedIn]);
 
   return (
-    <div className="login">
-      <Form className="form" onSubmit={handleSubmit}>
-        <Form.Text className="text-center mb-3 fs-3 logout-button text-black">
-          Login Page
-        </Form.Text>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Username</Form.Label>
-          <Form.Control
-            type="text"
-            placeholder="Enter username"
-            value={username}
-            onChange={(e) => setUsername(e.target.value)}
-            required
-          />
-          <Form.Text className="text-muted">
-            We'll never share your username with anyone else.
-          </Form.Text>
-        </Form.Group>
+    <Row className="justify-content-center">
+      <Col xs={12} sm={8} md={6} lg={4}>
+        <div className="login">
+          <Form className="form" onSubmit={handleSubmit}>
+            <Form.Text className="text-center mb-3 fs-3 logout-button text-black">
+              Login Page
+            </Form.Text>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Username</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Enter username"
+                value={username}
+                onChange={(e) => setUsername(e.target.value)}
+                required
+              />
+              <Form.Text className="text-muted">
+                We'll never share your username with anyone else.
+              </Form.Text>
+            </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            placeholder="Password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            required
-          />
-        </Form.Group>
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-        <Form.Text className="text-muted text-center">
-          Don't have an account?
-        </Form.Text>
-        <Button
-          variant="link"
-          className="text-center logout-button"
-          onClick={() => {
-            /* Handle navigation to signup view */
-          }}
-        >
-          Register
-        </Button>
-      </Form>
-    </div>
+            <Form.Group className="mb-3" controlId="formBasicPassword">
+              <Form.Label>Password</Form.Label>
+              <Form.Control
+                type="password"
+                placeholder="Password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                required
+              />
+            </Form.Group>
+            <Button variant="primary" type="submit">
+              Submit
+            </Button>
+            <Form.Text className="text-muted text-center">
+              Don't have an account?
+            </Form.Text>
+            <Button
+              variant="link"
+              className="text-center logout-button"
+              onClick={() => {
+                /* Handle navigation to signup view */
+              }}
+            >
+              Register
+            </Button>
+          </Form>
+        </div>
+      </Col>
+    </Row>
   );
 };

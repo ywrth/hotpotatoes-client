@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
+import PropTypes from "prop-types";
 import {
   Card,
   Button,
@@ -8,7 +9,6 @@ import {
   Form,
   InputGroup,
 } from "react-bootstrap";
-
 import { Link } from "react-router-dom";
 import "../movie-card/movie-card.scss";
 import { MovieCard } from "../movie-card/movie-card.jsx";
@@ -27,9 +27,9 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
   // Initialize inputValue with a defined value
   const [inputValue, setInputValue] = useState("");
 
-  handleShow = () => setShow(true);
-  handleClose = () => setShow(false);
-  updateUser = () => {
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
+  const updateUser = () => {
     const data = {
       username: username,
       password: password,
@@ -92,8 +92,8 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
         window.location.reload();
       });
   };
-  handleDeregister = () => setDeregister(true);
-  handleCloseDeregister = () => setDeregister(false);
+  const handleDeregister = () => setDeregister(true);
+  const handleCloseDeregister = () => setDeregister(false);
 
   if (username !== null) {
     return (
@@ -140,7 +140,9 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
           </Col>
         </Row>
         <Row>
-          <h2 className="text-center mb-5 mt-5">Favourite Movies</h2>
+          <Col md={12}>
+            <h2 className="text-center mb-5 mt-5">Favourite Movies</h2>
+          </Col>
           {favourite_movies.map((movie) => (
             <Col
               className="mb-5 d-flex"
@@ -252,3 +254,17 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
     );
   }
 };
+
+ProfileView.propTypes = {
+  user: PropTypes.object.isRequired,
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
+      // Update PropTypes for other movie properties as needed
+    })
+  ).isRequired,
+  token: PropTypes.string.isRequired,
+  updateUsername: PropTypes.func.isRequired,
+};
+
+export default ProfileView;

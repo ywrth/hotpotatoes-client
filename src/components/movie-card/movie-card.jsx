@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Button, Card } from "react-bootstrap";
+import { Button, Card, Col } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 import "./movie-card.scss";
@@ -16,29 +16,29 @@ export const MovieCard = ({
   };
 
   return (
-    <div className="movie-card" onClick={handleCardClick}>
-      <Card className="h-100">
-        <Card.Img variant="top" src={movie.ImageURL} />
-        <Card.Body>
-          <Card.Title>{movie.Title}</Card.Title>
-          {/* Access director's Name from the director object */}
-          <Card.Text>Director: {movie.Director.Name}</Card.Text>
-          {/* Access genre's Name from the genre object */}
-          <Card.Text>Genre: {movie.Genre.Name}</Card.Text>
-          <Link to={`/movies/${movie.Title}`}>
-            <Button variant="link">Open</Button>
-          </Link>
+    <Col xs={12} sm={12} md={12} lg={12}>
+      <div className="movie-card" onClick={handleCardClick}>
+        <Card>
+          <Card.Img variant="top" src={movie.ImageURL} />
+          <Card.Body>
+            <Card.Title>{movie.Title}</Card.Title>
+            <Card.Text>Director: {movie.Director.Name}</Card.Text>
+            <Card.Text>Genre: {movie.Genre.Name}</Card.Text>
+            <Link to={`/movies/${movie.Title}`}>
+              <Button variant="link">Open</Button>
+            </Link>
 
-          {showLogoutButton && (
-            <div className="mt-2">
-              <Button variant="primary" onClick={handleLogout}>
-                Logout
-              </Button>
-            </div>
-          )}
-        </Card.Body>
-      </Card>
-    </div>
+            {showLogoutButton && (
+              <div className="mt-2">
+                <Button variant="primary" onClick={handleLogout}>
+                  Logout
+                </Button>
+              </div>
+            )}
+          </Card.Body>
+        </Card>
+      </div>
+    </Col>
   );
 };
 
@@ -48,20 +48,17 @@ MovieCard.propTypes = {
     Title: PropTypes.string.isRequired,
     Description: PropTypes.string.isRequired,
     ImageURL: PropTypes.string.isRequired,
-    // Adjust the PropTypes for the Director field
     Director: PropTypes.shape({
-      Name: PropTypes.string.isRequired, // Assuming Name is a string
-      // Add more PropTypes as needed for other director properties (e.g., Bio, Birth)
+      Name: PropTypes.string.isRequired,
     }).isRequired,
-    // Adjust the PropTypes for the Genre field
     Genre: PropTypes.shape({
-      Name: PropTypes.string.isRequired, // Assuming Name is a string
-      Description: PropTypes.string.isRequired, // Assuming Description is a string
+      Name: PropTypes.string.isRequired,
+      Description: PropTypes.string.isRequired,
     }).isRequired,
   }).isRequired,
   onMovieClick: PropTypes.func.isRequired,
   showLogoutButton: PropTypes.bool,
-  handleLogout: PropTypes.func, // Add prop type for handleLogout function
+  handleLogout: PropTypes.func,
 };
 
 export default MovieCard;
