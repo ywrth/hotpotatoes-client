@@ -8,6 +8,7 @@ import { NavigationBar } from "../navigation-bar/navigation-bar";
 import { ProfileView } from "../profile-view/profile-view";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
+import NotFound from "../not-found/not-found"; // Import the 404 component
 
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
@@ -166,19 +167,17 @@ export const MainView = () => {
               !user ? (
                 <Navigate to="/login" replace />
               ) : (
-                <Row>
-                  <Col>
-                    <ProfileView
-                      user={user}
-                      movies={movies}
-                      token={token}
-                      updateUsername={(user) => setUser(user)}
-                    />
-                  </Col>
-                </Row>
+                <ProfileView
+                  user={user}
+                  movies={movies}
+                  token={token}
+                  updateUsername={(user) => setUser(user)}
+                />
               )
             }
           />
+          {/* Fallback route for 404 */}
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </Container>
     </BrowserRouter>

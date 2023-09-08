@@ -11,6 +11,7 @@ export const LoginView = ({ onLoggedIn }) => {
     event.preventDefault();
 
     setIsLoading(true); // Show loading indicator
+    setError(null); // Clear any previous errors
 
     const input = {
       Username: username,
@@ -28,10 +29,11 @@ export const LoginView = ({ onLoggedIn }) => {
         if (data.user) {
           onLoggedIn(data.user.Username);
           localStorage.setItem("token", data.token);
+          console.log("Token stored in localStorage:", data.token);
           setUsername(""); // Clear username field
           setPassword(""); // Clear password field
         } else {
-          setError("Login failed. Please check your credentials.");
+          setError("Invalid credentials. Please try again.");
         }
       })
       .catch((error) => {
@@ -101,21 +103,22 @@ export const LoginView = ({ onLoggedIn }) => {
                 required
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
-              Submit
+            <Button variant="primary" type="submit" disabled={isLoading}>
+              {isLoading ? "Logging in..." : "Submit"}
             </Button>
+            {error && <Alert variant="danger">{error}</Alert>}
             <Form.Text className="text-muted text-center">
-              Don't have an account?
+              Don't have an account?{" "}
+              <Button
+                variant="link"
+                className="logout-button"
+                onClick={() => {
+                  /* Handle navigation to signup view */
+                }}
+              >
+                Register
+              </Button>
             </Form.Text>
-            <Button
-              variant="link"
-              className="text-center logout-button"
-              onClick={() => {
-                /* Handle navigation to signup view */
-              }}
-            >
-              Register
-            </Button>
           </Form>
         </div>
       </Col>

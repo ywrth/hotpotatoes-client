@@ -20,6 +20,7 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
   const [birthday, setBirthday] = useState(null);
   const [show, setShow] = useState(false);
   const [deregister, setDeregister] = useState(false);
+  const [error, setError] = useState(null); // New error state
 
   useEffect(() => {
     // Initialize state variables with user data when user prop changes
@@ -38,7 +39,10 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
   const [inputValue, setInputValue] = useState("");
 
   const handleShow = () => setShow(true);
-  const handleClose = () => setShow(false);
+  const handleClose = () => {
+    setShow(false);
+    setError(null); // Clear any previous errors
+  };
   const updateUser = () => {
     const data = {
       username: username,
@@ -70,15 +74,15 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
           localStorage.setItem("userObject", JSON.stringify(res));
           updateUsername(res);
           alert("Your account is updated");
+          setShow(false);
         } else {
-          alert("Update failed");
+          setError("Update failed. Please try again.");
         }
       })
       .catch((error) => {
-        console.error(error.message);
-        alert("Update failed: " + error.message);
+        console.error("Update User Error:", error);
+        setError("Update failed: " + error.message);
       });
-    setShow(false);
   };
   const deleteUser = () => {
     fetch("https://hotpotatoes.onrender.com/users/" + username, {
@@ -201,9 +205,69 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
                 <Form.Label>Email address</Form.Label>
                 <Form.Control
                   type="email"
-                  placeholder="Enter your username"
-                  value={username || ""}
+                  placeholder="Enter your email"
+                  value={email || ""}
+                  onChange={(e) => setEmail(e.target.value)}
+                  required
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicBirthday">
+                <Form.Label>Birthday</Form.Label>
+                <Form.Control
+                  type="date"
+                  value={birthday}
+                  onChange={(e) => setBirthday(e.target.value)}
+                  required
+                />
+              </Form.Group>
+            </Form>
+          </Modal.Body>
+          <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+              Close
+            </Button>
+            <Button variant="primary" onClick={updateUser}>
+              Update User
+            </Button>
+            {error && <p className="text-danger">{error}</p>}
+          </Modal.Footer>
+        </Modal>
+
+        <Modal show={deregister} onHide={handleCloseDeregister}>
+          <Modal.Header closeButton>
+            <Modal.Title className="ms-auto">Update Profile</Modal.Title>
+          </Modal.Header>
+          <Modal.Body>
+            <Form>
+              <Form.Group className="mb-3" controlId="formBasicEmail">
+                <Form.Label>Username</Form.Label>
+                <Form.Control
+                  type="username"
+                  placeholder={username}
+                  value={username}
                   onChange={(e) => setUsername(e.target.value)}
+                  required
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicPassword">
+                <Form.Label>Password</Form.Label>
+                <Form.Control
+                  type="password"
+                  placeholder="Enter your new password"
+                  onChange={(e) => setPassword(e.target.value)}
+                  required
+                />
+              </Form.Group>
+
+              <Form.Group className="mb-3" controlId="formBasicUsername">
+                <Form.Label>Email address</Form.Label>
+                <Form.Control
+                  type="email"
+                  placeholder="Enter your email"
+                  value={email || ""}
+                  onChange={(e) => setEmail(e.target.value)}
                   required
                 />
               </Form.Group>
@@ -263,17 +327,3 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
     );
   }
 };
-
-ProfileView.propTypes = {
-  user: PropTypes.object.isRequired,
-  movies: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.oneOfType([PropTypes.number, PropTypes.string]).isRequired,
-      // Update PropTypes for other movie properties as needed
-    })
-  ).isRequired,
-  token: PropTypes.string.isRequired,
-  updateUsername: PropTypes.func.isRequired,
-};
-
-export default ProfileView;
