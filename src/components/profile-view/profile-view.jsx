@@ -25,7 +25,8 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
   useEffect(() => {
     // Initialize state variables with user data when user prop changes
     if (user) {
-      setUsername(username || "");
+      // Use 'user' object to set the initial values
+      setUsername(user.username || "");
       setEmail(user.email || "");
       setBirthday(user.birthday || "");
     }
@@ -108,7 +109,8 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
   const handleDeregister = () => setDeregister(true);
   const handleCloseDeregister = () => setDeregister(false);
 
-  if (username !== null) {
+  if (user) {
+    // Use 'user' object to display user information
     return (
       <>
         <Row>
@@ -124,11 +126,11 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
                   <br />
                 </Card.Title>
                 <Card.Text>
-                  Username: {username}
+                  Username: {user.username}
                   <br />
-                  Email: {email}
+                  Email: {user.email}
                   <br />
-                  Birthday: {birthday}
+                  Birthday: {user.birthday}
                   <br />
                 </Card.Text>
 
@@ -329,4 +331,11 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
     // Return loading or error message while user data is being fetched
     return <div>Loading...</div>;
   }
+};
+
+ProfileView.propTypes = {
+  user: PropTypes.object, // Ensure 'user' is of type object
+  movies: PropTypes.array.isRequired, // Ensure 'movies' is an array
+  token: PropTypes.string.isRequired, // Ensure 'token' is a string
+  updateUsername: PropTypes.func.isRequired, // Ensure 'updateUsername' is a function
 };
