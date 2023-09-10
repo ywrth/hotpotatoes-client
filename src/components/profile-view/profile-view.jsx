@@ -14,10 +14,10 @@ import "../movie-card/movie-card.scss";
 import { MovieCard } from "../movie-card/movie-card.jsx";
 
 export const ProfileView = ({ user, movies, token, updateUsername }) => {
-  const [username, setUsername] = useState(null);
-  const [password, setPassword] = useState(null);
-  const [email, setEmail] = useState(null);
-  const [birthday, setBirthday] = useState(null);
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("");
+  const [birthday, setBirthday] = useState("");
   const [show, setShow] = useState(false);
   const [deregister, setDeregister] = useState(false);
   const [error, setError] = useState(null); // New error state
@@ -325,5 +325,24 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
         </Modal>
       </>
     );
+  } else {
+    // Return loading or error message while user data is being fetched
+    return <div>Loading...</div>;
   }
+};
+
+ProfileView.propTypes = {
+  user: PropTypes.shape({
+    username: PropTypes.string,
+    email: PropTypes.string,
+    birthday: PropTypes.string,
+  }),
+  movies: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.string.isRequired,
+      // ... (other movie properties)
+    })
+  ),
+  token: PropTypes.string,
+  updateUsername: PropTypes.func.isRequired,
 };

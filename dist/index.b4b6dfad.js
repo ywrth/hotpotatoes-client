@@ -27154,11 +27154,14 @@ const MainView = ()=>{
                             element: !user ? /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Navigate), {
                                 to: "/login",
                                 replace: true
-                            }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _profileView.ProfileView), {
-                                user: user,
-                                movies: movies,
-                                token: token,
-                                updateUsername: (user)=>setUser(user)
+                            }, void 0, false, void 0, void 0) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _profileView.ProfileView), {
+                                        user: user,
+                                        movies: movies,
+                                        updateUsername: (user)=>setUser(user)
+                                    }, void 0, false, void 0, void 0)
+                                }, void 0, false, void 0, void 0)
                             }, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
@@ -27170,7 +27173,7 @@ const MainView = ()=>{
                             element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _notFoundDefault.default), {}, void 0, false, void 0, void 0)
                         }, void 0, false, {
                             fileName: "src/components/main-view/main-view.jsx",
-                            lineNumber: 180,
+                            lineNumber: 183,
                             columnNumber: 11
                         }, undefined)
                     ]
@@ -27195,7 +27198,7 @@ _s(MainView, "j410z2XArPl2ne0esG0fGC2C2Ig=");
 _c = MainView;
 MainView.propTypes = {
     movies: (0, _propTypesDefault.default).arrayOf((0, _propTypesDefault.default).shape({
-        _id: (0, _propTypesDefault.default).string.isRequired,
+        id: (0, _propTypesDefault.default).string.isRequired,
         Title: (0, _propTypesDefault.default).string.isRequired,
         Description: (0, _propTypesDefault.default).string.isRequired,
         ImageURL: (0, _propTypesDefault.default).string.isRequired,
@@ -27207,7 +27210,7 @@ MainView.propTypes = {
         })
     })),
     selectedMovie: (0, _propTypesDefault.default).shape({
-        _id: (0, _propTypesDefault.default).string.isRequired,
+        id: (0, _propTypesDefault.default).string.isRequired,
         Title: (0, _propTypesDefault.default).string.isRequired,
         Description: (0, _propTypesDefault.default).string.isRequired,
         ImageURL: (0, _propTypesDefault.default).string.isRequired,
@@ -43563,10 +43566,10 @@ var _movieCardJsx = require("../movie-card/movie-card.jsx");
 var _s = $RefreshSig$();
 const ProfileView = ({ user, movies, token, updateUsername })=>{
     _s();
-    const [username, setUsername] = (0, _react.useState)(null);
-    const [password, setPassword] = (0, _react.useState)(null);
-    const [email, setEmail] = (0, _react.useState)(null);
-    const [birthday, setBirthday] = (0, _react.useState)(null);
+    const [username, setUsername] = (0, _react.useState)("");
+    const [password, setPassword] = (0, _react.useState)("");
+    const [email, setEmail] = (0, _react.useState)("");
+    const [birthday, setBirthday] = (0, _react.useState)("");
     const [show, setShow] = (0, _react.useState)(false);
     const [deregister, setDeregister] = (0, _react.useState)(false);
     const [error, setError] = (0, _react.useState)(null); // New error state
@@ -44240,9 +44243,29 @@ const ProfileView = ({ user, movies, token, updateUsername })=>{
             }, undefined)
         ]
     }, void 0, true);
+    else // Return loading or error message while user data is being fetched
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        children: "Loading..."
+    }, void 0, false, {
+        fileName: "src/components/profile-view/profile-view.jsx",
+        lineNumber: 330,
+        columnNumber: 12
+    }, undefined);
 };
-_s(ProfileView, "NyfTvdqKOgepkgMiKRI8jqvXlqo=");
+_s(ProfileView, "5xYi/bFTOueqZZKDO06i84ikjqg=");
 _c = ProfileView;
+ProfileView.propTypes = {
+    user: (0, _propTypesDefault.default).shape({
+        username: (0, _propTypesDefault.default).string,
+        email: (0, _propTypesDefault.default).string,
+        birthday: (0, _propTypesDefault.default).string
+    }),
+    movies: (0, _propTypesDefault.default).arrayOf((0, _propTypesDefault.default).shape({
+        id: (0, _propTypesDefault.default).string.isRequired
+    })),
+    token: (0, _propTypesDefault.default).string,
+    updateUsername: (0, _propTypesDefault.default).func.isRequired
+};
 var _c;
 $RefreshReg$(_c, "ProfileView");
 

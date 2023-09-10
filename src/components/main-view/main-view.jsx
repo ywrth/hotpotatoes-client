@@ -167,12 +167,15 @@ export const MainView = () => {
               !user ? (
                 <Navigate to="/login" replace />
               ) : (
-                <ProfileView
-                  user={user}
-                  movies={movies}
-                  token={token}
-                  updateUsername={(user) => setUser(user)}
-                />
+                <Row>
+                  <Col>
+                    <ProfileView
+                      user={user}
+                      movies={movies}
+                      updateUsername={(user) => setUser(user)}
+                    />
+                  </Col>
+                </Row>
               )
             }
           />
@@ -187,7 +190,7 @@ export const MainView = () => {
 MainView.propTypes = {
   movies: PropTypes.arrayOf(
     PropTypes.shape({
-      _id: PropTypes.string.isRequired,
+      id: PropTypes.string.isRequired, // Change id to 'id'
       Title: PropTypes.string.isRequired,
       Description: PropTypes.string.isRequired,
       ImageURL: PropTypes.string.isRequired,
@@ -200,7 +203,7 @@ MainView.propTypes = {
     })
   ),
   selectedMovie: PropTypes.shape({
-    _id: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired, // Change id to 'id'
     Title: PropTypes.string.isRequired,
     Description: PropTypes.string.isRequired,
     ImageURL: PropTypes.string.isRequired,
