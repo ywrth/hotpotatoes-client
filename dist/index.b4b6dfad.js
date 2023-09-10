@@ -43576,7 +43576,7 @@ const ProfileView = ({ user, movies, token, updateUsername })=>{
     (0, _react.useEffect)(()=>{
         // Initialize state variables with user data when user prop changes
         if (user) {
-            setUsername(user.username || "");
+            setUsername(username || "");
             setEmail(user.email || "");
             setBirthday(user.birthday || "");
         }
@@ -43598,7 +43598,7 @@ const ProfileView = ({ user, movies, token, updateUsername })=>{
             email: email,
             birthday: birthday
         };
-        fetch("https://hotpotatoes.onrender.com/users/" + user.username, {
+        fetch("https://hotpotatoes.onrender.com/users/" + username, {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",
@@ -44254,18 +44254,6 @@ const ProfileView = ({ user, movies, token, updateUsername })=>{
 };
 _s(ProfileView, "5xYi/bFTOueqZZKDO06i84ikjqg=");
 _c = ProfileView;
-ProfileView.propTypes = {
-    user: (0, _propTypesDefault.default).shape({
-        username: (0, _propTypesDefault.default).string,
-        email: (0, _propTypesDefault.default).string,
-        birthday: (0, _propTypesDefault.default).string
-    }),
-    movies: (0, _propTypesDefault.default).arrayOf((0, _propTypesDefault.default).shape({
-        id: (0, _propTypesDefault.default).string.isRequired
-    })),
-    token: (0, _propTypesDefault.default).string,
-    updateUsername: (0, _propTypesDefault.default).func.isRequired
-};
 var _c;
 $RefreshReg$(_c, "ProfileView");
 

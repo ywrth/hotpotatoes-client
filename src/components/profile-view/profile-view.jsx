@@ -25,7 +25,7 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
   useEffect(() => {
     // Initialize state variables with user data when user prop changes
     if (user) {
-      setUsername(user.username || "");
+      setUsername(username || "");
       setEmail(user.email || "");
       setBirthday(user.birthday || "");
     }
@@ -50,7 +50,7 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
       email: email,
       birthday: birthday,
     };
-    fetch("https://hotpotatoes.onrender.com/users/" + user.username, {
+    fetch("https://hotpotatoes.onrender.com/users/" + username, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -329,20 +329,4 @@ export const ProfileView = ({ user, movies, token, updateUsername }) => {
     // Return loading or error message while user data is being fetched
     return <div>Loading...</div>;
   }
-};
-
-ProfileView.propTypes = {
-  user: PropTypes.shape({
-    username: PropTypes.string,
-    email: PropTypes.string,
-    birthday: PropTypes.string,
-  }),
-  movies: PropTypes.arrayOf(
-    PropTypes.shape({
-      id: PropTypes.string.isRequired,
-      // ... (other movie properties)
-    })
-  ),
-  token: PropTypes.string,
-  updateUsername: PropTypes.func.isRequired,
 };
