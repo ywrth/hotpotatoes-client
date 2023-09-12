@@ -27231,7 +27231,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","react-bootstrap":"3AD9A","../not-found/not-found":"62QHU"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","react-router-dom":"fdOAw","react-bootstrap":"3AD9A","../not-found/not-found":"62QHU","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"7wKI2":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -43790,7 +43790,7 @@ $RefreshReg$(_c, "ProfileView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","react-bootstrap":"3AD9A","react":"21dqq","react-router-dom":"fdOAw","../movie-card/movie-card":"bwuIu","./update-form":"7yKw6"}],"7yKw6":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","./update-form":"7yKw6","../movie-card/movie-card":"bwuIu","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"7yKw6":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$33b0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
