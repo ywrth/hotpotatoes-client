@@ -20,7 +20,8 @@ export const MovieView = ({ movies, user, token, setuser }) => {
 
   const addToFavourite = () => {
     fetch(
-      `https://hotpotatoes.onrender.com/users/${user.username}/${movie._id}`,
+      `https://hotpotatoes.onrender.com/users/${user.Username}/movies/${movie._id}`,
+
       {
         method: "POST",
         headers: {
@@ -32,19 +33,25 @@ export const MovieView = ({ movies, user, token, setuser }) => {
       .then((response) => {
         if (response.ok) {
           return response.json();
+        } else {
+          throw new Error("Failed to add to favorites");
         }
       })
       .then((res) => {
         setIsFavourite(true);
         setuser(res);
         localStorage.setItem("userObject", JSON.stringify(res));
-        alert("Movie is added to favouriteList");
+        // You can display a success message to the user here
+      })
+      .catch((error) => {
+        // Handle errors here (e.g., display an error message)
+        console.error("Error adding to favorites:", error);
       });
   };
 
   const removeFromFavourite = () => {
     fetch(
-      `https://hotpotatoes.onrender.com/users/${user.username}/${movie._id}`,
+      `https://hotpotatoes.onrender.com/users/${username}/movies/${movie._id}`,
       {
         method: "DELETE",
         headers: {
@@ -56,13 +63,19 @@ export const MovieView = ({ movies, user, token, setuser }) => {
       .then((response) => {
         if (response.ok) {
           return response.json();
+        } else {
+          throw new Error("Failed to remove from favorites");
         }
       })
       .then((res) => {
         setIsFavourite(false);
         setuser(res);
         localStorage.setItem("userObject", JSON.stringify(res));
-        alert("Movie is removed from favouriteList");
+        // You can display a success message to the user here
+      })
+      .catch((error) => {
+        // Handle errors here (e.g., display an error message)
+        console.error("Error removing from favorites:", error);
       });
   };
 
@@ -87,6 +100,15 @@ export const MovieView = ({ movies, user, token, setuser }) => {
             Genre: {movie.Genre.Name} {/* Access Name property */}
             <br />
           </Card.Text>
+          {isFavourite ? (
+            <Button variant="danger" onClick={removeFromFavourite}>
+              Remove from favorites
+            </Button>
+          ) : (
+            <Button variant="success" onClick={addToFavourite}>
+              Add to favorites
+            </Button>
+          )}
           <Link to={"/"}>
             <Button variant="primary" type="link">
               Back
