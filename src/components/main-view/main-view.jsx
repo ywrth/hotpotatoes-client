@@ -12,7 +12,9 @@ import NotFound from "../not-found/not-found"; // Import the 404 component
 
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("user"));
+  //const storedToken = JSON.parse(localStorage.getItem("token"));
   const storedToken = localStorage.getItem("token");
+  console.log("this is the stored token", storedToken);
   const [user, setUser] = useState(storedUser || null);
   const [token, setToken] = useState(storedToken || null);
   const [movies, setMovies] = useState([]);

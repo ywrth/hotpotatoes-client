@@ -18,35 +18,48 @@ export const MovieView = ({ movies, user, token, setuser }) => {
     }
   }, [user, movie._id]);
 
-  const addToFavourite = () => {
-    fetch(
-      `https://hotpotatoes.onrender.com/users/${user.Username}/movies/${movie._id}`,
-
+  const addToFavourite = async () => {
+    console.log("this is the user", user);
+    console.log("movie id", movie._id);
+    const response = await fetch(
+      `https://hotpotatoes.onrender.com/users/${user}/movies/${movie._id}`,
       {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
+          Authorization: `Bearer ${JSON.stringify(token)}`,
         },
       }
-    )
-      .then((response) => {
-        if (response.ok) {
-          return response.json();
-        } else {
-          throw new Error("Failed to add to favorites");
-        }
-      })
-      .then((res) => {
-        setIsFavourite(true);
-        setuser(res);
-        localStorage.setItem("userObject", JSON.stringify(res));
-        // You can display a success message to the user here
-      })
-      .catch((error) => {
-        // Handle errors here (e.g., display an error message)
-        console.error("Error adding to favorites:", error);
-      });
+    );
+    console.log("this is the response", response);
+    // fetch(
+    //   `https://hotpotatoes.onrender.com/users/${user}/movies/${movie._id}`,
+
+    //   {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //       Authorization: `Bearer ${token}`,
+    //     },
+    //   }
+    // )
+    //   .then((response) => {
+    //     if (response.ok) {
+    //       return response.json();
+    //     } else {
+    //       throw new Error("Failed to add to favorites");
+    //     }
+    //   })
+    //   .then((res) => {
+    //     setIsFavourite(true);
+    //     setuser(res);
+    //     localStorage.setItem("userObject", JSON.stringify(res));
+    //     // You can display a success message to the user here
+    //   })
+    //   .catch((error) => {
+    //     // Handle errors here (e.g., display an error message)
+    //     console.error("Error adding to favorites:", error);
+    //   });
   };
 
   const removeFromFavourite = () => {

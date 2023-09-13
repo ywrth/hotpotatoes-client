@@ -3,6 +3,7 @@ import { Card, Container, Row, Col, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { UpdateForm } from "./update-form";
 import { MovieCard } from "../movie-card/movie-card";
+import { format } from "date-fns";
 
 export const ProfileView = ({
   user,
@@ -48,7 +49,9 @@ export const ProfileView = ({
     //   });
   };
 
-  const favoriteMovies = movies.filter((movie) => movies.includes(movie._id));
+  const favoriteMovies = movies.filter((movie) =>
+    userFavoriteMovies.includes(movie._id)
+  );
   const handleBack = () => {
     navigate("/");
   };
