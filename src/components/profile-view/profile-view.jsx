@@ -17,36 +17,38 @@ export const ProfileView = ({
   const [userFavoriteMovies, setUserFavoriteMovies] = useState([]);
 
   const navigate = useNavigate();
-
+  const profile = JSON.parse(localStorage.getItem("userProfile"));
   useEffect(() => {
     getUser();
   }, []);
 
   const getUser = () => {
-    const token = localStorage.getItem("token");
-    fetch(`https://hotpotatoes.onrender.com/users/${user.Username}`, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    })
-      .then((response) => response.json())
-      .then((response) => {
-        setUsername(response.Username);
-        setPassword(response.Password);
-        setEmail(response.Email);
-        setBirthday(response.Birthday);
-        setUserFavoriteMovies(response.FavoriteMovies);
-      })
-      .catch((error) => {
-        console.log("Error fetching user data:", error);
-      });
+    const profile = JSON.parse(localStorage.getItem("userProfile"));
+    setUsername(profile.Username);
+    setPassword(profile.Password);
+    setEmail(profile.Email);
+    setBirthday(profile.Birthday);
+    setUserFavoriteMovies(profile.FavoriteMovies);
+    // fetch(`https://hotpotatoes.onrender.com/users/${user}`, {
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //     Authorization: `Bearer ${token}`,
+    //   },
+    // })
+    //   .then((response) => response.json())
+    //   .then((response) => {
+    //     setUsername(response.Username);
+    //     setPassword(response.Password);
+    //     setEmail(response.Email);
+    //     setBirthday(response.Birthday);
+    //     setUserFavoriteMovies(response.FavoriteMovies);
+    //   })
+    //   .catch((error) => {
+    //     console.log("Error fetching user data:", error);
+    //   });
   };
 
-  console.log("movies", movies);
-  const favoriteMovies = movies.filter((movie) =>
-    userFavoriteMovies.includes(movie.id)
-  );
-  console.log("favoriteMovies", favoriteMovies);
+  const favoriteMovies = movies.filter((movie) => movies.includes(movie._id));
   const handleBack = () => {
     navigate("/");
   };

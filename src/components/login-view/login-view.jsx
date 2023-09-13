@@ -29,7 +29,7 @@ export const LoginView = ({ onLoggedIn }) => {
         if (data.user) {
           onLoggedIn(data.user.Username);
           localStorage.setItem("token", data.token);
-          console.log("Token stored in localStorage:", data.token);
+          localStorage.setItem("userProfile", JSON.stringify(data.user));
           setUsername(""); // Clear username field
           setPassword(""); // Clear password field
         } else {
@@ -57,7 +57,6 @@ export const LoginView = ({ onLoggedIn }) => {
           return response.json();
         })
         .then((data) => {
-          console.log("Data from API:", data);
           // Check if the data is empty or undefined
           if (!data || data.length === 0) {
             console.warn("Movie data is empty.");
