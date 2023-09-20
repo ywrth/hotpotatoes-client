@@ -16,6 +16,10 @@ export const ProfileView = ({
   const [email, setEmail] = useState("");
   const [birthday, setBirthday] = useState("");
   const [userFavoriteMovies, setUserFavoriteMovies] = useState([]);
+  const [selectedMovie, setSelectedMovie] = useState(null);
+  const handleMovieClick = (clickedMovie) => {
+    setSelectedMovie(clickedMovie);
+  };
 
   const navigate = useNavigate();
   const profile = JSON.parse(localStorage.getItem("userProfile"));
@@ -30,23 +34,12 @@ export const ProfileView = ({
     setEmail(profile.Email);
     setBirthday(profile.Birthday);
     setUserFavoriteMovies(profile.FavoriteMovies);
-    // fetch(`https://hotpotatoes.onrender.com/users/${user}`, {
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //     Authorization: `Bearer ${token}`,
-    //   },
-    // })
-    //   .then((response) => response.json())
-    //   .then((response) => {
-    //     setUsername(response.Username);
-    //     setPassword(response.Password);
-    //     setEmail(response.Email);
-    //     setBirthday(response.Birthday);
-    //     setUserFavoriteMovies(response.FavoriteMovies);
-    //   })
-    //   .catch((error) => {
-    //     console.log("Error fetching user data:", error);
-    //   });
+  };
+
+  // Define the onMovieClick function to navigate to the movie details page
+  const onMovieClick = (movie) => {
+    // Use the 'navigate' function from 'react-router-dom' to navigate
+    navigate(`/movies/${movie._id}`); // You can adjust the route as needed
   };
 
   const favoriteMovies = movies.filter((movie) =>
@@ -59,22 +52,22 @@ export const ProfileView = ({
   return (
     <Container>
       <Row className="mb-4">
-        <Col>
+        <Col xs={12} className="mb-3">
           <Button onClick={handleBack}>Back</Button>
         </Col>
-        <Col>
+        <Col xs={12} md={6} className="mb-3">
           <Card>
             <Card.Body>
               <div>
                 <h4>User Details</h4>
                 <p>Username: {username}</p>
-                <p>Birthday: {birthday}</p>
+                <p>Birthday: {new Date(birthday).toDateString()}</p>
                 <p>Email: {email}</p>
               </div>
             </Card.Body>
           </Card>
         </Col>
-        <Col>
+        <Col xs={12} md={6} className="mb-3">
           <Card>
             <Card.Body>
               <UpdateForm user={user} />
@@ -82,8 +75,8 @@ export const ProfileView = ({
           </Card>
         </Col>
       </Row>
-      <Row>
-        <Col>
+      <Row className="mb-4">
+        <Col xs={12}>
           <Card>
             <Card.Body>
               {favoriteMovies.length === 0 ? (
@@ -91,8 +84,12 @@ export const ProfileView = ({
               ) : (
                 <Row>
                   {favoriteMovies.map((movie) => (
-                    <Col key={movie.id} xs={12} md={4} lg={4} className="mb-4">
-                      <MovieCard movie={movie} />
+                    <Col key={movie._id} xs={12} md={6} lg={4} className="mb-3">
+                      {" "}
+                      <MovieCard
+                        movie={movie}
+                        onMovieClick={handleMovieClick}
+                      />
                     </Col>
                   ))}
                 </Row>

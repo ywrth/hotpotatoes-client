@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Form, Button, Row, Col, Alert } from "react-bootstrap";
+import { Form, Button, Row, Col, Alert, Container } from "react-bootstrap";
 
 export const LoginView = ({ onLoggedIn }) => {
   const [username, setUsername] = useState("");
@@ -10,7 +10,7 @@ export const LoginView = ({ onLoggedIn }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    setIsLoading(true); // Show loading indicator
+    setIsLoading(true); // Show loading indicatord
     setError(null); // Clear any previous errors
 
     const input = {
@@ -27,7 +27,7 @@ export const LoginView = ({ onLoggedIn }) => {
       .then((data) => {
         setIsLoading(false); // Hide loading indicator
         if (data.user) {
-          onLoggedIn(data.user.Username);
+          onLoggedIn(data.user);
           localStorage.setItem("token", data.token);
           localStorage.setItem("userProfile", JSON.stringify(data.user));
           setUsername(""); // Clear username field
@@ -71,13 +71,10 @@ export const LoginView = ({ onLoggedIn }) => {
   }, [onLoggedIn]);
 
   return (
-    <Row className="justify-content-center">
-      <Col xs={12} sm={8} md={6} lg={4}>
-        <div className="login">
+    <Container className="mt-5">
+      <Row className="justify-content-center">
+        <Col xs={12} sm={8} md={6} lg={10}>
           <Form className="form" onSubmit={handleSubmit}>
-            <Form.Text className="text-center mb-3 fs-3 logout-button text-black">
-              Login Page
-            </Form.Text>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Label>Username</Form.Label>
               <Form.Control
@@ -103,14 +100,17 @@ export const LoginView = ({ onLoggedIn }) => {
               />
             </Form.Group>
             <Button variant="primary" type="submit" disabled={isLoading}>
-              {isLoading ? "Logging in..." : "Submit"}
+              {isLoading ? "Logging in..." : "Login"}
             </Button>
-            {error && <Alert variant="danger">{error}</Alert>}
-            <Form.Text className="text-muted text-center">
+            {error && (
+              <Alert variant="danger" className="mt-3">
+                {error}
+              </Alert>
+            )}
+            <Form.Text className="text-muted text-center mt-2">
               Don't have an account?{" "}
               <Button
                 variant="link"
-                className="logout-button"
                 onClick={() => {
                   /* Handle navigation to signup view */
                 }}
@@ -119,8 +119,8 @@ export const LoginView = ({ onLoggedIn }) => {
               </Button>
             </Form.Text>
           </Form>
-        </div>
-      </Col>
-    </Row>
+        </Col>
+      </Row>
+    </Container>
   );
 };

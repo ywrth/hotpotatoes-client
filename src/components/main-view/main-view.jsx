@@ -11,12 +11,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import NotFound from "../not-found/not-found"; // Import the 404 component
 
 export const MainView = () => {
-  const storedUser = JSON.parse(localStorage.getItem("user"));
-  //const storedToken = JSON.parse(localStorage.getItem("token"));
+  const storedUser = JSON.parse(localStorage.getItem("userProfile"));
   const storedToken = localStorage.getItem("token");
-  console.log("this is the stored token", storedToken);
-  const [user, setUser] = useState(storedUser || null);
-  const [token, setToken] = useState(storedToken || null);
+  const [user, setUser] = useState(storedUser ? storedUser : null);
+  const [token, setToken] = useState(storedToken ? storedToken : null);
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
 
@@ -66,63 +64,58 @@ export const MainView = () => {
   return (
     <BrowserRouter>
       <NavigationBar user={user} onLogout={handleLogout} />
-      <Container fluid>
+      <Container fluid className="mt-5">
         <Routes>
+          {/* Signup Route */}
           <Route
             path="/signup"
             element={
               user ? (
                 <Navigate to="/" />
               ) : (
-                <Row>
-                  <Col>
-                    <SignupView
-                      onSignup={(user, token, userObject) => {
-                        handleLogin(user, token);
-                        // Store userObject in localStorage if needed
-                      }}
-                    />
+                <Row className="justify-content-center">
+                  <Col xs={12} md={6}>
+                    <SignupView onSignup={handleLogin} />
                   </Col>
                 </Row>
               )
             }
           />
+
+          {/* Login Route */}
           <Route
             path="/login"
             element={
               user ? (
                 <Navigate to="/" />
               ) : (
-                <Row>
-                  <Col>
-                    <LoginView
-                      onLoggedIn={(user, token) => {
-                        handleLogin(user, token);
-                        // Store userObject in localStorage if needed
-                      }}
-                    />
+                <Row className="justify-content-center">
+                  <Col xs={12} md={6}>
+                    <LoginView onLoggedIn={handleLogin} />
                   </Col>
                 </Row>
               )
             }
           />
+
+          {/* MovieView Route */}
           <Route
             path="/movies/:movieTitle"
             element={
               !user ? (
                 <Navigate to="/login" replace />
               ) : movies.length === 0 ? (
-                <Row>
+                <Row className="justify-content-center">
                   <Col>No movies</Col>
                 </Row>
               ) : (
-                <Row>
-                  <Col md={6}>
+                <Row className="justify-content-center">
+                  <Col xs={12} md={8} lg={6}>
                     <MovieView
                       movies={movies}
                       user={user}
                       token={token}
-                      setuser={(user) => setUser(user)}
+                      setuser={setUser}
                       selectedMovie={selectedMovie}
                     />
                   </Col>
@@ -130,13 +123,15 @@ export const MainView = () => {
               )
             }
           />
+
+          {/* Root Route */}
           <Route
             path="/"
             element={
               !user ? (
                 <Navigate to="/login" replace />
               ) : movies.length === 0 ? (
-                <Row>
+                <Row className="justify-content-center">
                   <Col>No movies</Col>
                 </Row>
               ) : (
@@ -155,7 +150,7 @@ export const MainView = () => {
                         onMovieClick={handleMovieClick}
                         user={user}
                         token={token}
-                        setuser={(user) => setUser(user)}
+                        setuser={setUser}
                       />
                     </Col>
                   ))}
@@ -163,25 +158,28 @@ export const MainView = () => {
               )
             }
           />
+
+          {/* Profile Route */}
           <Route
             path="/profile"
             element={
               !user ? (
                 <Navigate to="/login" replace />
               ) : (
-                <Row>
-                  <Col>
+                <Row className="justify-content-center">
+                  <Col xs={12} md={8} lg={6}>
                     <ProfileView
                       user={user}
                       movies={movies}
-                      updateUsername={(user) => setUser(user)}
+                      updateUsername={setUser}
                     />
                   </Col>
                 </Row>
               )
             }
           />
-          {/* Fallback route for 404 */}
+
+          {/* 404 Route */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Container>
