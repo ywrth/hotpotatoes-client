@@ -3,7 +3,6 @@ import { Card, Container, Row, Col, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { UpdateForm } from "./update-form";
 import { MovieCard } from "../movie-card/movie-card";
-import { format } from "date-fns";
 
 export const ProfileView = ({
   user,
