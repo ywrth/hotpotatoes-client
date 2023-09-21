@@ -1,9 +1,5 @@
-import React, { useState, useEffect } from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import Container from "react-bootstrap/Container"; // Import Container from react-bootstrap
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { useState, useEffect } from "react";
+import { Form, Button, Row, Col, Alert, Container } from "react-bootstrap";
 
 export const LoginView = ({ onLoggedIn }) => {
   const [username, setUsername] = useState("");
@@ -14,7 +10,8 @@ export const LoginView = ({ onLoggedIn }) => {
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    setIsLoading(true); // Show loading indicator
+    setIsLoading(true); // Show loading indicatord
+    setError(null); // Clear any previous errors
 
     const input = {
       Username: username,
@@ -30,12 +27,13 @@ export const LoginView = ({ onLoggedIn }) => {
       .then((data) => {
         setIsLoading(false); // Hide loading indicator
         if (data.user) {
-          onLoggedIn(data.user.Username);
+          onLoggedIn(data.user);
           localStorage.setItem("token", data.token);
+          localStorage.setItem("userProfile", JSON.stringify(data.user));
           setUsername(""); // Clear username field
           setPassword(""); // Clear password field
         } else {
-          setError("Login failed. Please check your credentials.");
+          setError("Invalid credentials. Please try again.");
         }
       })
       .catch((error) => {
@@ -59,7 +57,6 @@ export const LoginView = ({ onLoggedIn }) => {
           return response.json();
         })
         .then((data) => {
-          console.log("Data from API:", data);
           // Check if the data is empty or undefined
           if (!data || data.length === 0) {
             console.warn("Movie data is empty.");
@@ -74,36 +71,53 @@ export const LoginView = ({ onLoggedIn }) => {
   }, [onLoggedIn]);
 
   return (
-    <Container>
-      <Row className="justify-content-md-left">
-        <h2>LOGIN</h2>
-        <Col md={6}>
-          <Form onSubmit={handleSubmit}>
-            <Form.Group controlId="formUsername">
-              <Form.Label>Username:</Form.Label>
+    <Container className="mt-5">
+      <Row className="justify-content-center">
+        <Col xs={12} sm={8} md={6} lg={10}>
+          <Form className="form" onSubmit={handleSubmit}>
+            <Form.Group className="mb-3" controlId="formBasicEmail">
+              <Form.Label>Username</Form.Label>
               <Form.Control
                 type="text"
+                placeholder="Enter username"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
                 required
-                minLength="3"
               />
+              <Form.Text className="text-muted">
+                We'll never share your username with anyone else.
+              </Form.Text>
             </Form.Group>
 
-            <Form.Group controlId="formPassword">
-              <Form.Label>Password:</Form.Label>
+            <Form.Group className="mb-3" controlId="formBasicPassword">
+              <Form.Label>Password</Form.Label>
               <Form.Control
                 type="password"
+                placeholder="Password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
               />
             </Form.Group>
-            <div className="text-center mt-3">
-              <Button variant="primary" type="submit">
-                Submit
+            <Button variant="primary" type="submit" disabled={isLoading}>
+              {isLoading ? "Logging in..." : "Login"}
+            </Button>
+            {error && (
+              <Alert variant="danger" className="mt-3">
+                {error}
+              </Alert>
+            )}
+            <Form.Text className="text-muted text-center mt-2">
+              Don't have an account?{" "}
+              <Button
+                variant="link"
+                onClick={() => {
+                  /* Handle navigation to signup view */
+                }}
+              >
+                Register
               </Button>
-            </div>
+            </Form.Text>
           </Form>
         </Col>
       </Row>
