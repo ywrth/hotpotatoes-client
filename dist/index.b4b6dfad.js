@@ -142,7 +142,7 @@
       this[globalName] = mainExports;
     }
   }
-})({"9bWNJ":[function(require,module,exports) {
+})({"lmXJc":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
@@ -573,9 +573,9 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"59UVK":[function(require,module,exports) {
-var Refresh = require("6cc6598920440fd1");
-var ErrorOverlay = require("7f31e9e5f8e2f90c");
+},{}],"4z7pq":[function(require,module,exports) {
+var Refresh = require("679aa2a7932dfd9a");
+var ErrorOverlay = require("fda264981c037c15");
 Refresh.injectIntoGlobalHook(window);
 window.$RefreshReg$ = function() {};
 window.$RefreshSig$ = function() {
@@ -594,11 +594,11 @@ window.addEventListener("parcelhmraccept", ()=>{
     ErrorOverlay.dismissRuntimeErrors();
 });
 
-},{"6cc6598920440fd1":"d6M0a","7f31e9e5f8e2f90c":"9ONtQ"}],"d6M0a":[function(require,module,exports) {
+},{"679aa2a7932dfd9a":"84p6H","fda264981c037c15":"3ui6E"}],"84p6H":[function(require,module,exports) {
 "use strict";
-module.exports = require("45d6a3ea3ae7b484");
+module.exports = require("30808ca3404a97ea");
 
-},{"45d6a3ea3ae7b484":"1Gk5x"}],"1Gk5x":[function(require,module,exports) {
+},{"30808ca3404a97ea":"heVjI"}],"heVjI":[function(require,module,exports) {
 /** @license React v0.9.0
  * react-refresh-runtime.development.js
  *
@@ -1058,8 +1058,8 @@ module.exports = require("45d6a3ea3ae7b484");
     exports.setSignature = setSignature;
 })();
 
-},{}],"9ONtQ":[function(require,module,exports) {
-var process = require("a2d8727388acca9d");
+},{}],"3ui6E":[function(require,module,exports) {
+var process = require("c8c259ac2ce92884");
 !function(e, t) {
     module.exports = t();
 }(window, function() {
@@ -2789,7 +2789,7 @@ var process = require("a2d8727388acca9d");
     ]);
 });
 
-},{"a2d8727388acca9d":"d5jf4"}],"d5jf4":[function(require,module,exports) {
+},{"c8c259ac2ce92884":"d5jf4"}],"d5jf4":[function(require,module,exports) {
 // shim for using process in browser
 var process = module.exports = {};
 // cached from whatever global is present so that test runners that stub it
@@ -2977,7 +2977,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","react-bootstrap/Container":"hEdsw","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./components/main-view/main-view":"4gflv","./index.scss":"lJZlQ","react-bootstrap/Container":"hEdsw","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("ee51401569654d91");
 
@@ -27241,7 +27241,7 @@ $RefreshReg$(_c, "MainView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","react-router-dom":"fdOAw","react-bootstrap":"3AD9A","../not-found/not-found":"62QHU","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../movie-card/movie-card":"bwuIu","../movie-view/movie-view":"ggaUx","../login-view/login-view":"9YtA0","../signup-view/signup-view":"4OGiN","../navigation-bar/navigation-bar":"bsPVM","../profile-view/profile-view":"2vVqf","react-router-dom":"9xmpe","react-bootstrap":"3AD9A","../not-found/not-found":"62QHU","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"7wKI2":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28142,7 +28142,7 @@ $RefreshReg$(_c, "MovieCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","./movie-card.scss":"d6HH4","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"3AD9A":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","./movie-card.scss":"d6HH4","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"3AD9A":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Accordion", ()=>(0, _accordionDefault.default));
@@ -28399,7 +28399,7 @@ var _toggleButtonGroupDefault = parcelHelpers.interopDefault(_toggleButtonGroup)
 var _tooltip = require("./Tooltip");
 var _tooltipDefault = parcelHelpers.interopDefault(_tooltip);
 
-},{"./Accordion":"1m6xp","./AccordionContext":"e5D96","./AccordionCollapse":"kI8r5","./AccordionButton":"hkYfS","./Alert":"e3Xec","./Anchor":"lwVpH","./Badge":"eEyks","./Breadcrumb":"hOow1","./BreadcrumbItem":"bWkuO","./Button":"aPzUt","./ButtonGroup":"gXYCe","./ButtonToolbar":"k88gW","./Card":"lAynp","./CardImg":"1reTi","./CardGroup":"2j3Ij","./Carousel":"bsGhm","./CarouselItem":"9A3DI","./CloseButton":"1wmVl","./Col":"2L2I6","./Collapse":"acuzI","./Dropdown":"88m2L","./DropdownButton":"5sMVB","./Fade":"aH18S","./Form":"iBZ80","./FormControl":"iynMc","./FormCheck":"idkr0","./FormFloating":"aj346","./FloatingLabel":"coYzo","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormText":"ffeC7","./FormSelect":"hHWyB","./Container":"hEdsw","./Image":"cyVPa","./Figure":"7Eckp","./InputGroup":"htx7r","./ListGroup":"4tGXh","./ListGroupItem":"9U5b8","./Modal":"aNVmp","./ModalBody":"e0aNG","./ModalDialog":"cwGGq","./ModalHeader":"cxgdE","./ModalFooter":"9SLlP","./ModalTitle":"kYqJp","./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":"iOo4v","./NavDropdown":"8e6QB","./NavItem":"ew05W","./NavLink":"7geL8","./Offcanvas":"eC3RS","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./OffcanvasBody":"fX7Bo","./Overlay":"bHdwO","./OverlayTrigger":"acOnV","./PageItem":"i0zxH","./Pagination":"6yvxS","./Placeholder":"fw5xV","./PlaceholderButton":"dRc7O","./Popover":"afWr1","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./ProgressBar":"cCHIb","./Ratio":"ioXys","./Row":"cMC39","./Spinner":"2r8jr","./SplitButton":"fWabe","./SSRProvider":"kdCr8","./Stack":"eZkZ1","./Tab":"kfiWM","./TabContainer":"hkO95","./TabContent":"fQxYB","./Table":"3UQc3","./TabPane":"4jWis","./Tabs":"cq1ML","./ThemeProvider":"dVixI","./Toast":"iyxlo","./ToastBody":"30cvm","./ToastHeader":"gsTvK","./ToastContainer":"kqOPy","./ToggleButton":"dCmeV","./ToggleButtonGroup":"2t8MV","./Tooltip":"ajjgB","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1m6xp":[function(require,module,exports) {
+},{"./Accordion":"1m6xp","./AccordionContext":"e5D96","./AccordionCollapse":"kI8r5","./AccordionButton":"hkYfS","./Alert":"e3Xec","./Anchor":"lwVpH","./Badge":"eEyks","./Breadcrumb":"hOow1","./BreadcrumbItem":"bWkuO","./Button":"aPzUt","./ButtonGroup":"gXYCe","./ButtonToolbar":"k88gW","./Card":"lAynp","./CardImg":"1reTi","./CardGroup":"2j3Ij","./Carousel":"bsGhm","./CarouselItem":"9A3DI","./CloseButton":"1wmVl","./Col":"2L2I6","./Collapse":"acuzI","./Dropdown":"88m2L","./DropdownButton":"5sMVB","./Fade":"aH18S","./Form":"iBZ80","./FormControl":"iynMc","./FormCheck":"idkr0","./FormFloating":"aj346","./FloatingLabel":"coYzo","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormText":"ffeC7","./FormSelect":"hHWyB","./Container":"hEdsw","./Image":"cyVPa","./Figure":"7Eckp","./InputGroup":"htx7r","./ListGroup":"4tGXh","./ListGroupItem":"9U5b8","./Modal":"aNVmp","./ModalBody":"e0aNG","./ModalDialog":"cwGGq","./ModalHeader":"cxgdE","./ModalFooter":"9SLlP","./ModalTitle":"kYqJp","./Nav":"cXyL2","./Navbar":"1mHjo","./NavbarBrand":"iOo4v","./NavDropdown":"8e6QB","./NavItem":"ew05W","./NavLink":"7geL8","./Offcanvas":"eC3RS","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./OffcanvasBody":"fX7Bo","./Overlay":"bHdwO","./OverlayTrigger":"acOnV","./PageItem":"i0zxH","./Pagination":"6yvxS","./Placeholder":"fw5xV","./PlaceholderButton":"dRc7O","./Popover":"afWr1","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./ProgressBar":"cCHIb","./Ratio":"ioXys","./Row":"cMC39","./Spinner":"2r8jr","./SplitButton":"fWabe","./SSRProvider":"kdCr8","./Stack":"eZkZ1","./Tab":"kfiWM","./TabContainer":"hkO95","./TabContent":"fQxYB","./Table":"3UQc3","./TabPane":"4jWis","./Tabs":"cq1ML","./ThemeProvider":"dVixI","./Toast":"iyxlo","./ToastBody":"30cvm","./ToastHeader":"gsTvK","./ToastContainer":"kqOPy","./ToggleButton":"dCmeV","./ToggleButtonGroup":"2t8MV","./Tooltip":"ajjgB","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1m6xp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -28453,7 +28453,7 @@ exports.default = Object.assign(Accordion, {
     Body: (0, _accordionBodyDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./ThemeProvider":"dVixI","./AccordionBody":"2p9OR","./AccordionButton":"hkYfS","./AccordionCollapse":"kI8r5","./AccordionContext":"e5D96","./AccordionHeader":"LJXVf","./AccordionItem":"8sXhn","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jocGM":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./ThemeProvider":"dVixI","./AccordionBody":"2p9OR","./AccordionButton":"hkYfS","./AccordionCollapse":"kI8r5","./AccordionContext":"e5D96","./AccordionHeader":"LJXVf","./AccordionItem":"8sXhn","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jocGM":[function(require,module,exports) {
 /*!
 	Copyright (c) 2018 Jed Watson.
 	Licensed under the MIT License (MIT), see
@@ -28505,7 +28505,7 @@ var _hookDefault = parcelHelpers.interopDefault(_hook);
 var _uncontrollable = require("./uncontrollable");
 var _uncontrollableDefault = parcelHelpers.interopDefault(_uncontrollable);
 
-},{"./hook":"cv9oS","./uncontrollable":"aqbCD","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cv9oS":[function(require,module,exports) {
+},{"./hook":"cv9oS","./uncontrollable":"aqbCD","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cv9oS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useUncontrolledProp", ()=>useUncontrolledProp);
@@ -28566,7 +28566,7 @@ function useUncontrolled(props, config) {
     }, props);
 }
 
-},{"@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","react":"21dqq","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fTBFS":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","react":"21dqq","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fTBFS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_extends);
@@ -28581,7 +28581,7 @@ function _extends() {
     return _extends.apply(this, arguments);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iBa6n":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hD7Te":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -28628,7 +28628,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
     return target;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7UQ73":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7UQ73":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "uncontrolledPropTypes", ()=>uncontrolledPropTypes);
@@ -28673,7 +28673,7 @@ function canAcceptRef(component) {
     return !!component && (typeof component !== "function" || component.prototype && component.prototype.isReactComponent);
 }
 
-},{"invariant":"d1QgR","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"d1QgR":[function(require,module,exports) {
+},{"invariant":"d1QgR","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"d1QgR":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28861,7 +28861,7 @@ function uncontrollable(Component, controlledValues, methods) {
     return WrappedComponent;
 }
 
-},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","react-lifecycles-compat":"3f3fU","invariant":"d1QgR","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9u2Z8":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/extends":"fTBFS","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","react":"21dqq","react-lifecycles-compat":"3f3fU","invariant":"d1QgR","./utils":"7UQ73","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9u2Z8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_inheritsLoose);
@@ -28873,7 +28873,7 @@ function _inheritsLoose(subClass, superClass) {
     (0, _setPrototypeOfJsDefault.default)(subClass, superClass);
 }
 
-},{"./setPrototypeOf.js":"3XDFA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3XDFA":[function(require,module,exports) {
+},{"./setPrototypeOf.js":"3XDFA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3XDFA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_setPrototypeOf);
@@ -28885,7 +28885,7 @@ function _setPrototypeOf(o, p) {
     return _setPrototypeOf(o, p);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3f3fU":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3f3fU":[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -28978,7 +28978,7 @@ function polyfill(Component) {
     return Component;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dVixI":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dVixI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "DEFAULT_BREAKPOINTS", ()=>DEFAULT_BREAKPOINTS);
@@ -29045,7 +29045,8 @@ function createBootstrapComponent(Component, opts) {
     if (typeof opts === "string") opts = {
         prefix: opts
     };
-    const isClassy = Component.prototype && Component.prototype.isReactComponent; // If it's a functional component make sure we don't break it with a ref
+    const isClassy = Component.prototype && Component.prototype.isReactComponent;
+    // If it's a functional component make sure we don't break it with a ref
     const { prefix, forwardRefAs = isClassy ? "ref" : "innerRef" } = opts;
     const Wrapped = /*#__PURE__*/ _react.forwardRef(({ ...props }, ref)=>{
         props[forwardRefAs] = ref;
@@ -29060,7 +29061,7 @@ function createBootstrapComponent(Component, opts) {
 }
 exports.default = ThemeProvider;
 
-},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6AEwr":[function(require,module,exports) {
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6AEwr":[function(require,module,exports) {
 "use strict";
 module.exports = require("c4c10cbba9862d5f");
 
@@ -29919,11 +29920,17 @@ var _accordionItemContext = require("./AccordionItemContext");
 var _accordionItemContextDefault = parcelHelpers.interopDefault(_accordionItemContext);
 var _jsxRuntime = require("react/jsx-runtime");
 const AccordionBody = /*#__PURE__*/ _react.forwardRef(({ // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-as: Component = "div", bsPrefix, className, ...props }, ref)=>{
+as: Component = "div", bsPrefix, className, onEnter, onEntering, onEntered, onExit, onExiting, onExited, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "accordion-body");
     const { eventKey } = (0, _react.useContext)((0, _accordionItemContextDefault.default));
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _accordionCollapseDefault.default), {
         eventKey: eventKey,
+        onEnter: onEnter,
+        onEntering: onEntering,
+        onEntered: onEntered,
+        onExit: onExit,
+        onExiting: onExiting,
+        onExited: onExited,
         children: /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
             ref: ref,
             ...props,
@@ -29934,7 +29941,7 @@ as: Component = "div", bsPrefix, className, ...props }, ref)=>{
 AccordionBody.displayName = "AccordionBody";
 exports.default = AccordionBody;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionCollapse":"kI8r5","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kI8r5":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionCollapse":"kI8r5","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kI8r5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -29947,7 +29954,7 @@ var _accordionContext = require("./AccordionContext");
 var _accordionContextDefault = parcelHelpers.interopDefault(_accordionContext);
 var _jsxRuntime = require("react/jsx-runtime");
 /**
- * This component accepts all of [`Collapse`'s props](/utilities/transitions/#collapse-props).
+ * This component accepts all of [`Collapse`'s props](/docs/utilities/transitions#collapse-1).
  */ const AccordionCollapse = /*#__PURE__*/ _react.forwardRef(({ as: Component = "div", bsPrefix, className, children, eventKey, ...props }, ref)=>{
     const { activeEventKey } = (0, _react.useContext)((0, _accordionContextDefault.default));
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "accordion-collapse");
@@ -29964,7 +29971,7 @@ var _jsxRuntime = require("react/jsx-runtime");
 AccordionCollapse.displayName = "AccordionCollapse";
 exports.default = AccordionCollapse;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Collapse":"acuzI","./AccordionContext":"e5D96","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"acuzI":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Collapse":"acuzI","./AccordionContext":"e5D96","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"acuzI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -30007,15 +30014,7 @@ const collapseStyles = {
     [(0, _transition.ENTERING)]: "collapsing",
     [(0, _transition.ENTERED)]: "collapse show"
 };
-const defaultProps = {
-    in: false,
-    timeout: 300,
-    mountOnEnter: false,
-    unmountOnExit: false,
-    appear: false,
-    getDimensionValue: getDefaultDimensionValue
-};
-const Collapse = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({ onEnter, onEntering, onEntered, onExit, onExiting, className, children, dimension = "height", getDimensionValue = getDefaultDimensionValue, ...props }, ref)=>{
+const Collapse = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({ onEnter, onEntering, onEntered, onExit, onExiting, className, children, dimension = "height", in: inProp = false, timeout = 300, mountOnEnter = false, unmountOnExit = false, appear = false, getDimensionValue = getDefaultDimensionValue, ...props }, ref)=>{
     /* Compute dimension */ const computedDimension = typeof dimension === "function" ? dimension() : dimension;
     /* -- Expanding -- */ const handleEnter = (0, _react.useMemo)(()=>(0, _createChainedFunctionDefault.default)((elem)=>{
             elem.style[computedDimension] = "0";
@@ -30054,24 +30053,28 @@ const Collapse = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({ onEnter,
         ref: ref,
         addEndListener: (0, _transitionEndListenerDefault.default),
         ...props,
-        "aria-expanded": props.role ? props.in : null,
+        "aria-expanded": props.role ? inProp : null,
         onEnter: handleEnter,
         onEntering: handleEntering,
         onEntered: handleEntered,
         onExit: handleExit,
         onExiting: handleExiting,
         childRef: children.ref,
+        in: inProp,
+        timeout: timeout,
+        mountOnEnter: mountOnEnter,
+        unmountOnExit: unmountOnExit,
+        appear: appear,
         children: (state, innerProps)=>/*#__PURE__*/ (0, _reactDefault.default).cloneElement(children, {
                 ...innerProps,
                 className: (0, _classnamesDefault.default)(className, children.props.className, collapseStyles[state], computedDimension === "width" && "collapse-horizontal")
             })
     });
-}); // @ts-ignore
+});
 // @ts-ignore
-Collapse.defaultProps = defaultProps;
 exports.default = Collapse;
 
-},{"classnames":"jocGM","dom-helpers/css":"klmhr","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./createChainedFunction":"1KNLM","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"klmhr":[function(require,module,exports) {
+},{"classnames":"jocGM","dom-helpers/css":"klmhr","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./createChainedFunction":"1KNLM","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"klmhr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getComputedStyle = require("./getComputedStyle");
@@ -30095,7 +30098,7 @@ function style(node, property) {
 }
 exports.default = style;
 
-},{"./getComputedStyle":"adqGa","./hyphenateStyle":"hbsNp","./isTransform":"gnxjD","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"adqGa":[function(require,module,exports) {
+},{"./getComputedStyle":"adqGa","./hyphenateStyle":"hbsNp","./isTransform":"gnxjD","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"adqGa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getComputedStyle);
@@ -30105,7 +30108,7 @@ function getComputedStyle(node, psuedoElement) {
     return (0, _ownerWindowDefault.default)(node).getComputedStyle(node, psuedoElement);
 }
 
-},{"./ownerWindow":"3nPSD","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3nPSD":[function(require,module,exports) {
+},{"./ownerWindow":"3nPSD","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3nPSD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>ownerWindow);
@@ -30116,7 +30119,7 @@ function ownerWindow(node) {
     return doc && doc.defaultView || window;
 }
 
-},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2WpOk":[function(require,module,exports) {
+},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2WpOk":[function(require,module,exports) {
 /**
  * Returns the owner document of a given element.
  * 
@@ -30128,7 +30131,7 @@ function ownerDocument(node) {
     return node && node.ownerDocument || document;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hbsNp":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hbsNp":[function(require,module,exports) {
 /**
  * Copyright 2013-2014, Facebook, Inc.
  * All rights reserved.
@@ -30143,7 +30146,7 @@ function hyphenateStyleName(string) {
     return (0, _hyphenateDefault.default)(string).replace(msPattern, "-ms-");
 }
 
-},{"./hyphenate":"3UJRr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3UJRr":[function(require,module,exports) {
+},{"./hyphenate":"3UJRr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3UJRr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>hyphenate);
@@ -30152,7 +30155,7 @@ function hyphenate(string) {
     return string.replace(rUpper, "-$1").toLowerCase();
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gnxjD":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gnxjD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isTransform);
@@ -30161,7 +30164,7 @@ function isTransform(value) {
     return !!(value && supportedTransforms.test(value));
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cKsrS":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cKsrS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "UNMOUNTED", ()=>UNMOUNTED);
@@ -30677,14 +30680,14 @@ Transition.ENTERED = ENTERED;
 Transition.EXITING = EXITING;
 exports.default = Transition;
 
-},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","prop-types":"7wKI2","react":"21dqq","react-dom":"j6uA9","./config":"cepoZ","./utils/PropTypes":"9Zqaa","./TransitionGroupContext":"47LXo","./utils/reflow":"V4VjQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cepoZ":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"adHgr","@babel/runtime/helpers/esm/inheritsLoose":"9u2Z8","prop-types":"7wKI2","react":"21dqq","react-dom":"j6uA9","./config":"cepoZ","./utils/PropTypes":"9Zqaa","./TransitionGroupContext":"47LXo","./utils/reflow":"V4VjQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cepoZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = {
     disabled: false
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9Zqaa":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9Zqaa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "timeoutsShape", ()=>timeoutsShape);
@@ -30716,14 +30719,14 @@ var classNamesShape = (0, _propTypesDefault.default).oneOfType([
     })
 ]);
 
-},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"47LXo":[function(require,module,exports) {
+},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"47LXo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 exports.default = (0, _reactDefault.default).createContext(null);
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"V4VjQ":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"V4VjQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "forceReflow", ()=>forceReflow);
@@ -30731,7 +30734,7 @@ var forceReflow = function forceReflow(node) {
     return node.scrollTop;
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"68oh7":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"68oh7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>transitionEndListener);
@@ -30755,7 +30758,7 @@ function transitionEndListener(element, handler) {
     }, duration + delay);
 }
 
-},{"dom-helpers/css":"klmhr","dom-helpers/transitionEnd":"7hVJq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7hVJq":[function(require,module,exports) {
+},{"dom-helpers/css":"klmhr","dom-helpers/transitionEnd":"7hVJq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7hVJq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>transitionEnd);
@@ -30796,7 +30799,7 @@ function transitionEnd(element, handler, duration, padding) {
     };
 }
 
-},{"./css":"klmhr","./listen":"1i4e7","./triggerEvent":"lQ70W","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1i4e7":[function(require,module,exports) {
+},{"./css":"klmhr","./listen":"1i4e7","./triggerEvent":"lQ70W","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1i4e7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _addEventListener = require("./addEventListener");
@@ -30811,7 +30814,7 @@ function listen(node, eventName, handler, options) {
 }
 exports.default = listen;
 
-},{"./addEventListener":"c5x2p","./removeEventListener":"la8JB","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"c5x2p":[function(require,module,exports) {
+},{"./addEventListener":"c5x2p","./removeEventListener":"la8JB","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"c5x2p":[function(require,module,exports) {
 /* eslint-disable no-return-assign */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "optionsSupported", ()=>optionsSupported);
@@ -30860,12 +30863,12 @@ try {
 }
 exports.default = addEventListener;
 
-},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9AwUB":[function(require,module,exports) {
+},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9AwUB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 exports.default = !!(typeof window !== "undefined" && window.document && window.document.createElement);
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"la8JB":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"la8JB":[function(require,module,exports) {
 /**
  * A `removeEventListener` ponyfill
  * 
@@ -30882,7 +30885,7 @@ function removeEventListener(node, eventName, handler, options) {
 }
 exports.default = removeEventListener;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lQ70W":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lQ70W":[function(require,module,exports) {
 /**
  * Triggers an event on a given element.
  * 
@@ -30903,7 +30906,7 @@ function triggerEvent(node, eventName, bubbles, cancelable) {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1KNLM":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1KNLM":[function(require,module,exports) {
 /**
  * Safe chained function
  *
@@ -30920,14 +30923,15 @@ function createChainedFunction(...funcs) {
         if (acc === null) return f;
         return function chainedFunction(...args) {
             // @ts-ignore
-            acc.apply(this, args); // @ts-ignore
+            acc.apply(this, args);
+            // @ts-ignore
             f.apply(this, args);
         };
     }, null);
 }
 exports.default = createChainedFunction;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eWjs5":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eWjs5":[function(require,module,exports) {
 // reading a dimension prop will cause the browser to recalculate,
 // which will let our animations work
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -30938,7 +30942,7 @@ function triggerBrowserReflow(node) {
     node.offsetHeight;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jKUqZ":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jKUqZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -30992,7 +30996,8 @@ const TransitionWrapper = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({
         onExiting: handleExiting,
         addEndListener: handleAddEndListener,
         nodeRef: nodeRef,
-        children: typeof children === "function" ? (status, innerProps)=>children(status, {
+        children: typeof children === "function" ? (status, innerProps)=>// TODO: Types for RTG missing innerProps, so need to cast.
+            children(status, {
                 ...innerProps,
                 ref: attachRef
             }) : /*#__PURE__*/ (0, _reactDefault.default).cloneElement(children, {
@@ -31002,7 +31007,7 @@ const TransitionWrapper = /*#__PURE__*/ (0, _reactDefault.default).forwardRef(({
 });
 exports.default = TransitionWrapper;
 
-},{"react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/hooks/useMergedRefs":"6hhuo","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6hhuo":[function(require,module,exports) {
+},{"react":"21dqq","react-transition-group/Transition":"cKsrS","@restart/hooks/useMergedRefs":"6hhuo","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6hhuo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "mergeRefs", ()=>mergeRefs);
@@ -31041,7 +31046,7 @@ function mergeRefs(refA, refB) {
 }
 exports.default = useMergedRefs;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"XsXw9":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"XsXw9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>safeFindDOMNode);
@@ -31052,7 +31057,7 @@ function safeFindDOMNode(componentOrElement) {
     return componentOrElement != null ? componentOrElement : null;
 }
 
-},{"react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e5D96":[function(require,module,exports) {
+},{"react-dom":"j6uA9","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e5D96":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isAccordionItemSelected", ()=>isAccordionItemSelected);
@@ -31064,7 +31069,7 @@ const context = /*#__PURE__*/ _react.createContext({});
 context.displayName = "AccordionContext";
 exports.default = context;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"35RRI":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"35RRI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31074,7 +31079,7 @@ const context = /*#__PURE__*/ _react.createContext({
 context.displayName = "AccordionItemContext";
 exports.default = context;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hkYfS":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hkYfS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useAccordionButton", ()=>useAccordionButton);
@@ -31121,14 +31126,14 @@ as: Component = "button", bsPrefix, className, onClick, ...props }, ref)=>{
         ref: ref,
         onClick: accordionOnClick,
         ...props,
-        "aria-expanded": eventKey === activeEventKey,
+        "aria-expanded": Array.isArray(activeEventKey) ? activeEventKey.includes(eventKey) : eventKey === activeEventKey,
         className: (0, _classnamesDefault.default)(className, bsPrefix, !(0, _accordionContext.isAccordionItemSelected)(activeEventKey, eventKey) && "collapsed")
     });
 });
 AccordionButton.displayName = "AccordionButton";
 exports.default = AccordionButton;
 
-},{"react":"21dqq","classnames":"jocGM","./AccordionContext":"e5D96","./AccordionItemContext":"35RRI","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"LJXVf":[function(require,module,exports) {
+},{"react":"21dqq","classnames":"jocGM","./AccordionContext":"e5D96","./AccordionItemContext":"35RRI","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"LJXVf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31154,7 +31159,7 @@ as: Component = "h2", bsPrefix, className, children, onClick, ...props }, ref)=>
 AccordionHeader.displayName = "AccordionHeader";
 exports.default = AccordionHeader;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionButton":"hkYfS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8sXhn":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionButton":"hkYfS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8sXhn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31184,7 +31189,7 @@ as: Component = "div", bsPrefix, className, eventKey, ...props }, ref)=>{
 AccordionItem.displayName = "AccordionItem";
 exports.default = AccordionItem;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e3Xec":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AccordionItemContext":"35RRI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e3Xec":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31213,14 +31218,8 @@ const AlertHeading = (0, _createWithBsPrefixDefault.default)("alert-heading", {
 const AlertLink = (0, _createWithBsPrefixDefault.default)("alert-link", {
     Component: (0, _anchorDefault.default)
 });
-const defaultProps = {
-    variant: "primary",
-    show: true,
-    transition: (0, _fadeDefault.default),
-    closeLabel: "Close alert"
-};
 const Alert = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
-    const { bsPrefix, show, closeLabel, closeVariant, className, children, variant, onClose, dismissible, transition, ...props } = (0, _uncontrollable.useUncontrolled)(uncontrolledProps, {
+    const { bsPrefix, show = true, closeLabel = "Close alert", closeVariant, className, children, variant = "primary", onClose, dismissible, transition = (0, _fadeDefault.default), ...props } = (0, _uncontrollable.useUncontrolled)(uncontrolledProps, {
         show: "onClose"
     });
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "alert");
@@ -31252,13 +31251,12 @@ const Alert = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
     });
 });
 Alert.displayName = "Alert";
-Alert.defaultProps = defaultProps;
 exports.default = Object.assign(Alert, {
     Link: AlertLink,
     Heading: AlertHeading
 });
 
-},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","./Fade":"aH18S","./CloseButton":"1wmVl","./divWithClassName":"eDg7t","./createWithBsPrefix":"itt7e","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7ONdq":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","./Fade":"aH18S","./CloseButton":"1wmVl","./divWithClassName":"eDg7t","./createWithBsPrefix":"itt7e","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7ONdq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useEventCallback);
@@ -31274,7 +31272,7 @@ function useEventCallback(fn) {
     ]);
 }
 
-},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"g5BYG":[function(require,module,exports) {
+},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"g5BYG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31297,7 +31295,7 @@ var _react = require("react");
 }
 exports.default = useCommittedRef;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cQOWi":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cQOWi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isTrivialHref", ()=>isTrivialHref);
@@ -31349,7 +31347,7 @@ function isTrivialHref(href) {
 Anchor.displayName = "Anchor";
 exports.default = Anchor;
 
-},{"react":"21dqq","@restart/hooks":"5ErkJ","./Button":"8YUbR","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5ErkJ":[function(require,module,exports) {
+},{"react":"21dqq","@restart/hooks":"5ErkJ","./Button":"8YUbR","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5ErkJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCallbackRef", ()=>(0, _useCallbackRefDefault.default));
@@ -31392,7 +31390,7 @@ var _useImageDefault = parcelHelpers.interopDefault(_useImage);
 var _useResizeObserver = require("./useResizeObserver");
 var _useResizeObserverDefault = parcelHelpers.interopDefault(_useResizeObserver);
 
-},{"./useCallbackRef":"82p6M","./useCommittedRef":"g5BYG","./useEventCallback":"7ONdq","./useEventListener":"dBDI3","./useGlobalListener":"iey73","./useInterval":"hnmo4","./useRafInterval":"4qbLw","./useMergeState":"7E8IK","./useMergeStateFromProps":"6f6Me","./useMounted":"iK6A1","./usePrevious":"gDCGm","./useImage":"iuAlv","./useResizeObserver":"edwGv","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"82p6M":[function(require,module,exports) {
+},{"./useCallbackRef":"82p6M","./useCommittedRef":"g5BYG","./useEventCallback":"7ONdq","./useEventListener":"dBDI3","./useGlobalListener":"iey73","./useInterval":"hnmo4","./useRafInterval":"4qbLw","./useMergeState":"7E8IK","./useMergeStateFromProps":"6f6Me","./useMounted":"iK6A1","./usePrevious":"gDCGm","./useImage":"iuAlv","./useResizeObserver":"edwGv","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"82p6M":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useCallbackRef);
@@ -31401,7 +31399,7 @@ function useCallbackRef() {
     return (0, _react.useState)(null);
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dBDI3":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dBDI3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useEventListener);
@@ -31419,7 +31417,7 @@ function useEventListener(eventTarget, event, listener, capture = false) {
     ]);
 }
 
-},{"react":"21dqq","./useEventCallback":"7ONdq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iey73":[function(require,module,exports) {
+},{"react":"21dqq","./useEventCallback":"7ONdq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iey73":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useGlobalListener);
@@ -31431,7 +31429,7 @@ function useGlobalListener(event, handler, capture = false) {
     return (0, _useEventListenerDefault.default)(documentTarget, event, handler, capture);
 }
 
-},{"./useEventListener":"dBDI3","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hnmo4":[function(require,module,exports) {
+},{"./useEventListener":"dBDI3","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hnmo4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31517,7 +31515,7 @@ var _useCommittedRefDefault = parcelHelpers.interopDefault(_useCommittedRef);
 }
 exports.default = useInterval;
 
-},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4qbLw":[function(require,module,exports) {
+},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4qbLw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31548,7 +31546,7 @@ function useRafInterval(fn, ms, paused = false) {
 }
 exports.default = useRafInterval;
 
-},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7E8IK":[function(require,module,exports) {
+},{"react":"21dqq","./useCommittedRef":"g5BYG","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7E8IK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMergeState);
@@ -31571,7 +31569,7 @@ function useMergeState(initialState) {
     ];
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6f6Me":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6f6Me":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMergeStateFromProps);
@@ -31587,7 +31585,7 @@ function useMergeStateFromProps(props, gDSFP, initialState) {
     ];
 }
 
-},{"./useMergeState":"7E8IK","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iK6A1":[function(require,module,exports) {
+},{"./useMergeState":"7E8IK","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iK6A1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMounted);
@@ -31604,7 +31602,7 @@ function useMounted() {
     return isMounted.current;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gDCGm":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gDCGm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>usePrevious);
@@ -31617,7 +31615,7 @@ function usePrevious(value) {
     return ref.current;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iuAlv":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iuAlv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useImage);
@@ -31669,7 +31667,7 @@ function useImage(imageOrUrl, crossOrigin) {
     return state;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"edwGv":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"edwGv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useResizeObserver);
@@ -31705,7 +31703,7 @@ function useResizeObserver(element) {
     return rect;
 }
 
-},{"react":"21dqq","./useIsomorphicEffect":"e8blq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e8blq":[function(require,module,exports) {
+},{"react":"21dqq","./useIsomorphicEffect":"e8blq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e8blq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31723,7 +31721,7 @@ const isDOM = typeof document !== "undefined";
  * @category effects
  */ exports.default = isDOM || isReactNative ? (0, _react.useLayoutEffect) : (0, _react.useEffect);
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8YUbR":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8YUbR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isTrivialHref", ()=>isTrivialHref);
@@ -31813,7 +31811,7 @@ const Button = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 Button.displayName = "Button";
 exports.default = Button;
 
-},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aH18S":[function(require,module,exports) {
+},{"react":"21dqq","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aH18S":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31827,23 +31825,24 @@ var _triggerBrowserReflowDefault = parcelHelpers.interopDefault(_triggerBrowserR
 var _transitionWrapper = require("./TransitionWrapper");
 var _transitionWrapperDefault = parcelHelpers.interopDefault(_transitionWrapper);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    in: false,
-    timeout: 300,
-    mountOnEnter: false,
-    unmountOnExit: false,
-    appear: false
-};
 const fadeStyles = {
     [(0, _transition.ENTERING)]: "show",
     [(0, _transition.ENTERED)]: "show"
 };
-const Fade = /*#__PURE__*/ _react.forwardRef(({ className, children, transitionClasses = {}, ...props }, ref)=>{
+const Fade = /*#__PURE__*/ _react.forwardRef(({ className, children, transitionClasses = {}, onEnter, ...rest }, ref)=>{
+    const props = {
+        in: false,
+        timeout: 300,
+        mountOnEnter: false,
+        unmountOnExit: false,
+        appear: false,
+        ...rest
+    };
     const handleEnter = (0, _react.useCallback)((node, isAppearing)=>{
         (0, _triggerBrowserReflowDefault.default)(node);
-        props.onEnter == null || props.onEnter(node, isAppearing);
+        onEnter == null || onEnter(node, isAppearing);
     }, [
-        props
+        onEnter
     ]);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _transitionWrapperDefault.default), {
         ref: ref,
@@ -31857,11 +31856,10 @@ const Fade = /*#__PURE__*/ _react.forwardRef(({ className, children, transitionC
             })
     });
 });
-Fade.defaultProps = defaultProps;
 Fade.displayName = "Fade";
 exports.default = Fade;
 
-},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1wmVl":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1wmVl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _propTypes = require("prop-types");
@@ -31871,8 +31869,8 @@ var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _jsxRuntime = require("react/jsx-runtime");
 const propTypes = {
-    "aria-label": (0, _propTypesDefault.default).string,
-    onClick: (0, _propTypesDefault.default).func,
+    /** An accessible label indicating the relevant information about the Close Button. */ "aria-label": (0, _propTypesDefault.default).string,
+    /** A callback fired after the Close Button is clicked. */ onClick: (0, _propTypesDefault.default).func,
     /**
    * Render different color variant for the button.
    *
@@ -31881,21 +31879,18 @@ const propTypes = {
         "white"
     ])
 };
-const defaultProps = {
-    "aria-label": "Close"
-};
-const CloseButton = /*#__PURE__*/ _react.forwardRef(({ className, variant, ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
+const CloseButton = /*#__PURE__*/ _react.forwardRef(({ className, variant, "aria-label": ariaLabel = "Close", ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("button", {
         ref: ref,
         type: "button",
         className: (0, _classnamesDefault.default)("btn-close", variant && `btn-close-${variant}`, className),
+        "aria-label": ariaLabel,
         ...props
     }));
 CloseButton.displayName = "CloseButton";
 CloseButton.propTypes = propTypes;
-CloseButton.defaultProps = defaultProps;
 exports.default = CloseButton;
 
-},{"prop-types":"7wKI2","react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eDg7t":[function(require,module,exports) {
+},{"prop-types":"7wKI2","react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eDg7t":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -31908,7 +31903,7 @@ exports.default = (className)=>/*#__PURE__*/ _react.forwardRef((p, ref)=>/*#__PU
             className: (0, _classnamesDefault.default)(p.className, className)
         }));
 
-},{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"itt7e":[function(require,module,exports) {
+},{"react":"21dqq","classnames":"jocGM","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"itt7e":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>createWithBsPrefix);
@@ -31922,19 +31917,22 @@ var _jsxRuntime = require("react/jsx-runtime");
 const pascalCase = (str)=>str[0].toUpperCase() + (0, _camelizeDefault.default)(str).slice(1);
 function createWithBsPrefix(prefix, { displayName = pascalCase(prefix), Component, defaultProps } = {}) {
     const BsComponent = /*#__PURE__*/ _react.forwardRef(({ className, bsPrefix, as: Tag = Component || "div", ...props }, ref)=>{
+        const componentProps = {
+            ...defaultProps,
+            ...props
+        };
         const resolvedPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, prefix);
         return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Tag, {
             ref: ref,
             className: (0, _classnamesDefault.default)(className, resolvedPrefix),
-            ...props
+            ...componentProps
         });
     });
-    BsComponent.defaultProps = defaultProps;
     BsComponent.displayName = displayName;
     return BsComponent;
 }
 
-},{"classnames":"jocGM","dom-helpers/camelize":"kbWDq","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kbWDq":[function(require,module,exports) {
+},{"classnames":"jocGM","dom-helpers/camelize":"kbWDq","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kbWDq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>camelize);
@@ -31945,14 +31943,14 @@ function camelize(string) {
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lwVpH":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lwVpH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _anchor = require("@restart/ui/Anchor");
 var _anchorDefault = parcelHelpers.interopDefault(_anchor);
 exports.default = (0, _anchorDefault.default);
 
-},{"@restart/ui/Anchor":"cQOWi","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eEyks":[function(require,module,exports) {
+},{"@restart/ui/Anchor":"cQOWi","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eEyks":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31960,11 +31958,7 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    bg: "primary",
-    pill: false
-};
-const Badge = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, bg, pill, text, className, as: Component = "span", ...props }, ref)=>{
+const Badge = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, bg = "primary", pill = false, text, className, as: Component = "span", ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "badge");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ref: ref,
@@ -31973,10 +31967,9 @@ const Badge = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, bg, pill, text, class
     });
 });
 Badge.displayName = "Badge";
-Badge.defaultProps = defaultProps;
 exports.default = Badge;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hOow1":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hOow1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -31986,11 +31979,7 @@ var _themeProvider = require("./ThemeProvider");
 var _breadcrumbItem = require("./BreadcrumbItem");
 var _breadcrumbItemDefault = parcelHelpers.interopDefault(_breadcrumbItem);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    label: "breadcrumb",
-    listProps: {}
-};
-const Breadcrumb = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, listProps, children, label, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const Breadcrumb = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, listProps = {}, children, label = "breadcrumb", // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "nav", ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "breadcrumb");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
@@ -32006,12 +31995,11 @@ as: Component = "nav", ...props }, ref)=>{
     });
 });
 Breadcrumb.displayName = "Breadcrumb";
-Breadcrumb.defaultProps = defaultProps;
 exports.default = Object.assign(Breadcrumb, {
     Item: (0, _breadcrumbItemDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./BreadcrumbItem":"bWkuO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bWkuO":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./BreadcrumbItem":"bWkuO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bWkuO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32021,12 +32009,8 @@ var _anchor = require("@restart/ui/Anchor");
 var _anchorDefault = parcelHelpers.interopDefault(_anchor);
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    active: false,
-    linkProps: {}
-};
-const BreadcrumbItem = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, active, children, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-as: Component = "li", linkAs: LinkComponent = (0, _anchorDefault.default), linkProps, href, title, target, ...props }, ref)=>{
+const BreadcrumbItem = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, active = false, children, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+as: Component = "li", linkAs: LinkComponent = (0, _anchorDefault.default), linkProps = {}, href, title, target, ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "breadcrumb-item");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ref: ref,
@@ -32045,10 +32029,9 @@ as: Component = "li", linkAs: LinkComponent = (0, _anchorDefault.default), linkP
     });
 });
 BreadcrumbItem.displayName = "BreadcrumbItem";
-BreadcrumbItem.defaultProps = defaultProps;
 exports.default = BreadcrumbItem;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aPzUt":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aPzUt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32057,15 +32040,11 @@ var _react = require("react");
 var _button = require("@restart/ui/Button");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    variant: "primary",
-    active: false,
-    disabled: false
-};
-const Button = /*#__PURE__*/ _react.forwardRef(({ as, bsPrefix, variant, size, active, className, ...props }, ref)=>{
+const Button = /*#__PURE__*/ _react.forwardRef(({ as, bsPrefix, variant = "primary", size, active = false, disabled = false, className, ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "btn");
     const [buttonProps, { tagName }] = (0, _button.useButtonProps)({
         tagName: as,
+        disabled,
         ...props
     });
     const Component = tagName;
@@ -32073,14 +32052,14 @@ const Button = /*#__PURE__*/ _react.forwardRef(({ as, bsPrefix, variant, size, a
         ...buttonProps,
         ...props,
         ref: ref,
-        className: (0, _classnamesDefault.default)(className, prefix, active && "active", variant && `${prefix}-${variant}`, size && `${prefix}-${size}`, props.href && props.disabled && "disabled")
+        disabled: disabled,
+        className: (0, _classnamesDefault.default)(className, prefix, active && "active", variant && `${prefix}-${variant}`, size && `${prefix}-${size}`, props.href && disabled && "disabled")
     });
 });
 Button.displayName = "Button";
-Button.defaultProps = defaultProps;
 exports.default = Button;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gXYCe":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Button":"8YUbR","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gXYCe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32088,11 +32067,7 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    vertical: false,
-    role: "group"
-};
-const ButtonGroup = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, size, vertical, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const ButtonGroup = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, size, vertical = false, className, role = "group", // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "div", ...rest }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "btn-group");
     let baseClass = prefix;
@@ -32100,14 +32075,14 @@ as: Component = "div", ...rest }, ref)=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...rest,
         ref: ref,
+        role: role,
         className: (0, _classnamesDefault.default)(className, baseClass, size && `${prefix}-${size}`)
     });
 });
 ButtonGroup.displayName = "ButtonGroup";
-ButtonGroup.defaultProps = defaultProps;
 exports.default = ButtonGroup;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"k88gW":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"k88gW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32115,22 +32090,19 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    role: "toolbar"
-};
-const ButtonToolbar = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, ...props }, ref)=>{
+const ButtonToolbar = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, role = "toolbar", ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "btn-toolbar");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
         ...props,
         ref: ref,
-        className: (0, _classnamesDefault.default)(className, prefix)
+        className: (0, _classnamesDefault.default)(className, prefix),
+        role: role
     });
 });
 ButtonToolbar.displayName = "ButtonToolbar";
-ButtonToolbar.defaultProps = defaultProps;
 exports.default = ButtonToolbar;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lAynp":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lAynp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32163,10 +32135,7 @@ const CardText = (0, _createWithBsPrefixDefault.default)("card-text", {
 });
 const CardFooter = (0, _createWithBsPrefixDefault.default)("card-footer");
 const CardImgOverlay = (0, _createWithBsPrefixDefault.default)("card-img-overlay");
-const defaultProps = {
-    body: false
-};
-const Card = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, bg, text, border, body, children, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const Card = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, bg, text, border, body = false, children, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "div", ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
@@ -32179,7 +32148,6 @@ as: Component = "div", ...props }, ref)=>{
     });
 });
 Card.displayName = "Card";
-Card.defaultProps = defaultProps;
 exports.default = Object.assign(Card, {
     Img: (0, _cardImgDefault.default),
     Title: CardTitle,
@@ -32192,7 +32160,7 @@ exports.default = Object.assign(Card, {
     ImgOverlay: CardImgOverlay
 });
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","./CardImg":"1reTi","./CardHeader":"dXnnx","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1reTi":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","./CardImg":"1reTi","./CardHeader":"dXnnx","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1reTi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32200,7 +32168,8 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const CardImg = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, variant, as: Component = "img", ...props }, ref)=>{
+const CardImg = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+({ bsPrefix, className, variant, as: Component = "img", ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "card-img");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ref: ref,
@@ -32211,7 +32180,7 @@ const CardImg = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, variant,
 CardImg.displayName = "CardImg";
 exports.default = CardImg;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dXnnx":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dXnnx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32241,7 +32210,7 @@ as: Component = "div", ...props }, ref)=>{
 CardHeader.displayName = "CardHeader";
 exports.default = CardHeader;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardHeaderContext":"36cNB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"36cNB":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./CardHeaderContext":"36cNB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"36cNB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -32249,14 +32218,14 @@ const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "CardHeaderContext";
 exports.default = context;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2j3Ij":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2j3Ij":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("card-group");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bsGhm":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bsGhm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useEventCallback = require("@restart/hooks/useEventCallback");
@@ -32287,37 +32256,23 @@ var _transitionWrapper = require("./TransitionWrapper");
 var _transitionWrapperDefault = parcelHelpers.interopDefault(_transitionWrapper);
 var _jsxRuntime = require("react/jsx-runtime");
 const SWIPE_THRESHOLD = 40;
-const defaultProps = {
-    slide: true,
-    fade: false,
-    controls: true,
-    indicators: true,
-    indicatorLabels: [],
-    defaultActiveIndex: 0,
-    interval: 5000,
-    keyboard: true,
-    pause: "hover",
-    wrap: true,
-    touch: true,
-    prevIcon: /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
-        "aria-hidden": "true",
-        className: "carousel-control-prev-icon"
-    }),
-    prevLabel: "Previous",
-    nextIcon: /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
-        "aria-hidden": "true",
-        className: "carousel-control-next-icon"
-    }),
-    nextLabel: "Next"
-};
 function isVisible(element) {
     if (!element || !element.style || !element.parentNode || !element.parentNode.style) return false;
     const elementStyle = getComputedStyle(element);
     return elementStyle.display !== "none" && elementStyle.visibility !== "hidden" && getComputedStyle(element.parentNode).display !== "none";
 }
-const Carousel = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
+const Carousel = /*#__PURE__*/ _react.forwardRef(({ defaultActiveIndex = 0, ...uncontrolledProps }, ref)=>{
     const { // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-    as: Component = "div", bsPrefix, slide, fade, controls, indicators, indicatorLabels, activeIndex, onSelect, onSlide, onSlid, interval, keyboard, onKeyDown, pause, onMouseOver, onMouseOut, wrap, touch, onTouchStart, onTouchMove, onTouchEnd, prevIcon, prevLabel, nextIcon, nextLabel, variant, className, children, ...props } = (0, _uncontrollable.useUncontrolled)(uncontrolledProps, {
+    as: Component = "div", bsPrefix, slide = true, fade = false, controls = true, indicators = true, indicatorLabels = [], activeIndex, onSelect, onSlide, onSlid, interval = 5000, keyboard = true, onKeyDown, pause = "hover", onMouseOver, onMouseOut, wrap = true, touch = true, onTouchStart, onTouchMove, onTouchEnd, prevIcon = /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
+        "aria-hidden": "true",
+        className: "carousel-control-prev-icon"
+    }), prevLabel = "Previous", nextIcon = /*#__PURE__*/ (0, _jsxRuntime.jsx)("span", {
+        "aria-hidden": "true",
+        className: "carousel-control-next-icon"
+    }), nextLabel = "Next", variant, className, children, ...props } = (0, _uncontrollable.useUncontrolled)({
+        defaultActiveIndex,
+        ...uncontrolledProps
+    }, {
         activeIndex: "onSelect"
     });
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "carousel");
@@ -32344,7 +32299,8 @@ const Carousel = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
         if (nextDirectionRef.current) nextDirectionRef.current = null;
     });
     let numChildren = 0;
-    let activeChildInterval; // Iterate to grab all of the children's interval values
+    let activeChildInterval;
+    // Iterate to grab all of the children's interval values
     // (and count them, too)
     (0, _elementChildren.forEach)(children, (child, index)=>{
         ++numChildren;
@@ -32366,7 +32322,8 @@ const Carousel = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
         onSelect,
         wrap,
         numChildren
-    ]); // This is used in the setInterval, so it should not invalidate.
+    ]);
+    // This is used in the setInterval, so it should not invalidate.
     const next = (0, _useEventCallbackDefault.default)((event)=>{
         if (isSliding) return;
         let nextActiveIndex = renderedActiveIndex + 1;
@@ -32382,7 +32339,8 @@ const Carousel = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
             element: elementRef.current,
             prev,
             next
-        })); // This is used in the setInterval, so it should not invalidate.
+        }));
+    // This is used in the setInterval, so it should not invalidate.
     const nextWhenVisible = (0, _useEventCallbackDefault.default)(()=>{
         if (!document.hidden && isVisible(elementRef.current)) {
             if (isRTL) prev();
@@ -32590,13 +32548,12 @@ const Carousel = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
     });
 });
 Carousel.displayName = "Carousel";
-Carousel.defaultProps = defaultProps;
 exports.default = Object.assign(Carousel, {
     Caption: (0, _carouselCaptionDefault.default),
     Item: (0, _carouselItemDefault.default)
 });
 
-},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useUpdateEffect":"bHP1w","@restart/hooks/useCommittedRef":"g5BYG","@restart/hooks/useTimeout":"63wsP","@restart/ui/Anchor":"cQOWi","classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./CarouselCaption":"dH56B","./CarouselItem":"9A3DI","./ElementChildren":"fdyAp","./ThemeProvider":"dVixI","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bHP1w":[function(require,module,exports) {
+},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useUpdateEffect":"bHP1w","@restart/hooks/useCommittedRef":"g5BYG","@restart/hooks/useTimeout":"63wsP","@restart/ui/Anchor":"cQOWi","classnames":"jocGM","react":"21dqq","uncontrollable":"b3yWY","./CarouselCaption":"dH56B","./CarouselItem":"9A3DI","./ElementChildren":"fdyAp","./ThemeProvider":"dVixI","./transitionEndListener":"68oh7","./triggerBrowserReflow":"eWjs5","./TransitionWrapper":"jKUqZ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bHP1w":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -32631,7 +32588,7 @@ var _react = require("react");
 }
 exports.default = useUpdateEffect;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"63wsP":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"63wsP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useTimeout);
@@ -32673,7 +32630,7 @@ function useTimeout() {
     }, []);
 }
 
-},{"react":"21dqq","./useMounted":"iK6A1","./useWillUnmount":"2OOXI","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2OOXI":[function(require,module,exports) {
+},{"react":"21dqq","./useMounted":"iK6A1","./useWillUnmount":"2OOXI","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2OOXI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useWillUnmount);
@@ -32685,7 +32642,7 @@ function useWillUnmount(fn) {
     (0, _react.useEffect)(()=>()=>onUnmount.current(), []);
 }
 
-},{"./useUpdatedRef":"cfaLu","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cfaLu":[function(require,module,exports) {
+},{"./useUpdatedRef":"cfaLu","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cfaLu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useUpdatedRef);
@@ -32696,14 +32653,14 @@ function useUpdatedRef(value) {
     return valueRef;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dH56B":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dH56B":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("carousel-caption");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9A3DI":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9A3DI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32723,7 +32680,7 @@ as: Component = "div", bsPrefix, className, ...props }, ref)=>{
 CarouselItem.displayName = "CarouselItem";
 exports.default = CarouselItem;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fdyAp":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fdyAp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "map", ()=>map);
@@ -32759,7 +32716,7 @@ var _react = require("react");
     return _react.Children.toArray(children).some((child)=>/*#__PURE__*/ _react.isValidElement(child) && child.type === type);
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2L2I6":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2L2I6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useCol", ()=>useCol);
@@ -32799,7 +32756,8 @@ function useCol({ as, bsPrefix, className, ...props }) {
         }
     ];
 }
-const Col = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+const Col = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+(props, ref)=>{
     const [{ className, ...colProps }, { as: Component = "div", bsPrefix, spans }] = useCol(props);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...colProps,
@@ -32810,7 +32768,7 @@ const Col = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
 Col.displayName = "Col";
 exports.default = Col;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"88m2L":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"88m2L":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -32850,14 +32808,9 @@ const DropdownDivider = (0, _createWithBsPrefixDefault.default)("dropdown-divide
 const DropdownItemText = (0, _createWithBsPrefixDefault.default)("dropdown-item-text", {
     Component: "span"
 });
-const defaultProps = {
-    navbar: false,
-    align: "start",
-    autoClose: true
-};
 const Dropdown = /*#__PURE__*/ _react.forwardRef((pProps, ref)=>{
-    const { bsPrefix, drop, show, className, align, onSelect, onToggle, focusFirstItemOnShow, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-    as: Component = "div", navbar: _4, autoClose, ...props } = (0, _uncontrollable.useUncontrolled)(pProps, {
+    const { bsPrefix, drop = "down", show, className, align = "start", onSelect, onToggle, focusFirstItemOnShow, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+    as: Component = "div", navbar: _4, autoClose = true, ...props } = (0, _uncontrollable.useUncontrolled)(pProps, {
         show: "onToggle"
     });
     const isInputGroup = (0, _react.useContext)((0, _inputGroupContextDefault.default));
@@ -32865,8 +32818,10 @@ const Dropdown = /*#__PURE__*/ _react.forwardRef((pProps, ref)=>{
     const isRTL = (0, _themeProvider.useIsRTL)();
     const isClosingPermitted = (source)=>{
         // autoClose=false only permits close on button click
-        if (autoClose === false) return source === "click"; // autoClose=inside doesn't permit close on rootClose
-        if (autoClose === "inside") return source !== "rootClose"; // autoClose=outside doesn't permit close on select
+        if (autoClose === false) return source === "click";
+        // autoClose=inside doesn't permit close on rootClose
+        if (autoClose === "inside") return source !== "rootClose";
+        // autoClose=outside doesn't permit close on select
         if (autoClose === "outside") return source !== "select";
         return true;
     };
@@ -32885,6 +32840,14 @@ const Dropdown = /*#__PURE__*/ _react.forwardRef((pProps, ref)=>{
         drop,
         isRTL
     ]);
+    const directionClasses = {
+        down: prefix,
+        "down-centered": `${prefix}-center`,
+        up: "dropup",
+        "up-centered": "dropup-center dropup",
+        end: "dropend",
+        start: "dropstart"
+    };
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _dropdownContextDefault.default).Provider, {
         value: contextValue,
         children: /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _dropdownDefault.default), {
@@ -32897,13 +32860,12 @@ const Dropdown = /*#__PURE__*/ _react.forwardRef((pProps, ref)=>{
             children: isInputGroup ? props.children : /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
                 ...props,
                 ref: ref,
-                className: (0, _classnamesDefault.default)(className, show && "show", (!drop || drop === "down") && prefix, drop === "up" && "dropup", drop === "end" && "dropend", drop === "start" && "dropstart")
+                className: (0, _classnamesDefault.default)(className, show && "show", directionClasses[drop])
             })
         })
     });
 });
 Dropdown.displayName = "Dropdown";
-Dropdown.defaultProps = defaultProps;
 exports.default = Object.assign(Dropdown, {
     Toggle: (0, _dropdownToggleDefault.default),
     Menu: (0, _dropdownMenuDefault.default),
@@ -32913,7 +32875,7 @@ exports.default = Object.assign(Dropdown, {
     Header: DropdownHeader
 });
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Dropdown":"eizH2","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"4Ufmn","./DropdownItem":"xQ9Cw","./DropdownMenu":"6UpAn","./DropdownToggle":"gCRNt","./InputGroupContext":"eWDkO","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eizH2":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Dropdown":"eizH2","uncontrollable":"b3yWY","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"4Ufmn","./DropdownItem":"xQ9Cw","./DropdownMenu":"6UpAn","./DropdownToggle":"gCRNt","./InputGroupContext":"eWDkO","./ThemeProvider":"dVixI","./createWithBsPrefix":"itt7e","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eizH2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _querySelectorAll = require("dom-helpers/querySelectorAll");
@@ -33112,7 +33074,7 @@ Dropdown.Toggle = (0, _dropdownToggleDefault.default);
 Dropdown.Item = (0, _dropdownItemDefault.default);
 exports.default = Dropdown;
 
-},{"dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/addEventListener":"c5x2p","react":"21dqq","uncontrollable":"hZZ1I","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useEventListener":"dBDI3","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"dX4vI","./DropdownMenu":"6fCTW","./DropdownToggle":"8iWIY","./DropdownItem":"hDAPz","./SelectableContext":"8zLqy","./DataKey":"9vwZh","./useWindow":"4AsJ2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"g5Sx6":[function(require,module,exports) {
+},{"dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/addEventListener":"c5x2p","react":"21dqq","uncontrollable":"hZZ1I","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useEventListener":"dBDI3","@restart/hooks/useEventCallback":"7ONdq","./DropdownContext":"dX4vI","./DropdownMenu":"6fCTW","./DropdownToggle":"8iWIY","./DropdownItem":"hDAPz","./SelectableContext":"8zLqy","./DataKey":"9vwZh","./useWindow":"4AsJ2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"g5Sx6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>qsa);
@@ -33121,7 +33083,7 @@ function qsa(element, selector) {
     return toArray(element.querySelectorAll(selector));
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hZZ1I":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hZZ1I":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "defaultKey", ()=>defaultKey);
@@ -33194,7 +33156,7 @@ function useUncontrolled(props, config) {
     }, props);
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3Y4bz":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3Y4bz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useForceUpdate);
@@ -33206,14 +33168,14 @@ function useForceUpdate() {
     return dispatch;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dX4vI":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dX4vI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 const DropdownContext = /*#__PURE__*/ _react.createContext(null);
 exports.default = DropdownContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6fCTW":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6fCTW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -33321,7 +33283,7 @@ DropdownMenu.displayName = "DropdownMenu";
 DropdownMenu.defaultProps = defaultProps;
 /** @component */ exports.default = DropdownMenu;
 
-},{"react":"21dqq","@restart/hooks/useCallbackRef":"82p6M","./DropdownContext":"dX4vI","./usePopper":"7aqz6","./useClickOutside":"ed4Oi","./mergeOptionsWithPopperConfig":"8jWN8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7aqz6":[function(require,module,exports) {
+},{"react":"21dqq","@restart/hooks/useCallbackRef":"82p6M","./DropdownContext":"dX4vI","./usePopper":"7aqz6","./useClickOutside":"ed4Oi","./mergeOptionsWithPopperConfig":"8jWN8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7aqz6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -33500,7 +33462,7 @@ const EMPTY_MODIFIERS = [];
 }
 exports.default = usePopper;
 
-},{"react":"21dqq","dequal":"ceyyc","@restart/hooks/useSafeState":"OEC1E","./popper":"fMLGS","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ceyyc":[function(require,module,exports) {
+},{"react":"21dqq","dequal":"ceyyc","@restart/hooks/useSafeState":"OEC1E","./popper":"fMLGS","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ceyyc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "dequal", ()=>dequal);
@@ -33573,7 +33535,7 @@ function dequal(foo, bar) {
     return foo !== foo && bar !== bar;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"OEC1E":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"OEC1E":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -33604,7 +33566,7 @@ var _useMountedDefault = parcelHelpers.interopDefault(_useMounted);
 }
 exports.default = useSafeState;
 
-},{"react":"21dqq","./useMounted":"iK6A1","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fMLGS":[function(require,module,exports) {
+},{"react":"21dqq","./useMounted":"iK6A1","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fMLGS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "createPopper", ()=>createPopper);
@@ -33640,7 +33602,7 @@ const createPopper = (0, _popperBase.popperGenerator)({
     ]
 });
 
-},{"@popperjs/core/lib/modifiers/arrow":"31HFW","@popperjs/core/lib/modifiers/computeStyles":"gDlm2","@popperjs/core/lib/modifiers/eventListeners":"hBKsL","@popperjs/core/lib/modifiers/flip":"fv5wq","@popperjs/core/lib/modifiers/hide":"2g4OF","@popperjs/core/lib/modifiers/offset":"3GKVY","@popperjs/core/lib/modifiers/popperOffsets":"6I679","@popperjs/core/lib/modifiers/preventOverflow":"1AMhb","@popperjs/core/lib/enums":false,"@popperjs/core/lib/popper-base":"9X7Du","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"31HFW":[function(require,module,exports) {
+},{"@popperjs/core/lib/modifiers/arrow":"31HFW","@popperjs/core/lib/modifiers/computeStyles":"gDlm2","@popperjs/core/lib/modifiers/eventListeners":"hBKsL","@popperjs/core/lib/modifiers/flip":"fv5wq","@popperjs/core/lib/modifiers/hide":"2g4OF","@popperjs/core/lib/modifiers/offset":"3GKVY","@popperjs/core/lib/modifiers/popperOffsets":"6I679","@popperjs/core/lib/modifiers/preventOverflow":"1AMhb","@popperjs/core/lib/enums":false,"@popperjs/core/lib/popper-base":"9X7Du","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"31HFW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getBasePlacementJs = require("../utils/getBasePlacement.js");
@@ -33721,7 +33683,7 @@ exports.default = {
     ]
 };
 
-},{"../utils/getBasePlacement.js":"59Wp3","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/contains.js":"4QxRR","../dom-utils/getOffsetParent.js":"laoYw","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/within.js":"3glSz","../utils/mergePaddingObject.js":"lEIf9","../utils/expandToHashMap.js":"iQlH5","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"59Wp3":[function(require,module,exports) {
+},{"../utils/getBasePlacement.js":"59Wp3","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/contains.js":"4QxRR","../dom-utils/getOffsetParent.js":"laoYw","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/within.js":"3glSz","../utils/mergePaddingObject.js":"lEIf9","../utils/expandToHashMap.js":"iQlH5","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"59Wp3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getBasePlacement);
@@ -33730,7 +33692,7 @@ function getBasePlacement(placement) {
     return placement.split("-")[0];
 }
 
-},{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lCAq5":[function(require,module,exports) {
+},{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lCAq5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "top", ()=>top);
@@ -33810,7 +33772,7 @@ var modifierPhases = [
     afterWrite
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jvjuf":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jvjuf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getLayoutRect);
@@ -33831,7 +33793,7 @@ function getLayoutRect(element) {
     };
 }
 
-},{"./getBoundingClientRect.js":"9CFSQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9CFSQ":[function(require,module,exports) {
+},{"./getBoundingClientRect.js":"9CFSQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9CFSQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getBoundingClientRect);
@@ -33869,7 +33831,7 @@ function getBoundingClientRect(element, includeScale, isFixedStrategy) {
     };
 }
 
-},{"./instanceOf.js":"gYFUC","../utils/math.js":"gQqVe","./getWindow.js":"2SkOo","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gYFUC":[function(require,module,exports) {
+},{"./instanceOf.js":"gYFUC","../utils/math.js":"gQqVe","./getWindow.js":"2SkOo","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gYFUC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isElement", ()=>isElement);
@@ -33892,7 +33854,7 @@ function isShadowRoot(node) {
     return node instanceof OwnElement || node instanceof ShadowRoot;
 }
 
-},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2SkOo":[function(require,module,exports) {
+},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2SkOo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getWindow);
@@ -33905,7 +33867,7 @@ function getWindow(node) {
     return node;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gQqVe":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gQqVe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "max", ()=>max);
@@ -33915,7 +33877,7 @@ var max = Math.max;
 var min = Math.min;
 var round = Math.round;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3ipHv":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3ipHv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isLayoutViewport);
@@ -33925,7 +33887,7 @@ function isLayoutViewport() {
     return !/^((?!chrome|android).)*safari/i.test((0, _userAgentJsDefault.default)());
 }
 
-},{"../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1hEx0":[function(require,module,exports) {
+},{"../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1hEx0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getUAString);
@@ -33937,7 +33899,7 @@ function getUAString() {
     return navigator.userAgent;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4QxRR":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4QxRR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>contains);
@@ -33956,7 +33918,7 @@ function contains(parent, child) {
     return false;
 }
 
-},{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"laoYw":[function(require,module,exports) {
+},{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"laoYw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getOffsetParent);
@@ -34012,7 +33974,7 @@ function getOffsetParent(element) {
     return offsetParent || getContainingBlock(element) || window;
 }
 
-},{"./getWindow.js":"2SkOo","./getNodeName.js":"a2Qom","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./isTableElement.js":"2qBb7","./getParentNode.js":"bIHpd","../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a2Qom":[function(require,module,exports) {
+},{"./getWindow.js":"2SkOo","./getNodeName.js":"a2Qom","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./isTableElement.js":"2qBb7","./getParentNode.js":"bIHpd","../utils/userAgent.js":"1hEx0","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a2Qom":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getNodeName);
@@ -34020,7 +33982,7 @@ function getNodeName(element) {
     return element ? (element.nodeName || "").toLowerCase() : null;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3mZjB":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3mZjB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getComputedStyle);
@@ -34030,7 +33992,7 @@ function getComputedStyle(element) {
     return (0, _getWindowJsDefault.default)(element).getComputedStyle(element);
 }
 
-},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2qBb7":[function(require,module,exports) {
+},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2qBb7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isTableElement);
@@ -34044,7 +34006,7 @@ function isTableElement(element) {
     ].indexOf((0, _getNodeNameJsDefault.default)(element)) >= 0;
 }
 
-},{"./getNodeName.js":"a2Qom","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bIHpd":[function(require,module,exports) {
+},{"./getNodeName.js":"a2Qom","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bIHpd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getParentNode);
@@ -34064,7 +34026,7 @@ function getParentNode(element) {
     );
 }
 
-},{"./getNodeName.js":"a2Qom","./getDocumentElement.js":"eJ9Y1","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eJ9Y1":[function(require,module,exports) {
+},{"./getNodeName.js":"a2Qom","./getDocumentElement.js":"eJ9Y1","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eJ9Y1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDocumentElement);
@@ -34074,7 +34036,7 @@ function getDocumentElement(element) {
     return (((0, _instanceOfJs.isElement)(element) ? element.ownerDocument : element.document) || window.document).documentElement;
 }
 
-},{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1Xlom":[function(require,module,exports) {
+},{"./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1Xlom":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getMainAxisFromPlacement);
@@ -34085,7 +34047,7 @@ function getMainAxisFromPlacement(placement) {
     ].indexOf(placement) >= 0 ? "x" : "y";
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3glSz":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3glSz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "within", ()=>within);
@@ -34099,7 +34061,7 @@ function withinMaxClamp(min, value, max) {
     return v > max ? max : v;
 }
 
-},{"./math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lEIf9":[function(require,module,exports) {
+},{"./math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lEIf9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>mergePaddingObject);
@@ -34109,7 +34071,7 @@ function mergePaddingObject(paddingObject) {
     return Object.assign({}, (0, _getFreshSideObjectJsDefault.default)(), paddingObject);
 }
 
-},{"./getFreshSideObject.js":"g4xOt","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"g4xOt":[function(require,module,exports) {
+},{"./getFreshSideObject.js":"g4xOt","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"g4xOt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getFreshSideObject);
@@ -34122,7 +34084,7 @@ function getFreshSideObject() {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iQlH5":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iQlH5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>expandToHashMap);
@@ -34133,7 +34095,7 @@ function expandToHashMap(value, keys) {
     }, {});
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gDlm2":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gDlm2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "mapToStyles", ()=>mapToStyles);
@@ -34263,7 +34225,7 @@ exports.default = {
     data: {}
 };
 
-},{"../enums.js":"lCAq5","../dom-utils/getOffsetParent.js":"laoYw","../dom-utils/getWindow.js":"2SkOo","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getComputedStyle.js":"3mZjB","../utils/getBasePlacement.js":"59Wp3","../utils/getVariation.js":"hIo7Y","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hIo7Y":[function(require,module,exports) {
+},{"../enums.js":"lCAq5","../dom-utils/getOffsetParent.js":"laoYw","../dom-utils/getWindow.js":"2SkOo","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getComputedStyle.js":"3mZjB","../utils/getBasePlacement.js":"59Wp3","../utils/getVariation.js":"hIo7Y","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hIo7Y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getVariation);
@@ -34271,7 +34233,7 @@ function getVariation(placement) {
     return placement.split("-")[1];
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hBKsL":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hBKsL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getWindowJs = require("../dom-utils/getWindow.js"); // eslint-disable-next-line import/no-unused-modules
@@ -34304,7 +34266,7 @@ exports.default = {
     data: {}
 };
 
-},{"../dom-utils/getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fv5wq":[function(require,module,exports) {
+},{"../dom-utils/getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fv5wq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _getOppositePlacementJs = require("../utils/getOppositePlacement.js");
@@ -34426,7 +34388,7 @@ exports.default = {
     }
 };
 
-},{"../utils/getOppositePlacement.js":"a8CY0","../utils/getBasePlacement.js":"59Wp3","../utils/getOppositeVariationPlacement.js":"bKTLC","../utils/detectOverflow.js":"ltCuw","../utils/computeAutoPlacement.js":"gytMj","../enums.js":"lCAq5","../utils/getVariation.js":"hIo7Y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a8CY0":[function(require,module,exports) {
+},{"../utils/getOppositePlacement.js":"a8CY0","../utils/getBasePlacement.js":"59Wp3","../utils/getOppositeVariationPlacement.js":"bKTLC","../utils/detectOverflow.js":"ltCuw","../utils/computeAutoPlacement.js":"gytMj","../enums.js":"lCAq5","../utils/getVariation.js":"hIo7Y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a8CY0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getOppositePlacement);
@@ -34442,7 +34404,7 @@ function getOppositePlacement(placement) {
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bKTLC":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bKTLC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getOppositeVariationPlacement);
@@ -34456,7 +34418,7 @@ function getOppositeVariationPlacement(placement) {
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ltCuw":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ltCuw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>detectOverflow);
@@ -34518,7 +34480,7 @@ function detectOverflow(state, options) {
     return overflowOffsets;
 }
 
-},{"../dom-utils/getClippingRect.js":"eeg2s","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getBoundingClientRect.js":"9CFSQ","./computeOffsets.js":"7jtXk","./rectToClientRect.js":"cQ3tg","../enums.js":"lCAq5","../dom-utils/instanceOf.js":"gYFUC","./mergePaddingObject.js":"lEIf9","./expandToHashMap.js":"iQlH5","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eeg2s":[function(require,module,exports) {
+},{"../dom-utils/getClippingRect.js":"eeg2s","../dom-utils/getDocumentElement.js":"eJ9Y1","../dom-utils/getBoundingClientRect.js":"9CFSQ","./computeOffsets.js":"7jtXk","./rectToClientRect.js":"cQ3tg","../enums.js":"lCAq5","../dom-utils/instanceOf.js":"gYFUC","./mergePaddingObject.js":"lEIf9","./expandToHashMap.js":"iQlH5","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eeg2s":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getClippingRect);
@@ -34598,7 +34560,7 @@ function getClippingRect(element, boundary, rootBoundary, strategy) {
     return clippingRect;
 }
 
-},{"../enums.js":"lCAq5","./getViewportRect.js":"cnH2G","./getDocumentRect.js":"d94SC","./listScrollParents.js":"2di3T","./getOffsetParent.js":"laoYw","./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./getBoundingClientRect.js":"9CFSQ","./getParentNode.js":"bIHpd","./contains.js":"4QxRR","./getNodeName.js":"a2Qom","../utils/rectToClientRect.js":"cQ3tg","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cnH2G":[function(require,module,exports) {
+},{"../enums.js":"lCAq5","./getViewportRect.js":"cnH2G","./getDocumentRect.js":"d94SC","./listScrollParents.js":"2di3T","./getOffsetParent.js":"laoYw","./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./instanceOf.js":"gYFUC","./getBoundingClientRect.js":"9CFSQ","./getParentNode.js":"bIHpd","./contains.js":"4QxRR","./getNodeName.js":"a2Qom","../utils/rectToClientRect.js":"cQ3tg","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cnH2G":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getViewportRect);
@@ -34635,7 +34597,7 @@ function getViewportRect(element, strategy) {
     };
 }
 
-},{"./getWindow.js":"2SkOo","./getDocumentElement.js":"eJ9Y1","./getWindowScrollBarX.js":"sz4Ld","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"sz4Ld":[function(require,module,exports) {
+},{"./getWindow.js":"2SkOo","./getDocumentElement.js":"eJ9Y1","./getWindowScrollBarX.js":"sz4Ld","./isLayoutViewport.js":"3ipHv","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"sz4Ld":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getWindowScrollBarX);
@@ -34656,7 +34618,7 @@ function getWindowScrollBarX(element) {
     return (0, _getBoundingClientRectJsDefault.default)((0, _getDocumentElementJsDefault.default)(element)).left + (0, _getWindowScrollJsDefault.default)(element).scrollLeft;
 }
 
-},{"./getBoundingClientRect.js":"9CFSQ","./getDocumentElement.js":"eJ9Y1","./getWindowScroll.js":"1XUtN","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1XUtN":[function(require,module,exports) {
+},{"./getBoundingClientRect.js":"9CFSQ","./getDocumentElement.js":"eJ9Y1","./getWindowScroll.js":"1XUtN","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1XUtN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getWindowScroll);
@@ -34672,7 +34634,7 @@ function getWindowScroll(node) {
     };
 }
 
-},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"d94SC":[function(require,module,exports) {
+},{"./getWindow.js":"2SkOo","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"d94SC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDocumentRect);
@@ -34703,7 +34665,7 @@ function getDocumentRect(element) {
     };
 }
 
-},{"./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./getWindowScrollBarX.js":"sz4Ld","./getWindowScroll.js":"1XUtN","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2di3T":[function(require,module,exports) {
+},{"./getDocumentElement.js":"eJ9Y1","./getComputedStyle.js":"3mZjB","./getWindowScrollBarX.js":"sz4Ld","./getWindowScroll.js":"1XUtN","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2di3T":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>listScrollParents);
@@ -34728,7 +34690,7 @@ function listScrollParents(element, list) {
     return isBody ? updatedList : updatedList.concat(listScrollParents((0, _getParentNodeJsDefault.default)(target)));
 }
 
-},{"./getScrollParent.js":"jy4ZS","./getParentNode.js":"bIHpd","./getWindow.js":"2SkOo","./isScrollParent.js":"9rLGO","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jy4ZS":[function(require,module,exports) {
+},{"./getScrollParent.js":"jy4ZS","./getParentNode.js":"bIHpd","./getWindow.js":"2SkOo","./isScrollParent.js":"9rLGO","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jy4ZS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getScrollParent);
@@ -34750,7 +34712,7 @@ function getScrollParent(node) {
     return getScrollParent((0, _getParentNodeJsDefault.default)(node));
 }
 
-},{"./getParentNode.js":"bIHpd","./isScrollParent.js":"9rLGO","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9rLGO":[function(require,module,exports) {
+},{"./getParentNode.js":"bIHpd","./isScrollParent.js":"9rLGO","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9rLGO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isScrollParent);
@@ -34762,7 +34724,7 @@ function isScrollParent(element) {
     return /auto|scroll|overlay|hidden/.test(overflow + overflowY + overflowX);
 }
 
-},{"./getComputedStyle.js":"3mZjB","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cQ3tg":[function(require,module,exports) {
+},{"./getComputedStyle.js":"3mZjB","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cQ3tg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>rectToClientRect);
@@ -34775,7 +34737,7 @@ function rectToClientRect(rect) {
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7jtXk":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7jtXk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>computeOffsets);
@@ -34840,7 +34802,7 @@ function computeOffsets(_ref) {
     return offsets;
 }
 
-},{"./getBasePlacement.js":"59Wp3","./getVariation.js":"hIo7Y","./getMainAxisFromPlacement.js":"1Xlom","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gytMj":[function(require,module,exports) {
+},{"./getBasePlacement.js":"59Wp3","./getVariation.js":"hIo7Y","./getMainAxisFromPlacement.js":"1Xlom","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gytMj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>computeAutoPlacement);
@@ -34877,7 +34839,7 @@ function computeAutoPlacement(state, options) {
     });
 }
 
-},{"./getVariation.js":"hIo7Y","../enums.js":"lCAq5","./detectOverflow.js":"ltCuw","./getBasePlacement.js":"59Wp3","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2g4OF":[function(require,module,exports) {
+},{"./getVariation.js":"hIo7Y","../enums.js":"lCAq5","./detectOverflow.js":"ltCuw","./getBasePlacement.js":"59Wp3","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2g4OF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js");
@@ -34941,7 +34903,7 @@ exports.default = {
     fn: hide
 };
 
-},{"../enums.js":"lCAq5","../utils/detectOverflow.js":"ltCuw","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3GKVY":[function(require,module,exports) {
+},{"../enums.js":"lCAq5","../utils/detectOverflow.js":"ltCuw","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3GKVY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "distanceAndSkiddingToXY", ()=>distanceAndSkiddingToXY);
@@ -34997,7 +34959,7 @@ exports.default = {
     fn: offset
 };
 
-},{"../utils/getBasePlacement.js":"59Wp3","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6I679":[function(require,module,exports) {
+},{"../utils/getBasePlacement.js":"59Wp3","../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6I679":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _computeOffsetsJs = require("../utils/computeOffsets.js");
@@ -35023,7 +34985,7 @@ exports.default = {
     data: {}
 };
 
-},{"../utils/computeOffsets.js":"7jtXk","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1AMhb":[function(require,module,exports) {
+},{"../utils/computeOffsets.js":"7jtXk","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1AMhb":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _enumsJs = require("../enums.js");
@@ -35145,7 +35107,7 @@ exports.default = {
     ]
 };
 
-},{"../enums.js":"lCAq5","../utils/getBasePlacement.js":"59Wp3","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/getAltAxis.js":"59FWE","../utils/within.js":"3glSz","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/getOffsetParent.js":"laoYw","../utils/detectOverflow.js":"ltCuw","../utils/getVariation.js":"hIo7Y","../utils/getFreshSideObject.js":"g4xOt","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"59FWE":[function(require,module,exports) {
+},{"../enums.js":"lCAq5","../utils/getBasePlacement.js":"59Wp3","../utils/getMainAxisFromPlacement.js":"1Xlom","../utils/getAltAxis.js":"59FWE","../utils/within.js":"3glSz","../dom-utils/getLayoutRect.js":"jvjuf","../dom-utils/getOffsetParent.js":"laoYw","../utils/detectOverflow.js":"ltCuw","../utils/getVariation.js":"hIo7Y","../utils/getFreshSideObject.js":"g4xOt","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"59FWE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getAltAxis);
@@ -35153,7 +35115,7 @@ function getAltAxis(axis) {
     return axis === "x" ? "y" : "x";
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9X7Du":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9X7Du":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 // eslint-disable-next-line import/no-unused-modules
@@ -35162,7 +35124,7 @@ parcelHelpers.export(exports, "popperGenerator", ()=>(0, _createPopperJs.popperG
 parcelHelpers.export(exports, "detectOverflow", ()=>(0, _createPopperJs.detectOverflow));
 var _createPopperJs = require("./createPopper.js");
 
-},{"./createPopper.js":"cHuNp","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cHuNp":[function(require,module,exports) {
+},{"./createPopper.js":"cHuNp","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cHuNp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "popperGenerator", ()=>popperGenerator);
@@ -35322,7 +35284,7 @@ function popperGenerator(generatorOptions) {
 }
 var createPopper = /*#__PURE__*/ popperGenerator(); // eslint-disable-next-line import/no-unused-modules
 
-},{"./dom-utils/getCompositeRect.js":"ijPls","./dom-utils/getLayoutRect.js":"jvjuf","./dom-utils/listScrollParents.js":"2di3T","./dom-utils/getOffsetParent.js":"laoYw","./utils/orderModifiers.js":"N0VO0","./utils/debounce.js":"g6Chr","./utils/mergeByName.js":"2zTVN","./utils/detectOverflow.js":false,"./dom-utils/instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ijPls":[function(require,module,exports) {
+},{"./dom-utils/getCompositeRect.js":"ijPls","./dom-utils/getLayoutRect.js":"jvjuf","./dom-utils/listScrollParents.js":"2di3T","./dom-utils/getOffsetParent.js":"laoYw","./utils/orderModifiers.js":"N0VO0","./utils/debounce.js":"g6Chr","./utils/mergeByName.js":"2zTVN","./utils/detectOverflow.js":false,"./dom-utils/instanceOf.js":"gYFUC","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ijPls":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getCompositeRect);
@@ -35377,7 +35339,7 @@ function getCompositeRect(elementOrVirtualElement, offsetParent, isFixed) {
     };
 }
 
-},{"./getBoundingClientRect.js":"9CFSQ","./getNodeScroll.js":"bBjCr","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","./getWindowScrollBarX.js":"sz4Ld","./getDocumentElement.js":"eJ9Y1","./isScrollParent.js":"9rLGO","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bBjCr":[function(require,module,exports) {
+},{"./getBoundingClientRect.js":"9CFSQ","./getNodeScroll.js":"bBjCr","./getNodeName.js":"a2Qom","./instanceOf.js":"gYFUC","./getWindowScrollBarX.js":"sz4Ld","./getDocumentElement.js":"eJ9Y1","./isScrollParent.js":"9rLGO","../utils/math.js":"gQqVe","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bBjCr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getNodeScroll);
@@ -35393,7 +35355,7 @@ function getNodeScroll(node) {
     else return (0, _getHTMLElementScrollJsDefault.default)(node);
 }
 
-},{"./getWindowScroll.js":"1XUtN","./getWindow.js":"2SkOo","./instanceOf.js":"gYFUC","./getHTMLElementScroll.js":"6pwY2","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6pwY2":[function(require,module,exports) {
+},{"./getWindowScroll.js":"1XUtN","./getWindow.js":"2SkOo","./instanceOf.js":"gYFUC","./getHTMLElementScroll.js":"6pwY2","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6pwY2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getHTMLElementScroll);
@@ -35404,7 +35366,7 @@ function getHTMLElementScroll(element) {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"N0VO0":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"N0VO0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>orderModifiers);
@@ -35443,7 +35405,7 @@ function orderModifiers(modifiers) {
     }, []);
 }
 
-},{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"g6Chr":[function(require,module,exports) {
+},{"../enums.js":"lCAq5","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"g6Chr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>debounce);
@@ -35460,7 +35422,7 @@ function debounce(fn) {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2zTVN":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2zTVN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>mergeByName);
@@ -35478,7 +35440,7 @@ function mergeByName(modifiers) {
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ed4Oi":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ed4Oi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getRefTarget", ()=>getRefTarget);
@@ -35576,7 +35538,7 @@ const InitialTriggerEvents = {
 }
 exports.default = useClickOutside;
 
-},{"dom-helpers/contains":"KpRFS","dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","warning":"eUVzU","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"KpRFS":[function(require,module,exports) {
+},{"dom-helpers/contains":"KpRFS","dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","warning":"eUVzU","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"KpRFS":[function(require,module,exports) {
 /* eslint-disable no-bitwise, no-cond-assign */ /**
  * Checks if an element contains another given element.
  * 
@@ -35592,7 +35554,7 @@ function contains(context, node) {
     if (context.compareDocumentPosition) return context === node || !!(context.compareDocumentPosition(node) & 16);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eUVzU":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eUVzU":[function(require,module,exports) {
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
  *
@@ -35692,7 +35654,7 @@ function mergeOptionsWithPopperConfig({ enabled, enableEvents, placement, flip, 
     });
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8iWIY":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8iWIY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isRoleMenu", ()=>isRoleMenu);
@@ -35753,7 +35715,7 @@ function useDropdownToggle() {
 DropdownToggle.displayName = "DropdownToggle";
 /** @component */ exports.default = DropdownToggle;
 
-},{"react":"21dqq","./ssr":"eaHes","./DropdownContext":"dX4vI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eaHes":[function(require,module,exports) {
+},{"react":"21dqq","./ssr":"eaHes","./DropdownContext":"dX4vI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eaHes":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useSSRSafeId", ()=>(0, _ssr.useSSRSafeId));
@@ -35761,7 +35723,7 @@ parcelHelpers.export(exports, "useIsSSR", ()=>(0, _ssr.useIsSSR));
 parcelHelpers.export(exports, "SSRProvider", ()=>(0, _ssr.SSRProvider));
 var _ssr = require("@react-aria/ssr");
 
-},{"@react-aria/ssr":"dIzY2","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dIzY2":[function(require,module,exports) {
+},{"@react-aria/ssr":"dIzY2","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dIzY2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "SSRProvider", ()=>$b5e257d569688ac6$export$9f8ac96af4b1b2ae);
@@ -35799,10 +35761,10 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 // SSR case multiple copies of React Aria is not supported.
 const $b5e257d569688ac6$var$defaultContext = {
     prefix: String(Math.round(Math.random() * 10000000000)),
-    current: 0,
-    isSSR: false
+    current: 0
 };
 const $b5e257d569688ac6$var$SSRContext = (0, _reactDefault.default).createContext($b5e257d569688ac6$var$defaultContext);
+const $b5e257d569688ac6$var$IsSSRContext = (0, _reactDefault.default).createContext(false);
 // This is only used in React < 18.
 function $b5e257d569688ac6$var$LegacySSRProvider(props) {
     let cur = (0, _react.useContext)($b5e257d569688ac6$var$SSRContext);
@@ -35812,12 +35774,10 @@ function $b5e257d569688ac6$var$LegacySSRProvider(props) {
             // If this is the first SSRProvider, start with an empty string prefix, otherwise
             // append and increment the counter.
             prefix: cur === $b5e257d569688ac6$var$defaultContext ? "" : `${cur.prefix}-${counter}`,
-            current: 0,
-            isSSR: isSSR
+            current: 0
         }), [
         cur,
-        counter,
-        isSSR
+        counter
     ]);
     // If on the client, and the component was initially server rendered,
     // then schedule a layout effect to update the component after hydration.
@@ -35826,7 +35786,9 @@ function $b5e257d569688ac6$var$LegacySSRProvider(props) {
     }, []);
     return (0, _reactDefault.default).createElement($b5e257d569688ac6$var$SSRContext.Provider, {
         value: value
-    }, props.children);
+    }, (0, _reactDefault.default).createElement($b5e257d569688ac6$var$IsSSRContext.Provider, {
+        value: isSSR
+    }, props.children));
 }
 let $b5e257d569688ac6$var$warnedAboutSSRProvider = false;
 function $b5e257d569688ac6$export$9f8ac96af4b1b2ae(props) {
@@ -35910,11 +35872,10 @@ function $b5e257d569688ac6$export$535bd6ca7f90a273() {
     // In React 18, we can use useSyncExternalStore to detect if we're server rendering or hydrating.
     if (typeof (0, _reactDefault.default)["useSyncExternalStore"] === "function") return (0, _reactDefault.default)["useSyncExternalStore"]($b5e257d569688ac6$var$subscribe, $b5e257d569688ac6$var$getSnapshot, $b5e257d569688ac6$var$getServerSnapshot);
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    let cur = (0, _react.useContext)($b5e257d569688ac6$var$SSRContext);
-    return cur.isSSR;
+    return (0, _react.useContext)($b5e257d569688ac6$var$IsSSRContext);
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hDAPz":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hDAPz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -35990,7 +35951,7 @@ const DropdownItem = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 DropdownItem.displayName = "DropdownItem";
 exports.default = DropdownItem;
 
-},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./SelectableContext":"8zLqy","./NavContext":"j1SMA","./Button":"8YUbR","./DataKey":"9vwZh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8zLqy":[function(require,module,exports) {
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./SelectableContext":"8zLqy","./NavContext":"j1SMA","./Button":"8YUbR","./DataKey":"9vwZh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8zLqy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "makeEventKey", ()=>makeEventKey);
@@ -36002,7 +35963,7 @@ const makeEventKey = (eventKey, href = null)=>{
 };
 exports.default = SelectableContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"j1SMA":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"j1SMA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36010,7 +35971,7 @@ const NavContext = /*#__PURE__*/ _react.createContext(null);
 NavContext.displayName = "NavContext";
 exports.default = NavContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9vwZh":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9vwZh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ATTRIBUTE_PREFIX", ()=>ATTRIBUTE_PREFIX);
@@ -36026,7 +35987,7 @@ function dataProp(property) {
     return `${PROPERTY_PREFIX}${property}`;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4AsJ2":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4AsJ2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "WindowProvider", ()=>WindowProvider);
@@ -36040,7 +36001,7 @@ function useWindow() {
     return (0, _react.useContext)(Context);
 }
 
-},{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4Ufmn":[function(require,module,exports) {
+},{"react":"21dqq","dom-helpers/canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4Ufmn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36048,7 +36009,7 @@ const DropdownContext = /*#__PURE__*/ _react.createContext({});
 DropdownContext.displayName = "DropdownContext";
 exports.default = DropdownContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"xQ9Cw":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"xQ9Cw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36078,7 +36039,7 @@ const DropdownItem = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, eve
 DropdownItem.displayName = "DropdownItem";
 exports.default = DropdownItem;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownItem":"hDAPz","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6UpAn":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownItem":"hDAPz","@restart/ui/Anchor":"cQOWi","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6UpAn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getDropdownMenuPlacement", ()=>getDropdownMenuPlacement);
@@ -36103,9 +36064,6 @@ var _useWrappedRefWithWarning = require("./useWrappedRefWithWarning");
 var _useWrappedRefWithWarningDefault = parcelHelpers.interopDefault(_useWrappedRefWithWarning);
 var _types = require("./types");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    flip: true
-};
 function getDropdownMenuPlacement(alignEnd, dropDirection, isRTL) {
     const topStart = isRTL ? "top-end" : "top-start";
     const topEnd = isRTL ? "top-start" : "top-end";
@@ -36119,9 +36077,11 @@ function getDropdownMenuPlacement(alignEnd, dropDirection, isRTL) {
     if (dropDirection === "up") placement = alignEnd ? topEnd : topStart;
     else if (dropDirection === "end") placement = alignEnd ? rightEnd : rightStart;
     else if (dropDirection === "start") placement = alignEnd ? leftEnd : leftStart;
+    else if (dropDirection === "down-centered") placement = "bottom";
+    else if (dropDirection === "up-centered") placement = "top";
     return placement;
 }
-const DropdownMenu = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, align, rootCloseEvent, flip, show: showProps, renderOnMount, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const DropdownMenu = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, align, rootCloseEvent, flip = true, show: showProps, renderOnMount, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "div", popperConfig, variant, ...props }, ref)=>{
     let alignEnd = false;
     const isNavbar = (0, _react.useContext)((0, _navbarContextDefault.default));
@@ -36136,7 +36096,8 @@ as: Component = "div", popperConfig, variant, ...props }, ref)=>{
             (0, _warningDefault.default)(keys.length === 1, "There should only be 1 breakpoint when passing an object to `align`");
             if (keys.length) {
                 const brkPoint = keys[0];
-                const direction = align[brkPoint]; // .dropdown-menu-end is required for responsively aligning
+                const direction = align[brkPoint];
+                // .dropdown-menu-end is required for responsively aligning
                 // left in addition to align left classes.
                 alignEnd = direction === "start";
                 alignClasses.push(`${prefix}-${brkPoint}-${direction}`);
@@ -36164,7 +36125,8 @@ as: Component = "div", popperConfig, variant, ...props }, ref)=>{
     }, [
         show
     ]);
-    if (!hasShown && !renderOnMount && !isInputGroup) return null; // For custom components provide additional, non-DOM, props;
+    if (!hasShown && !renderOnMount && !isInputGroup) return null;
+    // For custom components provide additional, non-DOM, props;
     if (typeof Component !== "string") {
         menuProps.show = show;
         menuProps.close = ()=>toggle == null ? void 0 : toggle(false);
@@ -36183,8 +36145,7 @@ as: Component = "div", popperConfig, variant, ...props }, ref)=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...props,
         ...menuProps,
-        style: style // Bootstrap css requires this data attrib to style responsive menus.
-        ,
+        style: style,
         ...(alignClasses.length || isNavbar) && {
             "data-bs-popper": "static"
         },
@@ -36192,10 +36153,9 @@ as: Component = "div", popperConfig, variant, ...props }, ref)=>{
     });
 });
 DropdownMenu.displayName = "DropdownMenu";
-DropdownMenu.defaultProps = defaultProps;
 exports.default = DropdownMenu;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownMenu":"6fCTW","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","warning":"eUVzU","./DropdownContext":"4Ufmn","./InputGroupContext":"eWDkO","./NavbarContext":"dpn1g","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eWDkO":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownMenu":"6fCTW","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","warning":"eUVzU","./DropdownContext":"4Ufmn","./InputGroupContext":"eWDkO","./NavbarContext":"dpn1g","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eWDkO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36203,15 +36163,16 @@ const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "InputGroupContext";
 exports.default = context;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dpn1g":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dpn1g":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _react = require("react"); // TODO: check
+var _react = require("react");
+// TODO: check
 const context = /*#__PURE__*/ _react.createContext(null);
 context.displayName = "NavbarContext";
 exports.default = context;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a7ejw":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a7ejw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useWrappedRefWithWarning);
@@ -36221,15 +36182,17 @@ var _react = require("react");
 var _useMergedRefs = require("@restart/hooks/useMergedRefs");
 var _useMergedRefsDefault = parcelHelpers.interopDefault(_useMergedRefs);
 function useWrappedRefWithWarning(ref, componentName) {
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     const warningRef = (0, _react.useCallback)((refValue)=>{
         !(refValue == null || !refValue.isReactComponent) && (0, _invariantDefault.default)(false, `${componentName} injected a ref to a provided \`as\` component that resolved to a component instance instead of a DOM element. ` + "Use `React.forwardRef` to provide the injected ref to the class component as a prop in order to pass it directly to a DOM element");
     }, [
         componentName
-    ]); // eslint-disable-next-line react-hooks/rules-of-hooks
+    ]);
+    // eslint-disable-next-line react-hooks/rules-of-hooks
     return (0, _useMergedRefsDefault.default)(warningRef, ref);
 }
 
-},{"invariant":"d1QgR","react":"21dqq","@restart/hooks/useMergedRefs":"6hhuo","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jwKaQ":[function(require,module,exports) {
+},{"invariant":"d1QgR","react":"21dqq","@restart/hooks/useMergedRefs":"6hhuo","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jwKaQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "alignPropType", ()=>alignPropType);
@@ -36259,21 +36222,19 @@ const alignPropType = (0, _propTypesDefault.default).oneOfType([
     (0, _propTypesDefault.default).object
 ]);
 
-},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gCRNt":[function(require,module,exports) {
+},{"prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gCRNt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+var _useMergedRefs = require("@restart/hooks/useMergedRefs");
+var _useMergedRefsDefault = parcelHelpers.interopDefault(_useMergedRefs);
+var _dropdownContext = require("@restart/ui/DropdownContext");
+var _dropdownContextDefault = parcelHelpers.interopDefault(_dropdownContext);
+var _dropdownToggle = require("@restart/ui/DropdownToggle");
 var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
-var _dropdownToggle = require("@restart/ui/DropdownToggle");
-var _dropdownContext = require("@restart/ui/DropdownContext");
-var _dropdownContextDefault = parcelHelpers.interopDefault(_dropdownContext);
-var _useMergedRefs = require("@restart/hooks/useMergedRefs");
-var _useMergedRefsDefault = parcelHelpers.interopDefault(_useMergedRefs);
 var _button = require("./Button");
 var _buttonDefault = parcelHelpers.interopDefault(_button);
-var _inputGroupContext = require("./InputGroupContext");
-var _inputGroupContextDefault = parcelHelpers.interopDefault(_inputGroupContext);
 var _themeProvider = require("./ThemeProvider");
 var _useWrappedRefWithWarning = require("./useWrappedRefWithWarning");
 var _useWrappedRefWithWarningDefault = parcelHelpers.interopDefault(_useWrappedRefWithWarning);
@@ -36282,13 +36243,13 @@ const DropdownToggle = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, split, class
 as: Component = (0, _buttonDefault.default), ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "dropdown-toggle");
     const dropdownContext = (0, _react.useContext)((0, _dropdownContextDefault.default));
-    const isInputGroup = (0, _react.useContext)((0, _inputGroupContextDefault.default));
     if (childBsPrefix !== undefined) props.bsPrefix = childBsPrefix;
     const [toggleProps] = (0, _dropdownToggle.useDropdownToggle)();
-    toggleProps.ref = (0, _useMergedRefsDefault.default)(toggleProps.ref, (0, _useWrappedRefWithWarningDefault.default)(ref, "DropdownToggle")); // This intentionally forwards size and variant (if set) to the
+    toggleProps.ref = (0, _useMergedRefsDefault.default)(toggleProps.ref, (0, _useWrappedRefWithWarningDefault.default)(ref, "DropdownToggle"));
+    // This intentionally forwards size and variant (if set) to the
     // underlying component, to allow it to render size and style variants.
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
-        className: (0, _classnamesDefault.default)(className, prefix, split && `${prefix}-split`, !!isInputGroup && (dropdownContext == null ? void 0 : dropdownContext.show) && "show"),
+        className: (0, _classnamesDefault.default)(className, prefix, split && `${prefix}-split`, (dropdownContext == null ? void 0 : dropdownContext.show) && "show"),
         ...toggleProps,
         ...props
     });
@@ -36296,7 +36257,7 @@ as: Component = (0, _buttonDefault.default), ...props }, ref)=>{
 DropdownToggle.displayName = "DropdownToggle";
 exports.default = DropdownToggle;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/DropdownToggle":"8iWIY","@restart/ui/DropdownContext":"dX4vI","@restart/hooks/useMergedRefs":"6hhuo","./Button":"aPzUt","./InputGroupContext":"eWDkO","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5sMVB":[function(require,module,exports) {
+},{"@restart/hooks/useMergedRefs":"6hhuo","@restart/ui/DropdownContext":"dX4vI","@restart/ui/DropdownToggle":"8iWIY","classnames":"jocGM","react":"21dqq","./Button":"aPzUt","./ThemeProvider":"dVixI","./useWrappedRefWithWarning":"a7ejw","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5sMVB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36384,7 +36345,7 @@ DropdownButton.displayName = "DropdownButton";
 DropdownButton.propTypes = propTypes;
 exports.default = DropdownButton;
 
-},{"react":"21dqq","prop-types":"7wKI2","./Dropdown":"88m2L","./DropdownToggle":"gCRNt","./DropdownMenu":"6UpAn","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iBZ80":[function(require,module,exports) {
+},{"react":"21dqq","prop-types":"7wKI2","./Dropdown":"88m2L","./DropdownToggle":"gCRNt","./DropdownMenu":"6UpAn","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iBZ80":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36449,7 +36410,7 @@ exports.default = Object.assign(Form, {
     FloatingLabel: (0, _floatingLabelDefault.default)
 });
 
-},{"classnames":"jocGM","prop-types":"7wKI2","react":"21dqq","./FormCheck":"idkr0","./FormControl":"iynMc","./FormFloating":"aj346","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormRange":"8zsCO","./FormSelect":"hHWyB","./FormText":"ffeC7","./Switch":"9O81i","./FloatingLabel":"coYzo","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"idkr0":[function(require,module,exports) {
+},{"classnames":"jocGM","prop-types":"7wKI2","react":"21dqq","./FormCheck":"idkr0","./FormControl":"iynMc","./FormFloating":"aj346","./FormGroup":"1qBHH","./FormLabel":"66epi","./FormRange":"8zsCO","./FormSelect":"hHWyB","./FormText":"ffeC7","./Switch":"9O81i","./FloatingLabel":"coYzo","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"idkr0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36515,7 +36476,7 @@ exports.default = Object.assign(FormCheck, {
     Label: (0, _formCheckLabelDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","./Feedback":"aWeg2","./FormCheckInput":"dPzD9","./FormCheckLabel":"fGhS2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aWeg2":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./Feedback":"aWeg2","./FormCheckInput":"dPzD9","./FormCheckLabel":"fGhS2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aWeg2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36533,7 +36494,8 @@ const propTypes = {
     /** Display feedback as a tooltip. */ tooltip: (0, _propTypesDefault.default).bool,
     as: (0, _propTypesDefault.default).elementType
 };
-const Feedback = /*#__PURE__*/ _react.forwardRef(({ as: Component = "div", className, type = "valid", tooltip = false, ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
+const Feedback = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+({ as: Component = "div", className, type = "valid", tooltip = false, ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...props,
         ref: ref,
         className: (0, _classnamesDefault.default)(className, `${type}-${tooltip ? "tooltip" : "feedback"}`)
@@ -36542,7 +36504,7 @@ Feedback.displayName = "Feedback";
 Feedback.propTypes = propTypes;
 exports.default = Feedback;
 
-},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dPzD9":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dPzD9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36567,14 +36529,15 @@ as: Component = "input", ...props }, ref)=>{
 FormCheckInput.displayName = "FormCheckInput";
 exports.default = FormCheckInput;
 
-},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gjvSt":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gjvSt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-var _react = require("react"); // TODO
+var _react = require("react");
+// TODO
 const FormContext = /*#__PURE__*/ _react.createContext({});
 exports.default = FormContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fGhS2":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fGhS2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36597,7 +36560,7 @@ const FormCheckLabel = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, h
 FormCheckLabel.displayName = "FormCheckLabel";
 exports.default = FormCheckLabel;
 
-},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iynMc":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iynMc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36639,14 +36602,14 @@ exports.default = Object.assign(FormControl, {
     Feedback: (0, _feedbackDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Feedback":"aWeg2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aj346":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Feedback":"aWeg2","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aj346":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("form-floating");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1qBHH":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1qBHH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36671,7 +36634,7 @@ as: Component = "div", ...props }, ref)=>{
 FormGroup.displayName = "FormGroup";
 exports.default = FormGroup;
 
-},{"react":"21dqq","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"66epi":[function(require,module,exports) {
+},{"react":"21dqq","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"66epi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36685,12 +36648,8 @@ var _formContext = require("./FormContext");
 var _formContextDefault = parcelHelpers.interopDefault(_formContext);
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    column: false,
-    visuallyHidden: false
-};
 const FormLabel = /*#__PURE__*/ _react.forwardRef(({ // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-as: Component = "label", bsPrefix, column, visuallyHidden, className, htmlFor, ...props }, ref)=>{
+as: Component = "label", bsPrefix, column = false, visuallyHidden = false, className, htmlFor, ...props }, ref)=>{
     const { controlId } = (0, _react.useContext)((0, _formContextDefault.default));
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "form-label");
     let columnClass = "col-form-label";
@@ -36714,10 +36673,9 @@ as: Component = "label", bsPrefix, column, visuallyHidden, className, htmlFor, .
     }));
 });
 FormLabel.displayName = "FormLabel";
-FormLabel.defaultProps = defaultProps;
 exports.default = FormLabel;
 
-},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Col":"2L2I6","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8zsCO":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","./Col":"2L2I6","./FormContext":"gjvSt","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8zsCO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36741,7 +36699,7 @@ const FormRange = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, id, ..
 FormRange.displayName = "FormRange";
 exports.default = FormRange;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hHWyB":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hHWyB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36765,7 +36723,7 @@ const FormSelect = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, size, htmlSize, 
 FormSelect.displayName = "FormSelect";
 exports.default = FormSelect;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ffeC7":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./FormContext":"gjvSt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ffeC7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36773,7 +36731,8 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const FormText = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, as: Component = "small", muted, ...props }, ref)=>{
+const FormText = /*#__PURE__*/ _react.forwardRef(// Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+({ bsPrefix, className, as: Component = "small", muted, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "form-text");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...props,
@@ -36784,7 +36743,7 @@ const FormText = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, as: Com
 FormText.displayName = "FormText";
 exports.default = FormText;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9O81i":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9O81i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -36802,7 +36761,7 @@ exports.default = Object.assign(Switch, {
     Label: (0, _formCheckDefault.default).Label
 });
 
-},{"react":"21dqq","./FormCheck":"idkr0","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"coYzo":[function(require,module,exports) {
+},{"react":"21dqq","./FormCheck":"idkr0","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"coYzo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36831,7 +36790,7 @@ const FloatingLabel = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, ch
 FloatingLabel.displayName = "FloatingLabel";
 exports.default = FloatingLabel;
 
-},{"classnames":"jocGM","react":"21dqq","./FormGroup":"1qBHH","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hEdsw":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./FormGroup":"1qBHH","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hEdsw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36839,10 +36798,7 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    fluid: false
-};
-const Container = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, fluid, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const Container = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, fluid = false, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "div", className, ...props }, ref)=>{
     const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "container");
     const suffix = typeof fluid === "string" ? `-${fluid}` : "-fluid";
@@ -36853,10 +36809,9 @@ as: Component = "div", className, ...props }, ref)=>{
     });
 });
 Container.displayName = "Container";
-Container.defaultProps = defaultProps;
 exports.default = Container;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cyVPa":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cyVPa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "propTypes", ()=>propTypes);
@@ -36884,13 +36839,7 @@ const propTypes = {
    * Sets image shape as thumbnail.
    */ thumbnail: (0, _propTypesDefault.default).bool
 };
-const defaultProps = {
-    fluid: false,
-    rounded: false,
-    roundedCircle: false,
-    thumbnail: false
-};
-const Image = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, fluid, rounded, roundedCircle, thumbnail, ...props }, ref)=>{
+const Image = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, fluid = false, rounded = false, roundedCircle = false, thumbnail = false, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "img");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("img", {
         // eslint-disable-line jsx-a11y/alt-text
@@ -36900,10 +36849,9 @@ const Image = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, fluid, rou
     });
 });
 Image.displayName = "Image";
-Image.defaultProps = defaultProps;
 exports.default = Image;
 
-},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7Eckp":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","prop-types":"7wKI2","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7Eckp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -36920,7 +36868,7 @@ exports.default = Object.assign(Figure, {
     Caption: (0, _figureCaptionDefault.default)
 });
 
-},{"./createWithBsPrefix":"itt7e","./FigureImage":"jhS47","./FigureCaption":"aGvgd","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jhS47":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","./FigureImage":"jhS47","./FigureCaption":"aGvgd","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jhS47":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36929,20 +36877,17 @@ var _react = require("react");
 var _image = require("./Image");
 var _imageDefault = parcelHelpers.interopDefault(_image);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    fluid: true
-};
-const FigureImage = /*#__PURE__*/ _react.forwardRef(({ className, ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _imageDefault.default), {
+const FigureImage = /*#__PURE__*/ _react.forwardRef(({ className, fluid = true, ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _imageDefault.default), {
         ref: ref,
         ...props,
+        fluid: fluid,
         className: (0, _classnamesDefault.default)(className, "figure-img")
     }));
 FigureImage.displayName = "FigureImage";
 FigureImage.propTypes = (0, _image.propTypes);
-FigureImage.defaultProps = defaultProps;
 exports.default = FigureImage;
 
-},{"classnames":"jocGM","react":"21dqq","./Image":"cyVPa","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aGvgd":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./Image":"cyVPa","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aGvgd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -36952,7 +36897,7 @@ const FigureCaption = (0, _createWithBsPrefixDefault.default)("figure-caption", 
 });
 exports.default = FigureCaption;
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"htx7r":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"htx7r":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -36981,14 +36926,10 @@ const InputGroupRadio = (props)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)(InputGroupTe
             ...props
         })
     });
-/**
- *
- * @property {InputGroupText} Text
- * @property {InputGroupRadio} Radio
- * @property {InputGroupCheckbox} Checkbox
- */ const InputGroup = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, size, hasValidation, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const InputGroup = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, size, hasValidation, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "div", ...props }, ref)=>{
-    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "input-group"); // Intentionally an empty object. Used in detecting if a dropdown
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "input-group");
+    // Intentionally an empty object. Used in detecting if a dropdown
     // exists under an input group.
     const contextValue = (0, _react.useMemo)(()=>({}), []);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _inputGroupContextDefault.default).Provider, {
@@ -37007,7 +36948,7 @@ exports.default = Object.assign(InputGroup, {
     Checkbox: InputGroupCheckbox
 });
 
-},{"classnames":"jocGM","react":"21dqq","./createWithBsPrefix":"itt7e","./ThemeProvider":"dVixI","./FormCheckInput":"dPzD9","./InputGroupContext":"eWDkO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4tGXh":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./createWithBsPrefix":"itt7e","./ThemeProvider":"dVixI","./FormCheckInput":"dPzD9","./InputGroupContext":"eWDkO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4tGXh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37043,7 +36984,7 @@ exports.default = Object.assign(ListGroup, {
     Item: (0, _listGroupItemDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./ListGroupItem":"9U5b8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fZdNd":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./ListGroupItem":"9U5b8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fZdNd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _querySelectorAll = require("dom-helpers/querySelectorAll");
@@ -37174,14 +37115,14 @@ exports.default = Object.assign(Nav, {
     Item: (0, _navItemDefault.default)
 });
 
-},{"dom-helpers/querySelectorAll":"g5Sx6","react":"21dqq","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useMergedRefs":"6hhuo","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./TabContext":"cI3G3","./DataKey":"9vwZh","./NavItem":"2cGYS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cI3G3":[function(require,module,exports) {
+},{"dom-helpers/querySelectorAll":"g5Sx6","react":"21dqq","@restart/hooks/useForceUpdate":"3Y4bz","@restart/hooks/useMergedRefs":"6hhuo","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./TabContext":"cI3G3","./DataKey":"9vwZh","./NavItem":"2cGYS","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cI3G3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
 const TabContext = /*#__PURE__*/ _react.createContext(null);
 exports.default = TabContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2cGYS":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2cGYS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useNavItem", ()=>useNavItem);
@@ -37277,12 +37218,14 @@ const NavItem = /*#__PURE__*/ _react.forwardRef((_ref, ref)=>{
 NavItem.displayName = "NavItem";
 exports.default = NavItem;
 
-},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./Button":"8YUbR","./DataKey":"9vwZh","./TabContext":"cI3G3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9U5b8":[function(require,module,exports) {
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./NavContext":"j1SMA","./SelectableContext":"8zLqy","./Button":"8YUbR","./DataKey":"9vwZh","./TabContext":"cI3G3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9U5b8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
+var _warning = require("warning");
+var _warningDefault = parcelHelpers.interopDefault(_warning);
 var _useEventCallback = require("@restart/hooks/useEventCallback");
 var _useEventCallbackDefault = parcelHelpers.interopDefault(_useEventCallback);
 var _navItem = require("@restart/ui/NavItem");
@@ -37307,8 +37250,10 @@ const ListGroupItem = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, active, disab
     if (disabled && props.tabIndex === undefined) {
         props.tabIndex = -1;
         props["aria-disabled"] = true;
-    } // eslint-disable-next-line no-nested-ternary
+    }
+    // eslint-disable-next-line no-nested-ternary
     const Component = as || (action ? props.href ? "a" : "button" : "div");
+    (0, _warningDefault.default)(as || !(!action && props.href), "`action=false` and `href` should not be used together.");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ref: ref,
         ...props,
@@ -37320,7 +37265,7 @@ const ListGroupItem = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, active, disab
 ListGroupItem.displayName = "ListGroupItem";
 exports.default = ListGroupItem;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aNVmp":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","warning":"eUVzU","@restart/hooks/useEventCallback":"7ONdq","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aNVmp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -37365,16 +37310,6 @@ var _modalTitle = require("./ModalTitle");
 var _modalTitleDefault = parcelHelpers.interopDefault(_modalTitle);
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    show: false,
-    backdrop: true,
-    keyboard: true,
-    autoFocus: true,
-    enforceFocus: true,
-    restoreFocus: true,
-    animation: true,
-    dialogAs: (0, _modalDialogDefault.default)
-};
 /* eslint-disable no-use-before-define, react/no-multi-comp */ function DialogTransition(props) {
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _fadeDefault.default), {
         ...props,
@@ -37387,7 +37322,7 @@ function BackdropTransition(props) {
         timeout: null
     });
 }
-/* eslint-enable no-use-before-define */ const Modal = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, style, dialogClassName, contentClassName, children, dialogAs: Dialog, "aria-labelledby": ariaLabelledby, "aria-describedby": ariaDescribedby, "aria-label": ariaLabel, /* BaseModal props */ show, animation, backdrop, keyboard, onEscapeKeyDown, onShow, onHide, container, autoFocus, enforceFocus, restoreFocus, restoreFocusOptions, onEntered, onExit, onExiting, onEnter, onEntering, onExited, backdropClassName, manager: propsManager, ...props }, ref)=>{
+/* eslint-enable no-use-before-define */ const Modal = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, style, dialogClassName, contentClassName, children, dialogAs: Dialog = (0, _modalDialogDefault.default), "aria-labelledby": ariaLabelledby, "aria-describedby": ariaDescribedby, "aria-label": ariaLabel, /* BaseModal props */ show = false, animation = true, backdrop = true, keyboard = true, onEscapeKeyDown, onShow, onHide, container, autoFocus = true, enforceFocus = true, restoreFocus = true, restoreFocusOptions, onEntered, onExit, onExiting, onEnter, onEntering, onExited, backdropClassName, manager: propsManager, ...props }, ref)=>{
     const [modalStyle, setStyle] = (0, _react.useState)({});
     const [animateStaticModal, setAnimateStaticModal] = (0, _react.useState)(false);
     const waitingForMouseUpRef = (0, _react.useRef)(false);
@@ -37424,8 +37359,9 @@ function BackdropTransition(props) {
     (0, _useWillUnmountDefault.default)(()=>{
         (0, _removeEventListenerDefault.default)(window, "resize", handleWindowResize);
         removeStaticModalAnimationRef.current == null || removeStaticModalAnimationRef.current();
-    }); // We prevent the modal from closing during a drag by detecting where the
-    // the click originates from. If it starts in the modal and then ends outside
+    });
+    // We prevent the modal from closing during a drag by detecting where the
+    // click originates from. If it starts in the modal and then ends outside
     // don't close.
     const handleDialogMouseDown = ()=>{
         waitingForMouseUpRef.current = true;
@@ -37456,12 +37392,13 @@ function BackdropTransition(props) {
         onHide == null || onHide();
     };
     const handleEscapeKeyDown = (e)=>{
-        if (!keyboard && backdrop === "static") {
-            // Call preventDefault to stop modal from closing in restart ui,
-            // then play our animation.
+        if (keyboard) onEscapeKeyDown == null || onEscapeKeyDown(e);
+        else {
+            // Call preventDefault to stop modal from closing in @restart/ui.
             e.preventDefault();
+            if (backdrop === "static") // Play static modal animation.
             handleStaticModalAnimation();
-        } else if (keyboard && onEscapeKeyDown) onEscapeKeyDown(e);
+        }
     };
     const handleEnter = (node, isAppearing)=>{
         if (node) updateDialogStyle(node);
@@ -37472,12 +37409,14 @@ function BackdropTransition(props) {
         onExit == null || onExit(node);
     };
     const handleEntering = (node, isAppearing)=>{
-        onEntering == null || onEntering(node, isAppearing); // FIXME: This should work even when animation is disabled.
+        onEntering == null || onEntering(node, isAppearing);
+        // FIXME: This should work even when animation is disabled.
         (0, _addEventListenerDefault.default)(window, "resize", handleWindowResize);
     };
     const handleExited = (node)=>{
         if (node) node.style.display = ""; // RHL removes it sometimes
-        onExited == null || onExited(node); // FIXME: This should work even when animation is disabled.
+        onExited == null || onExited(node);
+        // FIXME: This should work even when animation is disabled.
         (0, _removeEventListenerDefault.default)(window, "resize", handleWindowResize);
     };
     const renderBackdrop = (0, _react.useCallback)((backdropProps)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
@@ -37491,14 +37430,15 @@ function BackdropTransition(props) {
     const baseModalStyle = {
         ...style,
         ...modalStyle
-    }; // If `display` is not set to block, autoFocus inside the modal fails
+    };
+    // If `display` is not set to block, autoFocus inside the modal fails
     // https://github.com/react-bootstrap/react-bootstrap/issues/5102
     baseModalStyle.display = "block";
     const renderDialog = (dialogProps)=>/*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
             role: "dialog",
             ...dialogProps,
             style: baseModalStyle,
-            className: (0, _classnamesDefault.default)(className, bsPrefix, animateStaticModal && `${bsPrefix}-static`),
+            className: (0, _classnamesDefault.default)(className, bsPrefix, animateStaticModal && `${bsPrefix}-static`, !animation && "show"),
             onClick: backdrop ? handleClick : undefined,
             onMouseUp: handleMouseUp,
             "aria-label": ariaLabel,
@@ -37543,7 +37483,6 @@ function BackdropTransition(props) {
     });
 });
 Modal.displayName = "Modal";
-Modal.defaultProps = defaultProps;
 exports.default = Object.assign(Modal, {
     Body: (0, _modalBodyDefault.default),
     Header: (0, _modalHeaderDefault.default),
@@ -37554,7 +37493,7 @@ exports.default = Object.assign(Modal, {
     BACKDROP_TRANSITION_DURATION: 150
 });
 
-},{"classnames":"jocGM","dom-helpers/addEventListener":"c5x2p","dom-helpers/canUseDOM":"9AwUB","dom-helpers/ownerDocument":"2WpOk","dom-helpers/removeEventListener":"la8JB","dom-helpers/scrollbarSize":"lhsUa","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useWillUnmount":"2OOXI","dom-helpers/transitionEnd":"7hVJq","react":"21dqq","@restart/ui/Modal":"crj1M","./BootstrapModalManager":"lr1Yp","./Fade":"aH18S","./ModalBody":"e0aNG","./ModalContext":"2U4Zk","./ModalDialog":"cwGGq","./ModalFooter":"9SLlP","./ModalHeader":"cxgdE","./ModalTitle":"kYqJp","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lhsUa":[function(require,module,exports) {
+},{"classnames":"jocGM","dom-helpers/addEventListener":"c5x2p","dom-helpers/canUseDOM":"9AwUB","dom-helpers/ownerDocument":"2WpOk","dom-helpers/removeEventListener":"la8JB","dom-helpers/scrollbarSize":"lhsUa","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useWillUnmount":"2OOXI","dom-helpers/transitionEnd":"7hVJq","react":"21dqq","@restart/ui/Modal":"crj1M","./BootstrapModalManager":"lr1Yp","./Fade":"aH18S","./ModalBody":"e0aNG","./ModalContext":"2U4Zk","./ModalDialog":"cwGGq","./ModalFooter":"9SLlP","./ModalHeader":"cxgdE","./ModalTitle":"kYqJp","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lhsUa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>scrollbarSize);
@@ -37578,7 +37517,7 @@ function scrollbarSize(recalc) {
     return size;
 }
 
-},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"crj1M":[function(require,module,exports) {
+},{"./canUseDOM":"9AwUB","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"crj1M":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /* eslint-disable @typescript-eslint/no-use-before-define, react/prop-types */ var _activeElement = require("dom-helpers/activeElement");
@@ -37826,7 +37765,7 @@ exports.default = Object.assign(Modal, {
     Manager: (0, _modalManagerDefault.default)
 });
 
-},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5ShA6":[function(require,module,exports) {
+},{"dom-helpers/activeElement":"5ShA6","dom-helpers/contains":"KpRFS","dom-helpers/canUseDOM":"9AwUB","dom-helpers/listen":"1i4e7","react":"21dqq","react-dom":"j6uA9","@restart/hooks/useMounted":"iK6A1","@restart/hooks/useWillUnmount":"2OOXI","@restart/hooks/usePrevious":"gDCGm","@restart/hooks/useEventCallback":"7ONdq","./ModalManager":"5alMm","./useWaitForDOMRef":"83lRQ","./useWindow":"4AsJ2","./ImperativeTransition":"j0Jao","./utils":"2Fmci","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5ShA6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>activeElement);
@@ -37846,7 +37785,7 @@ function activeElement(doc) {
     }
 }
 
-},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5alMm":[function(require,module,exports) {
+},{"./ownerDocument":"2WpOk","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5alMm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "OPEN_DATA_ATTRIBUTE", ()=>OPEN_DATA_ATTRIBUTE);
@@ -37935,7 +37874,7 @@ const OPEN_DATA_ATTRIBUTE = (0, _dataKey.dataAttr)("modal-open");
 }
 exports.default = ModalManager;
 
-},{"dom-helpers/css":"klmhr","./DataKey":"9vwZh","./getScrollbarWidth":"9IxEN","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9IxEN":[function(require,module,exports) {
+},{"dom-helpers/css":"klmhr","./DataKey":"9vwZh","./getScrollbarWidth":"9IxEN","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9IxEN":[function(require,module,exports) {
 /**
  * Get the width of the vertical window scrollbar if it's visible
  */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
@@ -37946,7 +37885,7 @@ function getBodyScrollbarWidth(ownerDocument = document) {
     return Math.abs(window.innerWidth - ownerDocument.documentElement.clientWidth);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"83lRQ":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"83lRQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "resolveContainerRef", ()=>resolveContainerRef);
@@ -37989,7 +37928,7 @@ function useWaitForDOMRef(ref, onResolved) {
     return resolvedRef;
 }
 
-},{"dom-helpers/ownerDocument":"2WpOk","dom-helpers/canUseDOM":"9AwUB","react":"21dqq","./useWindow":"4AsJ2","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"j0Jao":[function(require,module,exports) {
+},{"dom-helpers/ownerDocument":"2WpOk","dom-helpers/canUseDOM":"9AwUB","react":"21dqq","./useWindow":"4AsJ2","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"j0Jao":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useTransition", ()=>useTransition);
@@ -38069,7 +38008,7 @@ function renderTransition(Component, runTransition, props) {
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _noopTransitionDefault.default), Object.assign({}, props));
 }
 
-},{"@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","react":"21dqq","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cwnaj":[function(require,module,exports) {
+},{"@restart/hooks/useMergedRefs":"6hhuo","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","react":"21dqq","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cwnaj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _useEventCallback = require("@restart/hooks/useEventCallback");
@@ -38099,7 +38038,7 @@ function NoopTransition({ children, in: inProp, onExited, mountOnEnter, unmountO
 }
 exports.default = NoopTransition;
 
-},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2Fmci":[function(require,module,exports) {
+},{"@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useMergedRefs":"6hhuo","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2Fmci":[function(require,module,exports) {
 /* eslint-disable import/prefer-default-export */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isEscKey", ()=>isEscKey);
@@ -38107,7 +38046,7 @@ function isEscKey(e) {
     return e.code === "Escape" || e.keyCode === 27;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lr1Yp":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lr1Yp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getSharedManager", ()=>getSharedManager);
@@ -38128,7 +38067,8 @@ const Selector = {
 };
 class BootstrapModalManager extends (0, _modalManagerDefault.default) {
     adjustAndStore(prop, element, adjust) {
-        const actual = element.style[prop]; // TODO: DOMStringMap and CSSStyleDeclaration aren't strictly compatible
+        const actual = element.style[prop];
+        // TODO: DOMStringMap and CSSStyleDeclaration aren't strictly compatible
         // @ts-ignore
         element.dataset[prop] = actual;
         (0, _cssDefault.default)(element, {
@@ -38173,7 +38113,7 @@ function getSharedManager(options) {
 }
 exports.default = BootstrapModalManager;
 
-},{"dom-helpers/addClass":"7dIIz","dom-helpers/css":"klmhr","dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/removeClass":"66hgg","@restart/ui/ModalManager":"5alMm","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7dIIz":[function(require,module,exports) {
+},{"dom-helpers/addClass":"7dIIz","dom-helpers/css":"klmhr","dom-helpers/querySelectorAll":"g5Sx6","dom-helpers/removeClass":"66hgg","@restart/ui/ModalManager":"5alMm","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7dIIz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addClass);
@@ -38187,7 +38127,7 @@ function addClass(element, className) {
     }
 }
 
-},{"./hasClass":"6sJz4","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6sJz4":[function(require,module,exports) {
+},{"./hasClass":"6sJz4","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6sJz4":[function(require,module,exports) {
 /**
  * Checks if a given element has a CSS class.
  * 
@@ -38201,7 +38141,7 @@ function hasClass(element, className) {
     return (" " + (element.className.baseVal || element.className) + " ").indexOf(" " + className + " ") !== -1;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"66hgg":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"66hgg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>removeClass);
@@ -38214,14 +38154,14 @@ function removeClass(element, className) {
     else element.setAttribute("class", replaceClassName(element.className && element.className.baseVal || "", className));
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e0aNG":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e0aNG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("modal-body");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2U4Zk":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2U4Zk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38231,7 +38171,7 @@ const ModalContext = /*#__PURE__*/ _react.createContext({
 });
 exports.default = ModalContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cwGGq":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cwGGq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38256,14 +38196,14 @@ const ModalDialog = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, cont
 ModalDialog.displayName = "ModalDialog";
 exports.default = ModalDialog;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9SLlP":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9SLlP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("modal-footer");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cxgdE":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cxgdE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38273,23 +38213,20 @@ var _themeProvider = require("./ThemeProvider");
 var _abstractModalHeader = require("./AbstractModalHeader");
 var _abstractModalHeaderDefault = parcelHelpers.interopDefault(_abstractModalHeader);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    closeLabel: "Close",
-    closeButton: false
-};
-const ModalHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, ...props }, ref)=>{
+const ModalHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, closeLabel = "Close", closeButton = false, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "modal-header");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _abstractModalHeaderDefault.default), {
         ref: ref,
         ...props,
-        className: (0, _classnamesDefault.default)(className, bsPrefix)
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        closeLabel: closeLabel,
+        closeButton: closeButton
     });
 });
 ModalHeader.displayName = "ModalHeader";
-ModalHeader.defaultProps = defaultProps;
 exports.default = ModalHeader;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hPF8S":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hPF8S":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38300,11 +38237,7 @@ var _closeButtonDefault = parcelHelpers.interopDefault(_closeButton);
 var _modalContext = require("./ModalContext");
 var _modalContextDefault = parcelHelpers.interopDefault(_modalContext);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    closeLabel: "Close",
-    closeButton: false
-};
-const AbstractModalHeader = /*#__PURE__*/ _react.forwardRef(({ closeLabel, closeVariant, closeButton, onHide, children, ...props }, ref)=>{
+const AbstractModalHeader = /*#__PURE__*/ _react.forwardRef(({ closeLabel = "Close", closeVariant, closeButton = false, onHide, children, ...props }, ref)=>{
     const context = (0, _react.useContext)((0, _modalContextDefault.default));
     const handleClick = (0, _useEventCallbackDefault.default)(()=>{
         context == null || context.onHide();
@@ -38323,10 +38256,9 @@ const AbstractModalHeader = /*#__PURE__*/ _react.forwardRef(({ closeLabel, close
         ]
     });
 });
-AbstractModalHeader.defaultProps = defaultProps;
 exports.default = AbstractModalHeader;
 
-},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./CloseButton":"1wmVl","./ModalContext":"2U4Zk","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kYqJp":[function(require,module,exports) {
+},{"react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./CloseButton":"1wmVl","./ModalContext":"2U4Zk","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kYqJp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -38338,7 +38270,7 @@ exports.default = (0, _createWithBsPrefixDefault.default)("modal-title", {
     Component: DivStyledAsH4
 });
 
-},{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cXyL2":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cXyL2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38359,12 +38291,8 @@ var _navItemDefault = parcelHelpers.interopDefault(_navItem);
 var _navLink = require("./NavLink");
 var _navLinkDefault = parcelHelpers.interopDefault(_navLink);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    justify: false,
-    fill: false
-};
 const Nav = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
-    const { as = "div", bsPrefix: initialBsPrefix, variant, fill, justify, navbar, navbarScroll, className, activeKey, ...props } = (0, _uncontrollable.useUncontrolled)(uncontrolledProps, {
+    const { as = "div", bsPrefix: initialBsPrefix, variant, fill = false, justify = false, navbar, navbarScroll, className, activeKey, ...props } = (0, _uncontrollable.useUncontrolled)(uncontrolledProps, {
         activeKey: "onSelect"
     });
     const bsPrefix = (0, _themeProvider.useBootstrapPrefix)(initialBsPrefix, "nav");
@@ -38394,13 +38322,12 @@ const Nav = /*#__PURE__*/ _react.forwardRef((uncontrolledProps, ref)=>{
     });
 });
 Nav.displayName = "Nav";
-Nav.defaultProps = defaultProps;
 exports.default = Object.assign(Nav, {
     Item: (0, _navItemDefault.default),
     Link: (0, _navLinkDefault.default)
 });
 
-},{"classnames":"jocGM","prop-types-extra/lib/all":"37Ank","react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./CardHeaderContext":"36cNB","./NavItem":"ew05W","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"37Ank":[function(require,module,exports) {
+},{"classnames":"jocGM","prop-types-extra/lib/all":"37Ank","react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Nav":"fZdNd","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","./CardHeaderContext":"36cNB","./NavItem":"ew05W","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"37Ank":[function(require,module,exports) {
 "use strict";
 Object.defineProperty(exports, "__esModule", {
     value: true
@@ -38473,7 +38400,7 @@ var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("nav-item");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7geL8":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7geL8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38485,28 +38412,26 @@ var _navItem = require("@restart/ui/NavItem");
 var _selectableContext = require("@restart/ui/SelectableContext");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    disabled: false
-};
-const NavLink = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, as: Component = (0, _anchorDefault.default), active, eventKey, ...props }, ref)=>{
+const NavLink = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, as: Component = (0, _anchorDefault.default), active, eventKey, disabled = false, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "nav-link");
     const [navItemProps, meta] = (0, _navItem.useNavItem)({
         key: (0, _selectableContext.makeEventKey)(eventKey, props.href),
         active,
+        disabled,
         ...props
     });
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ...props,
         ...navItemProps,
         ref: ref,
-        className: (0, _classnamesDefault.default)(className, bsPrefix, props.disabled && "disabled", meta.isActive && "active")
+        disabled: disabled,
+        className: (0, _classnamesDefault.default)(className, bsPrefix, disabled && "disabled", meta.isActive && "active")
     });
 });
 NavLink.displayName = "NavLink";
-NavLink.defaultProps = defaultProps;
 exports.default = NavLink;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1mHjo":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","@restart/ui/NavItem":"2cGYS","@restart/ui/SelectableContext":"8zLqy","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1mHjo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38532,14 +38457,9 @@ var _jsxRuntime = require("react/jsx-runtime");
 const NavbarText = (0, _createWithBsPrefixDefault.default)("navbar-text", {
     Component: "span"
 });
-const defaultProps = {
-    expand: true,
-    variant: "light",
-    collapseOnSelect: false
-};
 const Navbar = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
-    const { bsPrefix: initialBsPrefix, expand, variant, bg, fixed, sticky, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
-    as: Component = "nav", expanded, onToggle, onSelect, collapseOnSelect, ...controlledProps } = (0, _uncontrollable.useUncontrolled)(props, {
+    const { bsPrefix: initialBsPrefix, expand = true, variant = "light", bg, fixed, sticky, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+    as: Component = "nav", expanded, onToggle, onSelect, collapseOnSelect = false, ...controlledProps } = (0, _uncontrollable.useUncontrolled)(props, {
         expanded: "onToggle"
     });
     const bsPrefix = (0, _themeProvider.useBootstrapPrefix)(initialBsPrefix, "navbar");
@@ -38551,7 +38471,8 @@ const Navbar = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
         collapseOnSelect,
         expanded,
         onToggle
-    ]); // will result in some false positives but that seems better
+    ]);
+    // will result in some false positives but that seems better
     // than false negatives. strict `undefined` check allows explicit
     // "nulling" of the role if the user really doesn't want one
     if (controlledProps.role === undefined && Component !== "nav") controlledProps.role = "navigation";
@@ -38580,7 +38501,6 @@ const Navbar = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
         })
     });
 });
-Navbar.defaultProps = defaultProps;
 Navbar.displayName = "Navbar";
 exports.default = Object.assign(Navbar, {
     Brand: (0, _navbarBrandDefault.default),
@@ -38590,7 +38510,7 @@ exports.default = Object.assign(Navbar, {
     Toggle: (0, _navbarToggleDefault.default)
 });
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","uncontrollable":"b3yWY","./createWithBsPrefix":"itt7e","./NavbarBrand":"iOo4v","./NavbarCollapse":"eNSCC","./NavbarToggle":"7vOXv","./NavbarOffcanvas":"fOxoE","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iOo4v":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","uncontrollable":"b3yWY","./createWithBsPrefix":"itt7e","./NavbarBrand":"iOo4v","./NavbarCollapse":"eNSCC","./NavbarToggle":"7vOXv","./NavbarOffcanvas":"fOxoE","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iOo4v":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38610,7 +38530,7 @@ const NavbarBrand = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, as, 
 NavbarBrand.displayName = "NavbarBrand";
 exports.default = NavbarBrand;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eNSCC":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eNSCC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38636,7 +38556,7 @@ const NavbarCollapse = /*#__PURE__*/ _react.forwardRef(({ children, bsPrefix, ..
 NavbarCollapse.displayName = "NavbarCollapse";
 exports.default = NavbarCollapse;
 
-},{"react":"21dqq","./Collapse":"acuzI","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7vOXv":[function(require,module,exports) {
+},{"react":"21dqq","./Collapse":"acuzI","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7vOXv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38648,10 +38568,7 @@ var _themeProvider = require("./ThemeProvider");
 var _navbarContext = require("./NavbarContext");
 var _navbarContextDefault = parcelHelpers.interopDefault(_navbarContext);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    label: "Toggle navigation"
-};
-const NavbarToggle = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, label, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const NavbarToggle = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, label = "Toggle navigation", // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "button", onClick, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "navbar-toggler");
     const { onToggle, expanded } = (0, _react.useContext)((0, _navbarContextDefault.default)) || {};
@@ -38672,10 +38589,9 @@ as: Component = "button", onClick, ...props }, ref)=>{
     });
 });
 NavbarToggle.displayName = "NavbarToggle";
-NavbarToggle.defaultProps = defaultProps;
 exports.default = NavbarToggle;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fOxoE":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fOxoE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -38696,7 +38612,7 @@ const NavbarOffcanvas = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
 NavbarOffcanvas.displayName = "NavbarOffcanvas";
 exports.default = NavbarOffcanvas;
 
-},{"react":"21dqq","./Offcanvas":"eC3RS","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eC3RS":[function(require,module,exports) {
+},{"react":"21dqq","./Offcanvas":"eC3RS","./NavbarContext":"dpn1g","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eC3RS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -38726,17 +38642,6 @@ var _themeProvider = require("./ThemeProvider");
 var _bootstrapModalManager = require("./BootstrapModalManager");
 var _bootstrapModalManagerDefault = parcelHelpers.interopDefault(_bootstrapModalManager);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    show: false,
-    backdrop: true,
-    keyboard: true,
-    scroll: false,
-    autoFocus: true,
-    enforceFocus: true,
-    restoreFocus: true,
-    placement: "start",
-    renderStaticNode: false
-};
 function DialogTransition(props) {
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _offcanvasTogglingDefault.default), {
         ...props
@@ -38747,7 +38652,7 @@ function BackdropTransition(props) {
         ...props
     });
 }
-const Offcanvas = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, "aria-labelledby": ariaLabelledby, placement, responsive, /* BaseModal props */ show, backdrop, keyboard, scroll, onEscapeKeyDown, onShow, onHide, container, autoFocus, enforceFocus, restoreFocus, restoreFocusOptions, onEntered, onExit, onExiting, onEnter, onEntering, onExited, backdropClassName, manager: propsManager, renderStaticNode, ...props }, ref)=>{
+const Offcanvas = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, "aria-labelledby": ariaLabelledby, placement = "start", responsive, /* BaseModal props */ show = false, backdrop = true, keyboard = true, scroll = false, onEscapeKeyDown, onShow, onHide, container, autoFocus = true, enforceFocus = true, restoreFocus = true, restoreFocusOptions, onEntered, onExit, onExiting, onEnter, onEntering, onExited, backdropClassName, manager: propsManager, renderStaticNode = false, ...props }, ref)=>{
     const modalManager = (0, _react.useRef)();
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "offcanvas");
     const { onToggle } = (0, _react.useContext)((0, _navbarContextDefault.default)) || {};
@@ -38840,14 +38745,13 @@ const Offcanvas = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, childr
     });
 });
 Offcanvas.displayName = "Offcanvas";
-Offcanvas.defaultProps = defaultProps;
 exports.default = Object.assign(Offcanvas, {
     Body: (0, _offcanvasBodyDefault.default),
     Header: (0, _offcanvasHeaderDefault.default),
     Title: (0, _offcanvasTitleDefault.default)
 });
 
-},{"classnames":"jocGM","@restart/hooks/useBreakpoint":"2c4de","@restart/hooks/useEventCallback":"7ONdq","react":"21dqq","@restart/ui/Modal":"crj1M","./Fade":"aH18S","./OffcanvasBody":"fX7Bo","./OffcanvasToggling":"eGvzt","./ModalContext":"2U4Zk","./NavbarContext":"dpn1g","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./ThemeProvider":"dVixI","./BootstrapModalManager":"lr1Yp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2c4de":[function(require,module,exports) {
+},{"classnames":"jocGM","@restart/hooks/useBreakpoint":"2c4de","@restart/hooks/useEventCallback":"7ONdq","react":"21dqq","@restart/ui/Modal":"crj1M","./Fade":"aH18S","./OffcanvasBody":"fX7Bo","./OffcanvasToggling":"eGvzt","./ModalContext":"2U4Zk","./NavbarContext":"dpn1g","./OffcanvasHeader":"a6xAh","./OffcanvasTitle":"77qdX","./ThemeProvider":"dVixI","./BootstrapModalManager":"lr1Yp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2c4de":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 /**
@@ -38958,7 +38862,7 @@ const useBreakpoint = createBreakpointHook({
 });
 exports.default = useBreakpoint;
 
-},{"./useMediaQuery":"etGLg","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"etGLg":[function(require,module,exports) {
+},{"./useMediaQuery":"etGLg","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"etGLg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useMediaQuery);
@@ -39003,14 +38907,14 @@ function useMediaQuery(query, targetWindow = typeof window === "undefined" ? und
     return matches;
 }
 
-},{"./useIsomorphicEffect":"e8blq","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fX7Bo":[function(require,module,exports) {
+},{"./useIsomorphicEffect":"e8blq","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fX7Bo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("offcanvas-body");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eGvzt":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eGvzt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39023,21 +38927,19 @@ var _transitionWrapper = require("./TransitionWrapper");
 var _transitionWrapperDefault = parcelHelpers.interopDefault(_transitionWrapper);
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    in: false,
-    mountOnEnter: false,
-    unmountOnExit: false,
-    appear: false
-};
 const transitionStyles = {
     [(0, _transition.ENTERING)]: "show",
     [(0, _transition.ENTERED)]: "show"
 };
-const OffcanvasToggling = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, ...props }, ref)=>{
+const OffcanvasToggling = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, in: inProp = false, mountOnEnter = false, unmountOnExit = false, appear = false, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "offcanvas");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _transitionWrapperDefault.default), {
         ref: ref,
         addEndListener: (0, _transitionEndListenerDefault.default),
+        in: inProp,
+        mountOnEnter: mountOnEnter,
+        unmountOnExit: unmountOnExit,
+        appear: appear,
         ...props,
         childRef: children.ref,
         children: (status, innerProps)=>/*#__PURE__*/ _react.cloneElement(children, {
@@ -39046,11 +38948,10 @@ const OffcanvasToggling = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className
             })
     });
 });
-OffcanvasToggling.defaultProps = defaultProps;
 OffcanvasToggling.displayName = "OffcanvasToggling";
 exports.default = OffcanvasToggling;
 
-},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./TransitionWrapper":"jKUqZ","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a6xAh":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","react-transition-group/Transition":"cKsrS","./transitionEndListener":"68oh7","./TransitionWrapper":"jKUqZ","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a6xAh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39060,23 +38961,20 @@ var _themeProvider = require("./ThemeProvider");
 var _abstractModalHeader = require("./AbstractModalHeader");
 var _abstractModalHeaderDefault = parcelHelpers.interopDefault(_abstractModalHeader);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    closeLabel: "Close",
-    closeButton: false
-};
-const OffcanvasHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, ...props }, ref)=>{
+const OffcanvasHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, closeLabel = "Close", closeButton = false, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "offcanvas-header");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _abstractModalHeaderDefault.default), {
         ref: ref,
         ...props,
-        className: (0, _classnamesDefault.default)(className, bsPrefix)
+        className: (0, _classnamesDefault.default)(className, bsPrefix),
+        closeLabel: closeLabel,
+        closeButton: closeButton
     });
 });
 OffcanvasHeader.displayName = "OffcanvasHeader";
-OffcanvasHeader.defaultProps = defaultProps;
 exports.default = OffcanvasHeader;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"77qdX":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./AbstractModalHeader":"hPF8S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"77qdX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
@@ -39088,7 +38986,7 @@ exports.default = (0, _createWithBsPrefixDefault.default)("offcanvas-title", {
     Component: DivStyledAsH5
 });
 
-},{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8e6QB":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","./divWithClassName":"eDg7t","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8e6QB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39134,7 +39032,7 @@ exports.default = Object.assign(NavDropdown, {
     Header: (0, _dropdownDefault.default).Header
 });
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Dropdown":"88m2L","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bHdwO":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Dropdown":"88m2L","./NavLink":"7geL8","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bHdwO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39142,8 +39040,6 @@ var _classnames = require("classnames");
 var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _overlay = require("@restart/ui/Overlay");
 var _overlayDefault = parcelHelpers.interopDefault(_overlay);
-var _useCallbackRef = require("@restart/hooks/useCallbackRef");
-var _useCallbackRefDefault = parcelHelpers.interopDefault(_useCallbackRef);
 var _useEventCallback = require("@restart/hooks/useEventCallback");
 var _useEventCallbackDefault = parcelHelpers.interopDefault(_useEventCallback);
 var _useIsomorphicEffect = require("@restart/hooks/useIsomorphicEffect");
@@ -39157,21 +39053,15 @@ var _fadeDefault = parcelHelpers.interopDefault(_fade);
 var _safeFindDOMNode = require("./safeFindDOMNode");
 var _safeFindDOMNodeDefault = parcelHelpers.interopDefault(_safeFindDOMNode);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    transition: (0, _fadeDefault.default),
-    rootClose: false,
-    show: false,
-    placement: "top"
-};
 function wrapRefs(props, arrowProps) {
     const { ref } = props;
     const { ref: aRef } = arrowProps;
     props.ref = ref.__wrapped || (ref.__wrapped = (r)=>ref((0, _safeFindDOMNodeDefault.default)(r)));
     arrowProps.ref = aRef.__wrapped || (aRef.__wrapped = (r)=>aRef((0, _safeFindDOMNodeDefault.default)(r)));
 }
-const Overlay = /*#__PURE__*/ _react.forwardRef(({ children: overlay, transition, popperConfig = {}, ...outerProps }, outerRef)=>{
+const Overlay = /*#__PURE__*/ _react.forwardRef(({ children: overlay, transition = (0, _fadeDefault.default), popperConfig = {}, rootClose = false, placement = "top", show: outerShow = false, ...outerProps }, outerRef)=>{
     const popperRef = (0, _react.useRef)({});
-    const [firstRenderedState, setFirstRenderedState] = (0, _useCallbackRefDefault.default)();
+    const [firstRenderedState, setFirstRenderedState] = (0, _react.useState)(null);
     const [ref, modifiers] = (0, _useOverlayOffsetDefault.default)(outerProps.offset);
     const mergedRef = (0, _useMergedRefsDefault.default)(outerRef, ref);
     const actualTransition = transition === true ? (0, _fadeDefault.default) : transition || undefined;
@@ -39184,6 +39074,11 @@ const Overlay = /*#__PURE__*/ _react.forwardRef(({ children: overlay, transition
     }, [
         firstRenderedState
     ]);
+    (0, _react.useEffect)(()=>{
+        if (!outerShow) setFirstRenderedState(null);
+    }, [
+        outerShow
+    ]);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _overlayDefault.default), {
         ...outerProps,
         ref: mergedRef,
@@ -39193,16 +39088,22 @@ const Overlay = /*#__PURE__*/ _react.forwardRef(({ children: overlay, transition
             onFirstUpdate: handleFirstUpdate
         },
         transition: actualTransition,
+        rootClose: rootClose,
+        placement: placement,
+        show: outerShow,
         children: (overlayProps, { arrowProps, popper: popperObj, show })=>{
             var _popperObj$state, _popperObj$state$modi;
-            wrapRefs(overlayProps, arrowProps); // Need to get placement from popper object, handling case when overlay is flipped using 'flip' prop
+            wrapRefs(overlayProps, arrowProps);
+            // Need to get placement from popper object, handling case when overlay is flipped using 'flip' prop
             const updatedPlacement = popperObj == null ? void 0 : popperObj.placement;
             const popper = Object.assign(popperRef.current, {
                 state: popperObj == null ? void 0 : popperObj.state,
                 scheduleUpdate: popperObj == null ? void 0 : popperObj.update,
                 placement: updatedPlacement,
-                outOfBoundaries: (popperObj == null ? void 0 : (_popperObj$state = popperObj.state) == null ? void 0 : (_popperObj$state$modi = _popperObj$state.modifiersData.hide) == null ? void 0 : _popperObj$state$modi.isReferenceHidden) || false
+                outOfBoundaries: (popperObj == null ? void 0 : (_popperObj$state = popperObj.state) == null ? void 0 : (_popperObj$state$modi = _popperObj$state.modifiersData.hide) == null ? void 0 : _popperObj$state$modi.isReferenceHidden) || false,
+                strategy: popperConfig.strategy
             });
+            const hasDoneInitialMeasure = !!firstRenderedState;
             if (typeof overlay === "function") return overlay({
                 ...overlayProps,
                 placement: updatedPlacement,
@@ -39211,13 +39112,15 @@ const Overlay = /*#__PURE__*/ _react.forwardRef(({ children: overlay, transition
                     className: "show"
                 },
                 popper,
-                arrowProps
+                arrowProps,
+                hasDoneInitialMeasure
             });
             return /*#__PURE__*/ _react.cloneElement(overlay, {
                 ...overlayProps,
                 placement: updatedPlacement,
                 arrowProps,
                 popper,
+                hasDoneInitialMeasure,
                 className: (0, _classnamesDefault.default)(overlay.props.className, !transition && show && "show"),
                 style: {
                     ...overlay.props.style,
@@ -39228,10 +39131,9 @@ const Overlay = /*#__PURE__*/ _react.forwardRef(({ children: overlay, transition
     });
 });
 Overlay.displayName = "Overlay";
-Overlay.defaultProps = defaultProps;
 exports.default = Overlay;
 
-},{"react":"21dqq","classnames":"jocGM","@restart/ui/Overlay":"Ivi01","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","./useOverlayOffset":"iHgTL","./Fade":"aH18S","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"Ivi01":[function(require,module,exports) {
+},{"react":"21dqq","classnames":"jocGM","@restart/ui/Overlay":"Ivi01","@restart/hooks/useEventCallback":"7ONdq","@restart/hooks/useIsomorphicEffect":"e8blq","@restart/hooks/useMergedRefs":"6hhuo","./useOverlayOffset":"iHgTL","./Fade":"aH18S","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"Ivi01":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39315,7 +39217,7 @@ var _imperativeTransition = require("./ImperativeTransition");
 Overlay.displayName = "Overlay";
 exports.default = Overlay;
 
-},{"react":"21dqq","react-dom":"j6uA9","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useMergedRefs":"6hhuo","./usePopper":"7aqz6","./useRootClose":"6bSYP","./useWaitForDOMRef":"83lRQ","./mergeOptionsWithPopperConfig":"8jWN8","./ImperativeTransition":"j0Jao","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6bSYP":[function(require,module,exports) {
+},{"react":"21dqq","react-dom":"j6uA9","@restart/hooks/useCallbackRef":"82p6M","@restart/hooks/useMergedRefs":"6hhuo","./usePopper":"7aqz6","./useRootClose":"6bSYP","./useWaitForDOMRef":"83lRQ","./mergeOptionsWithPopperConfig":"8jWN8","./ImperativeTransition":"j0Jao","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6bSYP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _listen = require("dom-helpers/listen");
@@ -39374,7 +39276,7 @@ const noop = ()=>{};
 }
 exports.default = useRootClose;
 
-},{"dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./useClickOutside":"ed4Oi","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iHgTL":[function(require,module,exports) {
+},{"dom-helpers/listen":"1i4e7","dom-helpers/ownerDocument":"2WpOk","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./useClickOutside":"ed4Oi","./utils":"2Fmci","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iHgTL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>useOverlayOffset);
@@ -39382,17 +39284,24 @@ var _react = require("react");
 var _hasClass = require("dom-helpers/hasClass");
 var _hasClassDefault = parcelHelpers.interopDefault(_hasClass);
 var _themeProvider = require("./ThemeProvider");
-var _popover = require("./Popover"); // This is meant for internal use.
+var _popover = require("./Popover");
 var _popoverDefault = parcelHelpers.interopDefault(_popover);
+var _tooltip = require("./Tooltip");
+var _tooltipDefault = parcelHelpers.interopDefault(_tooltip);
 function useOverlayOffset(customOffset) {
     const overlayRef = (0, _react.useRef)(null);
     const popoverClass = (0, _themeProvider.useBootstrapPrefix)(undefined, "popover");
+    const tooltipClass = (0, _themeProvider.useBootstrapPrefix)(undefined, "tooltip");
     const offset = (0, _react.useMemo)(()=>({
             name: "offset",
             options: {
                 offset: ()=>{
-                    if (overlayRef.current && (0, _hasClassDefault.default)(overlayRef.current, popoverClass)) return customOffset || (0, _popoverDefault.default).POPPER_OFFSET;
-                    return customOffset || [
+                    if (customOffset) return customOffset;
+                    if (overlayRef.current) {
+                        if ((0, _hasClassDefault.default)(overlayRef.current, popoverClass)) return (0, _popoverDefault.default).POPPER_OFFSET;
+                        if ((0, _hasClassDefault.default)(overlayRef.current, tooltipClass)) return (0, _tooltipDefault.default).TOOLTIP_OFFSET;
+                    }
+                    return [
                         0,
                         0
                     ];
@@ -39400,7 +39309,8 @@ function useOverlayOffset(customOffset) {
             }
         }), [
         customOffset,
-        popoverClass
+        popoverClass,
+        tooltipClass
     ]);
     return [
         overlayRef,
@@ -39410,7 +39320,7 @@ function useOverlayOffset(customOffset) {
     ];
 }
 
-},{"react":"21dqq","dom-helpers/hasClass":"6sJz4","./ThemeProvider":"dVixI","./Popover":"afWr1","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"afWr1":[function(require,module,exports) {
+},{"react":"21dqq","dom-helpers/hasClass":"6sJz4","./ThemeProvider":"dVixI","./Popover":"afWr1","./Tooltip":"ajjgB","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"afWr1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39422,19 +39332,23 @@ var _popoverHeaderDefault = parcelHelpers.interopDefault(_popoverHeader);
 var _popoverBody = require("./PopoverBody");
 var _popoverBodyDefault = parcelHelpers.interopDefault(_popoverBody);
 var _helpers = require("./helpers");
+var _getInitialPopperStyles = require("./getInitialPopperStyles");
+var _getInitialPopperStylesDefault = parcelHelpers.interopDefault(_getInitialPopperStyles);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    placement: "right"
-};
-const Popover = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, placement, className, style, children, body, arrowProps, popper: _, show: _1, ...props }, ref)=>{
+const Popover = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, placement = "right", className, style, children, body, arrowProps, hasDoneInitialMeasure, popper, show, ...props }, ref)=>{
     const decoratedBsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "popover");
     const isRTL = (0, _themeProvider.useIsRTL)();
     const [primaryPlacement] = (placement == null ? void 0 : placement.split("-")) || [];
     const bsDirection = (0, _helpers.getOverlayDirection)(primaryPlacement, isRTL);
+    let computedStyle = style;
+    if (show && !hasDoneInitialMeasure) computedStyle = {
+        ...style,
+        ...(0, _getInitialPopperStylesDefault.default)(popper == null ? void 0 : popper.strategy)
+    };
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
         ref: ref,
         role: "tooltip",
-        style: style,
+        style: computedStyle,
         "x-placement": primaryPlacement,
         className: (0, _classnamesDefault.default)(className, decoratedBsPrefix, primaryPlacement && `bs-popover-${bsDirection}`),
         ...props,
@@ -39449,7 +39363,6 @@ const Popover = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, placement, classNam
         ]
     });
 });
-Popover.defaultProps = defaultProps;
 exports.default = Object.assign(Popover, {
     Header: (0, _popoverHeaderDefault.default),
     Body: (0, _popoverBodyDefault.default),
@@ -39461,25 +39374,25 @@ exports.default = Object.assign(Popover, {
     ]
 });
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./helpers":"gotcT","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1rLXn":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PopoverHeader":"1rLXn","./PopoverBody":"amJTZ","./helpers":"gotcT","./getInitialPopperStyles":"c8j3Q","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1rLXn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("popover-header");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"amJTZ":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"amJTZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("popover-body");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gotcT":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gotcT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "BsPrefixComponent", ()=>BsPrefixComponent) // Need to use this instead of typeof Component to get proper type checking.
-;
+parcelHelpers.export(exports, "BsPrefixComponent", ()=>BsPrefixComponent);
+// Need to use this instead of typeof Component to get proper type checking.
 parcelHelpers.export(exports, "getOverlayDirection", ()=>getOverlayDirection);
 var _react = require("react");
 class BsPrefixComponent extends _react.Component {
@@ -39491,7 +39404,71 @@ function getOverlayDirection(placement, isRTL) {
     return bsDirection;
 }
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"acOnV":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"c8j3Q":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "default", ()=>getInitialPopperStyles);
+function getInitialPopperStyles(position = "absolute") {
+    return {
+        position,
+        top: "0",
+        left: "0",
+        opacity: "0",
+        pointerEvents: "none"
+    };
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ajjgB":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _classnames = require("classnames");
+var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
+var _react = require("react");
+var _themeProvider = require("./ThemeProvider");
+var _helpers = require("./helpers");
+var _getInitialPopperStyles = require("./getInitialPopperStyles");
+var _getInitialPopperStylesDefault = parcelHelpers.interopDefault(_getInitialPopperStyles);
+var _jsxRuntime = require("react/jsx-runtime");
+const Tooltip = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, placement = "right", className, style, children, arrowProps, hasDoneInitialMeasure, popper, show, ...props }, ref)=>{
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "tooltip");
+    const isRTL = (0, _themeProvider.useIsRTL)();
+    const [primaryPlacement] = (placement == null ? void 0 : placement.split("-")) || [];
+    const bsDirection = (0, _helpers.getOverlayDirection)(primaryPlacement, isRTL);
+    let computedStyle = style;
+    if (show && !hasDoneInitialMeasure) computedStyle = {
+        ...style,
+        ...(0, _getInitialPopperStylesDefault.default)(popper == null ? void 0 : popper.strategy)
+    };
+    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
+        ref: ref,
+        style: computedStyle,
+        role: "tooltip",
+        "x-placement": primaryPlacement,
+        className: (0, _classnamesDefault.default)(className, bsPrefix, `bs-tooltip-${bsDirection}`),
+        ...props,
+        children: [
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                className: "tooltip-arrow",
+                ...arrowProps
+            }),
+            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
+                className: `${bsPrefix}-inner`,
+                children: children
+            })
+        ]
+    });
+});
+Tooltip.displayName = "Tooltip";
+exports.default = Object.assign(Tooltip, {
+    // Default tooltip offset.
+    // https://github.com/twbs/bootstrap/blob/beca2a6c7f6bc88b6449339fc76edcda832c59e5/js/src/tooltip.js#L65
+    TOOLTIP_OFFSET: [
+        0,
+        6
+    ]
+});
+
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./helpers":"gotcT","./getInitialPopperStyles":"c8j3Q","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"acOnV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _contains = require("dom-helpers/contains");
@@ -39514,24 +39491,22 @@ function normalizeDelay(delay) {
         show: delay,
         hide: delay
     };
-} // Simple implementation of mouseEnter and mouseLeave.
+}
+// Simple implementation of mouseEnter and mouseLeave.
 // React's built version is broken: https://github.com/facebook/react/issues/4251
 // for cases when the trigger is disabled and mouseOut/Over can cause flicker
 // moving from one child element to another.
-function handleMouseOverOut(handler, args, relatedNative) {
+function handleMouseOverOut(// eslint-disable-next-line @typescript-eslint/no-shadow
+handler, args, relatedNative) {
     const [e] = args;
     const target = e.currentTarget;
     const related = e.relatedTarget || e.nativeEvent[relatedNative];
     if ((!related || related !== target) && !(0, _containsDefault.default)(target, related)) handler(...args);
 }
-const defaultProps = {
-    defaultShow: false,
-    trigger: [
-        "hover",
-        "focus"
-    ]
-};
-function OverlayTrigger({ trigger, overlay, children, popperConfig = {}, show: propsShow, defaultShow = false, onToggle, delay: propsDelay, placement, flip = placement && placement.indexOf("auto") !== -1, ...props }) {
+function OverlayTrigger({ trigger = [
+    "hover",
+    "focus"
+], overlay, children, popperConfig = {}, show: propsShow, defaultShow = false, onToggle, delay: propsDelay, placement, flip = placement && placement.indexOf("auto") !== -1, ...props }) {
     const triggerNodeRef = (0, _react.useRef)(null);
     const mergedRef = (0, _useMergedRefsDefault.default)(triggerNodeRef, children.ref);
     const timeout = (0, _useTimeoutDefault.default)();
@@ -39634,10 +39609,9 @@ function OverlayTrigger({ trigger, overlay, children, popperConfig = {}, show: p
         ]
     });
 }
-OverlayTrigger.defaultProps = defaultProps;
 exports.default = OverlayTrigger;
 
-},{"dom-helpers/contains":"KpRFS","react":"21dqq","@restart/hooks/useTimeout":"63wsP","warning":"eUVzU","uncontrollable":"b3yWY","@restart/hooks/useMergedRefs":"6hhuo","./Overlay":"bHdwO","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"i0zxH":[function(require,module,exports) {
+},{"dom-helpers/contains":"KpRFS","react":"21dqq","@restart/hooks/useTimeout":"63wsP","warning":"eUVzU","uncontrollable":"b3yWY","@restart/hooks/useMergedRefs":"6hhuo","./Overlay":"bHdwO","./safeFindDOMNode":"XsXw9","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"i0zxH":[function(require,module,exports) {
 /* eslint-disable react/no-multi-comp */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "First", ()=>First);
@@ -39651,12 +39625,7 @@ var _react = require("react");
 var _anchor = require("@restart/ui/Anchor");
 var _anchorDefault = parcelHelpers.interopDefault(_anchor);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    active: false,
-    disabled: false,
-    activeLabel: "(current)"
-};
-const PageItem = /*#__PURE__*/ _react.forwardRef(({ active, disabled, className, style, activeLabel, children, ...props }, ref)=>{
+const PageItem = /*#__PURE__*/ _react.forwardRef(({ active = false, disabled = false, className, style, activeLabel = "(current)", children, linkStyle, linkClassName, ...props }, ref)=>{
     const Component = active || disabled ? "span" : (0, _anchorDefault.default);
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("li", {
         ref: ref,
@@ -39666,8 +39635,8 @@ const PageItem = /*#__PURE__*/ _react.forwardRef(({ active, disabled, className,
             disabled
         }),
         children: /*#__PURE__*/ (0, _jsxRuntime.jsxs)(Component, {
-            className: "page-link",
-            disabled: disabled,
+            className: (0, _classnamesDefault.default)("page-link", linkClassName),
+            style: linkStyle,
             ...props,
             children: [
                 children,
@@ -39679,7 +39648,6 @@ const PageItem = /*#__PURE__*/ _react.forwardRef(({ active, disabled, className,
         })
     });
 });
-PageItem.defaultProps = defaultProps;
 PageItem.displayName = "PageItem";
 exports.default = PageItem;
 function createButton(name, defaultValue, label = name) {
@@ -39706,7 +39674,7 @@ const Ellipsis = createButton("Ellipsis", "…", "More");
 const Next = createButton("Next", "›");
 const Last = createButton("Last", "\xbb");
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6yvxS":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/Anchor":"cQOWi","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6yvxS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39716,14 +39684,7 @@ var _themeProvider = require("./ThemeProvider");
 var _pageItem = require("./PageItem");
 var _pageItemDefault = parcelHelpers.interopDefault(_pageItem);
 var _jsxRuntime = require("react/jsx-runtime");
-/**
- * @property {PageItem} Item
- * @property {PageItem} First
- * @property {PageItem} Prev
- * @property {PageItem} Ellipsis
- * @property {PageItem} Next
- * @property {PageItem} Last
- */ const Pagination = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, size, ...props }, ref)=>{
+const Pagination = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, size, ...props }, ref)=>{
     const decoratedBsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "pagination");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("ul", {
         ref: ref,
@@ -39741,7 +39702,7 @@ exports.default = Object.assign(Pagination, {
     Last: (0, _pageItem.Last)
 });
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PageItem":"i0zxH","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fw5xV":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./PageItem":"i0zxH","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fw5xV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39762,7 +39723,7 @@ exports.default = Object.assign(Placeholder, {
     Button: (0, _placeholderButtonDefault.default)
 });
 
-},{"react":"21dqq","./usePlaceholder":"4BAv2","./PlaceholderButton":"dRc7O","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4BAv2":[function(require,module,exports) {
+},{"react":"21dqq","./usePlaceholder":"4BAv2","./PlaceholderButton":"dRc7O","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4BAv2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>usePlaceholder);
@@ -39779,7 +39740,7 @@ function usePlaceholder({ animation, bg, bsPrefix, size, ...props }) {
     };
 }
 
-},{"classnames":"jocGM","./ThemeProvider":"dVixI","./Col":"2L2I6","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dRc7O":[function(require,module,exports) {
+},{"classnames":"jocGM","./ThemeProvider":"dVixI","./Col":"2L2I6","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dRc7O":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -39800,7 +39761,7 @@ const PlaceholderButton = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
 PlaceholderButton.displayName = "PlaceholderButton";
 exports.default = PlaceholderButton;
 
-},{"react":"21dqq","./Button":"aPzUt","./usePlaceholder":"4BAv2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cCHIb":[function(require,module,exports) {
+},{"react":"21dqq","./Button":"aPzUt","./usePlaceholder":"4BAv2","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cCHIb":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39811,7 +39772,7 @@ var _elementChildren = require("./ElementChildren");
 var _jsxRuntime = require("react/jsx-runtime");
 const ROUND_PRECISION = 1000;
 /**
- * Validate that children, if any, are instances of `<ProgressBar>`.
+ * Validate that children, if any, are instances of `ProgressBar`.
  */ function onlyProgressBar(props, propName, componentName) {
     const children = props[propName];
     if (!children) return null;
@@ -39832,14 +39793,6 @@ const ROUND_PRECISION = 1000;
     });
     return error;
 }
-const defaultProps = {
-    min: 0,
-    max: 100,
-    animated: false,
-    isChild: false,
-    visuallyHidden: false,
-    striped: false
-};
 function getPercentage(now, min, max) {
     const percentage = (now - min) / (max - min) * 100;
     return Math.round(percentage * ROUND_PRECISION) / ROUND_PRECISION;
@@ -39867,7 +39820,15 @@ function renderProgressBar({ min, now, max, label, visuallyHidden, striped, anim
         }) : label
     });
 }
-const ProgressBar = /*#__PURE__*/ _react.forwardRef(({ isChild, ...props }, ref)=>{
+const ProgressBar = /*#__PURE__*/ _react.forwardRef(({ isChild = false, ...rest }, ref)=>{
+    const props = {
+        min: 0,
+        max: 100,
+        animated: false,
+        visuallyHidden: false,
+        striped: false,
+        ...rest
+    };
     props.bsPrefix = (0, _themeProvider.useBootstrapPrefix)(props.bsPrefix, "progress");
     if (isChild) return renderProgressBar(props, ref);
     const { min, now, max, label, visuallyHidden, striped, animated, bsPrefix, variant, className, children, ...wrapperProps } = props;
@@ -39891,10 +39852,9 @@ const ProgressBar = /*#__PURE__*/ _react.forwardRef(({ isChild, ...props }, ref)
     });
 });
 ProgressBar.displayName = "ProgressBar";
-ProgressBar.defaultProps = defaultProps;
 exports.default = ProgressBar;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ioXys":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./ElementChildren":"fdyAp","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ioXys":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39902,15 +39862,12 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    aspectRatio: "1x1"
-};
 function toPercent(num) {
-    if (num <= 0 || num > 100) return "100%";
+    if (num <= 0) return "100%";
     if (num < 1) return `${num * 100}%`;
     return `${num}%`;
 }
-const Ratio = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, aspectRatio, style, ...props }, ref)=>{
+const Ratio = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, aspectRatio = "1x1", style, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "ratio");
     const isCustomRatio = typeof aspectRatio === "number";
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
@@ -39926,10 +39883,9 @@ const Ratio = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, children, 
         children: _react.Children.only(children)
     });
 });
-Ratio.defaultProps = defaultProps;
 exports.default = Ratio;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cMC39":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cMC39":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39962,7 +39918,7 @@ as: Component = "div", ...props }, ref)=>{
 Row.displayName = "Row";
 exports.default = Row;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2r8jr":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2r8jr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -39970,7 +39926,7 @@ var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
 var _react = require("react");
 var _themeProvider = require("./ThemeProvider");
 var _jsxRuntime = require("react/jsx-runtime");
-const Spinner = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, variant, animation, size, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const Spinner = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, variant, animation = "border", size, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "div", className, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "spinner");
     const bsSpinnerPrefix = `${bsPrefix}-${animation}`;
@@ -39983,7 +39939,7 @@ as: Component = "div", className, ...props }, ref)=>{
 Spinner.displayName = "Spinner";
 exports.default = Spinner;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fWabe":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fWabe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40035,10 +39991,6 @@ const propTypes = {
     /** @ignore */ variant: (0, _propTypesDefault.default).string,
     /** @ignore */ size: (0, _propTypesDefault.default).string
 };
-const defaultProps = {
-    toggleLabel: "Toggle dropdown",
-    type: "button"
-};
 /**
  * A convenience component for simple or general use split button dropdowns. Renders a
  * `ButtonGroup` containing a `Button` and a `Button` toggle for the `Dropdown`. All `children`
@@ -40048,7 +40000,7 @@ const defaultProps = {
  * _All unknown props are passed through to the `Dropdown` component._
  * The Button `variant`, `size` and `bsPrefix` props are passed to the button and toggle,
  * and menu-related props are passed to the `Dropdown.Menu`
- */ const SplitButton = /*#__PURE__*/ _react.forwardRef(({ id, bsPrefix, size, variant, title, type, toggleLabel, children, onClick, href, target, menuRole, renderMenuOnMount, rootCloseEvent, flip, ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsxs)((0, _dropdownDefault.default), {
+ */ const SplitButton = /*#__PURE__*/ _react.forwardRef(({ id, bsPrefix, size, variant, title, type = "button", toggleLabel = "Toggle dropdown", children, onClick, href, target, menuRole, renderMenuOnMount, rootCloseEvent, flip, ...props }, ref)=>/*#__PURE__*/ (0, _jsxRuntime.jsxs)((0, _dropdownDefault.default), {
         ref: ref,
         ...props,
         as: (0, _buttonGroupDefault.default),
@@ -40086,17 +40038,16 @@ const defaultProps = {
         ]
     }));
 SplitButton.propTypes = propTypes;
-SplitButton.defaultProps = defaultProps;
 SplitButton.displayName = "SplitButton";
 exports.default = SplitButton;
 
-},{"react":"21dqq","prop-types":"7wKI2","./Button":"aPzUt","./ButtonGroup":"gXYCe","./Dropdown":"88m2L","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kdCr8":[function(require,module,exports) {
+},{"react":"21dqq","prop-types":"7wKI2","./Button":"aPzUt","./ButtonGroup":"gXYCe","./Dropdown":"88m2L","./types":"jwKaQ","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kdCr8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _ssr = require("@restart/ui/ssr");
 exports.default = (0, _ssr.SSRProvider);
 
-},{"@restart/ui/ssr":"eaHes","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eZkZ1":[function(require,module,exports) {
+},{"@restart/ui/ssr":"eaHes","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eZkZ1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40114,16 +40065,14 @@ const Stack = /*#__PURE__*/ _react.forwardRef(({ as: Component = "div", bsPrefix
         ...props,
         ref: ref,
         className: (0, _classnamesDefault.default)(className, bsPrefix, ...(0, _createUtilityClassesDefault.default)({
-            gap,
-            breakpoints,
-            minBreakpoint
-        }))
+            gap
+        }, breakpoints, minBreakpoint))
     });
 });
 Stack.displayName = "Stack";
 exports.default = Stack;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createUtilityClasses":"kKxSO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kKxSO":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./createUtilityClasses":"kKxSO","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kKxSO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "responsivePropType", ()=>responsivePropType);
@@ -40161,7 +40110,7 @@ function createUtilityClassName(utilityValues, breakpoints = (0, _themeProvider.
     return classes;
 }
 
-},{"prop-types":"7wKI2","./ThemeProvider":"dVixI","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kfiWM":[function(require,module,exports) {
+},{"prop-types":"7wKI2","./ThemeProvider":"dVixI","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kfiWM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _propTypes = require("prop-types");
@@ -40193,7 +40142,7 @@ var _jsxRuntime = require("react/jsx-runtime");
    */ tabAttrs: (0, _propTypesDefault.default).object
 };
 const Tab = ()=>{
-    throw new Error("ReactBootstrap: The `Tab` component is not meant to be rendered! It's an abstract component that is only valid as a direct Child of the `Tabs` Component. For custom tabs components use TabPane and TabsContainer directly"); // Needed otherwise docs error out.
+    throw new Error("ReactBootstrap: The `Tab` component is not meant to be rendered! It's an abstract component that is only valid as a direct Child of the `Tabs` Component. For custom tabs components use TabPane and TabsContainer directly");
 };
 Tab.propTypes = propTypes;
 exports.default = Object.assign(Tab, {
@@ -40202,7 +40151,7 @@ exports.default = Object.assign(Tab, {
     Pane: (0, _tabPaneDefault.default)
 });
 
-},{"prop-types":"7wKI2","react":"21dqq","./TabContainer":"hkO95","./TabContent":"fQxYB","./TabPane":"4jWis","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hkO95":[function(require,module,exports) {
+},{"prop-types":"7wKI2","react":"21dqq","./TabContainer":"hkO95","./TabContent":"fQxYB","./TabPane":"4jWis","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hkO95":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40218,7 +40167,7 @@ const TabContainer = ({ transition, ...props })=>/*#__PURE__*/ (0, _jsxRuntime.j
 TabContainer.displayName = "TabContainer";
 exports.default = TabContainer;
 
-},{"react":"21dqq","@restart/ui/Tabs":"htKQK","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"htKQK":[function(require,module,exports) {
+},{"react":"21dqq","@restart/ui/Tabs":"htKQK","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"htKQK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40266,7 +40215,7 @@ const Tabs = (props)=>{
 Tabs.Panel = (0, _tabPanelDefault.default);
 exports.default = Tabs;
 
-},{"react":"21dqq","uncontrollable":"hZZ1I","./ssr":"eaHes","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./TabPanel":"4REJB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4REJB":[function(require,module,exports) {
+},{"react":"21dqq","uncontrollable":"hZZ1I","./ssr":"eaHes","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./TabPanel":"4REJB","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4REJB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "useTabPanel", ()=>useTabPanel);
@@ -40386,7 +40335,7 @@ const TabPanel = /*#__PURE__*/ _react.forwardRef(// Need to define the default "
 TabPanel.displayName = "TabPanel";
 exports.default = TabPanel;
 
-},{"react":"21dqq","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"luUGh":[function(require,module,exports) {
+},{"react":"21dqq","./TabContext":"cI3G3","./SelectableContext":"8zLqy","./NoopTransition":"cwnaj","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"luUGh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getTabTransitionComponent);
@@ -40399,14 +40348,14 @@ function getTabTransitionComponent(transition) {
     return transition;
 }
 
-},{"@restart/ui/NoopTransition":"cwnaj","./Fade":"aH18S","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fQxYB":[function(require,module,exports) {
+},{"@restart/ui/NoopTransition":"cwnaj","./Fade":"aH18S","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fQxYB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("tab-content");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4jWis":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4jWis":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40429,7 +40378,8 @@ const TabPane = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, transition, ...prop
         ...props,
         transition: (0, _getTabTransitionComponentDefault.default)(transition)
     });
-    const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "tab-pane"); // We provide an empty the TabContext so `<Nav>`s in `<TabPanel>`s don't
+    const prefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "tab-pane");
+    // We provide an empty the TabContext so `<Nav>`s in `<TabPanel>`s don't
     // conflict with the top level one.
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _tabContextDefault.default).Provider, {
         value: null,
@@ -40457,7 +40407,7 @@ const TabPane = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, transition, ...prop
 TabPane.displayName = "TabPane";
 exports.default = TabPane;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","@restart/ui/TabContext":"cI3G3","@restart/ui/TabPanel":"4REJB","./ThemeProvider":"dVixI","./Fade":"aH18S","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3UQc3":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/ui/SelectableContext":"8zLqy","@restart/ui/TabContext":"cI3G3","@restart/ui/TabPanel":"4REJB","./ThemeProvider":"dVixI","./Fade":"aH18S","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3UQc3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40485,7 +40435,7 @@ const Table = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, striped, b
 });
 exports.default = Table;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cq1ML":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cq1ML":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40506,11 +40456,6 @@ var _elementChildren = require("./ElementChildren");
 var _getTabTransitionComponent = require("./getTabTransitionComponent");
 var _getTabTransitionComponentDefault = parcelHelpers.interopDefault(_getTabTransitionComponent);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    variant: "tabs",
-    mountOnEnter: false,
-    unmountOnExit: false
-};
 function getDefaultActiveKey(children) {
     let defaultActiveKey;
     (0, _elementChildren.forEach)(children, (child)=>{
@@ -40537,7 +40482,7 @@ function renderTab(child) {
     });
 }
 const Tabs = (props)=>{
-    const { id, onSelect, transition, mountOnEnter, unmountOnExit, children, activeKey = getDefaultActiveKey(children), ...controlledProps } = (0, _uncontrollable.useUncontrolled)(props, {
+    const { id, onSelect, transition, mountOnEnter = false, unmountOnExit = false, variant = "tabs", children, activeKey = getDefaultActiveKey(children), ...controlledProps } = (0, _uncontrollable.useUncontrolled)(props, {
         activeKey: "onSelect"
     });
     return /*#__PURE__*/ (0, _jsxRuntime.jsxs)((0, _tabsDefault.default), {
@@ -40552,6 +40497,7 @@ const Tabs = (props)=>{
                 ...controlledProps,
                 role: "tablist",
                 as: "ul",
+                variant: variant,
                 children: (0, _elementChildren.map)(children, renderTab)
             }),
             /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _tabContentDefault.default), {
@@ -40571,11 +40517,10 @@ const Tabs = (props)=>{
         ]
     });
 };
-Tabs.defaultProps = defaultProps;
 Tabs.displayName = "Tabs";
 exports.default = Tabs;
 
-},{"react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Tabs":"htKQK","./Nav":"cXyL2","./NavLink":"7geL8","./NavItem":"ew05W","./TabContent":"fQxYB","./TabPane":"4jWis","./ElementChildren":"fdyAp","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iyxlo":[function(require,module,exports) {
+},{"react":"21dqq","uncontrollable":"b3yWY","@restart/ui/Tabs":"htKQK","./Nav":"cXyL2","./NavLink":"7geL8","./NavItem":"ew05W","./TabContent":"fQxYB","./TabPane":"4jWis","./ElementChildren":"fdyAp","./getTabTransitionComponent":"luUGh","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iyxlo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40594,7 +40539,8 @@ var _toastContext = require("./ToastContext");
 var _toastContextDefault = parcelHelpers.interopDefault(_toastContext);
 var _jsxRuntime = require("react/jsx-runtime");
 const Toast = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, className, transition: Transition = (0, _toastFadeDefault.default), show = true, animation = true, delay = 5000, autohide = false, onClose, bg, ...props }, ref)=>{
-    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "toast"); // We use refs for these, because we don't want to restart the autohide
+    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "toast");
+    // We use refs for these, because we don't want to restart the autohide
     // timer in case these values change.
     const delayRef = (0, _react.useRef)(delay);
     const onCloseRef = (0, _react.useRef)(onClose);
@@ -40648,7 +40594,7 @@ exports.default = Object.assign(Toast, {
     Header: (0, _toastHeaderDefault.default)
 });
 
-},{"react":"21dqq","classnames":"jocGM","@restart/hooks/useTimeout":"63wsP","./ToastFade":"krZhx","./ToastHeader":"gsTvK","./ToastBody":"30cvm","./ThemeProvider":"dVixI","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"krZhx":[function(require,module,exports) {
+},{"react":"21dqq","classnames":"jocGM","@restart/hooks/useTimeout":"63wsP","./ToastFade":"krZhx","./ToastHeader":"gsTvK","./ToastBody":"30cvm","./ThemeProvider":"dVixI","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"krZhx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40668,7 +40614,7 @@ const ToastFade = /*#__PURE__*/ _react.forwardRef((props, ref)=>/*#__PURE__*/ (0
 ToastFade.displayName = "ToastFade";
 exports.default = ToastFade;
 
-},{"react":"21dqq","react-transition-group/Transition":"cKsrS","./Fade":"aH18S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gsTvK":[function(require,module,exports) {
+},{"react":"21dqq","react-transition-group/Transition":"cKsrS","./Fade":"aH18S","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gsTvK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40682,11 +40628,7 @@ var _closeButtonDefault = parcelHelpers.interopDefault(_closeButton);
 var _toastContext = require("./ToastContext");
 var _toastContextDefault = parcelHelpers.interopDefault(_toastContext);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    closeLabel: "Close",
-    closeButton: true
-};
-const ToastHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, closeLabel, closeVariant, closeButton, className, children, ...props }, ref)=>{
+const ToastHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, closeLabel = "Close", closeVariant, closeButton = true, className, children, ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "toast-header");
     const context = (0, _react.useContext)((0, _toastContextDefault.default));
     const handleClick = (0, _useEventCallbackDefault.default)((e)=>{
@@ -40708,10 +40650,9 @@ const ToastHeader = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, closeLabel, clo
     });
 });
 ToastHeader.displayName = "ToastHeader";
-ToastHeader.defaultProps = defaultProps;
 exports.default = ToastHeader;
 
-},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./CloseButton":"1wmVl","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5lQd3":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","@restart/hooks/useEventCallback":"7ONdq","./ThemeProvider":"dVixI","./CloseButton":"1wmVl","./ToastContext":"5lQd3","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5lQd3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40721,14 +40662,14 @@ const ToastContext = /*#__PURE__*/ _react.createContext({
 });
 exports.default = ToastContext;
 
-},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"30cvm":[function(require,module,exports) {
+},{"react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"30cvm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _createWithBsPrefix = require("./createWithBsPrefix");
 var _createWithBsPrefixDefault = parcelHelpers.interopDefault(_createWithBsPrefix);
 exports.default = (0, _createWithBsPrefixDefault.default)("toast-body");
 
-},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kqOPy":[function(require,module,exports) {
+},{"./createWithBsPrefix":"itt7e","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kqOPy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40747,22 +40688,19 @@ const positionClasses = {
     "bottom-center": "bottom-0 start-50 translate-middle-x",
     "bottom-end": "bottom-0 end-0"
 };
-const ToastContainer = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, position, containerPosition = "absolute", className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
+const ToastContainer = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, position, containerPosition, className, // Need to define the default "as" during prop destructuring to be compatible with styled-components github.com/react-bootstrap/react-bootstrap/issues/3595
 as: Component = "div", ...props }, ref)=>{
     bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "toast-container");
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)(Component, {
         ref: ref,
         ...props,
-        className: (0, _classnamesDefault.default)(bsPrefix, position && [
-            containerPosition ? `position-${containerPosition}` : null,
-            positionClasses[position]
-        ], className)
+        className: (0, _classnamesDefault.default)(bsPrefix, position && positionClasses[position], containerPosition && `position-${containerPosition}`, className)
     });
 });
 ToastContainer.displayName = "ToastContainer";
 exports.default = ToastContainer;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dCmeV":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dCmeV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _classnames = require("classnames");
@@ -40804,7 +40742,7 @@ const ToggleButton = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, name, classNam
 ToggleButton.displayName = "ToggleButton";
 exports.default = ToggleButton;
 
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Button":"aPzUt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2t8MV":[function(require,module,exports) {
+},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./Button":"aPzUt","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2t8MV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _react = require("react");
@@ -40819,12 +40757,8 @@ var _buttonGroupDefault = parcelHelpers.interopDefault(_buttonGroup);
 var _toggleButton = require("./ToggleButton");
 var _toggleButtonDefault = parcelHelpers.interopDefault(_toggleButton);
 var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    type: "radio",
-    vertical: false
-};
 const ToggleButtonGroup = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
-    const { children, type, name, value, onChange, ...controlledProps } = (0, _uncontrollable.useUncontrolled)(props, {
+    const { children, type = "radio", name, value, onChange, vertical = false, ...controlledProps } = (0, _uncontrollable.useUncontrolled)(props, {
         value: "onChange"
     });
     const getValues = ()=>value == null ? [] : [].concat(value);
@@ -40846,6 +40780,7 @@ const ToggleButtonGroup = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
     return /*#__PURE__*/ (0, _jsxRuntime.jsx)((0, _buttonGroupDefault.default), {
         ...controlledProps,
         ref: ref,
+        vertical: vertical,
         children: (0, _elementChildren.map)(children, (child)=>{
             const values = getValues();
             const { value: childVal, onChange: childOnChange } = child.props;
@@ -40859,54 +40794,13 @@ const ToggleButtonGroup = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
         })
     });
 });
-ToggleButtonGroup.defaultProps = defaultProps;
 exports.default = Object.assign(ToggleButtonGroup, {
     Button: (0, _toggleButtonDefault.default)
 });
 
-},{"react":"21dqq","invariant":"d1QgR","uncontrollable":"b3yWY","./createChainedFunction":"1KNLM","./ElementChildren":"fdyAp","./ButtonGroup":"gXYCe","./ToggleButton":"dCmeV","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ajjgB":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-var _classnames = require("classnames");
-var _classnamesDefault = parcelHelpers.interopDefault(_classnames);
-var _react = require("react");
-var _themeProvider = require("./ThemeProvider");
-var _helpers = require("./helpers");
-var _jsxRuntime = require("react/jsx-runtime");
-const defaultProps = {
-    placement: "right"
-};
-const Tooltip = /*#__PURE__*/ _react.forwardRef(({ bsPrefix, placement, className, style, children, arrowProps, popper: _, show: _2, ...props }, ref)=>{
-    bsPrefix = (0, _themeProvider.useBootstrapPrefix)(bsPrefix, "tooltip");
-    const isRTL = (0, _themeProvider.useIsRTL)();
-    const [primaryPlacement] = (placement == null ? void 0 : placement.split("-")) || [];
-    const bsDirection = (0, _helpers.getOverlayDirection)(primaryPlacement, isRTL);
-    return /*#__PURE__*/ (0, _jsxRuntime.jsxs)("div", {
-        ref: ref,
-        style: style,
-        role: "tooltip",
-        "x-placement": primaryPlacement,
-        className: (0, _classnamesDefault.default)(className, bsPrefix, `bs-tooltip-${bsDirection}`),
-        ...props,
-        children: [
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
-                className: "tooltip-arrow",
-                ...arrowProps
-            }),
-            /*#__PURE__*/ (0, _jsxRuntime.jsx)("div", {
-                className: `${bsPrefix}-inner`,
-                children: children
-            })
-        ]
-    });
-});
-Tooltip.defaultProps = defaultProps;
-Tooltip.displayName = "Tooltip";
-exports.default = Tooltip;
-
-},{"classnames":"jocGM","react":"21dqq","./ThemeProvider":"dVixI","./helpers":"gotcT","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fdOAw":[function(require,module,exports) {
+},{"react":"21dqq","invariant":"d1QgR","uncontrollable":"b3yWY","./createChainedFunction":"1KNLM","./ElementChildren":"fdyAp","./ButtonGroup":"gXYCe","./ToggleButton":"dCmeV","react/jsx-runtime":"6AEwr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9xmpe":[function(require,module,exports) {
 /**
- * React Router DOM v6.3.0
+ * React Router DOM v6.16.0
  *
  * Copyright (c) Remix Software Inc.
  *
@@ -40916,48 +40810,83 @@ exports.default = Tooltip;
  * @license MIT
  */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _reactRouter.AbortedDeferredError));
+parcelHelpers.export(exports, "Await", ()=>(0, _reactRouter.Await));
 parcelHelpers.export(exports, "MemoryRouter", ()=>(0, _reactRouter.MemoryRouter));
 parcelHelpers.export(exports, "Navigate", ()=>(0, _reactRouter.Navigate));
 parcelHelpers.export(exports, "NavigationType", ()=>(0, _reactRouter.NavigationType));
 parcelHelpers.export(exports, "Outlet", ()=>(0, _reactRouter.Outlet));
 parcelHelpers.export(exports, "Route", ()=>(0, _reactRouter.Route));
 parcelHelpers.export(exports, "Router", ()=>(0, _reactRouter.Router));
+parcelHelpers.export(exports, "RouterProvider", ()=>(0, _reactRouter.RouterProvider));
 parcelHelpers.export(exports, "Routes", ()=>(0, _reactRouter.Routes));
+parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>(0, _reactRouter.UNSAFE_DataRouterContext));
+parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>(0, _reactRouter.UNSAFE_DataRouterStateContext));
 parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>(0, _reactRouter.UNSAFE_LocationContext));
 parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>(0, _reactRouter.UNSAFE_NavigationContext));
 parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>(0, _reactRouter.UNSAFE_RouteContext));
+parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>(0, _reactRouter.UNSAFE_useRouteId));
+parcelHelpers.export(exports, "createMemoryRouter", ()=>(0, _reactRouter.createMemoryRouter));
 parcelHelpers.export(exports, "createPath", ()=>(0, _reactRouter.createPath));
 parcelHelpers.export(exports, "createRoutesFromChildren", ()=>(0, _reactRouter.createRoutesFromChildren));
+parcelHelpers.export(exports, "createRoutesFromElements", ()=>(0, _reactRouter.createRoutesFromElements));
+parcelHelpers.export(exports, "defer", ()=>(0, _reactRouter.defer));
 parcelHelpers.export(exports, "generatePath", ()=>(0, _reactRouter.generatePath));
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _reactRouter.isRouteErrorResponse));
+parcelHelpers.export(exports, "json", ()=>(0, _reactRouter.json));
 parcelHelpers.export(exports, "matchPath", ()=>(0, _reactRouter.matchPath));
 parcelHelpers.export(exports, "matchRoutes", ()=>(0, _reactRouter.matchRoutes));
 parcelHelpers.export(exports, "parsePath", ()=>(0, _reactRouter.parsePath));
+parcelHelpers.export(exports, "redirect", ()=>(0, _reactRouter.redirect));
+parcelHelpers.export(exports, "redirectDocument", ()=>(0, _reactRouter.redirectDocument));
 parcelHelpers.export(exports, "renderMatches", ()=>(0, _reactRouter.renderMatches));
 parcelHelpers.export(exports, "resolvePath", ()=>(0, _reactRouter.resolvePath));
+parcelHelpers.export(exports, "unstable_useBlocker", ()=>(0, _reactRouter.unstable_useBlocker));
+parcelHelpers.export(exports, "useActionData", ()=>(0, _reactRouter.useActionData));
+parcelHelpers.export(exports, "useAsyncError", ()=>(0, _reactRouter.useAsyncError));
+parcelHelpers.export(exports, "useAsyncValue", ()=>(0, _reactRouter.useAsyncValue));
 parcelHelpers.export(exports, "useHref", ()=>(0, _reactRouter.useHref));
 parcelHelpers.export(exports, "useInRouterContext", ()=>(0, _reactRouter.useInRouterContext));
+parcelHelpers.export(exports, "useLoaderData", ()=>(0, _reactRouter.useLoaderData));
 parcelHelpers.export(exports, "useLocation", ()=>(0, _reactRouter.useLocation));
 parcelHelpers.export(exports, "useMatch", ()=>(0, _reactRouter.useMatch));
+parcelHelpers.export(exports, "useMatches", ()=>(0, _reactRouter.useMatches));
 parcelHelpers.export(exports, "useNavigate", ()=>(0, _reactRouter.useNavigate));
+parcelHelpers.export(exports, "useNavigation", ()=>(0, _reactRouter.useNavigation));
 parcelHelpers.export(exports, "useNavigationType", ()=>(0, _reactRouter.useNavigationType));
 parcelHelpers.export(exports, "useOutlet", ()=>(0, _reactRouter.useOutlet));
 parcelHelpers.export(exports, "useOutletContext", ()=>(0, _reactRouter.useOutletContext));
 parcelHelpers.export(exports, "useParams", ()=>(0, _reactRouter.useParams));
 parcelHelpers.export(exports, "useResolvedPath", ()=>(0, _reactRouter.useResolvedPath));
+parcelHelpers.export(exports, "useRevalidator", ()=>(0, _reactRouter.useRevalidator));
+parcelHelpers.export(exports, "useRouteError", ()=>(0, _reactRouter.useRouteError));
+parcelHelpers.export(exports, "useRouteLoaderData", ()=>(0, _reactRouter.useRouteLoaderData));
 parcelHelpers.export(exports, "useRoutes", ()=>(0, _reactRouter.useRoutes));
+//#endregion
 parcelHelpers.export(exports, "BrowserRouter", ()=>BrowserRouter);
+parcelHelpers.export(exports, "Form", ()=>Form);
 parcelHelpers.export(exports, "HashRouter", ()=>HashRouter);
 parcelHelpers.export(exports, "Link", ()=>Link);
 parcelHelpers.export(exports, "NavLink", ()=>NavLink);
+parcelHelpers.export(exports, "ScrollRestoration", ()=>ScrollRestoration);
+parcelHelpers.export(exports, "UNSAFE_useScrollRestoration", ()=>useScrollRestoration);
+parcelHelpers.export(exports, "createBrowserRouter", ()=>createBrowserRouter);
+parcelHelpers.export(exports, "createHashRouter", ()=>createHashRouter);
 parcelHelpers.export(exports, "createSearchParams", ()=>createSearchParams);
 parcelHelpers.export(exports, "unstable_HistoryRouter", ()=>HistoryRouter);
+parcelHelpers.export(exports, "unstable_usePrompt", ()=>usePrompt);
+parcelHelpers.export(exports, "useBeforeUnload", ()=>useBeforeUnload);
+parcelHelpers.export(exports, "useFetcher", ()=>useFetcher);
+parcelHelpers.export(exports, "useFetchers", ()=>useFetchers);
+parcelHelpers.export(exports, "useFormAction", ()=>useFormAction);
 parcelHelpers.export(exports, "useLinkClickHandler", ()=>useLinkClickHandler);
 parcelHelpers.export(exports, "useSearchParams", ()=>useSearchParams);
+parcelHelpers.export(exports, "useSubmit", ()=>useSubmit);
 var _react = require("react");
-var _history = require("history");
 var _reactRouter = require("react-router");
+var _router = require("@remix-run/router");
 function _extends() {
-    _extends = Object.assign || function(target) {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
         for(var i = 1; i < arguments.length; i++){
             var source = arguments[i];
             for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
@@ -40978,236 +40907,28 @@ function _objectWithoutPropertiesLoose(source, excluded) {
     }
     return target;
 }
-const _excluded = [
-    "onClick",
-    "reloadDocument",
-    "replace",
-    "state",
-    "target",
-    "to"
-], _excluded2 = [
-    "aria-current",
-    "caseSensitive",
-    "className",
-    "end",
-    "style",
-    "to",
-    "children"
-];
-function warning(cond, message) {
-    if (!cond) {
-        // eslint-disable-next-line no-console
-        if (typeof console !== "undefined") console.warn(message);
-        try {
-            // Welcome to debugging React Router!
-            //
-            // This error is thrown as a convenience so you can more easily
-            // find the source for a warning that appears in the console by
-            // enabling "pause on exceptions" in your JavaScript debugger.
-            throw new Error(message); // eslint-disable-next-line no-empty
-        } catch (e) {}
-    }
-} ////////////////////////////////////////////////////////////////////////////////
-// COMPONENTS
-////////////////////////////////////////////////////////////////////////////////
-/**
- * A `<Router>` for use in web browsers. Provides the cleanest URLs.
- */ function BrowserRouter(_ref) {
-    let { basename, children, window } = _ref;
-    let historyRef = (0, _react.useRef)();
-    if (historyRef.current == null) historyRef.current = (0, _history.createBrowserHistory)({
-        window
-    });
-    let history = historyRef.current;
-    let [state, setState] = (0, _react.useState)({
-        action: history.action,
-        location: history.location
-    });
-    (0, _react.useLayoutEffect)(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ (0, _react.createElement)((0, _reactRouter.Router), {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
+const defaultMethod = "get";
+const defaultEncType = "application/x-www-form-urlencoded";
+function isHtmlElement(object) {
+    return object != null && typeof object.tagName === "string";
 }
-/**
- * A `<Router>` for use in web browsers. Stores the location in the hash
- * portion of the URL so it is not sent to the server.
- */ function HashRouter(_ref2) {
-    let { basename, children, window } = _ref2;
-    let historyRef = (0, _react.useRef)();
-    if (historyRef.current == null) historyRef.current = (0, _history.createHashHistory)({
-        window
-    });
-    let history = historyRef.current;
-    let [state, setState] = (0, _react.useState)({
-        action: history.action,
-        location: history.location
-    });
-    (0, _react.useLayoutEffect)(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ (0, _react.createElement)((0, _reactRouter.Router), {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
+function isButtonElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "button";
 }
-/**
- * A `<Router>` that accepts a pre-instantiated history object. It's important
- * to note that using your own history object is highly discouraged and may add
- * two versions of the history library to your bundles unless you use the same
- * version of the history library that React Router uses internally.
- */ function HistoryRouter(_ref3) {
-    let { basename, children, history } = _ref3;
-    const [state, setState] = (0, _react.useState)({
-        action: history.action,
-        location: history.location
-    });
-    (0, _react.useLayoutEffect)(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ (0, _react.createElement)((0, _reactRouter.Router), {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
+function isFormElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "form";
 }
-HistoryRouter.displayName = "unstable_HistoryRouter";
+function isInputElement(object) {
+    return isHtmlElement(object) && object.tagName.toLowerCase() === "input";
+}
 function isModifiedEvent(event) {
     return !!(event.metaKey || event.altKey || event.ctrlKey || event.shiftKey);
 }
-/**
- * The public API for rendering a history-aware <a>.
- */ const Link = /*#__PURE__*/ (0, _react.forwardRef)(function LinkWithRef(_ref4, ref) {
-    let { onClick, reloadDocument, replace = false, state, target, to } = _ref4, rest = _objectWithoutPropertiesLoose(_ref4, _excluded);
-    let href = (0, _reactRouter.useHref)(to);
-    let internalOnClick = useLinkClickHandler(to, {
-        replace,
-        state,
-        target
-    });
-    function handleClick(event) {
-        if (onClick) onClick(event);
-        if (!event.defaultPrevented && !reloadDocument) internalOnClick(event);
-    }
-    return(/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
-    (0, _react.createElement)("a", _extends({}, rest, {
-        href: href,
-        onClick: handleClick,
-        ref: ref,
-        target: target
-    })));
-});
-Link.displayName = "Link";
-/**
- * A <Link> wrapper that knows if it's "active" or not.
- */ const NavLink = /*#__PURE__*/ (0, _react.forwardRef)(function NavLinkWithRef(_ref5, ref) {
-    let { "aria-current": ariaCurrentProp = "page", caseSensitive = false, className: classNameProp = "", end = false, style: styleProp, to, children } = _ref5, rest = _objectWithoutPropertiesLoose(_ref5, _excluded2);
-    let location = (0, _reactRouter.useLocation)();
-    let path = (0, _reactRouter.useResolvedPath)(to);
-    let locationPathname = location.pathname;
-    let toPathname = path.pathname;
-    if (!caseSensitive) {
-        locationPathname = locationPathname.toLowerCase();
-        toPathname = toPathname.toLowerCase();
-    }
-    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
-    let ariaCurrent = isActive ? ariaCurrentProp : undefined;
-    let className;
-    if (typeof classNameProp === "function") className = classNameProp({
-        isActive
-    });
-    else // If the className prop is not a function, we use a default `active`
-    // class for <NavLink />s that are active. In v5 `active` was the default
-    // value for `activeClassName`, but we are removing that API and can still
-    // use the old default behavior for a cleaner upgrade path and keep the
-    // simple styling rules working as they currently do.
-    className = [
-        classNameProp,
-        isActive ? "active" : null
-    ].filter(Boolean).join(" ");
-    let style = typeof styleProp === "function" ? styleProp({
-        isActive
-    }) : styleProp;
-    return /*#__PURE__*/ (0, _react.createElement)(Link, _extends({}, rest, {
-        "aria-current": ariaCurrent,
-        className: className,
-        ref: ref,
-        style: style,
-        to: to
-    }), typeof children === "function" ? children({
-        isActive
-    }) : children);
-});
-NavLink.displayName = "NavLink";
-// HOOKS
-////////////////////////////////////////////////////////////////////////////////
-/**
- * Handles the click behavior for router `<Link>` components. This is useful if
- * you need to create custom `<Link>` components with the same click behavior we
- * use in our exported `<Link>`.
- */ function useLinkClickHandler(to, _temp) {
-    let { target, replace: replaceProp, state } = _temp === void 0 ? {} : _temp;
-    let navigate = (0, _reactRouter.useNavigate)();
-    let location = (0, _reactRouter.useLocation)();
-    let path = (0, _reactRouter.useResolvedPath)(to);
-    return (0, _react.useCallback)((event)=>{
-        if (event.button === 0 && (!target || target === "_self") && // Let browser handle "target=_blank" etc.
-        !isModifiedEvent(event) // Ignore clicks with modifier keys
-        ) {
-            event.preventDefault(); // If the URL hasn't changed, a regular <a> will do a replace instead of
-            // a push, so do the same here.
-            let replace = !!replaceProp || (0, _reactRouter.createPath)(location) === (0, _reactRouter.createPath)(path);
-            navigate(to, {
-                replace,
-                state
-            });
-        }
-    }, [
-        location,
-        navigate,
-        path,
-        replaceProp,
-        state,
-        target,
-        to
-    ]);
-}
-/**
- * A convenient wrapper for reading and writing search parameters via the
- * URLSearchParams interface.
- */ function useSearchParams(defaultInit) {
-    warning(typeof URLSearchParams !== "undefined", "You cannot use the `useSearchParams` hook in a browser that does not support the URLSearchParams API. If you need to support Internet Explorer 11, we recommend you load a polyfill such as https://github.com/ungap/url-search-params\n\nIf you're unsure how to load polyfills, we recommend you check out https://polyfill.io/v3/ which provides some recommendations about how to load polyfills only for users that need them, instead of for every user.");
-    let defaultSearchParamsRef = (0, _react.useRef)(createSearchParams(defaultInit));
-    let location = (0, _reactRouter.useLocation)();
-    let searchParams = (0, _react.useMemo)(()=>{
-        let searchParams = createSearchParams(location.search);
-        for (let key of defaultSearchParamsRef.current.keys())if (!searchParams.has(key)) defaultSearchParamsRef.current.getAll(key).forEach((value)=>{
-            searchParams.append(key, value);
-        });
-        return searchParams;
-    }, [
-        location.search
-    ]);
-    let navigate = (0, _reactRouter.useNavigate)();
-    let setSearchParams = (0, _react.useCallback)((nextInit, navigateOptions)=>{
-        navigate("?" + createSearchParams(nextInit), navigateOptions);
-    }, [
-        navigate
-    ]);
-    return [
-        searchParams,
-        setSearchParams
-    ];
+function shouldProcessLinkClick(event, target) {
+    return event.button === 0 && // Ignore everything but left clicks
+    (!target || target === "_self") && // Let browser handle "target=_blank" etc.
+    !isModifiedEvent(event) // Ignore clicks with modifier keys
+    ;
 }
 /**
  * Creates a URLSearchParams object using the given initializer.
@@ -41244,22 +40965,2152 @@ NavLink.displayName = "NavLink";
         ]);
     }, []));
 }
+function getSearchParamsForLocation(locationSearch, defaultSearchParams) {
+    let searchParams = createSearchParams(locationSearch);
+    if (defaultSearchParams) // Use `defaultSearchParams.forEach(...)` here instead of iterating of
+    // `defaultSearchParams.keys()` to work-around a bug in Firefox related to
+    // web extensions. Relevant Bugzilla tickets:
+    // https://bugzilla.mozilla.org/show_bug.cgi?id=1414602
+    // https://bugzilla.mozilla.org/show_bug.cgi?id=1023984
+    defaultSearchParams.forEach((_, key)=>{
+        if (!searchParams.has(key)) defaultSearchParams.getAll(key).forEach((value)=>{
+            searchParams.append(key, value);
+        });
+    });
+    return searchParams;
+}
+// One-time check for submitter support
+let _formDataSupportsSubmitter = null;
+function isFormDataSubmitterSupported() {
+    if (_formDataSupportsSubmitter === null) try {
+        new FormData(document.createElement("form"), // @ts-expect-error if FormData supports the submitter parameter, this will throw
+        0);
+        _formDataSupportsSubmitter = false;
+    } catch (e) {
+        _formDataSupportsSubmitter = true;
+    }
+    return _formDataSupportsSubmitter;
+}
+const supportedFormEncTypes = new Set([
+    "application/x-www-form-urlencoded",
+    "multipart/form-data",
+    "text/plain"
+]);
+function getFormEncType(encType) {
+    if (encType != null && !supportedFormEncTypes.has(encType)) {
+        (0, _router.UNSAFE_warning)(false, '"' + encType + '" is not a valid `encType` for `<Form>`/`<fetcher.Form>` ' + ('and will default to "' + defaultEncType + '"'));
+        return null;
+    }
+    return encType;
+}
+function getFormSubmissionInfo(target, basename) {
+    let method;
+    let action;
+    let encType;
+    let formData;
+    let body;
+    if (isFormElement(target)) {
+        // When grabbing the action from the element, it will have had the basename
+        // prefixed to ensure non-JS scenarios work, so strip it since we'll
+        // re-prefix in the router
+        let attr = target.getAttribute("action");
+        action = attr ? (0, _router.stripBasename)(attr, basename) : null;
+        method = target.getAttribute("method") || defaultMethod;
+        encType = getFormEncType(target.getAttribute("enctype")) || defaultEncType;
+        formData = new FormData(target);
+    } else if (isButtonElement(target) || isInputElement(target) && (target.type === "submit" || target.type === "image")) {
+        let form = target.form;
+        if (form == null) throw new Error('Cannot submit a <button> or <input type="submit"> without a <form>');
+        // <button>/<input type="submit"> may override attributes of <form>
+        // When grabbing the action from the element, it will have had the basename
+        // prefixed to ensure non-JS scenarios work, so strip it since we'll
+        // re-prefix in the router
+        let attr = target.getAttribute("formaction") || form.getAttribute("action");
+        action = attr ? (0, _router.stripBasename)(attr, basename) : null;
+        method = target.getAttribute("formmethod") || form.getAttribute("method") || defaultMethod;
+        encType = getFormEncType(target.getAttribute("formenctype")) || getFormEncType(form.getAttribute("enctype")) || defaultEncType;
+        // Build a FormData object populated from a form and submitter
+        formData = new FormData(form, target);
+        // If this browser doesn't support the `FormData(el, submitter)` format,
+        // then tack on the submitter value at the end.  This is a lightweight
+        // solution that is not 100% spec compliant.  For complete support in older
+        // browsers, consider using the `formdata-submitter-polyfill` package
+        if (!isFormDataSubmitterSupported()) {
+            let { name, type, value } = target;
+            if (type === "image") {
+                let prefix = name ? name + "." : "";
+                formData.append(prefix + "x", "0");
+                formData.append(prefix + "y", "0");
+            } else if (name) formData.append(name, value);
+        }
+    } else if (isHtmlElement(target)) throw new Error('Cannot submit element that is not <form>, <button>, or <input type="submit|image">');
+    else {
+        method = defaultMethod;
+        action = null;
+        encType = defaultEncType;
+        body = target;
+    }
+    // Send body for <Form encType="text/plain" so we encode it into text
+    if (formData && encType === "text/plain") {
+        body = formData;
+        formData = undefined;
+    }
+    return {
+        action,
+        method: method.toLowerCase(),
+        encType,
+        formData,
+        body
+    };
+}
+const _excluded = [
+    "onClick",
+    "relative",
+    "reloadDocument",
+    "replace",
+    "state",
+    "target",
+    "to",
+    "preventScrollReset"
+], _excluded2 = [
+    "aria-current",
+    "caseSensitive",
+    "className",
+    "end",
+    "style",
+    "to",
+    "children"
+], _excluded3 = [
+    "reloadDocument",
+    "replace",
+    "state",
+    "method",
+    "action",
+    "onSubmit",
+    "submit",
+    "relative",
+    "preventScrollReset"
+];
+function createBrowserRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createBrowserHistory)({
+            window: opts == null ? void 0 : opts.window
+        }),
+        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
+        routes,
+        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
+    }).initialize();
+}
+function createHashRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createHashHistory)({
+            window: opts == null ? void 0 : opts.window
+        }),
+        hydrationData: (opts == null ? void 0 : opts.hydrationData) || parseHydrationData(),
+        routes,
+        mapRouteProperties: (0, _reactRouter.UNSAFE_mapRouteProperties)
+    }).initialize();
+}
+function parseHydrationData() {
+    var _window;
+    let state = (_window = window) == null ? void 0 : _window.__staticRouterHydrationData;
+    if (state && state.errors) state = _extends({}, state, {
+        errors: deserializeErrors(state.errors)
+    });
+    return state;
+}
+function deserializeErrors(errors) {
+    if (!errors) return null;
+    let entries = Object.entries(errors);
+    let serialized = {};
+    for (let [key, val] of entries){
+        // Hey you!  If you change this, please change the corresponding logic in
+        // serializeErrors in react-router-dom/server.tsx :)
+        if (val && val.__type === "RouteErrorResponse") serialized[key] = new (0, _router.UNSAFE_ErrorResponseImpl)(val.status, val.statusText, val.data, val.internal === true);
+        else if (val && val.__type === "Error") {
+            // Attempt to reconstruct the right type of Error (i.e., ReferenceError)
+            if (val.__subType) {
+                let ErrorConstructor = window[val.__subType];
+                if (typeof ErrorConstructor === "function") try {
+                    // @ts-expect-error
+                    let error = new ErrorConstructor(val.message);
+                    // Wipe away the client-side stack trace.  Nothing to fill it in with
+                    // because we don't serialize SSR stack traces for security reasons
+                    error.stack = "";
+                    serialized[key] = error;
+                } catch (e) {
+                // no-op - fall through and create a normal Error
+                }
+            }
+            if (serialized[key] == null) {
+                let error = new Error(val.message);
+                // Wipe away the client-side stack trace.  Nothing to fill it in with
+                // because we don't serialize SSR stack traces for security reasons
+                error.stack = "";
+                serialized[key] = error;
+            }
+        } else serialized[key] = val;
+    }
+    return serialized;
+}
+//#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region Components
+////////////////////////////////////////////////////////////////////////////////
+/**
+  Webpack + React 17 fails to compile on any of the following because webpack
+  complains that `startTransition` doesn't exist in `React`:
+  * import { startTransition } from "react"
+  * import * as React from from "react";
+    "startTransition" in React ? React.startTransition(() => setState()) : setState()
+  * import * as React from from "react";
+    "startTransition" in React ? React["startTransition"](() => setState()) : setState()
 
-},{"react":"21dqq","history":"iE5Zp","react-router":"btA8E","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iE5Zp":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+  Moving it to a constant such as the following solves the Webpack/React 17 issue:
+  * import * as React from from "react";
+    const START_TRANSITION = "startTransition";
+    START_TRANSITION in React ? React[START_TRANSITION](() => setState()) : setState()
+
+  However, that introduces webpack/terser minification issues in production builds
+  in React 18 where minification/obfuscation ends up removing the call of
+  React.startTransition entirely from the first half of the ternary.  Grabbing
+  this exported reference once up front resolves that issue.
+
+  See https://github.com/remix-run/react-router/issues/10579
+*/ const START_TRANSITION = "startTransition";
+const startTransitionImpl = _react[START_TRANSITION];
+/**
+ * A `<Router>` for use in web browsers. Provides the cleanest URLs.
+ */ function BrowserRouter(_ref) {
+    let { basename, children, future, window: window1 } = _ref;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createBrowserHistory)({
+        window: window1,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setStateImpl] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    let { v7_startTransition } = future || {};
+    let setState = _react.useCallback((newState)=>{
+        v7_startTransition && startTransitionImpl ? startTransitionImpl(()=>setStateImpl(newState)) : setStateImpl(newState);
+    }, [
+        setStateImpl,
+        v7_startTransition
+    ]);
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history,
+        setState
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * A `<Router>` for use in web browsers. Stores the location in the hash
+ * portion of the URL so it is not sent to the server.
+ */ function HashRouter(_ref2) {
+    let { basename, children, future, window: window1 } = _ref2;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createHashHistory)({
+        window: window1,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setStateImpl] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    let { v7_startTransition } = future || {};
+    let setState = _react.useCallback((newState)=>{
+        v7_startTransition && startTransitionImpl ? startTransitionImpl(()=>setStateImpl(newState)) : setStateImpl(newState);
+    }, [
+        setStateImpl,
+        v7_startTransition
+    ]);
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history,
+        setState
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * A `<Router>` that accepts a pre-instantiated history object. It's important
+ * to note that using your own history object is highly discouraged and may add
+ * two versions of the history library to your bundles unless you use the same
+ * version of the history library that React Router uses internally.
+ */ function HistoryRouter(_ref3) {
+    let { basename, children, future, history } = _ref3;
+    let [state, setStateImpl] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    let { v7_startTransition } = future || {};
+    let setState = _react.useCallback((newState)=>{
+        v7_startTransition && startTransitionImpl ? startTransitionImpl(()=>setStateImpl(newState)) : setStateImpl(newState);
+    }, [
+        setStateImpl,
+        v7_startTransition
+    ]);
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history,
+        setState
+    ]);
+    return /*#__PURE__*/ _react.createElement((0, _reactRouter.Router), {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+HistoryRouter.displayName = "unstable_HistoryRouter";
+const isBrowser = typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined";
+const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+/**
+ * The public API for rendering a history-aware <a>.
+ */ const Link = /*#__PURE__*/ _react.forwardRef(function LinkWithRef(_ref4, ref) {
+    let { onClick, relative, reloadDocument, replace, state, target, to, preventScrollReset } = _ref4, rest = _objectWithoutPropertiesLoose(_ref4, _excluded);
+    let { basename } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    // Rendered into <a href> for absolute URLs
+    let absoluteHref;
+    let isExternal = false;
+    if (typeof to === "string" && ABSOLUTE_URL_REGEX.test(to)) {
+        // Render the absolute href server- and client-side
+        absoluteHref = to;
+        // Only check for external origins client-side
+        if (isBrowser) try {
+            let currentUrl = new URL(window.location.href);
+            let targetUrl = to.startsWith("//") ? new URL(currentUrl.protocol + to) : new URL(to);
+            let path = (0, _router.stripBasename)(targetUrl.pathname, basename);
+            if (targetUrl.origin === currentUrl.origin && path != null) // Strip the protocol/origin/basename for same-origin absolute URLs
+            to = path + targetUrl.search + targetUrl.hash;
+            else isExternal = true;
+        } catch (e) {
+            (0, _router.UNSAFE_warning)(false, '<Link to="' + to + '"> contains an invalid URL which will probably break ' + "when clicked - please update to a valid URL path.");
+        }
+    }
+    // Rendered into <a href> for relative URLs
+    let href = (0, _reactRouter.useHref)(to, {
+        relative
+    });
+    let internalOnClick = useLinkClickHandler(to, {
+        replace,
+        state,
+        target,
+        preventScrollReset,
+        relative
+    });
+    function handleClick(event) {
+        if (onClick) onClick(event);
+        if (!event.defaultPrevented) internalOnClick(event);
+    }
+    return(/*#__PURE__*/ // eslint-disable-next-line jsx-a11y/anchor-has-content
+    _react.createElement("a", _extends({}, rest, {
+        href: absoluteHref || href,
+        onClick: isExternal || reloadDocument ? onClick : handleClick,
+        ref: ref,
+        target: target
+    })));
+});
+Link.displayName = "Link";
+/**
+ * A <Link> wrapper that knows if it's "active" or not.
+ */ const NavLink = /*#__PURE__*/ _react.forwardRef(function NavLinkWithRef(_ref5, ref) {
+    let { "aria-current": ariaCurrentProp = "page", caseSensitive = false, className: classNameProp = "", end = false, style: styleProp, to, children } = _ref5, rest = _objectWithoutPropertiesLoose(_ref5, _excluded2);
+    let path = (0, _reactRouter.useResolvedPath)(to, {
+        relative: rest.relative
+    });
+    let location = (0, _reactRouter.useLocation)();
+    let routerState = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
+    let { navigator } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let toPathname = navigator.encodeLocation ? navigator.encodeLocation(path).pathname : path.pathname;
+    let locationPathname = location.pathname;
+    let nextLocationPathname = routerState && routerState.navigation && routerState.navigation.location ? routerState.navigation.location.pathname : null;
+    if (!caseSensitive) {
+        locationPathname = locationPathname.toLowerCase();
+        nextLocationPathname = nextLocationPathname ? nextLocationPathname.toLowerCase() : null;
+        toPathname = toPathname.toLowerCase();
+    }
+    let isActive = locationPathname === toPathname || !end && locationPathname.startsWith(toPathname) && locationPathname.charAt(toPathname.length) === "/";
+    let isPending = nextLocationPathname != null && (nextLocationPathname === toPathname || !end && nextLocationPathname.startsWith(toPathname) && nextLocationPathname.charAt(toPathname.length) === "/");
+    let ariaCurrent = isActive ? ariaCurrentProp : undefined;
+    let className;
+    if (typeof classNameProp === "function") className = classNameProp({
+        isActive,
+        isPending
+    });
+    else // If the className prop is not a function, we use a default `active`
+    // class for <NavLink />s that are active. In v5 `active` was the default
+    // value for `activeClassName`, but we are removing that API and can still
+    // use the old default behavior for a cleaner upgrade path and keep the
+    // simple styling rules working as they currently do.
+    className = [
+        classNameProp,
+        isActive ? "active" : null,
+        isPending ? "pending" : null
+    ].filter(Boolean).join(" ");
+    let style = typeof styleProp === "function" ? styleProp({
+        isActive,
+        isPending
+    }) : styleProp;
+    return /*#__PURE__*/ _react.createElement(Link, _extends({}, rest, {
+        "aria-current": ariaCurrent,
+        className: className,
+        ref: ref,
+        style: style,
+        to: to
+    }), typeof children === "function" ? children({
+        isActive,
+        isPending
+    }) : children);
+});
+NavLink.displayName = "NavLink";
+/**
+ * A `@remix-run/router`-aware `<form>`. It behaves like a normal form except
+ * that the interaction with the server is with `fetch` instead of new document
+ * requests, allowing components to add nicer UX to the page as the form is
+ * submitted and returns with data.
+ */ const Form = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+    let submit = useSubmit();
+    return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
+        submit: submit,
+        ref: ref
+    }));
+});
+Form.displayName = "Form";
+const FormImpl = /*#__PURE__*/ _react.forwardRef((_ref6, forwardedRef)=>{
+    let { reloadDocument, replace, state, method = defaultMethod, action, onSubmit, submit, relative, preventScrollReset } = _ref6, props = _objectWithoutPropertiesLoose(_ref6, _excluded3);
+    let formMethod = method.toLowerCase() === "get" ? "get" : "post";
+    let formAction = useFormAction(action, {
+        relative
+    });
+    let submitHandler = (event)=>{
+        onSubmit && onSubmit(event);
+        if (event.defaultPrevented) return;
+        event.preventDefault();
+        let submitter = event.nativeEvent.submitter;
+        let submitMethod = (submitter == null ? void 0 : submitter.getAttribute("formmethod")) || method;
+        submit(submitter || event.currentTarget, {
+            method: submitMethod,
+            replace,
+            state,
+            relative,
+            preventScrollReset
+        });
+    };
+    return /*#__PURE__*/ _react.createElement("form", _extends({
+        ref: forwardedRef,
+        method: formMethod,
+        action: formAction,
+        onSubmit: reloadDocument ? onSubmit : submitHandler
+    }, props));
+});
+FormImpl.displayName = "FormImpl";
+/**
+ * This component will emulate the browser's scroll restoration on location
+ * changes.
+ */ function ScrollRestoration(_ref7) {
+    let { getKey, storageKey } = _ref7;
+    useScrollRestoration({
+        getKey,
+        storageKey
+    });
+    return null;
+}
+ScrollRestoration.displayName = "ScrollRestoration";
+//#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region Hooks
+////////////////////////////////////////////////////////////////////////////////
+var DataRouterHook;
+(function(DataRouterHook) {
+    DataRouterHook["UseScrollRestoration"] = "useScrollRestoration";
+    DataRouterHook["UseSubmit"] = "useSubmit";
+    DataRouterHook["UseSubmitFetcher"] = "useSubmitFetcher";
+    DataRouterHook["UseFetcher"] = "useFetcher";
+})(DataRouterHook || (DataRouterHook = {}));
+var DataRouterStateHook;
+(function(DataRouterStateHook) {
+    DataRouterStateHook["UseFetchers"] = "useFetchers";
+    DataRouterStateHook["UseScrollRestoration"] = "useScrollRestoration";
+})(DataRouterStateHook || (DataRouterStateHook = {}));
+function getDataRouterConsoleError(hookName) {
+    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
+}
+function useDataRouterContext(hookName) {
+    let ctx = _react.useContext((0, _reactRouter.UNSAFE_DataRouterContext));
+    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return ctx;
+}
+function useDataRouterState(hookName) {
+    let state = _react.useContext((0, _reactRouter.UNSAFE_DataRouterStateContext));
+    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return state;
+}
+/**
+ * Handles the click behavior for router `<Link>` components. This is useful if
+ * you need to create custom `<Link>` components with the same click behavior we
+ * use in our exported `<Link>`.
+ */ function useLinkClickHandler(to, _temp) {
+    let { target, replace: replaceProp, state, preventScrollReset, relative } = _temp === void 0 ? {} : _temp;
+    let navigate = (0, _reactRouter.useNavigate)();
+    let location = (0, _reactRouter.useLocation)();
+    let path = (0, _reactRouter.useResolvedPath)(to, {
+        relative
+    });
+    return _react.useCallback((event)=>{
+        if (shouldProcessLinkClick(event, target)) {
+            event.preventDefault();
+            // If the URL hasn't changed, a regular <a> will do a replace instead of
+            // a push, so do the same here unless the replace prop is explicitly set
+            let replace = replaceProp !== undefined ? replaceProp : (0, _reactRouter.createPath)(location) === (0, _reactRouter.createPath)(path);
+            navigate(to, {
+                replace,
+                state,
+                preventScrollReset,
+                relative
+            });
+        }
+    }, [
+        location,
+        navigate,
+        path,
+        replaceProp,
+        state,
+        target,
+        to,
+        preventScrollReset,
+        relative
+    ]);
+}
+/**
+ * A convenient wrapper for reading and writing search parameters via the
+ * URLSearchParams interface.
+ */ function useSearchParams(defaultInit) {
+    (0, _router.UNSAFE_warning)(typeof URLSearchParams !== "undefined", "You cannot use the `useSearchParams` hook in a browser that does not support the URLSearchParams API. If you need to support Internet Explorer 11, we recommend you load a polyfill such as https://github.com/ungap/url-search-params\n\nIf you're unsure how to load polyfills, we recommend you check out https://polyfill.io/v3/ which provides some recommendations about how to load polyfills only for users that need them, instead of for every user.");
+    let defaultSearchParamsRef = _react.useRef(createSearchParams(defaultInit));
+    let hasSetSearchParamsRef = _react.useRef(false);
+    let location = (0, _reactRouter.useLocation)();
+    let searchParams = _react.useMemo(()=>// Only merge in the defaults if we haven't yet called setSearchParams.
+        // Once we call that we want those to take precedence, otherwise you can't
+        // remove a param with setSearchParams({}) if it has an initial value
+        getSearchParamsForLocation(location.search, hasSetSearchParamsRef.current ? null : defaultSearchParamsRef.current), [
+        location.search
+    ]);
+    let navigate = (0, _reactRouter.useNavigate)();
+    let setSearchParams = _react.useCallback((nextInit, navigateOptions)=>{
+        const newSearchParams = createSearchParams(typeof nextInit === "function" ? nextInit(searchParams) : nextInit);
+        hasSetSearchParamsRef.current = true;
+        navigate("?" + newSearchParams, navigateOptions);
+    }, [
+        navigate,
+        searchParams
+    ]);
+    return [
+        searchParams,
+        setSearchParams
+    ];
+}
+function validateClientSideSubmission() {
+    if (typeof document === "undefined") throw new Error("You are calling submit during the server render. Try calling submit within a `useEffect` or callback instead.");
+}
+/**
+ * Returns a function that may be used to programmatically submit a form (or
+ * some arbitrary data) to the server.
+ */ function useSubmit() {
+    let { router } = useDataRouterContext(DataRouterHook.UseSubmit);
+    let { basename } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let currentRouteId = (0, _reactRouter.UNSAFE_useRouteId)();
+    return _react.useCallback(function(target, options) {
+        if (options === void 0) options = {};
+        validateClientSideSubmission();
+        let { action, method, encType, formData, body } = getFormSubmissionInfo(target, basename);
+        router.navigate(options.action || action, {
+            preventScrollReset: options.preventScrollReset,
+            formData,
+            body,
+            formMethod: options.method || method,
+            formEncType: options.encType || encType,
+            replace: options.replace,
+            state: options.state,
+            fromRouteId: currentRouteId
+        });
+    }, [
+        router,
+        basename,
+        currentRouteId
+    ]);
+}
+/**
+ * Returns the implementation for fetcher.submit
+ */ function useSubmitFetcher(fetcherKey, fetcherRouteId) {
+    let { router } = useDataRouterContext(DataRouterHook.UseSubmitFetcher);
+    let { basename } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    return _react.useCallback(function(target, options) {
+        if (options === void 0) options = {};
+        validateClientSideSubmission();
+        let { action, method, encType, formData, body } = getFormSubmissionInfo(target, basename);
+        !(fetcherRouteId != null) && (0, _router.UNSAFE_invariant)(false, "No routeId available for useFetcher()");
+        router.fetch(fetcherKey, fetcherRouteId, options.action || action, {
+            preventScrollReset: options.preventScrollReset,
+            formData,
+            body,
+            formMethod: options.method || method,
+            formEncType: options.encType || encType
+        });
+    }, [
+        router,
+        basename,
+        fetcherKey,
+        fetcherRouteId
+    ]);
+}
+// v7: Eventually we should deprecate this entirely in favor of using the
+// router method directly?
+function useFormAction(action, _temp2) {
+    let { relative } = _temp2 === void 0 ? {} : _temp2;
+    let { basename } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let routeContext = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
+    !routeContext && (0, _router.UNSAFE_invariant)(false, "useFormAction must be used inside a RouteContext");
+    let [match] = routeContext.matches.slice(-1);
+    // Shallow clone path so we can modify it below, otherwise we modify the
+    // object referenced by useMemo inside useResolvedPath
+    let path = _extends({}, (0, _reactRouter.useResolvedPath)(action ? action : ".", {
+        relative
+    }));
+    // Previously we set the default action to ".". The problem with this is that
+    // `useResolvedPath(".")` excludes search params of the resolved URL. This is
+    // the intended behavior of when "." is specifically provided as
+    // the form action, but inconsistent w/ browsers when the action is omitted.
+    // https://github.com/remix-run/remix/issues/927
+    let location = (0, _reactRouter.useLocation)();
+    if (action == null) {
+        // Safe to write to this directly here since if action was undefined, we
+        // would have called useResolvedPath(".") which will never include a search
+        path.search = location.search;
+        // When grabbing search params from the URL, remove the automatically
+        // inserted ?index param so we match the useResolvedPath search behavior
+        // which would not include ?index
+        if (match.route.index) {
+            let params = new URLSearchParams(path.search);
+            params.delete("index");
+            path.search = params.toString() ? "?" + params.toString() : "";
+        }
+    }
+    if ((!action || action === ".") && match.route.index) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+    // If we're operating within a basename, prepend it to the pathname prior
+    // to creating the form action.  If this is a root navigation, then just use
+    // the raw basename which allows the basename to have full control over the
+    // presence of a trailing slash on root actions
+    if (basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
+        basename,
+        path.pathname
+    ]);
+    return (0, _reactRouter.createPath)(path);
+}
+function createFetcherForm(fetcherKey, routeId) {
+    let FetcherForm = /*#__PURE__*/ _react.forwardRef((props, ref)=>{
+        let submit = useSubmitFetcher(fetcherKey, routeId);
+        return /*#__PURE__*/ _react.createElement(FormImpl, _extends({}, props, {
+            ref: ref,
+            submit: submit
+        }));
+    });
+    FetcherForm.displayName = "fetcher.Form";
+    return FetcherForm;
+}
+let fetcherId = 0;
+// TODO: (v7) Change the useFetcher generic default from `any` to `unknown`
+/**
+ * Interacts with route loaders and actions without causing a navigation. Great
+ * for any interaction that stays on the same page.
+ */ function useFetcher() {
+    var _route$matches;
+    let { router } = useDataRouterContext(DataRouterHook.UseFetcher);
+    let route = _react.useContext((0, _reactRouter.UNSAFE_RouteContext));
+    !route && (0, _router.UNSAFE_invariant)(false, "useFetcher must be used inside a RouteContext");
+    let routeId = (_route$matches = route.matches[route.matches.length - 1]) == null ? void 0 : _route$matches.route.id;
+    !(routeId != null) && (0, _router.UNSAFE_invariant)(false, 'useFetcher can only be used on routes that contain a unique "id"');
+    let [fetcherKey] = _react.useState(()=>String(++fetcherId));
+    let [Form] = _react.useState(()=>{
+        !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.Form()");
+        return createFetcherForm(fetcherKey, routeId);
+    });
+    let [load] = _react.useState(()=>(href)=>{
+            !router && (0, _router.UNSAFE_invariant)(false, "No router available for fetcher.load()");
+            !routeId && (0, _router.UNSAFE_invariant)(false, "No routeId available for fetcher.load()");
+            router.fetch(fetcherKey, routeId, href);
+        });
+    let submit = useSubmitFetcher(fetcherKey, routeId);
+    let fetcher = router.getFetcher(fetcherKey);
+    let fetcherWithComponents = _react.useMemo(()=>_extends({
+            Form,
+            submit,
+            load
+        }, fetcher), [
+        fetcher,
+        Form,
+        submit,
+        load
+    ]);
+    _react.useEffect(()=>{
+        // Is this busted when the React team gets real weird and calls effects
+        // twice on mount?  We really just need to garbage collect here when this
+        // fetcher is no longer around.
+        return ()=>{
+            if (!router) {
+                console.warn("No router available to clean up from useFetcher()");
+                return;
+            }
+            router.deleteFetcher(fetcherKey);
+        };
+    }, [
+        router,
+        fetcherKey
+    ]);
+    return fetcherWithComponents;
+}
+/**
+ * Provides all fetchers currently on the page. Useful for layouts and parent
+ * routes that need to provide pending/optimistic UI regarding the fetch.
+ */ function useFetchers() {
+    let state = useDataRouterState(DataRouterStateHook.UseFetchers);
+    return [
+        ...state.fetchers.values()
+    ];
+}
+const SCROLL_RESTORATION_STORAGE_KEY = "react-router-scroll-positions";
+let savedScrollPositions = {};
+/**
+ * When rendered inside a RouterProvider, will restore scroll positions on navigations
+ */ function useScrollRestoration(_temp3) {
+    let { getKey, storageKey } = _temp3 === void 0 ? {} : _temp3;
+    let { router } = useDataRouterContext(DataRouterHook.UseScrollRestoration);
+    let { restoreScrollPosition, preventScrollReset } = useDataRouterState(DataRouterStateHook.UseScrollRestoration);
+    let { basename } = _react.useContext((0, _reactRouter.UNSAFE_NavigationContext));
+    let location = (0, _reactRouter.useLocation)();
+    let matches = (0, _reactRouter.useMatches)();
+    let navigation = (0, _reactRouter.useNavigation)();
+    // Trigger manual scroll restoration while we're active
+    _react.useEffect(()=>{
+        window.history.scrollRestoration = "manual";
+        return ()=>{
+            window.history.scrollRestoration = "auto";
+        };
+    }, []);
+    // Save positions on pagehide
+    usePageHide(_react.useCallback(()=>{
+        if (navigation.state === "idle") {
+            let key = (getKey ? getKey(location, matches) : null) || location.key;
+            savedScrollPositions[key] = window.scrollY;
+        }
+        sessionStorage.setItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY, JSON.stringify(savedScrollPositions));
+        window.history.scrollRestoration = "auto";
+    }, [
+        storageKey,
+        getKey,
+        navigation.state,
+        location,
+        matches
+    ]));
+    // Read in any saved scroll locations
+    if (typeof document !== "undefined") {
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            try {
+                let sessionPositions = sessionStorage.getItem(storageKey || SCROLL_RESTORATION_STORAGE_KEY);
+                if (sessionPositions) savedScrollPositions = JSON.parse(sessionPositions);
+            } catch (e) {
+            // no-op, use default empty object
+            }
+        }, [
+            storageKey
+        ]);
+        // Enable scroll restoration in the router
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            let getKeyWithoutBasename = getKey && basename !== "/" ? (location, matches)=>getKey(_extends({}, location, {
+                    pathname: (0, _router.stripBasename)(location.pathname, basename) || location.pathname
+                }), matches) : getKey;
+            let disableScrollRestoration = router == null ? void 0 : router.enableScrollRestoration(savedScrollPositions, ()=>window.scrollY, getKeyWithoutBasename);
+            return ()=>disableScrollRestoration && disableScrollRestoration();
+        }, [
+            router,
+            basename,
+            getKey
+        ]);
+        // Restore scrolling when state.restoreScrollPosition changes
+        // eslint-disable-next-line react-hooks/rules-of-hooks
+        _react.useLayoutEffect(()=>{
+            // Explicit false means don't do anything (used for submissions)
+            if (restoreScrollPosition === false) return;
+            // been here before, scroll to it
+            if (typeof restoreScrollPosition === "number") {
+                window.scrollTo(0, restoreScrollPosition);
+                return;
+            }
+            // try to scroll to the hash
+            if (location.hash) {
+                let el = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+                if (el) {
+                    el.scrollIntoView();
+                    return;
+                }
+            }
+            // Don't reset if this navigation opted out
+            if (preventScrollReset === true) return;
+            // otherwise go to the top on new locations
+            window.scrollTo(0, 0);
+        }, [
+            location,
+            restoreScrollPosition,
+            preventScrollReset
+        ]);
+    }
+}
+/**
+ * Setup a callback to be fired on the window's `beforeunload` event. This is
+ * useful for saving some data to `window.localStorage` just before the page
+ * refreshes.
+ *
+ * Note: The `callback` argument should be a function created with
+ * `React.useCallback()`.
+ */ function useBeforeUnload(callback, options) {
+    let { capture } = options || {};
+    _react.useEffect(()=>{
+        let opts = capture != null ? {
+            capture
+        } : undefined;
+        window.addEventListener("beforeunload", callback, opts);
+        return ()=>{
+            window.removeEventListener("beforeunload", callback, opts);
+        };
+    }, [
+        callback,
+        capture
+    ]);
+}
+/**
+ * Setup a callback to be fired on the window's `pagehide` event. This is
+ * useful for saving some data to `window.localStorage` just before the page
+ * refreshes.  This event is better supported than beforeunload across browsers.
+ *
+ * Note: The `callback` argument should be a function created with
+ * `React.useCallback()`.
+ */ function usePageHide(callback, options) {
+    let { capture } = options || {};
+    _react.useEffect(()=>{
+        let opts = capture != null ? {
+            capture
+        } : undefined;
+        window.addEventListener("pagehide", callback, opts);
+        return ()=>{
+            window.removeEventListener("pagehide", callback, opts);
+        };
+    }, [
+        callback,
+        capture
+    ]);
+}
+/**
+ * Wrapper around useBlocker to show a window.confirm prompt to users instead
+ * of building a custom UI with useBlocker.
+ *
+ * Warning: This has *a lot of rough edges* and behaves very differently (and
+ * very incorrectly in some cases) across browsers if user click addition
+ * back/forward navigations while the confirm is open.  Use at your own risk.
+ */ function usePrompt(_ref8) {
+    let { when, message } = _ref8;
+    let blocker = (0, _reactRouter.unstable_useBlocker)(when);
+    _react.useEffect(()=>{
+        if (blocker.state === "blocked") {
+            let proceed = window.confirm(message);
+            if (proceed) // This timeout is needed to avoid a weird "race" on POP navigations
+            // between the `window.history` revert navigation and the result of
+            // `window.confirm`
+            setTimeout(blocker.proceed, 0);
+            else blocker.reset();
+        }
+    }, [
+        blocker,
+        message
+    ]);
+    _react.useEffect(()=>{
+        if (blocker.state === "blocked" && !when) blocker.reset();
+    }, [
+        blocker,
+        when
+    ]);
+}
+
+},{"react":"21dqq","react-router":"dbWyW","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dbWyW":[function(require,module,exports) {
+/**
+ * React Router v6.16.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>(0, _router.AbortedDeferredError));
+parcelHelpers.export(exports, "NavigationType", ()=>(0, _router.Action));
+parcelHelpers.export(exports, "createPath", ()=>(0, _router.createPath));
+parcelHelpers.export(exports, "defer", ()=>(0, _router.defer));
+parcelHelpers.export(exports, "generatePath", ()=>(0, _router.generatePath));
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>(0, _router.isRouteErrorResponse));
+parcelHelpers.export(exports, "json", ()=>(0, _router.json));
+parcelHelpers.export(exports, "matchPath", ()=>(0, _router.matchPath));
+parcelHelpers.export(exports, "matchRoutes", ()=>(0, _router.matchRoutes));
+parcelHelpers.export(exports, "parsePath", ()=>(0, _router.parsePath));
+parcelHelpers.export(exports, "redirect", ()=>(0, _router.redirect));
+parcelHelpers.export(exports, "redirectDocument", ()=>(0, _router.redirectDocument));
+parcelHelpers.export(exports, "resolvePath", ()=>(0, _router.resolvePath));
+parcelHelpers.export(exports, "Await", ()=>Await);
+parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter);
+parcelHelpers.export(exports, "Navigate", ()=>Navigate);
+parcelHelpers.export(exports, "Outlet", ()=>Outlet);
+parcelHelpers.export(exports, "Route", ()=>Route);
+parcelHelpers.export(exports, "Router", ()=>Router);
+parcelHelpers.export(exports, "RouterProvider", ()=>RouterProvider);
+parcelHelpers.export(exports, "Routes", ()=>Routes);
+parcelHelpers.export(exports, "UNSAFE_DataRouterContext", ()=>DataRouterContext);
+parcelHelpers.export(exports, "UNSAFE_DataRouterStateContext", ()=>DataRouterStateContext);
+parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>LocationContext);
+parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>NavigationContext);
+parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>RouteContext);
+parcelHelpers.export(exports, "UNSAFE_mapRouteProperties", ()=>mapRouteProperties);
+parcelHelpers.export(exports, "UNSAFE_useRouteId", ()=>useRouteId);
+parcelHelpers.export(exports, "UNSAFE_useRoutesImpl", ()=>useRoutesImpl);
+parcelHelpers.export(exports, "createMemoryRouter", ()=>createMemoryRouter);
+parcelHelpers.export(exports, "createRoutesFromChildren", ()=>createRoutesFromChildren);
+parcelHelpers.export(exports, "createRoutesFromElements", ()=>createRoutesFromChildren);
+parcelHelpers.export(exports, "renderMatches", ()=>renderMatches);
+parcelHelpers.export(exports, "unstable_useBlocker", ()=>useBlocker);
+parcelHelpers.export(exports, "useActionData", ()=>useActionData);
+parcelHelpers.export(exports, "useAsyncError", ()=>useAsyncError);
+parcelHelpers.export(exports, "useAsyncValue", ()=>useAsyncValue);
+parcelHelpers.export(exports, "useHref", ()=>useHref);
+parcelHelpers.export(exports, "useInRouterContext", ()=>useInRouterContext);
+parcelHelpers.export(exports, "useLoaderData", ()=>useLoaderData);
+parcelHelpers.export(exports, "useLocation", ()=>useLocation);
+parcelHelpers.export(exports, "useMatch", ()=>useMatch);
+parcelHelpers.export(exports, "useMatches", ()=>useMatches);
+parcelHelpers.export(exports, "useNavigate", ()=>useNavigate);
+parcelHelpers.export(exports, "useNavigation", ()=>useNavigation);
+parcelHelpers.export(exports, "useNavigationType", ()=>useNavigationType);
+parcelHelpers.export(exports, "useOutlet", ()=>useOutlet);
+parcelHelpers.export(exports, "useOutletContext", ()=>useOutletContext);
+parcelHelpers.export(exports, "useParams", ()=>useParams);
+parcelHelpers.export(exports, "useResolvedPath", ()=>useResolvedPath);
+parcelHelpers.export(exports, "useRevalidator", ()=>useRevalidator);
+parcelHelpers.export(exports, "useRouteError", ()=>useRouteError);
+parcelHelpers.export(exports, "useRouteLoaderData", ()=>useRouteLoaderData);
+parcelHelpers.export(exports, "useRoutes", ()=>useRoutes);
+var _react = require("react");
+var _router = require("@remix-run/router");
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+// Create react-specific types from the agnostic types in @remix-run/router to
+// export from react-router
+const DataRouterContext = /*#__PURE__*/ _react.createContext(null);
+DataRouterContext.displayName = "DataRouter";
+const DataRouterStateContext = /*#__PURE__*/ _react.createContext(null);
+DataRouterStateContext.displayName = "DataRouterState";
+const AwaitContext = /*#__PURE__*/ _react.createContext(null);
+AwaitContext.displayName = "Await";
+/**
+ * A Navigator is a "location changer"; it's how you get to different locations.
+ *
+ * Every history instance conforms to the Navigator interface, but the
+ * distinction is useful primarily when it comes to the low-level <Router> API
+ * where both the location and a navigator must be provided separately in order
+ * to avoid "tearing" that may occur in a suspense-enabled app if the action
+ * and/or location were to be read directly from the history instance.
+ */ const NavigationContext = /*#__PURE__*/ _react.createContext(null);
+NavigationContext.displayName = "Navigation";
+const LocationContext = /*#__PURE__*/ _react.createContext(null);
+LocationContext.displayName = "Location";
+const RouteContext = /*#__PURE__*/ _react.createContext({
+    outlet: null,
+    matches: [],
+    isDataRoute: false
+});
+RouteContext.displayName = "Route";
+const RouteErrorContext = /*#__PURE__*/ _react.createContext(null);
+RouteErrorContext.displayName = "RouteError";
+/**
+ * Returns the full href for the given "to" value. This is useful for building
+ * custom links that are also accessible and preserve right-click behavior.
+ *
+ * @see https://reactrouter.com/hooks/use-href
+ */ function useHref(to, _temp) {
+    let { relative } = _temp === void 0 ? {} : _temp;
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useHref() may be used only in the context of a <Router> component.");
+    let { basename, navigator } = _react.useContext(NavigationContext);
+    let { hash, pathname, search } = useResolvedPath(to, {
+        relative
+    });
+    let joinedPathname = pathname;
+    // If we're operating within a basename, prepend it to the pathname prior
+    // to creating the href.  If this is a root navigation, then just use the raw
+    // basename which allows the basename to have full control over the presence
+    // of a trailing slash on root links
+    if (basename !== "/") joinedPathname = pathname === "/" ? basename : (0, _router.joinPaths)([
+        basename,
+        pathname
+    ]);
+    return navigator.createHref({
+        pathname: joinedPathname,
+        search,
+        hash
+    });
+}
+/**
+ * Returns true if this component is a descendant of a <Router>.
+ *
+ * @see https://reactrouter.com/hooks/use-in-router-context
+ */ function useInRouterContext() {
+    return _react.useContext(LocationContext) != null;
+}
+/**
+ * Returns the current location object, which represents the current URL in web
+ * browsers.
+ *
+ * Note: If you're using this it may mean you're doing some of your own
+ * "routing" in your app, and we'd like to know what your use case is. We may
+ * be able to provide something higher-level to better suit your needs.
+ *
+ * @see https://reactrouter.com/hooks/use-location
+ */ function useLocation() {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useLocation() may be used only in the context of a <Router> component.");
+    return _react.useContext(LocationContext).location;
+}
+/**
+ * Returns the current navigation action which describes how the router came to
+ * the current location, either by a pop, push, or replace on the history stack.
+ *
+ * @see https://reactrouter.com/hooks/use-navigation-type
+ */ function useNavigationType() {
+    return _react.useContext(LocationContext).navigationType;
+}
+/**
+ * Returns a PathMatch object if the given pattern matches the current URL.
+ * This is useful for components that need to know "active" state, e.g.
+ * <NavLink>.
+ *
+ * @see https://reactrouter.com/hooks/use-match
+ */ function useMatch(pattern) {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useMatch() may be used only in the context of a <Router> component.");
+    let { pathname } = useLocation();
+    return _react.useMemo(()=>(0, _router.matchPath)(pattern, pathname), [
+        pathname,
+        pattern
+    ]);
+}
+/**
+ * The interface for the navigate() function returned from useNavigate().
+ */ const navigateEffectWarning = "You should call navigate() in a React.useEffect(), not when your component is first rendered.";
+// Mute warnings for calls to useNavigate in SSR environments
+function useIsomorphicLayoutEffect(cb) {
+    let isStatic = _react.useContext(NavigationContext).static;
+    if (!isStatic) // We should be able to get rid of this once react 18.3 is released
+    // See: https://github.com/facebook/react/pull/26395
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    _react.useLayoutEffect(cb);
+}
+/**
+ * Returns an imperative method for changing the location. Used by <Link>s, but
+ * may also be used by other elements to change the location.
+ *
+ * @see https://reactrouter.com/hooks/use-navigate
+ */ function useNavigate() {
+    let { isDataRoute } = _react.useContext(RouteContext);
+    // Conditional usage is OK here because the usage of a data router is static
+    // eslint-disable-next-line react-hooks/rules-of-hooks
+    return isDataRoute ? useNavigateStable() : useNavigateUnstable();
+}
+function useNavigateUnstable() {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useNavigate() may be used only in the context of a <Router> component.");
+    let dataRouterContext = _react.useContext(DataRouterContext);
+    let { basename, navigator } = _react.useContext(NavigationContext);
+    let { matches } = _react.useContext(RouteContext);
+    let { pathname: locationPathname } = useLocation();
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    let activeRef = _react.useRef(false);
+    useIsomorphicLayoutEffect(()=>{
+        activeRef.current = true;
+    });
+    let navigate = _react.useCallback(function(to, options) {
+        if (options === void 0) options = {};
+        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning);
+        // Short circuit here since if this happens on first render the navigate
+        // is useless because we haven't wired up our history listener yet
+        if (!activeRef.current) return;
+        if (typeof to === "number") {
+            navigator.go(to);
+            return;
+        }
+        let path = (0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, options.relative === "path");
+        // If we're operating within a basename, prepend it to the pathname prior
+        // to handing off to history (but only if we're not in a data router,
+        // otherwise it'll prepend the basename inside of the router).
+        // If this is a root navigation, then we navigate to the raw basename
+        // which allows the basename to have full control over the presence of a
+        // trailing slash on root links
+        if (dataRouterContext == null && basename !== "/") path.pathname = path.pathname === "/" ? basename : (0, _router.joinPaths)([
+            basename,
+            path.pathname
+        ]);
+        (!!options.replace ? navigator.replace : navigator.push)(path, options.state, options);
+    }, [
+        basename,
+        navigator,
+        routePathnamesJson,
+        locationPathname,
+        dataRouterContext
+    ]);
+    return navigate;
+}
+const OutletContext = /*#__PURE__*/ _react.createContext(null);
+/**
+ * Returns the context (if provided) for the child route at this level of the route
+ * hierarchy.
+ * @see https://reactrouter.com/hooks/use-outlet-context
+ */ function useOutletContext() {
+    return _react.useContext(OutletContext);
+}
+/**
+ * Returns the element for the child route at this level of the route
+ * hierarchy. Used internally by <Outlet> to render child routes.
+ *
+ * @see https://reactrouter.com/hooks/use-outlet
+ */ function useOutlet(context) {
+    let outlet = _react.useContext(RouteContext).outlet;
+    if (outlet) return /*#__PURE__*/ _react.createElement(OutletContext.Provider, {
+        value: context
+    }, outlet);
+    return outlet;
+}
+/**
+ * Returns an object of key/value pairs of the dynamic params from the current
+ * URL that were matched by the route path.
+ *
+ * @see https://reactrouter.com/hooks/use-params
+ */ function useParams() {
+    let { matches } = _react.useContext(RouteContext);
+    let routeMatch = matches[matches.length - 1];
+    return routeMatch ? routeMatch.params : {};
+}
+/**
+ * Resolves the pathname of the given `to` value against the current location.
+ *
+ * @see https://reactrouter.com/hooks/use-resolved-path
+ */ function useResolvedPath(to, _temp2) {
+    let { relative } = _temp2 === void 0 ? {} : _temp2;
+    let { matches } = _react.useContext(RouteContext);
+    let { pathname: locationPathname } = useLocation();
+    let routePathnamesJson = JSON.stringify((0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase));
+    return _react.useMemo(()=>(0, _router.resolveTo)(to, JSON.parse(routePathnamesJson), locationPathname, relative === "path"), [
+        to,
+        routePathnamesJson,
+        locationPathname,
+        relative
+    ]);
+}
+/**
+ * Returns the element of the route that matched the current location, prepared
+ * with the correct context to render the remainder of the route tree. Route
+ * elements in the tree must render an <Outlet> to render their child route's
+ * element.
+ *
+ * @see https://reactrouter.com/hooks/use-routes
+ */ function useRoutes(routes, locationArg) {
+    return useRoutesImpl(routes, locationArg);
+}
+// Internal implementation with accept optional param for RouterProvider usage
+function useRoutesImpl(routes, locationArg, dataRouterState) {
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // router loaded. We can help them understand how to avoid that.
+    "useRoutes() may be used only in the context of a <Router> component.");
+    let { navigator } = _react.useContext(NavigationContext);
+    let { matches: parentMatches } = _react.useContext(RouteContext);
+    let routeMatch = parentMatches[parentMatches.length - 1];
+    let parentParams = routeMatch ? routeMatch.params : {};
+    let parentPathname = routeMatch ? routeMatch.pathname : "/";
+    let parentPathnameBase = routeMatch ? routeMatch.pathnameBase : "/";
+    let parentRoute = routeMatch && routeMatch.route;
+    {
+        // You won't get a warning about 2 different <Routes> under a <Route>
+        // without a trailing *, but this is a best-effort warning anyway since we
+        // cannot even give the warning unless they land at the parent route.
+        //
+        // Example:
+        //
+        // <Routes>
+        //   {/* This route path MUST end with /* because otherwise
+        //       it will never match /blog/post/123 */}
+        //   <Route path="blog" element={<Blog />} />
+        //   <Route path="blog/feed" element={<BlogFeed />} />
+        // </Routes>
+        //
+        // function Blog() {
+        //   return (
+        //     <Routes>
+        //       <Route path="post/:id" element={<Post />} />
+        //     </Routes>
+        //   );
+        // }
+        let parentPath = parentRoute && parentRoute.path || "";
+        warningOnce(parentPathname, !parentRoute || parentPath.endsWith("*"), "You rendered descendant <Routes> (or called `useRoutes()`) at " + ('"' + parentPathname + '" (under <Route path="' + parentPath + '">) but the ') + 'parent route path has no trailing "*". This means if you navigate ' + "deeper, the parent won't match anymore and therefore the child " + "routes will never render.\n\n" + ('Please change the parent <Route path="' + parentPath + '"> to <Route ') + ('path="' + (parentPath === "/" ? "*" : parentPath + "/*") + '">.'));
+    }
+    let locationFromContext = useLocation();
+    let location;
+    if (locationArg) {
+        var _parsedLocationArg$pa;
+        let parsedLocationArg = typeof locationArg === "string" ? (0, _router.parsePath)(locationArg) : locationArg;
+        !(parentPathnameBase === "/" || ((_parsedLocationArg$pa = parsedLocationArg.pathname) == null ? void 0 : _parsedLocationArg$pa.startsWith(parentPathnameBase))) && (0, _router.UNSAFE_invariant)(false, "When overriding the location using `<Routes location>` or `useRoutes(routes, location)`, the location pathname must begin with the portion of the URL pathname that was " + ('matched by all parent routes. The current pathname base is "' + parentPathnameBase + '" ') + ('but pathname "' + parsedLocationArg.pathname + '" was given in the `location` prop.'));
+        location = parsedLocationArg;
+    } else location = locationFromContext;
+    let pathname = location.pathname || "/";
+    let remainingPathname = parentPathnameBase === "/" ? pathname : pathname.slice(parentPathnameBase.length) || "/";
+    let matches = (0, _router.matchRoutes)(routes, {
+        pathname: remainingPathname
+    });
+    (0, _router.UNSAFE_warning)(parentRoute || matches != null, 'No routes matched location "' + location.pathname + location.search + location.hash + '" ');
+    (0, _router.UNSAFE_warning)(matches == null || matches[matches.length - 1].route.element !== undefined || matches[matches.length - 1].route.Component !== undefined, 'Matched leaf route at location "' + location.pathname + location.search + location.hash + '" ' + "does not have an element or Component. This means it will render an <Outlet /> with a " + 'null value by default resulting in an "empty" page.');
+    let renderedMatches = _renderMatches(matches && matches.map((match)=>Object.assign({}, match, {
+            params: Object.assign({}, parentParams, match.params),
+            pathname: (0, _router.joinPaths)([
+                parentPathnameBase,
+                // Re-encode pathnames that were decoded inside matchRoutes
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathname).pathname : match.pathname
+            ]),
+            pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : (0, _router.joinPaths)([
+                parentPathnameBase,
+                // Re-encode pathnames that were decoded inside matchRoutes
+                navigator.encodeLocation ? navigator.encodeLocation(match.pathnameBase).pathname : match.pathnameBase
+            ])
+        })), parentMatches, dataRouterState);
+    // When a user passes in a `locationArg`, the associated routes need to
+    // be wrapped in a new `LocationContext.Provider` in order for `useLocation`
+    // to use the scoped location instead of the global location.
+    if (locationArg && renderedMatches) return /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
+        value: {
+            location: _extends({
+                pathname: "/",
+                search: "",
+                hash: "",
+                state: null,
+                key: "default"
+            }, location),
+            navigationType: (0, _router.Action).Pop
+        }
+    }, renderedMatches);
+    return renderedMatches;
+}
+function DefaultErrorComponent() {
+    let error = useRouteError();
+    let message = (0, _router.isRouteErrorResponse)(error) ? error.status + " " + error.statusText : error instanceof Error ? error.message : JSON.stringify(error);
+    let stack = error instanceof Error ? error.stack : null;
+    let lightgrey = "rgba(200,200,200, 0.5)";
+    let preStyles = {
+        padding: "0.5rem",
+        backgroundColor: lightgrey
+    };
+    let codeStyles = {
+        padding: "2px 4px",
+        backgroundColor: lightgrey
+    };
+    let devInfo = null;
+    console.error("Error handled by React Router default ErrorBoundary:", error);
+    devInfo = /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("p", null, "\uD83D\uDCBF Hey developer \uD83D\uDC4B"), /*#__PURE__*/ _react.createElement("p", null, "You can provide a way better UX than this when your app throws errors by providing your own ", /*#__PURE__*/ _react.createElement("code", {
+        style: codeStyles
+    }, "ErrorBoundary"), " or", " ", /*#__PURE__*/ _react.createElement("code", {
+        style: codeStyles
+    }, "errorElement"), " prop on your route."));
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement("h2", null, "Unexpected Application Error!"), /*#__PURE__*/ _react.createElement("h3", {
+        style: {
+            fontStyle: "italic"
+        }
+    }, message), stack ? /*#__PURE__*/ _react.createElement("pre", {
+        style: preStyles
+    }, stack) : null, devInfo);
+}
+const defaultErrorElement = /*#__PURE__*/ _react.createElement(DefaultErrorComponent, null);
+class RenderErrorBoundary extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            location: props.location,
+            revalidation: props.revalidation,
+            error: props.error
+        };
+    }
+    static getDerivedStateFromError(error) {
+        return {
+            error: error
+        };
+    }
+    static getDerivedStateFromProps(props, state) {
+        // When we get into an error state, the user will likely click "back" to the
+        // previous page that didn't have an error. Because this wraps the entire
+        // application, that will have no effect--the error page continues to display.
+        // This gives us a mechanism to recover from the error when the location changes.
+        //
+        // Whether we're in an error state or not, we update the location in state
+        // so that when we are in an error state, it gets reset when a new location
+        // comes in and the user recovers from the error.
+        if (state.location !== props.location || state.revalidation !== "idle" && props.revalidation === "idle") return {
+            error: props.error,
+            location: props.location,
+            revalidation: props.revalidation
+        };
+        // If we're not changing locations, preserve the location but still surface
+        // any new errors that may come through. We retain the existing error, we do
+        // this because the error provided from the app state may be cleared without
+        // the location changing.
+        return {
+            error: props.error || state.error,
+            location: state.location,
+            revalidation: props.revalidation || state.revalidation
+        };
+    }
+    componentDidCatch(error, errorInfo) {
+        console.error("React Router caught the following error during render", error, errorInfo);
+    }
+    render() {
+        return this.state.error ? /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
+            value: this.props.routeContext
+        }, /*#__PURE__*/ _react.createElement(RouteErrorContext.Provider, {
+            value: this.state.error,
+            children: this.props.component
+        })) : this.props.children;
+    }
+}
+function RenderedRoute(_ref) {
+    let { routeContext, match, children } = _ref;
+    let dataRouterContext = _react.useContext(DataRouterContext);
+    // Track how deep we got in our render pass to emulate SSR componentDidCatch
+    // in a DataStaticRouter
+    if (dataRouterContext && dataRouterContext.static && dataRouterContext.staticContext && (match.route.errorElement || match.route.ErrorBoundary)) dataRouterContext.staticContext._deepestRenderedBoundaryId = match.route.id;
+    return /*#__PURE__*/ _react.createElement(RouteContext.Provider, {
+        value: routeContext
+    }, children);
+}
+function _renderMatches(matches, parentMatches, dataRouterState) {
+    var _dataRouterState2;
+    if (parentMatches === void 0) parentMatches = [];
+    if (dataRouterState === void 0) dataRouterState = null;
+    if (matches == null) {
+        var _dataRouterState;
+        if ((_dataRouterState = dataRouterState) != null && _dataRouterState.errors) // Don't bail if we have data router errors so we can render them in the
+        // boundary.  Use the pre-matched (or shimmed) matches
+        matches = dataRouterState.matches;
+        else return null;
+    }
+    let renderedMatches = matches;
+    // If we have data errors, trim matches to the highest error boundary
+    let errors = (_dataRouterState2 = dataRouterState) == null ? void 0 : _dataRouterState2.errors;
+    if (errors != null) {
+        let errorIndex = renderedMatches.findIndex((m)=>m.route.id && (errors == null ? void 0 : errors[m.route.id]));
+        !(errorIndex >= 0) && (0, _router.UNSAFE_invariant)(false, "Could not find a matching route for errors on route IDs: " + Object.keys(errors).join(","));
+        renderedMatches = renderedMatches.slice(0, Math.min(renderedMatches.length, errorIndex + 1));
+    }
+    return renderedMatches.reduceRight((outlet, match, index)=>{
+        let error = match.route.id ? errors == null ? void 0 : errors[match.route.id] : null;
+        // Only data routers handle errors
+        let errorElement = null;
+        if (dataRouterState) errorElement = match.route.errorElement || defaultErrorElement;
+        let matches = parentMatches.concat(renderedMatches.slice(0, index + 1));
+        let getChildren = ()=>{
+            let children;
+            if (error) children = errorElement;
+            else if (match.route.Component) // Note: This is a de-optimized path since React won't re-use the
+            // ReactElement since it's identity changes with each new
+            // React.createElement call.  We keep this so folks can use
+            // `<Route Component={...}>` in `<Routes>` but generally `Component`
+            // usage is only advised in `RouterProvider` when we can convert it to
+            // `element` ahead of time.
+            children = /*#__PURE__*/ _react.createElement(match.route.Component, null);
+            else if (match.route.element) children = match.route.element;
+            else children = outlet;
+            return /*#__PURE__*/ _react.createElement(RenderedRoute, {
+                match: match,
+                routeContext: {
+                    outlet,
+                    matches,
+                    isDataRoute: dataRouterState != null
+                },
+                children: children
+            });
+        };
+        // Only wrap in an error boundary within data router usages when we have an
+        // ErrorBoundary/errorElement on this route.  Otherwise let it bubble up to
+        // an ancestor ErrorBoundary/errorElement
+        return dataRouterState && (match.route.ErrorBoundary || match.route.errorElement || index === 0) ? /*#__PURE__*/ _react.createElement(RenderErrorBoundary, {
+            location: dataRouterState.location,
+            revalidation: dataRouterState.revalidation,
+            component: errorElement,
+            error: error,
+            children: getChildren(),
+            routeContext: {
+                outlet: null,
+                matches,
+                isDataRoute: true
+            }
+        }) : getChildren();
+    }, null);
+}
+var DataRouterHook = /*#__PURE__*/ function(DataRouterHook) {
+    DataRouterHook["UseBlocker"] = "useBlocker";
+    DataRouterHook["UseRevalidator"] = "useRevalidator";
+    DataRouterHook["UseNavigateStable"] = "useNavigate";
+    return DataRouterHook;
+}(DataRouterHook || {});
+var DataRouterStateHook = /*#__PURE__*/ function(DataRouterStateHook) {
+    DataRouterStateHook["UseBlocker"] = "useBlocker";
+    DataRouterStateHook["UseLoaderData"] = "useLoaderData";
+    DataRouterStateHook["UseActionData"] = "useActionData";
+    DataRouterStateHook["UseRouteError"] = "useRouteError";
+    DataRouterStateHook["UseNavigation"] = "useNavigation";
+    DataRouterStateHook["UseRouteLoaderData"] = "useRouteLoaderData";
+    DataRouterStateHook["UseMatches"] = "useMatches";
+    DataRouterStateHook["UseRevalidator"] = "useRevalidator";
+    DataRouterStateHook["UseNavigateStable"] = "useNavigate";
+    DataRouterStateHook["UseRouteId"] = "useRouteId";
+    return DataRouterStateHook;
+}(DataRouterStateHook || {});
+function getDataRouterConsoleError(hookName) {
+    return hookName + " must be used within a data router.  See https://reactrouter.com/routers/picking-a-router.";
+}
+function useDataRouterContext(hookName) {
+    let ctx = _react.useContext(DataRouterContext);
+    !ctx && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return ctx;
+}
+function useDataRouterState(hookName) {
+    let state = _react.useContext(DataRouterStateContext);
+    !state && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return state;
+}
+function useRouteContext(hookName) {
+    let route = _react.useContext(RouteContext);
+    !route && (0, _router.UNSAFE_invariant)(false, getDataRouterConsoleError(hookName));
+    return route;
+}
+// Internal version with hookName-aware debugging
+function useCurrentRouteId(hookName) {
+    let route = useRouteContext(hookName);
+    let thisRoute = route.matches[route.matches.length - 1];
+    !thisRoute.route.id && (0, _router.UNSAFE_invariant)(false, hookName + ' can only be used on routes that contain a unique "id"');
+    return thisRoute.route.id;
+}
+/**
+ * Returns the ID for the nearest contextual route
+ */ function useRouteId() {
+    return useCurrentRouteId(DataRouterStateHook.UseRouteId);
+}
+/**
+ * Returns the current navigation, defaulting to an "idle" navigation when
+ * no navigation is in progress
+ */ function useNavigation() {
+    let state = useDataRouterState(DataRouterStateHook.UseNavigation);
+    return state.navigation;
+}
+/**
+ * Returns a revalidate function for manually triggering revalidation, as well
+ * as the current state of any manual revalidations
+ */ function useRevalidator() {
+    let dataRouterContext = useDataRouterContext(DataRouterHook.UseRevalidator);
+    let state = useDataRouterState(DataRouterStateHook.UseRevalidator);
+    return _react.useMemo(()=>({
+            revalidate: dataRouterContext.router.revalidate,
+            state: state.revalidation
+        }), [
+        dataRouterContext.router.revalidate,
+        state.revalidation
+    ]);
+}
+/**
+ * Returns the active route matches, useful for accessing loaderData for
+ * parent/child routes or the route "handle" property
+ */ function useMatches() {
+    let { matches, loaderData } = useDataRouterState(DataRouterStateHook.UseMatches);
+    return _react.useMemo(()=>matches.map((m)=>(0, _router.UNSAFE_convertRouteMatchToUiMatch)(m, loaderData)), [
+        matches,
+        loaderData
+    ]);
+}
+/**
+ * Returns the loader data for the nearest ancestor Route loader
+ */ function useLoaderData() {
+    let state = useDataRouterState(DataRouterStateHook.UseLoaderData);
+    let routeId = useCurrentRouteId(DataRouterStateHook.UseLoaderData);
+    if (state.errors && state.errors[routeId] != null) {
+        console.error("You cannot `useLoaderData` in an errorElement (routeId: " + routeId + ")");
+        return undefined;
+    }
+    return state.loaderData[routeId];
+}
+/**
+ * Returns the loaderData for the given routeId
+ */ function useRouteLoaderData(routeId) {
+    let state = useDataRouterState(DataRouterStateHook.UseRouteLoaderData);
+    return state.loaderData[routeId];
+}
+/**
+ * Returns the action data for the nearest ancestor Route action
+ */ function useActionData() {
+    let state = useDataRouterState(DataRouterStateHook.UseActionData);
+    let route = _react.useContext(RouteContext);
+    !route && (0, _router.UNSAFE_invariant)(false, "useActionData must be used inside a RouteContext");
+    return Object.values((state == null ? void 0 : state.actionData) || {})[0];
+}
+/**
+ * Returns the nearest ancestor Route error, which could be a loader/action
+ * error or a render error.  This is intended to be called from your
+ * ErrorBoundary/errorElement to display a proper error message.
+ */ function useRouteError() {
+    var _state$errors;
+    let error = _react.useContext(RouteErrorContext);
+    let state = useDataRouterState(DataRouterStateHook.UseRouteError);
+    let routeId = useCurrentRouteId(DataRouterStateHook.UseRouteError);
+    // If this was a render error, we put it in a RouteError context inside
+    // of RenderErrorBoundary
+    if (error) return error;
+    // Otherwise look for errors from our data router state
+    return (_state$errors = state.errors) == null ? void 0 : _state$errors[routeId];
+}
+/**
+ * Returns the happy-path data from the nearest ancestor <Await /> value
+ */ function useAsyncValue() {
+    let value = _react.useContext(AwaitContext);
+    return value == null ? void 0 : value._data;
+}
+/**
+ * Returns the error from the nearest ancestor <Await /> value
+ */ function useAsyncError() {
+    let value = _react.useContext(AwaitContext);
+    return value == null ? void 0 : value._error;
+}
+let blockerId = 0;
+/**
+ * Allow the application to block navigations within the SPA and present the
+ * user a confirmation dialog to confirm the navigation.  Mostly used to avoid
+ * using half-filled form data.  This does not handle hard-reloads or
+ * cross-origin navigations.
+ */ function useBlocker(shouldBlock) {
+    let { router, basename } = useDataRouterContext(DataRouterHook.UseBlocker);
+    let state = useDataRouterState(DataRouterStateHook.UseBlocker);
+    let [blockerKey, setBlockerKey] = _react.useState("");
+    let blockerFunction = _react.useCallback((arg)=>{
+        if (typeof shouldBlock !== "function") return !!shouldBlock;
+        if (basename === "/") return shouldBlock(arg);
+        // If they provided us a function and we've got an active basename, strip
+        // it from the locations we expose to the user to match the behavior of
+        // useLocation
+        let { currentLocation, nextLocation, historyAction } = arg;
+        return shouldBlock({
+            currentLocation: _extends({}, currentLocation, {
+                pathname: (0, _router.stripBasename)(currentLocation.pathname, basename) || currentLocation.pathname
+            }),
+            nextLocation: _extends({}, nextLocation, {
+                pathname: (0, _router.stripBasename)(nextLocation.pathname, basename) || nextLocation.pathname
+            }),
+            historyAction
+        });
+    }, [
+        basename,
+        shouldBlock
+    ]);
+    // This effect is in charge of blocker key assignment and deletion (which is
+    // tightly coupled to the key)
+    _react.useEffect(()=>{
+        let key = String(++blockerId);
+        setBlockerKey(key);
+        return ()=>router.deleteBlocker(key);
+    }, [
+        router
+    ]);
+    // This effect handles assigning the blockerFunction.  This is to handle
+    // unstable blocker function identities, and happens only after the prior
+    // effect so we don't get an orphaned blockerFunction in the router with a
+    // key of "".  Until then we just have the IDLE_BLOCKER.
+    _react.useEffect(()=>{
+        if (blockerKey !== "") router.getBlocker(blockerKey, blockerFunction);
+    }, [
+        router,
+        blockerKey,
+        blockerFunction
+    ]);
+    // Prefer the blocker from `state` not `router.state` since DataRouterContext
+    // is memoized so this ensures we update on blocker state updates
+    return blockerKey && state.blockers.has(blockerKey) ? state.blockers.get(blockerKey) : (0, _router.IDLE_BLOCKER);
+}
+/**
+ * Stable version of useNavigate that is used when we are in the context of
+ * a RouterProvider.
+ */ function useNavigateStable() {
+    let { router } = useDataRouterContext(DataRouterHook.UseNavigateStable);
+    let id = useCurrentRouteId(DataRouterStateHook.UseNavigateStable);
+    let activeRef = _react.useRef(false);
+    useIsomorphicLayoutEffect(()=>{
+        activeRef.current = true;
+    });
+    let navigate = _react.useCallback(function(to, options) {
+        if (options === void 0) options = {};
+        (0, _router.UNSAFE_warning)(activeRef.current, navigateEffectWarning);
+        // Short circuit here since if this happens on first render the navigate
+        // is useless because we haven't wired up our router subscriber yet
+        if (!activeRef.current) return;
+        if (typeof to === "number") router.navigate(to);
+        else router.navigate(to, _extends({
+            fromRouteId: id
+        }, options));
+    }, [
+        router,
+        id
+    ]);
+    return navigate;
+}
+const alreadyWarned = {};
+function warningOnce(key, cond, message) {
+    if (!cond && !alreadyWarned[key]) {
+        alreadyWarned[key] = true;
+        (0, _router.UNSAFE_warning)(false, message);
+    }
+}
+/**
+  Webpack + React 17 fails to compile on any of the following because webpack
+  complains that `startTransition` doesn't exist in `React`:
+  * import { startTransition } from "react"
+  * import * as React from from "react";
+    "startTransition" in React ? React.startTransition(() => setState()) : setState()
+  * import * as React from from "react";
+    "startTransition" in React ? React["startTransition"](() => setState()) : setState()
+
+  Moving it to a constant such as the following solves the Webpack/React 17 issue:
+  * import * as React from from "react";
+    const START_TRANSITION = "startTransition";
+    START_TRANSITION in React ? React[START_TRANSITION](() => setState()) : setState()
+
+  However, that introduces webpack/terser minification issues in production builds
+  in React 18 where minification/obfuscation ends up removing the call of
+  React.startTransition entirely from the first half of the ternary.  Grabbing
+  this exported reference once up front resolves that issue.
+
+  See https://github.com/remix-run/react-router/issues/10579
+*/ const START_TRANSITION = "startTransition";
+const startTransitionImpl = _react[START_TRANSITION];
+/**
+ * Given a Remix Router instance, render the appropriate UI
+ */ function RouterProvider(_ref) {
+    let { fallbackElement, router, future } = _ref;
+    // Need to use a layout effect here so we are subscribed early enough to
+    // pick up on any render-driven redirects/navigations (useEffect/<Navigate>)
+    let [state, setStateImpl] = _react.useState(router.state);
+    let { v7_startTransition } = future || {};
+    let setState = _react.useCallback((newState)=>{
+        v7_startTransition && startTransitionImpl ? startTransitionImpl(()=>setStateImpl(newState)) : setStateImpl(newState);
+    }, [
+        setStateImpl,
+        v7_startTransition
+    ]);
+    _react.useLayoutEffect(()=>router.subscribe(setState), [
+        router,
+        setState
+    ]);
+    let navigator = _react.useMemo(()=>{
+        return {
+            createHref: router.createHref,
+            encodeLocation: router.encodeLocation,
+            go: (n)=>router.navigate(n),
+            push: (to, state, opts)=>router.navigate(to, {
+                    state,
+                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+                }),
+            replace: (to, state, opts)=>router.navigate(to, {
+                    replace: true,
+                    state,
+                    preventScrollReset: opts == null ? void 0 : opts.preventScrollReset
+                })
+        };
+    }, [
+        router
+    ]);
+    let basename = router.basename || "/";
+    let dataRouterContext = _react.useMemo(()=>({
+            router,
+            navigator,
+            static: false,
+            basename
+        }), [
+        router,
+        navigator,
+        basename
+    ]);
+    // The fragment and {null} here are important!  We need them to keep React 18's
+    // useId happy when we are server-rendering since we may have a <script> here
+    // containing the hydrated server-side staticContext (from StaticRouterProvider).
+    // useId relies on the component tree structure to generate deterministic id's
+    // so we need to ensure it remains the same on the client even though
+    // we don't need the <script> tag
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, /*#__PURE__*/ _react.createElement(DataRouterContext.Provider, {
+        value: dataRouterContext
+    }, /*#__PURE__*/ _react.createElement(DataRouterStateContext.Provider, {
+        value: state
+    }, /*#__PURE__*/ _react.createElement(Router, {
+        basename: basename,
+        location: state.location,
+        navigationType: state.historyAction,
+        navigator: navigator
+    }, state.initialized ? /*#__PURE__*/ _react.createElement(DataRoutes, {
+        routes: router.routes,
+        state: state
+    }) : fallbackElement))), null);
+}
+function DataRoutes(_ref2) {
+    let { routes, state } = _ref2;
+    return useRoutesImpl(routes, undefined, state);
+}
+/**
+ * A <Router> that stores all entries in memory.
+ *
+ * @see https://reactrouter.com/router-components/memory-router
+ */ function MemoryRouter(_ref3) {
+    let { basename, children, initialEntries, initialIndex, future } = _ref3;
+    let historyRef = _react.useRef();
+    if (historyRef.current == null) historyRef.current = (0, _router.createMemoryHistory)({
+        initialEntries,
+        initialIndex,
+        v5Compat: true
+    });
+    let history = historyRef.current;
+    let [state, setStateImpl] = _react.useState({
+        action: history.action,
+        location: history.location
+    });
+    let { v7_startTransition } = future || {};
+    let setState = _react.useCallback((newState)=>{
+        v7_startTransition && startTransitionImpl ? startTransitionImpl(()=>setStateImpl(newState)) : setStateImpl(newState);
+    }, [
+        setStateImpl,
+        v7_startTransition
+    ]);
+    _react.useLayoutEffect(()=>history.listen(setState), [
+        history,
+        setState
+    ]);
+    return /*#__PURE__*/ _react.createElement(Router, {
+        basename: basename,
+        children: children,
+        location: state.location,
+        navigationType: state.action,
+        navigator: history
+    });
+}
+/**
+ * Changes the current location.
+ *
+ * Note: This API is mostly useful in React.Component subclasses that are not
+ * able to use hooks. In functional components, we recommend you use the
+ * `useNavigate` hook instead.
+ *
+ * @see https://reactrouter.com/components/navigate
+ */ function Navigate(_ref4) {
+    let { to, replace, state, relative } = _ref4;
+    !useInRouterContext() && (0, _router.UNSAFE_invariant)(false, // the router loaded. We can help them understand how to avoid that.
+    "<Navigate> may be used only in the context of a <Router> component.");
+    (0, _router.UNSAFE_warning)(!_react.useContext(NavigationContext).static, "<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.");
+    let { matches } = _react.useContext(RouteContext);
+    let { pathname: locationPathname } = useLocation();
+    let navigate = useNavigate();
+    // Resolve the path outside of the effect so that when effects run twice in
+    // StrictMode they navigate to the same place
+    let path = (0, _router.resolveTo)(to, (0, _router.UNSAFE_getPathContributingMatches)(matches).map((match)=>match.pathnameBase), locationPathname, relative === "path");
+    let jsonPath = JSON.stringify(path);
+    _react.useEffect(()=>navigate(JSON.parse(jsonPath), {
+            replace,
+            state,
+            relative
+        }), [
+        navigate,
+        jsonPath,
+        relative,
+        replace,
+        state
+    ]);
+    return null;
+}
+/**
+ * Renders the child route's element, if there is one.
+ *
+ * @see https://reactrouter.com/components/outlet
+ */ function Outlet(props) {
+    return useOutlet(props.context);
+}
+/**
+ * Declares an element that should be rendered at a certain URL path.
+ *
+ * @see https://reactrouter.com/components/route
+ */ function Route(_props) {
+    (0, _router.UNSAFE_invariant)(false, "A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes>.");
+}
+/**
+ * Provides location context for the rest of the app.
+ *
+ * Note: You usually won't render a <Router> directly. Instead, you'll render a
+ * router that is more specific to your environment such as a <BrowserRouter>
+ * in web browsers or a <StaticRouter> for server rendering.
+ *
+ * @see https://reactrouter.com/router-components/router
+ */ function Router(_ref5) {
+    let { basename: basenameProp = "/", children = null, location: locationProp, navigationType = (0, _router.Action).Pop, navigator, static: staticProp = false } = _ref5;
+    !!useInRouterContext() && (0, _router.UNSAFE_invariant)(false, "You cannot render a <Router> inside another <Router>. You should never have more than one in your app.");
+    // Preserve trailing slashes on basename, so we can let the user control
+    // the enforcement of trailing slashes throughout the app
+    let basename = basenameProp.replace(/^\/*/, "/");
+    let navigationContext = _react.useMemo(()=>({
+            basename,
+            navigator,
+            static: staticProp
+        }), [
+        basename,
+        navigator,
+        staticProp
+    ]);
+    if (typeof locationProp === "string") locationProp = (0, _router.parsePath)(locationProp);
+    let { pathname = "/", search = "", hash = "", state = null, key = "default" } = locationProp;
+    let locationContext = _react.useMemo(()=>{
+        let trailingPathname = (0, _router.stripBasename)(pathname, basename);
+        if (trailingPathname == null) return null;
+        return {
+            location: {
+                pathname: trailingPathname,
+                search,
+                hash,
+                state,
+                key
+            },
+            navigationType
+        };
+    }, [
+        basename,
+        pathname,
+        search,
+        hash,
+        state,
+        key,
+        navigationType
+    ]);
+    (0, _router.UNSAFE_warning)(locationContext != null, '<Router basename="' + basename + '"> is not able to match the URL ' + ('"' + pathname + search + hash + '" because it does not start with the ') + "basename, so the <Router> won't render anything.");
+    if (locationContext == null) return null;
+    return /*#__PURE__*/ _react.createElement(NavigationContext.Provider, {
+        value: navigationContext
+    }, /*#__PURE__*/ _react.createElement(LocationContext.Provider, {
+        children: children,
+        value: locationContext
+    }));
+}
+/**
+ * A container for a nested tree of <Route> elements that renders the branch
+ * that best matches the current location.
+ *
+ * @see https://reactrouter.com/components/routes
+ */ function Routes(_ref6) {
+    let { children, location } = _ref6;
+    return useRoutes(createRoutesFromChildren(children), location);
+}
+/**
+ * Component to use for rendering lazily loaded data from returning defer()
+ * in a loader function
+ */ function Await(_ref7) {
+    let { children, errorElement, resolve } = _ref7;
+    return /*#__PURE__*/ _react.createElement(AwaitErrorBoundary, {
+        resolve: resolve,
+        errorElement: errorElement
+    }, /*#__PURE__*/ _react.createElement(ResolveAwait, null, children));
+}
+var AwaitRenderStatus = /*#__PURE__*/ function(AwaitRenderStatus) {
+    AwaitRenderStatus[AwaitRenderStatus["pending"] = 0] = "pending";
+    AwaitRenderStatus[AwaitRenderStatus["success"] = 1] = "success";
+    AwaitRenderStatus[AwaitRenderStatus["error"] = 2] = "error";
+    return AwaitRenderStatus;
+}(AwaitRenderStatus || {});
+const neverSettledPromise = new Promise(()=>{});
+class AwaitErrorBoundary extends _react.Component {
+    constructor(props){
+        super(props);
+        this.state = {
+            error: null
+        };
+    }
+    static getDerivedStateFromError(error) {
+        return {
+            error
+        };
+    }
+    componentDidCatch(error, errorInfo) {
+        console.error("<Await> caught the following error during render", error, errorInfo);
+    }
+    render() {
+        let { children, errorElement, resolve } = this.props;
+        let promise = null;
+        let status = AwaitRenderStatus.pending;
+        if (!(resolve instanceof Promise)) {
+            // Didn't get a promise - provide as a resolved promise
+            status = AwaitRenderStatus.success;
+            promise = Promise.resolve();
+            Object.defineProperty(promise, "_tracked", {
+                get: ()=>true
+            });
+            Object.defineProperty(promise, "_data", {
+                get: ()=>resolve
+            });
+        } else if (this.state.error) {
+            // Caught a render error, provide it as a rejected promise
+            status = AwaitRenderStatus.error;
+            let renderError = this.state.error;
+            promise = Promise.reject().catch(()=>{}); // Avoid unhandled rejection warnings
+            Object.defineProperty(promise, "_tracked", {
+                get: ()=>true
+            });
+            Object.defineProperty(promise, "_error", {
+                get: ()=>renderError
+            });
+        } else if (resolve._tracked) {
+            // Already tracked promise - check contents
+            promise = resolve;
+            status = promise._error !== undefined ? AwaitRenderStatus.error : promise._data !== undefined ? AwaitRenderStatus.success : AwaitRenderStatus.pending;
+        } else {
+            // Raw (untracked) promise - track it
+            status = AwaitRenderStatus.pending;
+            Object.defineProperty(resolve, "_tracked", {
+                get: ()=>true
+            });
+            promise = resolve.then((data)=>Object.defineProperty(resolve, "_data", {
+                    get: ()=>data
+                }), (error)=>Object.defineProperty(resolve, "_error", {
+                    get: ()=>error
+                }));
+        }
+        if (status === AwaitRenderStatus.error && promise._error instanceof (0, _router.AbortedDeferredError)) // Freeze the UI by throwing a never resolved promise
+        throw neverSettledPromise;
+        if (status === AwaitRenderStatus.error && !errorElement) // No errorElement, throw to the nearest route-level error boundary
+        throw promise._error;
+        if (status === AwaitRenderStatus.error) // Render via our errorElement
+        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
+            value: promise,
+            children: errorElement
+        });
+        if (status === AwaitRenderStatus.success) // Render children with resolved value
+        return /*#__PURE__*/ _react.createElement(AwaitContext.Provider, {
+            value: promise,
+            children: children
+        });
+        // Throw to the suspense boundary
+        throw promise;
+    }
+}
+/**
+ * @private
+ * Indirection to leverage useAsyncValue for a render-prop API on <Await>
+ */ function ResolveAwait(_ref8) {
+    let { children } = _ref8;
+    let data = useAsyncValue();
+    let toRender = typeof children === "function" ? children(data) : children;
+    return /*#__PURE__*/ _react.createElement(_react.Fragment, null, toRender);
+}
+///////////////////////////////////////////////////////////////////////////////
+// UTILS
+///////////////////////////////////////////////////////////////////////////////
+/**
+ * Creates a route config from a React "children" object, which is usually
+ * either a `<Route>` element or an array of them. Used internally by
+ * `<Routes>` to create a route config from its children.
+ *
+ * @see https://reactrouter.com/utils/create-routes-from-children
+ */ function createRoutesFromChildren(children, parentPath) {
+    if (parentPath === void 0) parentPath = [];
+    let routes = [];
+    _react.Children.forEach(children, (element, index)=>{
+        if (!/*#__PURE__*/ _react.isValidElement(element)) // Ignore non-elements. This allows people to more easily inline
+        // conditionals in their route config.
+        return;
+        let treePath = [
+            ...parentPath,
+            index
+        ];
+        if (element.type === _react.Fragment) {
+            // Transparently support React.Fragment and its children.
+            routes.push.apply(routes, createRoutesFromChildren(element.props.children, treePath));
+            return;
+        }
+        !(element.type === Route) && (0, _router.UNSAFE_invariant)(false, "[" + (typeof element.type === "string" ? element.type : element.type.name) + "] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>");
+        !(!element.props.index || !element.props.children) && (0, _router.UNSAFE_invariant)(false, "An index route cannot have child routes.");
+        let route = {
+            id: element.props.id || treePath.join("-"),
+            caseSensitive: element.props.caseSensitive,
+            element: element.props.element,
+            Component: element.props.Component,
+            index: element.props.index,
+            path: element.props.path,
+            loader: element.props.loader,
+            action: element.props.action,
+            errorElement: element.props.errorElement,
+            ErrorBoundary: element.props.ErrorBoundary,
+            hasErrorBoundary: element.props.ErrorBoundary != null || element.props.errorElement != null,
+            shouldRevalidate: element.props.shouldRevalidate,
+            handle: element.props.handle,
+            lazy: element.props.lazy
+        };
+        if (element.props.children) route.children = createRoutesFromChildren(element.props.children, treePath);
+        routes.push(route);
+    });
+    return routes;
+}
+/**
+ * Renders the result of `matchRoutes()` into a React element.
+ */ function renderMatches(matches) {
+    return _renderMatches(matches);
+}
+function mapRouteProperties(route) {
+    let updates = {
+        // Note: this check also occurs in createRoutesFromChildren so update
+        // there if you change this -- please and thank you!
+        hasErrorBoundary: route.ErrorBoundary != null || route.errorElement != null
+    };
+    if (route.Component) {
+        if (route.element) (0, _router.UNSAFE_warning)(false, "You should not include both `Component` and `element` on your route - `Component` will be used.");
+        Object.assign(updates, {
+            element: /*#__PURE__*/ _react.createElement(route.Component),
+            Component: undefined
+        });
+    }
+    if (route.ErrorBoundary) {
+        if (route.errorElement) (0, _router.UNSAFE_warning)(false, "You should not include both `ErrorBoundary` and `errorElement` on your route - `ErrorBoundary` will be used.");
+        Object.assign(updates, {
+            errorElement: /*#__PURE__*/ _react.createElement(route.ErrorBoundary),
+            ErrorBoundary: undefined
+        });
+    }
+    return updates;
+}
+function createMemoryRouter(routes, opts) {
+    return (0, _router.createRouter)({
+        basename: opts == null ? void 0 : opts.basename,
+        future: _extends({}, opts == null ? void 0 : opts.future, {
+            v7_prependBasename: true
+        }),
+        history: (0, _router.createMemoryHistory)({
+            initialEntries: opts == null ? void 0 : opts.initialEntries,
+            initialIndex: opts == null ? void 0 : opts.initialIndex
+        }),
+        hydrationData: opts == null ? void 0 : opts.hydrationData,
+        routes,
+        mapRouteProperties
+    }).initialize();
+}
+
+},{"react":"21dqq","@remix-run/router":"5ncDG","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5ncDG":[function(require,module,exports) {
+/**
+ * @remix-run/router v1.9.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+//#endregion
+parcelHelpers.export(exports, "AbortedDeferredError", ()=>AbortedDeferredError);
 parcelHelpers.export(exports, "Action", ()=>Action);
+parcelHelpers.export(exports, "IDLE_BLOCKER", ()=>IDLE_BLOCKER);
+parcelHelpers.export(exports, "IDLE_FETCHER", ()=>IDLE_FETCHER);
+parcelHelpers.export(exports, "IDLE_NAVIGATION", ()=>IDLE_NAVIGATION);
+parcelHelpers.export(exports, "UNSAFE_DEFERRED_SYMBOL", ()=>UNSAFE_DEFERRED_SYMBOL);
+parcelHelpers.export(exports, "UNSAFE_DeferredData", ()=>DeferredData);
+parcelHelpers.export(exports, "UNSAFE_ErrorResponseImpl", ()=>ErrorResponseImpl);
+parcelHelpers.export(exports, "UNSAFE_convertRouteMatchToUiMatch", ()=>convertRouteMatchToUiMatch);
+parcelHelpers.export(exports, "UNSAFE_convertRoutesToDataRoutes", ()=>convertRoutesToDataRoutes);
+parcelHelpers.export(exports, "UNSAFE_getPathContributingMatches", ()=>getPathContributingMatches);
+parcelHelpers.export(exports, "UNSAFE_invariant", ()=>invariant);
+parcelHelpers.export(exports, "UNSAFE_warning", ()=>warning);
 parcelHelpers.export(exports, "createBrowserHistory", ()=>createBrowserHistory);
 parcelHelpers.export(exports, "createHashHistory", ()=>createHashHistory);
 parcelHelpers.export(exports, "createMemoryHistory", ()=>createMemoryHistory);
 parcelHelpers.export(exports, "createPath", ()=>createPath);
+parcelHelpers.export(exports, "createRouter", ()=>createRouter);
+parcelHelpers.export(exports, "createStaticHandler", ()=>createStaticHandler);
+parcelHelpers.export(exports, "defer", ()=>defer);
+parcelHelpers.export(exports, "generatePath", ()=>generatePath);
+parcelHelpers.export(exports, "getStaticContextFromError", ()=>getStaticContextFromError);
+parcelHelpers.export(exports, "getToPathname", ()=>getToPathname);
+parcelHelpers.export(exports, "isDeferredData", ()=>isDeferredData);
+parcelHelpers.export(exports, "isRouteErrorResponse", ()=>isRouteErrorResponse);
+parcelHelpers.export(exports, "joinPaths", ()=>joinPaths);
+parcelHelpers.export(exports, "json", ()=>json);
+parcelHelpers.export(exports, "matchPath", ()=>matchPath);
+parcelHelpers.export(exports, "matchRoutes", ()=>matchRoutes);
+parcelHelpers.export(exports, "normalizePathname", ()=>normalizePathname);
 parcelHelpers.export(exports, "parsePath", ()=>parsePath);
-var _extends = require("@babel/runtime/helpers/esm/extends");
-var _extendsDefault = parcelHelpers.interopDefault(_extends);
+parcelHelpers.export(exports, "redirect", ()=>redirect);
+parcelHelpers.export(exports, "redirectDocument", ()=>redirectDocument);
+parcelHelpers.export(exports, "resolvePath", ()=>resolvePath);
+parcelHelpers.export(exports, "resolveTo", ()=>resolveTo);
+parcelHelpers.export(exports, "stripBasename", ()=>stripBasename);
+function _extends() {
+    _extends = Object.assign ? Object.assign.bind() : function(target) {
+        for(var i = 1; i < arguments.length; i++){
+            var source = arguments[i];
+            for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+        }
+        return target;
+    };
+    return _extends.apply(this, arguments);
+}
+////////////////////////////////////////////////////////////////////////////////
+//#region Types and Constants
+////////////////////////////////////////////////////////////////////////////////
 /**
  * Actions represent the type of change to a location value.
- *
- * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#action
  */ var Action;
 (function(Action) {
     /**
@@ -41279,26 +43130,98 @@ var _extendsDefault = parcelHelpers.interopDefault(_extends);
    * being replaced by a new one.
    */ Action["Replace"] = "REPLACE";
 })(Action || (Action = {}));
-var readOnly = function(obj) {
-    return Object.freeze(obj);
-};
-function warning(cond, message) {
-    if (!cond) {
-        // eslint-disable-next-line no-console
-        if (typeof console !== "undefined") console.warn(message);
-        try {
-            // Welcome to debugging history!
-            //
-            // This error is thrown as a convenience so you can more easily
-            // find the source for a warning that appears in the console by
-            // enabling "pause on exceptions" in your JavaScript debugger.
-            throw new Error(message); // eslint-disable-next-line no-empty
-        } catch (e) {}
+const PopStateEventType = "popstate";
+/**
+ * Memory history stores the current location in memory. It is designed for use
+ * in stateful non-browser environments like tests and React Native.
+ */ function createMemoryHistory(options) {
+    if (options === void 0) options = {};
+    let { initialEntries = [
+        "/"
+    ], initialIndex, v5Compat = false } = options;
+    let entries; // Declare so we can access from createMemoryLocation
+    entries = initialEntries.map((entry, index)=>createMemoryLocation(entry, typeof entry === "string" ? null : entry.state, index === 0 ? "default" : undefined));
+    let index = clampIndex(initialIndex == null ? entries.length - 1 : initialIndex);
+    let action = Action.Pop;
+    let listener = null;
+    function clampIndex(n) {
+        return Math.min(Math.max(n, 0), entries.length - 1);
     }
+    function getCurrentLocation() {
+        return entries[index];
+    }
+    function createMemoryLocation(to, state, key) {
+        if (state === void 0) state = null;
+        let location = createLocation(entries ? getCurrentLocation().pathname : "/", to, state, key);
+        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in memory history: " + JSON.stringify(to));
+        return location;
+    }
+    function createHref(to) {
+        return typeof to === "string" ? to : createPath(to);
+    }
+    let history = {
+        get index () {
+            return index;
+        },
+        get action () {
+            return action;
+        },
+        get location () {
+            return getCurrentLocation();
+        },
+        createHref,
+        createURL (to) {
+            return new URL(createHref(to), "http://localhost");
+        },
+        encodeLocation (to) {
+            let path = typeof to === "string" ? parsePath(to) : to;
+            return {
+                pathname: path.pathname || "",
+                search: path.search || "",
+                hash: path.hash || ""
+            };
+        },
+        push (to, state) {
+            action = Action.Push;
+            let nextLocation = createMemoryLocation(to, state);
+            index += 1;
+            entries.splice(index, entries.length, nextLocation);
+            if (v5Compat && listener) listener({
+                action,
+                location: nextLocation,
+                delta: 1
+            });
+        },
+        replace (to, state) {
+            action = Action.Replace;
+            let nextLocation = createMemoryLocation(to, state);
+            entries[index] = nextLocation;
+            if (v5Compat && listener) listener({
+                action,
+                location: nextLocation,
+                delta: 0
+            });
+        },
+        go (delta) {
+            action = Action.Pop;
+            let nextIndex = clampIndex(index + delta);
+            let nextLocation = entries[nextIndex];
+            index = nextIndex;
+            if (listener) listener({
+                action,
+                location: nextLocation,
+                delta
+            });
+        },
+        listen (fn) {
+            listener = fn;
+            return ()=>{
+                listener = null;
+            };
+        }
+    };
+    return history;
 }
-var BeforeUnloadEventType = "beforeunload";
-var HashChangeEventType = "hashchange";
-var PopStateEventType = "popstate";
 /**
  * Browser history stores the location in regular URLs. This is the standard for
  * most web apps, but it requires some configuration on the server to ensure you
@@ -41307,168 +43230,19 @@ var PopStateEventType = "popstate";
  * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createbrowserhistory
  */ function createBrowserHistory(options) {
     if (options === void 0) options = {};
-    var _options = options, _options$window = _options.window, window = _options$window === void 0 ? document.defaultView : _options$window;
-    var globalHistory = window.history;
-    function getIndexAndLocation() {
-        var _window$location = window.location, pathname = _window$location.pathname, search = _window$location.search, hash = _window$location.hash;
-        var state = globalHistory.state || {};
-        return [
-            state.idx,
-            readOnly({
-                pathname: pathname,
-                search: search,
-                hash: hash,
-                state: state.usr || null,
-                key: state.key || "default"
-            })
-        ];
+    function createBrowserLocation(window1, globalHistory) {
+        let { pathname, search, hash } = window1.location;
+        return createLocation("", {
+            pathname,
+            search,
+            hash
+        }, // state defaults to `null` because `window.history.state` does
+        globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
     }
-    var blockedPopTx = null;
-    function handlePop() {
-        if (blockedPopTx) {
-            blockers.call(blockedPopTx);
-            blockedPopTx = null;
-        } else {
-            var nextAction = Action.Pop;
-            var _getIndexAndLocation = getIndexAndLocation(), nextIndex = _getIndexAndLocation[0], nextLocation = _getIndexAndLocation[1];
-            if (blockers.length) {
-                if (nextIndex != null) {
-                    var delta = index - nextIndex;
-                    if (delta) {
-                        // Revert the POP
-                        blockedPopTx = {
-                            action: nextAction,
-                            location: nextLocation,
-                            retry: function retry() {
-                                go(delta * -1);
-                            }
-                        };
-                        go(delta);
-                    }
-                } else warning(false, // detail and link to it here so people can understand better what
-                // is going on and how to avoid it.
-                "You are trying to block a POP navigation to a location that was not created by the history library. The block will fail silently in production, but in general you should do all navigation with the history library (instead of using window.history.pushState directly) to avoid this situation.");
-            } else applyTx(nextAction);
-        }
-    }
-    window.addEventListener(PopStateEventType, handlePop);
-    var action = Action.Pop;
-    var _getIndexAndLocation2 = getIndexAndLocation(), index = _getIndexAndLocation2[0], location = _getIndexAndLocation2[1];
-    var listeners = createEvents();
-    var blockers = createEvents();
-    if (index == null) {
-        index = 0;
-        globalHistory.replaceState((0, _extendsDefault.default)({}, globalHistory.state, {
-            idx: index
-        }), "");
-    }
-    function createHref(to) {
+    function createBrowserHref(window1, to) {
         return typeof to === "string" ? to : createPath(to);
-    } // state defaults to `null` because `window.history.state` does
-    function getNextLocation(to, state) {
-        if (state === void 0) state = null;
-        return readOnly((0, _extendsDefault.default)({
-            pathname: location.pathname,
-            hash: "",
-            search: ""
-        }, typeof to === "string" ? parsePath(to) : to, {
-            state: state,
-            key: createKey()
-        }));
     }
-    function getHistoryStateAndUrl(nextLocation, index) {
-        return [
-            {
-                usr: nextLocation.state,
-                key: nextLocation.key,
-                idx: index
-            },
-            createHref(nextLocation)
-        ];
-    }
-    function allowTx(action, location, retry) {
-        return !blockers.length || (blockers.call({
-            action: action,
-            location: location,
-            retry: retry
-        }), false);
-    }
-    function applyTx(nextAction) {
-        action = nextAction;
-        var _getIndexAndLocation3 = getIndexAndLocation();
-        index = _getIndexAndLocation3[0];
-        location = _getIndexAndLocation3[1];
-        listeners.call({
-            action: action,
-            location: location
-        });
-    }
-    function push(to, state) {
-        var nextAction = Action.Push;
-        var nextLocation = getNextLocation(to, state);
-        function retry() {
-            push(to, state);
-        }
-        if (allowTx(nextAction, nextLocation, retry)) {
-            var _getHistoryStateAndUr = getHistoryStateAndUrl(nextLocation, index + 1), historyState = _getHistoryStateAndUr[0], url = _getHistoryStateAndUr[1]; // TODO: Support forced reloading
-            // try...catch because iOS limits us to 100 pushState calls :/
-            try {
-                globalHistory.pushState(historyState, "", url);
-            } catch (error) {
-                // They are going to lose state here, but there is no real
-                // way to warn them about it since the page will refresh...
-                window.location.assign(url);
-            }
-            applyTx(nextAction);
-        }
-    }
-    function replace(to, state) {
-        var nextAction = Action.Replace;
-        var nextLocation = getNextLocation(to, state);
-        function retry() {
-            replace(to, state);
-        }
-        if (allowTx(nextAction, nextLocation, retry)) {
-            var _getHistoryStateAndUr2 = getHistoryStateAndUrl(nextLocation, index), historyState = _getHistoryStateAndUr2[0], url = _getHistoryStateAndUr2[1]; // TODO: Support forced reloading
-            globalHistory.replaceState(historyState, "", url);
-            applyTx(nextAction);
-        }
-    }
-    function go(delta) {
-        globalHistory.go(delta);
-    }
-    var history = {
-        get action () {
-            return action;
-        },
-        get location () {
-            return location;
-        },
-        createHref: createHref,
-        push: push,
-        replace: replace,
-        go: go,
-        back: function back() {
-            go(-1);
-        },
-        forward: function forward() {
-            go(1);
-        },
-        listen: function listen(listener) {
-            return listeners.push(listener);
-        },
-        block: function block(blocker) {
-            var unblock = blockers.push(blocker);
-            if (blockers.length === 1) window.addEventListener(BeforeUnloadEventType, promptBeforeUnload);
-            return function() {
-                unblock(); // Remove the beforeunload listener so the document may
-                // still be salvageable in the pagehide event.
-                // See https://html.spec.whatwg.org/#unloading-documents
-                if (!blockers.length) window.removeEventListener(BeforeUnloadEventType, promptBeforeUnload);
-            };
-        }
-    };
-    return history;
+    return getUrlBasedHistory(createBrowserLocation, createBrowserHref, null, options);
 }
 /**
  * Hash history stores the location in window.location.hash. This makes it ideal
@@ -41479,364 +43253,104 @@ var PopStateEventType = "popstate";
  * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createhashhistory
  */ function createHashHistory(options) {
     if (options === void 0) options = {};
-    var _options2 = options, _options2$window = _options2.window, window = _options2$window === void 0 ? document.defaultView : _options2$window;
-    var globalHistory = window.history;
-    function getIndexAndLocation() {
-        var _parsePath = parsePath(window.location.hash.substr(1)), _parsePath$pathname = _parsePath.pathname, pathname = _parsePath$pathname === void 0 ? "/" : _parsePath$pathname, _parsePath$search = _parsePath.search, search = _parsePath$search === void 0 ? "" : _parsePath$search, _parsePath$hash = _parsePath.hash, hash = _parsePath$hash === void 0 ? "" : _parsePath$hash;
-        var state = globalHistory.state || {};
-        return [
-            state.idx,
-            readOnly({
-                pathname: pathname,
-                search: search,
-                hash: hash,
-                state: state.usr || null,
-                key: state.key || "default"
-            })
-        ];
+    function createHashLocation(window1, globalHistory) {
+        let { pathname = "/", search = "", hash = "" } = parsePath(window1.location.hash.substr(1));
+        // Hash URL should always have a leading / just like window.location.pathname
+        // does, so if an app ends up at a route like /#something then we add a
+        // leading slash so all of our path-matching behaves the same as if it would
+        // in a browser router.  This is particularly important when there exists a
+        // root splat route (<Route path="*">) since that matches internally against
+        // "/*" and we'd expect /#something to 404 in a hash router app.
+        if (!pathname.startsWith("/") && !pathname.startsWith(".")) pathname = "/" + pathname;
+        return createLocation("", {
+            pathname,
+            search,
+            hash
+        }, // state defaults to `null` because `window.history.state` does
+        globalHistory.state && globalHistory.state.usr || null, globalHistory.state && globalHistory.state.key || "default");
     }
-    var blockedPopTx = null;
-    function handlePop() {
-        if (blockedPopTx) {
-            blockers.call(blockedPopTx);
-            blockedPopTx = null;
-        } else {
-            var nextAction = Action.Pop;
-            var _getIndexAndLocation4 = getIndexAndLocation(), nextIndex = _getIndexAndLocation4[0], nextLocation = _getIndexAndLocation4[1];
-            if (blockers.length) {
-                if (nextIndex != null) {
-                    var delta = index - nextIndex;
-                    if (delta) {
-                        // Revert the POP
-                        blockedPopTx = {
-                            action: nextAction,
-                            location: nextLocation,
-                            retry: function retry() {
-                                go(delta * -1);
-                            }
-                        };
-                        go(delta);
-                    }
-                } else warning(false, // detail and link to it here so people can understand better
-                // what is going on and how to avoid it.
-                "You are trying to block a POP navigation to a location that was not created by the history library. The block will fail silently in production, but in general you should do all navigation with the history library (instead of using window.history.pushState directly) to avoid this situation.");
-            } else applyTx(nextAction);
-        }
-    }
-    window.addEventListener(PopStateEventType, handlePop); // popstate does not fire on hashchange in IE 11 and old (trident) Edge
-    // https://developer.mozilla.org/de/docs/Web/API/Window/popstate_event
-    window.addEventListener(HashChangeEventType, function() {
-        var _getIndexAndLocation5 = getIndexAndLocation(), nextLocation = _getIndexAndLocation5[1]; // Ignore extraneous hashchange events.
-        if (createPath(nextLocation) !== createPath(location)) handlePop();
-    });
-    var action = Action.Pop;
-    var _getIndexAndLocation6 = getIndexAndLocation(), index = _getIndexAndLocation6[0], location = _getIndexAndLocation6[1];
-    var listeners = createEvents();
-    var blockers = createEvents();
-    if (index == null) {
-        index = 0;
-        globalHistory.replaceState((0, _extendsDefault.default)({}, globalHistory.state, {
-            idx: index
-        }), "");
-    }
-    function getBaseHref() {
-        var base = document.querySelector("base");
-        var href = "";
+    function createHashHref(window1, to) {
+        let base = window1.document.querySelector("base");
+        let href = "";
         if (base && base.getAttribute("href")) {
-            var url = window.location.href;
-            var hashIndex = url.indexOf("#");
+            let url = window1.location.href;
+            let hashIndex = url.indexOf("#");
             href = hashIndex === -1 ? url : url.slice(0, hashIndex);
         }
-        return href;
+        return href + "#" + (typeof to === "string" ? to : createPath(to));
     }
-    function createHref(to) {
-        return getBaseHref() + "#" + (typeof to === "string" ? to : createPath(to));
+    function validateHashLocation(location, to) {
+        warning(location.pathname.charAt(0) === "/", "relative pathnames are not supported in hash history.push(" + JSON.stringify(to) + ")");
     }
-    function getNextLocation(to, state) {
-        if (state === void 0) state = null;
-        return readOnly((0, _extendsDefault.default)({
-            pathname: location.pathname,
-            hash: "",
-            search: ""
-        }, typeof to === "string" ? parsePath(to) : to, {
-            state: state,
-            key: createKey()
-        }));
-    }
-    function getHistoryStateAndUrl(nextLocation, index) {
-        return [
-            {
-                usr: nextLocation.state,
-                key: nextLocation.key,
-                idx: index
-            },
-            createHref(nextLocation)
-        ];
-    }
-    function allowTx(action, location, retry) {
-        return !blockers.length || (blockers.call({
-            action: action,
-            location: location,
-            retry: retry
-        }), false);
-    }
-    function applyTx(nextAction) {
-        action = nextAction;
-        var _getIndexAndLocation7 = getIndexAndLocation();
-        index = _getIndexAndLocation7[0];
-        location = _getIndexAndLocation7[1];
-        listeners.call({
-            action: action,
-            location: location
-        });
-    }
-    function push(to, state) {
-        var nextAction = Action.Push;
-        var nextLocation = getNextLocation(to, state);
-        function retry() {
-            push(to, state);
-        }
-        warning(nextLocation.pathname.charAt(0) === "/", "Relative pathnames are not supported in hash history.push(" + JSON.stringify(to) + ")");
-        if (allowTx(nextAction, nextLocation, retry)) {
-            var _getHistoryStateAndUr3 = getHistoryStateAndUrl(nextLocation, index + 1), historyState = _getHistoryStateAndUr3[0], url = _getHistoryStateAndUr3[1]; // TODO: Support forced reloading
-            // try...catch because iOS limits us to 100 pushState calls :/
-            try {
-                globalHistory.pushState(historyState, "", url);
-            } catch (error) {
-                // They are going to lose state here, but there is no real
-                // way to warn them about it since the page will refresh...
-                window.location.assign(url);
-            }
-            applyTx(nextAction);
-        }
-    }
-    function replace(to, state) {
-        var nextAction = Action.Replace;
-        var nextLocation = getNextLocation(to, state);
-        function retry() {
-            replace(to, state);
-        }
-        warning(nextLocation.pathname.charAt(0) === "/", "Relative pathnames are not supported in hash history.replace(" + JSON.stringify(to) + ")");
-        if (allowTx(nextAction, nextLocation, retry)) {
-            var _getHistoryStateAndUr4 = getHistoryStateAndUrl(nextLocation, index), historyState = _getHistoryStateAndUr4[0], url = _getHistoryStateAndUr4[1]; // TODO: Support forced reloading
-            globalHistory.replaceState(historyState, "", url);
-            applyTx(nextAction);
-        }
-    }
-    function go(delta) {
-        globalHistory.go(delta);
-    }
-    var history = {
-        get action () {
-            return action;
-        },
-        get location () {
-            return location;
-        },
-        createHref: createHref,
-        push: push,
-        replace: replace,
-        go: go,
-        back: function back() {
-            go(-1);
-        },
-        forward: function forward() {
-            go(1);
-        },
-        listen: function listen(listener) {
-            return listeners.push(listener);
-        },
-        block: function block(blocker) {
-            var unblock = blockers.push(blocker);
-            if (blockers.length === 1) window.addEventListener(BeforeUnloadEventType, promptBeforeUnload);
-            return function() {
-                unblock(); // Remove the beforeunload listener so the document may
-                // still be salvageable in the pagehide event.
-                // See https://html.spec.whatwg.org/#unloading-documents
-                if (!blockers.length) window.removeEventListener(BeforeUnloadEventType, promptBeforeUnload);
-            };
-        }
-    };
-    return history;
+    return getUrlBasedHistory(createHashLocation, createHashHref, validateHashLocation, options);
 }
-/**
- * Memory history stores the current location in memory. It is designed for use
- * in stateful non-browser environments like tests and React Native.
- *
- * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#creatememoryhistory
- */ function createMemoryHistory(options) {
-    if (options === void 0) options = {};
-    var _options3 = options, _options3$initialEntr = _options3.initialEntries, initialEntries = _options3$initialEntr === void 0 ? [
-        "/"
-    ] : _options3$initialEntr, initialIndex = _options3.initialIndex;
-    var entries = initialEntries.map(function(entry) {
-        var location = readOnly((0, _extendsDefault.default)({
-            pathname: "/",
-            search: "",
-            hash: "",
-            state: null,
-            key: createKey()
-        }, typeof entry === "string" ? parsePath(entry) : entry));
-        warning(location.pathname.charAt(0) === "/", "Relative pathnames are not supported in createMemoryHistory({ initialEntries }) (invalid entry: " + JSON.stringify(entry) + ")");
-        return location;
-    });
-    var index = clamp(initialIndex == null ? entries.length - 1 : initialIndex, 0, entries.length - 1);
-    var action = Action.Pop;
-    var location = entries[index];
-    var listeners = createEvents();
-    var blockers = createEvents();
-    function createHref(to) {
-        return typeof to === "string" ? to : createPath(to);
-    }
-    function getNextLocation(to, state) {
-        if (state === void 0) state = null;
-        return readOnly((0, _extendsDefault.default)({
-            pathname: location.pathname,
-            search: "",
-            hash: ""
-        }, typeof to === "string" ? parsePath(to) : to, {
-            state: state,
-            key: createKey()
-        }));
-    }
-    function allowTx(action, location, retry) {
-        return !blockers.length || (blockers.call({
-            action: action,
-            location: location,
-            retry: retry
-        }), false);
-    }
-    function applyTx(nextAction, nextLocation) {
-        action = nextAction;
-        location = nextLocation;
-        listeners.call({
-            action: action,
-            location: location
-        });
-    }
-    function push(to, state) {
-        var nextAction = Action.Push;
-        var nextLocation = getNextLocation(to, state);
-        function retry() {
-            push(to, state);
-        }
-        warning(location.pathname.charAt(0) === "/", "Relative pathnames are not supported in memory history.push(" + JSON.stringify(to) + ")");
-        if (allowTx(nextAction, nextLocation, retry)) {
-            index += 1;
-            entries.splice(index, entries.length, nextLocation);
-            applyTx(nextAction, nextLocation);
-        }
-    }
-    function replace(to, state) {
-        var nextAction = Action.Replace;
-        var nextLocation = getNextLocation(to, state);
-        function retry() {
-            replace(to, state);
-        }
-        warning(location.pathname.charAt(0) === "/", "Relative pathnames are not supported in memory history.replace(" + JSON.stringify(to) + ")");
-        if (allowTx(nextAction, nextLocation, retry)) {
-            entries[index] = nextLocation;
-            applyTx(nextAction, nextLocation);
-        }
-    }
-    function go(delta) {
-        var nextIndex = clamp(index + delta, 0, entries.length - 1);
-        var nextAction = Action.Pop;
-        var nextLocation = entries[nextIndex];
-        function retry() {
-            go(delta);
-        }
-        if (allowTx(nextAction, nextLocation, retry)) {
-            index = nextIndex;
-            applyTx(nextAction, nextLocation);
-        }
-    }
-    var history = {
-        get index () {
-            return index;
-        },
-        get action () {
-            return action;
-        },
-        get location () {
-            return location;
-        },
-        createHref: createHref,
-        push: push,
-        replace: replace,
-        go: go,
-        back: function back() {
-            go(-1);
-        },
-        forward: function forward() {
-            go(1);
-        },
-        listen: function listen(listener) {
-            return listeners.push(listener);
-        },
-        block: function block(blocker) {
-            return blockers.push(blocker);
-        }
-    };
-    return history;
-} ////////////////////////////////////////////////////////////////////////////////
-// UTILS
-////////////////////////////////////////////////////////////////////////////////
-function clamp(n, lowerBound, upperBound) {
-    return Math.min(Math.max(n, lowerBound), upperBound);
+function invariant(value, message) {
+    if (value === false || value === null || typeof value === "undefined") throw new Error(message);
 }
-function promptBeforeUnload(event) {
-    // Cancel the event.
-    event.preventDefault(); // Chrome (and legacy IE) requires returnValue to be set.
-    event.returnValue = "";
-}
-function createEvents() {
-    var handlers = [];
-    return {
-        get length () {
-            return handlers.length;
-        },
-        push: function push(fn) {
-            handlers.push(fn);
-            return function() {
-                handlers = handlers.filter(function(handler) {
-                    return handler !== fn;
-                });
-            };
-        },
-        call: function call(arg) {
-            handlers.forEach(function(fn) {
-                return fn && fn(arg);
-            });
-        }
-    };
+function warning(cond, message) {
+    if (!cond) {
+        // eslint-disable-next-line no-console
+        if (typeof console !== "undefined") console.warn(message);
+        try {
+            // Welcome to debugging history!
+            //
+            // This error is thrown as a convenience, so you can more easily
+            // find the source for a warning that appears in the console by
+            // enabling "pause on exceptions" in your JavaScript debugger.
+            throw new Error(message);
+        // eslint-disable-next-line no-empty
+        } catch (e) {}
+    }
 }
 function createKey() {
     return Math.random().toString(36).substr(2, 8);
 }
 /**
+ * For browser-based histories, we combine the state and key into an object
+ */ function getHistoryState(location, index) {
+    return {
+        usr: location.state,
+        key: location.key,
+        idx: index
+    };
+}
+/**
+ * Creates a Location object with a unique key from the given Path
+ */ function createLocation(current, to, state, key) {
+    if (state === void 0) state = null;
+    let location = _extends({
+        pathname: typeof current === "string" ? current : current.pathname,
+        search: "",
+        hash: ""
+    }, typeof to === "string" ? parsePath(to) : to, {
+        state,
+        // TODO: This could be cleaned up.  push/replace should probably just take
+        // full Locations now and avoid the need to run through this flow at all
+        // But that's a pretty big refactor to the current test suite so going to
+        // keep as is for the time being and just let any incoming keys take precedence
+        key: to && to.key || key || createKey()
+    });
+    return location;
+}
+/**
  * Creates a string URL path from the given pathname, search, and hash components.
- *
- * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#createpath
  */ function createPath(_ref) {
-    var _ref$pathname = _ref.pathname, pathname = _ref$pathname === void 0 ? "/" : _ref$pathname, _ref$search = _ref.search, search = _ref$search === void 0 ? "" : _ref$search, _ref$hash = _ref.hash, hash = _ref$hash === void 0 ? "" : _ref$hash;
+    let { pathname = "/", search = "", hash = "" } = _ref;
     if (search && search !== "?") pathname += search.charAt(0) === "?" ? search : "?" + search;
     if (hash && hash !== "#") pathname += hash.charAt(0) === "#" ? hash : "#" + hash;
     return pathname;
 }
 /**
  * Parses a string URL path into its separate pathname, search, and hash components.
- *
- * @see https://github.com/remix-run/history/tree/main/docs/api-reference.md#parsepath
  */ function parsePath(path) {
-    var parsedPath = {};
+    let parsedPath = {};
     if (path) {
-        var hashIndex = path.indexOf("#");
+        let hashIndex = path.indexOf("#");
         if (hashIndex >= 0) {
             parsedPath.hash = path.substr(hashIndex);
             path = path.substr(0, hashIndex);
         }
-        var searchIndex = path.indexOf("?");
+        let searchIndex = path.indexOf("?");
         if (searchIndex >= 0) {
             parsedPath.search = path.substr(searchIndex);
             path = path.substr(0, searchIndex);
@@ -41845,137 +43359,235 @@ function createKey() {
     }
     return parsedPath;
 }
-
-},{"@babel/runtime/helpers/esm/extends":"fTBFS","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"btA8E":[function(require,module,exports) {
-/**
- * React Router v6.3.0
- *
- * Copyright (c) Remix Software Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.md file in the root directory of this source tree.
- *
- * @license MIT
- */ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "NavigationType", ()=>(0, _history.Action));
-parcelHelpers.export(exports, "createPath", ()=>(0, _history.createPath));
-parcelHelpers.export(exports, "parsePath", ()=>(0, _history.parsePath));
-parcelHelpers.export(exports, "MemoryRouter", ()=>MemoryRouter);
-parcelHelpers.export(exports, "Navigate", ()=>Navigate);
-parcelHelpers.export(exports, "Outlet", ()=>Outlet);
-parcelHelpers.export(exports, "Route", ()=>Route);
-parcelHelpers.export(exports, "Router", ()=>Router);
-parcelHelpers.export(exports, "Routes", ()=>Routes);
-parcelHelpers.export(exports, "UNSAFE_LocationContext", ()=>LocationContext);
-parcelHelpers.export(exports, "UNSAFE_NavigationContext", ()=>NavigationContext);
-parcelHelpers.export(exports, "UNSAFE_RouteContext", ()=>RouteContext);
-parcelHelpers.export(exports, "createRoutesFromChildren", ()=>createRoutesFromChildren);
-parcelHelpers.export(exports, "generatePath", ()=>generatePath);
-parcelHelpers.export(exports, "matchPath", ()=>matchPath);
-parcelHelpers.export(exports, "matchRoutes", ()=>matchRoutes);
-parcelHelpers.export(exports, "renderMatches", ()=>renderMatches);
-parcelHelpers.export(exports, "resolvePath", ()=>resolvePath);
-parcelHelpers.export(exports, "useHref", ()=>useHref);
-parcelHelpers.export(exports, "useInRouterContext", ()=>useInRouterContext);
-parcelHelpers.export(exports, "useLocation", ()=>useLocation);
-parcelHelpers.export(exports, "useMatch", ()=>useMatch);
-parcelHelpers.export(exports, "useNavigate", ()=>useNavigate);
-parcelHelpers.export(exports, "useNavigationType", ()=>useNavigationType);
-parcelHelpers.export(exports, "useOutlet", ()=>useOutlet);
-parcelHelpers.export(exports, "useOutletContext", ()=>useOutletContext);
-parcelHelpers.export(exports, "useParams", ()=>useParams);
-parcelHelpers.export(exports, "useResolvedPath", ()=>useResolvedPath);
-parcelHelpers.export(exports, "useRoutes", ()=>useRoutes);
-var _history = require("history");
-var _react = require("react");
-const NavigationContext = /*#__PURE__*/ (0, _react.createContext)(null);
-NavigationContext.displayName = "Navigation";
-const LocationContext = /*#__PURE__*/ (0, _react.createContext)(null);
-LocationContext.displayName = "Location";
-const RouteContext = /*#__PURE__*/ (0, _react.createContext)({
-    outlet: null,
-    matches: []
-});
-RouteContext.displayName = "Route";
-function invariant(cond, message) {
-    if (!cond) throw new Error(message);
-}
-function warning(cond, message) {
-    if (!cond) {
-        // eslint-disable-next-line no-console
-        if (typeof console !== "undefined") console.warn(message);
+function getUrlBasedHistory(getLocation, createHref, validateLocation, options) {
+    if (options === void 0) options = {};
+    let { window: window1 = document.defaultView, v5Compat = false } = options;
+    let globalHistory = window1.history;
+    let action = Action.Pop;
+    let listener = null;
+    let index = getIndex();
+    // Index should only be null when we initialize. If not, it's because the
+    // user called history.pushState or history.replaceState directly, in which
+    // case we should log a warning as it will result in bugs.
+    if (index == null) {
+        index = 0;
+        globalHistory.replaceState(_extends({}, globalHistory.state, {
+            idx: index
+        }), "");
+    }
+    function getIndex() {
+        let state = globalHistory.state || {
+            idx: null
+        };
+        return state.idx;
+    }
+    function handlePop() {
+        action = Action.Pop;
+        let nextIndex = getIndex();
+        let delta = nextIndex == null ? null : nextIndex - index;
+        index = nextIndex;
+        if (listener) listener({
+            action,
+            location: history.location,
+            delta
+        });
+    }
+    function push(to, state) {
+        action = Action.Push;
+        let location = createLocation(history.location, to, state);
+        if (validateLocation) validateLocation(location, to);
+        index = getIndex() + 1;
+        let historyState = getHistoryState(location, index);
+        let url = history.createHref(location);
+        // try...catch because iOS limits us to 100 pushState calls :/
         try {
-            // Welcome to debugging React Router!
-            //
-            // This error is thrown as a convenience so you can more easily
-            // find the source for a warning that appears in the console by
-            // enabling "pause on exceptions" in your JavaScript debugger.
-            throw new Error(message); // eslint-disable-next-line no-empty
-        } catch (e) {}
+            globalHistory.pushState(historyState, "", url);
+        } catch (error) {
+            // If the exception is because `state` can't be serialized, let that throw
+            // outwards just like a replace call would so the dev knows the cause
+            // https://html.spec.whatwg.org/multipage/nav-history-apis.html#shared-history-push/replace-state-steps
+            // https://html.spec.whatwg.org/multipage/structured-data.html#structuredserializeinternal
+            if (error instanceof DOMException && error.name === "DataCloneError") throw error;
+            // They are going to lose state here, but there is no real
+            // way to warn them about it since the page will refresh...
+            window1.location.assign(url);
+        }
+        if (v5Compat && listener) listener({
+            action,
+            location: history.location,
+            delta: 1
+        });
     }
+    function replace(to, state) {
+        action = Action.Replace;
+        let location = createLocation(history.location, to, state);
+        if (validateLocation) validateLocation(location, to);
+        index = getIndex();
+        let historyState = getHistoryState(location, index);
+        let url = history.createHref(location);
+        globalHistory.replaceState(historyState, "", url);
+        if (v5Compat && listener) listener({
+            action,
+            location: history.location,
+            delta: 0
+        });
+    }
+    function createURL(to) {
+        // window.location.origin is "null" (the literal string value) in Firefox
+        // under certain conditions, notably when serving from a local HTML file
+        // See https://bugzilla.mozilla.org/show_bug.cgi?id=878297
+        let base = window1.location.origin !== "null" ? window1.location.origin : window1.location.href;
+        let href = typeof to === "string" ? to : createPath(to);
+        invariant(base, "No window.location.(origin|href) available to create URL for href: " + href);
+        return new URL(href, base);
+    }
+    let history = {
+        get action () {
+            return action;
+        },
+        get location () {
+            return getLocation(window1, globalHistory);
+        },
+        listen (fn) {
+            if (listener) throw new Error("A history only accepts one active listener");
+            window1.addEventListener(PopStateEventType, handlePop);
+            listener = fn;
+            return ()=>{
+                window1.removeEventListener(PopStateEventType, handlePop);
+                listener = null;
+            };
+        },
+        createHref (to) {
+            return createHref(window1, to);
+        },
+        createURL,
+        encodeLocation (to) {
+            // Encode a Location the same way window.location would
+            let url = createURL(to);
+            return {
+                pathname: url.pathname,
+                search: url.search,
+                hash: url.hash
+            };
+        },
+        push,
+        replace,
+        go (n) {
+            return globalHistory.go(n);
+        }
+    };
+    return history;
 }
-const alreadyWarned = {};
-function warningOnce(key, cond, message) {
-    if (!cond && !alreadyWarned[key]) {
-        alreadyWarned[key] = true;
-        warning(false, message);
-    }
+//#endregion
+var ResultType;
+(function(ResultType) {
+    ResultType["data"] = "data";
+    ResultType["deferred"] = "deferred";
+    ResultType["redirect"] = "redirect";
+    ResultType["error"] = "error";
+})(ResultType || (ResultType = {}));
+const immutableRouteKeys = new Set([
+    "lazy",
+    "caseSensitive",
+    "path",
+    "id",
+    "index",
+    "children"
+]);
+function isIndexRoute(route) {
+    return route.index === true;
+}
+// Walk the route tree generating unique IDs where necessary, so we are working
+// solely with AgnosticDataRouteObject's within the Router
+function convertRoutesToDataRoutes(routes, mapRouteProperties, parentPath, manifest) {
+    if (parentPath === void 0) parentPath = [];
+    if (manifest === void 0) manifest = {};
+    return routes.map((route, index)=>{
+        let treePath = [
+            ...parentPath,
+            index
+        ];
+        let id = typeof route.id === "string" ? route.id : treePath.join("-");
+        invariant(route.index !== true || !route.children, "Cannot specify children on an index route");
+        invariant(!manifest[id], 'Found a route id collision on id "' + id + '".  Route ' + "id's must be globally unique within Data Router usages");
+        if (isIndexRoute(route)) {
+            let indexRoute = _extends({}, route, mapRouteProperties(route), {
+                id
+            });
+            manifest[id] = indexRoute;
+            return indexRoute;
+        } else {
+            let pathOrLayoutRoute = _extends({}, route, mapRouteProperties(route), {
+                id,
+                children: undefined
+            });
+            manifest[id] = pathOrLayoutRoute;
+            if (route.children) pathOrLayoutRoute.children = convertRoutesToDataRoutes(route.children, mapRouteProperties, treePath, manifest);
+            return pathOrLayoutRoute;
+        }
+    });
 }
 /**
- * Returns a path with params interpolated.
- *
- * @see https://reactrouter.com/docs/en/v6/api#generatepath
- */ function generatePath(path, params) {
-    if (params === void 0) params = {};
-    return path.replace(/:(\w+)/g, (_, key)=>{
-        !(params[key] != null) && invariant(false, 'Missing ":' + key + '" param');
-        return params[key];
-    }).replace(/\/*\*$/, (_)=>params["*"] == null ? "" : params["*"].replace(/^\/*/, "/"));
-}
-/**
- * A RouteMatch contains info about how a route matched a URL.
- */ /**
  * Matches the given routes to a location and returns the match data.
  *
- * @see https://reactrouter.com/docs/en/v6/api#matchroutes
+ * @see https://reactrouter.com/utils/match-routes
  */ function matchRoutes(routes, locationArg, basename) {
     if (basename === void 0) basename = "/";
-    let location = typeof locationArg === "string" ? (0, _history.parsePath)(locationArg) : locationArg;
+    let location = typeof locationArg === "string" ? parsePath(locationArg) : locationArg;
     let pathname = stripBasename(location.pathname || "/", basename);
     if (pathname == null) return null;
     let branches = flattenRoutes(routes);
     rankRouteBranches(branches);
     let matches = null;
-    for(let i = 0; matches == null && i < branches.length; ++i)matches = matchRouteBranch(branches[i], pathname);
+    for(let i = 0; matches == null && i < branches.length; ++i)matches = matchRouteBranch(branches[i], // Incoming pathnames are generally encoded from either window.location
+    // or from router.navigate, but we want to match against the unencoded
+    // paths in the route definitions.  Memory router locations won't be
+    // encoded here but there also shouldn't be anything to decode so this
+    // should be a safe operation.  This avoids needing matchRoutes to be
+    // history-aware.
+    safelyDecodeURI(pathname));
     return matches;
+}
+function convertRouteMatchToUiMatch(match, loaderData) {
+    let { route, pathname, params } = match;
+    return {
+        id: route.id,
+        pathname,
+        params,
+        data: loaderData[route.id],
+        handle: route.handle
+    };
 }
 function flattenRoutes(routes, branches, parentsMeta, parentPath) {
     if (branches === void 0) branches = [];
     if (parentsMeta === void 0) parentsMeta = [];
     if (parentPath === void 0) parentPath = "";
-    routes.forEach((route, index)=>{
+    let flattenRoute = (route, index, relativePath)=>{
         let meta = {
-            relativePath: route.path || "",
+            relativePath: relativePath === undefined ? route.path || "" : relativePath,
             caseSensitive: route.caseSensitive === true,
             childrenIndex: index,
             route
         };
         if (meta.relativePath.startsWith("/")) {
-            !meta.relativePath.startsWith(parentPath) && invariant(false, 'Absolute route path "' + meta.relativePath + '" nested under path ' + ('"' + parentPath + '" is not valid. An absolute child route path ') + "must start with the combined path of all its parent routes.");
+            invariant(meta.relativePath.startsWith(parentPath), 'Absolute route path "' + meta.relativePath + '" nested under path ' + ('"' + parentPath + '" is not valid. An absolute child route path ') + "must start with the combined path of all its parent routes.");
             meta.relativePath = meta.relativePath.slice(parentPath.length);
         }
         let path = joinPaths([
             parentPath,
             meta.relativePath
         ]);
-        let routesMeta = parentsMeta.concat(meta); // Add the children before adding this route to the array so we traverse the
+        let routesMeta = parentsMeta.concat(meta);
+        // Add the children before adding this route to the array, so we traverse the
         // route tree depth-first and child routes appear before their parents in
         // the "flattened" version.
         if (route.children && route.children.length > 0) {
-            !(route.index !== true) && invariant(false, "Index routes must not have child routes. Please remove " + ('all child routes from route path "' + path + '".'));
+            invariant(// Our types know better, but runtime JS may not!
+            // @ts-expect-error
+            route.index !== true, "Index routes must not have child routes. Please remove " + ('all child routes from route path "' + path + '".'));
             flattenRoutes(route.children, branches, routesMeta, path);
-        } // Routes without a path shouldn't ever match by themselves unless they are
+        }
+        // Routes without a path shouldn't ever match by themselves unless they are
         // index routes, so don't add them to the list of possible branches.
         if (route.path == null && !route.index) return;
         branches.push({
@@ -41983,8 +43595,61 @@ function flattenRoutes(routes, branches, parentsMeta, parentPath) {
             score: computeScore(path, route.index),
             routesMeta
         });
+    };
+    routes.forEach((route, index)=>{
+        var _route$path;
+        // coarse-grain check for optional params
+        if (route.path === "" || !((_route$path = route.path) != null && _route$path.includes("?"))) flattenRoute(route, index);
+        else for (let exploded of explodeOptionalSegments(route.path))flattenRoute(route, index, exploded);
     });
     return branches;
+}
+/**
+ * Computes all combinations of optional path segments for a given path,
+ * excluding combinations that are ambiguous and of lower priority.
+ *
+ * For example, `/one/:two?/three/:four?/:five?` explodes to:
+ * - `/one/three`
+ * - `/one/:two/three`
+ * - `/one/three/:four`
+ * - `/one/three/:five`
+ * - `/one/:two/three/:four`
+ * - `/one/:two/three/:five`
+ * - `/one/three/:four/:five`
+ * - `/one/:two/three/:four/:five`
+ */ function explodeOptionalSegments(path) {
+    let segments = path.split("/");
+    if (segments.length === 0) return [];
+    let [first, ...rest] = segments;
+    // Optional path segments are denoted by a trailing `?`
+    let isOptional = first.endsWith("?");
+    // Compute the corresponding required segment: `foo?` -> `foo`
+    let required = first.replace(/\?$/, "");
+    if (rest.length === 0) // Intepret empty string as omitting an optional segment
+    // `["one", "", "three"]` corresponds to omitting `:two` from `/one/:two?/three` -> `/one/three`
+    return isOptional ? [
+        required,
+        ""
+    ] : [
+        required
+    ];
+    let restExploded = explodeOptionalSegments(rest.join("/"));
+    let result = [];
+    // All child paths with the prefix.  Do this for all children before the
+    // optional version for all children, so we get consistent ordering where the
+    // parent optional aspect is preferred as required.  Otherwise, we can get
+    // child sections interspersed where deeper optional segments are higher than
+    // parent optional segments, where for example, /:two would explode _earlier_
+    // then /:one.  By always including the parent as required _for all children_
+    // first, we avoid this issue
+    result.push(...restExploded.map((subpath)=>subpath === "" ? required : [
+            required,
+            subpath
+        ].join("/")));
+    // Then, if this is an optional value, add all child versions without
+    if (isOptional) result.push(...restExploded);
+    // for absolute paths, ensure `/` instead of empty segment
+    return result.map((exploded)=>path.startsWith("/") && exploded === "" ? "/" : exploded);
 }
 function rankRouteBranches(branches) {
     branches.sort((a, b)=>a.score !== b.score ? b.score - a.score // Higher score first
@@ -42006,10 +43671,12 @@ function computeScore(path, index) {
 }
 function compareIndexes(a, b) {
     let siblings = a.length === b.length && a.slice(0, -1).every((n, i)=>n === b[i]);
-    return siblings ? // first. This allows people to have fine-grained control over the matching
+    return siblings ? // If two routes are siblings, we should try to match the earlier sibling
+    // first. This allows people to have fine-grained control over the matching
     // behavior by simply putting routes with identical paths in the order they
     // want them tried.
-    a[a.length - 1] - b[b.length - 1] : // so they sort equally.
+    a[a.length - 1] - b[b.length - 1] : // Otherwise, it doesn't really make sense to rank non-siblings by index,
+    // so they sort equally.
     0;
 }
 function matchRouteBranch(branch, pathname) {
@@ -42030,6 +43697,7 @@ function matchRouteBranch(branch, pathname) {
         Object.assign(matchedParams, match.params);
         let route = meta.route;
         matches.push({
+            // TODO: Can this as be avoided?
             params: matchedParams,
             pathname: joinPaths([
                 matchedPathname,
@@ -42049,12 +43717,45 @@ function matchRouteBranch(branch, pathname) {
     return matches;
 }
 /**
- * A PathPattern is used to match on some portion of a URL pathname.
- */ /**
+ * Returns a path with params interpolated.
+ *
+ * @see https://reactrouter.com/utils/generate-path
+ */ function generatePath(originalPath, params) {
+    if (params === void 0) params = {};
+    let path = originalPath;
+    if (path.endsWith("*") && path !== "*" && !path.endsWith("/*")) {
+        warning(false, 'Route path "' + path + '" will be treated as if it were ' + ('"' + path.replace(/\*$/, "/*") + '" because the `*` character must ') + "always follow a `/` in the pattern. To get rid of this warning, " + ('please change the route path to "' + path.replace(/\*$/, "/*") + '".'));
+        path = path.replace(/\*$/, "/*");
+    }
+    // ensure `/` is added at the beginning if the path is absolute
+    const prefix = path.startsWith("/") ? "/" : "";
+    const stringify = (p)=>p == null ? "" : typeof p === "string" ? p : String(p);
+    const segments = path.split(/\/+/).map((segment, index, array)=>{
+        const isLastSegment = index === array.length - 1;
+        // only apply the splat if it's the last segment
+        if (isLastSegment && segment === "*") {
+            const star = "*";
+            // Apply the splat
+            return stringify(params[star]);
+        }
+        const keyMatch = segment.match(/^:(\w+)(\??)$/);
+        if (keyMatch) {
+            const [, key, optional] = keyMatch;
+            let param = params[key];
+            invariant(optional === "?" || param != null, 'Missing ":' + key + '" param');
+            return stringify(param);
+        }
+        // Remove any optional markers from optional static segments
+        return segment.replace(/\?$/g, "");
+    })// Remove empty segments
+    .filter((segment)=>!!segment);
+    return prefix + segments.join("/");
+}
+/**
  * Performs pattern matching on a URL pathname and returns information about
  * the match.
  *
- * @see https://reactrouter.com/docs/en/v6/api#matchpath
+ * @see https://reactrouter.com/utils/match-path
  */ function matchPath(pattern, pathname) {
     if (typeof pattern === "string") pattern = {
         path: pattern,
@@ -42092,26 +43793,37 @@ function compilePath(path, caseSensitive, end) {
     let regexpSource = "^" + path.replace(/\/*\*?$/, "") // Ignore trailing / and /*, we'll handle it below
     .replace(/^\/*/, "/") // Make sure it has a leading /
     .replace(/[\\.*+^$?{}|()[\]]/g, "\\$&") // Escape special regex chars
-    .replace(/:(\w+)/g, (_, paramName)=>{
+    .replace(/\/:(\w+)/g, (_, paramName)=>{
         paramNames.push(paramName);
-        return "([^\\/]+)";
+        return "/([^\\/]+)";
     });
     if (path.endsWith("*")) {
         paramNames.push("*");
         regexpSource += path === "*" || path === "/*" ? "(.*)$" // Already matched the initial /, just match the rest
          : "(?:\\/(.+)|\\/*)$"; // Don't include the / in params["*"]
-    } else regexpSource += end ? "\\/*$" // When matching to the end, ignore trailing slashes
-     : // parent routes to matching only their own words and nothing more, e.g. parent
-    // route "/home" should not match "/home2".
-    // Additionally, allow paths starting with `.`, `-`, `~`, and url-encoded entities,
-    // but do not consume the character in the matched path so they can match against
-    // nested paths.
-    "(?:(?=[.~-]|%[0-9A-F]{2})|\\b|\\/|$)";
+    } else if (end) // When matching to the end, ignore trailing slashes
+    regexpSource += "\\/*$";
+    else if (path !== "" && path !== "/") // If our path is non-empty and contains anything beyond an initial slash,
+    // then we have _some_ form of path in our regex, so we should expect to
+    // match only if we find the end of this path segment.  Look for an optional
+    // non-captured trailing slash (to match a portion of the URL) or the end
+    // of the path (if we've matched to the end).  We used to do this with a
+    // word boundary but that gives false positives on routes like
+    // /user-preferences since `-` counts as a word boundary.
+    regexpSource += "(?:(?=\\/|$))";
     let matcher = new RegExp(regexpSource, caseSensitive ? undefined : "i");
     return [
         matcher,
         paramNames
     ];
+}
+function safelyDecodeURI(value) {
+    try {
+        return decodeURI(value);
+    } catch (error) {
+        warning(false, 'The URL path "' + value + '" could not be decoded because it is is a ' + "malformed URL segment. This is probably due to a bad percent " + ("encoding (" + error + ")."));
+        return value;
+    }
 }
 function safelyDecodeURIComponent(value, paramName) {
     try {
@@ -42122,12 +43834,25 @@ function safelyDecodeURIComponent(value, paramName) {
     }
 }
 /**
+ * @private
+ */ function stripBasename(pathname, basename) {
+    if (basename === "/") return pathname;
+    if (!pathname.toLowerCase().startsWith(basename.toLowerCase())) return null;
+    // We want to leave trailing slash behavior in the user's control, so if they
+    // specify a basename with a trailing slash, we should support it
+    let startIndex = basename.endsWith("/") ? basename.length - 1 : basename.length;
+    let nextChar = pathname.charAt(startIndex);
+    if (nextChar && nextChar !== "/") // pathname does not start with basename/
+    return null;
+    return pathname.slice(startIndex) || "/";
+}
+/**
  * Returns a resolved path object relative to the given pathname.
  *
- * @see https://reactrouter.com/docs/en/v6/api#resolvepath
+ * @see https://reactrouter.com/utils/resolve-path
  */ function resolvePath(to, fromPathname) {
     if (fromPathname === void 0) fromPathname = "/";
-    let { pathname: toPathname, search = "", hash = "" } = typeof to === "string" ? (0, _history.parsePath)(to) : to;
+    let { pathname: toPathname, search = "", hash = "" } = typeof to === "string" ? parsePath(to) : to;
     let pathname = toPathname ? toPathname.startsWith("/") ? toPathname : resolvePathname(toPathname, fromPathname) : fromPathname;
     return {
         pathname,
@@ -42146,21 +43871,64 @@ function resolvePathname(relativePath, fromPathname) {
     });
     return segments.length > 1 ? segments.join("/") : "/";
 }
-function resolveTo(toArg, routePathnames, locationPathname) {
-    let to = typeof toArg === "string" ? (0, _history.parsePath)(toArg) : toArg;
-    let toPathname = toArg === "" || to.pathname === "" ? "/" : to.pathname; // If a pathname is explicitly provided in `to`, it should be relative to the
+function getInvalidPathError(char, field, dest, path) {
+    return "Cannot include a '" + char + "' character in a manually specified " + ("`to." + field + "` field [" + JSON.stringify(path) + "].  Please separate it out to the ") + ("`to." + dest + "` field. Alternatively you may provide the full path as ") + 'a string in <Link to="..."> and the router will parse it for you.';
+}
+/**
+ * @private
+ *
+ * When processing relative navigation we want to ignore ancestor routes that
+ * do not contribute to the path, such that index/pathless layout routes don't
+ * interfere.
+ *
+ * For example, when moving a route element into an index route and/or a
+ * pathless layout route, relative link behavior contained within should stay
+ * the same.  Both of the following examples should link back to the root:
+ *
+ *   <Route path="/">
+ *     <Route path="accounts" element={<Link to=".."}>
+ *   </Route>
+ *
+ *   <Route path="/">
+ *     <Route path="accounts">
+ *       <Route element={<AccountsLayout />}>       // <-- Does not contribute
+ *         <Route index element={<Link to=".."} />  // <-- Does not contribute
+ *       </Route
+ *     </Route>
+ *   </Route>
+ */ function getPathContributingMatches(matches) {
+    return matches.filter((match, index)=>index === 0 || match.route.path && match.route.path.length > 0);
+}
+/**
+ * @private
+ */ function resolveTo(toArg, routePathnames, locationPathname, isPathRelative) {
+    if (isPathRelative === void 0) isPathRelative = false;
+    let to;
+    if (typeof toArg === "string") to = parsePath(toArg);
+    else {
+        to = _extends({}, toArg);
+        invariant(!to.pathname || !to.pathname.includes("?"), getInvalidPathError("?", "pathname", "search", to));
+        invariant(!to.pathname || !to.pathname.includes("#"), getInvalidPathError("#", "pathname", "hash", to));
+        invariant(!to.search || !to.search.includes("#"), getInvalidPathError("#", "search", "hash", to));
+    }
+    let isEmptyPath = toArg === "" || to.pathname === "";
+    let toPathname = isEmptyPath ? "/" : to.pathname;
+    let from;
+    // Routing is relative to the current pathname if explicitly requested.
+    //
+    // If a pathname is explicitly provided in `to`, it should be relative to the
     // route context. This is explained in `Note on `<Link to>` values` in our
     // migration guide from v5 as a means of disambiguation between `to` values
     // that begin with `/` and those that do not. However, this is problematic for
     // `to` values that do not provide a pathname. `to` can simply be a search or
     // hash string, in which case we should assume that the navigation is relative
     // to the current location's pathname and *not* the route pathname.
-    let from;
-    if (toPathname == null) from = locationPathname;
+    if (isPathRelative || toPathname == null) from = locationPathname;
     else {
         let routePathnameIndex = routePathnames.length - 1;
         if (toPathname.startsWith("..")) {
-            let toSegments = toPathname.split("/"); // Each leading .. segment means "go up one route" instead of "go up one
+            let toSegments = toPathname.split("/");
+            // Each leading .. segment means "go up one route" instead of "go up one
             // URL segment".  This is a key difference from how <a href> works and a
             // major reason we call this a "to" value instead of a "href".
             while(toSegments[0] === ".."){
@@ -42168,428 +43936,2725 @@ function resolveTo(toArg, routePathnames, locationPathname) {
                 routePathnameIndex -= 1;
             }
             to.pathname = toSegments.join("/");
-        } // If there are more ".." segments than parent routes, resolve relative to
+        }
+        // If there are more ".." segments than parent routes, resolve relative to
         // the root / URL.
         from = routePathnameIndex >= 0 ? routePathnames[routePathnameIndex] : "/";
     }
-    let path = resolvePath(to, from); // Ensure the pathname has a trailing slash if the original to value had one.
-    if (toPathname && toPathname !== "/" && toPathname.endsWith("/") && !path.pathname.endsWith("/")) path.pathname += "/";
+    let path = resolvePath(to, from);
+    // Ensure the pathname has a trailing slash if the original "to" had one
+    let hasExplicitTrailingSlash = toPathname && toPathname !== "/" && toPathname.endsWith("/");
+    // Or if this was a link to the current path which has a trailing slash
+    let hasCurrentTrailingSlash = (isEmptyPath || toPathname === ".") && locationPathname.endsWith("/");
+    if (!path.pathname.endsWith("/") && (hasExplicitTrailingSlash || hasCurrentTrailingSlash)) path.pathname += "/";
     return path;
 }
-function getToPathname(to) {
+/**
+ * @private
+ */ function getToPathname(to) {
     // Empty strings should be treated the same as / paths
-    return to === "" || to.pathname === "" ? "/" : typeof to === "string" ? (0, _history.parsePath)(to).pathname : to.pathname;
+    return to === "" || to.pathname === "" ? "/" : typeof to === "string" ? parsePath(to).pathname : to.pathname;
 }
-function stripBasename(pathname, basename) {
-    if (basename === "/") return pathname;
-    if (!pathname.toLowerCase().startsWith(basename.toLowerCase())) return null;
-    let nextChar = pathname.charAt(basename.length);
-    if (nextChar && nextChar !== "/") // pathname does not start with basename/
-    return null;
-    return pathname.slice(basename.length) || "/";
-}
-const joinPaths = (paths)=>paths.join("/").replace(/\/\/+/g, "/");
-const normalizePathname = (pathname)=>pathname.replace(/\/+$/, "").replace(/^\/*/, "/");
-const normalizeSearch = (search)=>!search || search === "?" ? "" : search.startsWith("?") ? search : "?" + search;
-const normalizeHash = (hash)=>!hash || hash === "#" ? "" : hash.startsWith("#") ? hash : "#" + hash;
 /**
- * Returns the full href for the given "to" value. This is useful for building
- * custom links that are also accessible and preserve right-click behavior.
- *
- * @see https://reactrouter.com/docs/en/v6/api#usehref
- */ function useHref(to) {
-    !useInRouterContext() && invariant(false, // router loaded. We can help them understand how to avoid that.
-    "useHref() may be used only in the context of a <Router> component.");
-    let { basename, navigator } = (0, _react.useContext)(NavigationContext);
-    let { hash, pathname, search } = useResolvedPath(to);
-    let joinedPathname = pathname;
-    if (basename !== "/") {
-        let toPathname = getToPathname(to);
-        let endsWithSlash = toPathname != null && toPathname.endsWith("/");
-        joinedPathname = pathname === "/" ? basename + (endsWithSlash ? "/" : "") : joinPaths([
-            basename,
-            pathname
-        ]);
+ * @private
+ */ const joinPaths = (paths)=>paths.join("/").replace(/\/\/+/g, "/");
+/**
+ * @private
+ */ const normalizePathname = (pathname)=>pathname.replace(/\/+$/, "").replace(/^\/*/, "/");
+/**
+ * @private
+ */ const normalizeSearch = (search)=>!search || search === "?" ? "" : search.startsWith("?") ? search : "?" + search;
+/**
+ * @private
+ */ const normalizeHash = (hash)=>!hash || hash === "#" ? "" : hash.startsWith("#") ? hash : "#" + hash;
+/**
+ * This is a shortcut for creating `application/json` responses. Converts `data`
+ * to JSON and sets the `Content-Type` header.
+ */ const json = function json(data, init) {
+    if (init === void 0) init = {};
+    let responseInit = typeof init === "number" ? {
+        status: init
+    } : init;
+    let headers = new Headers(responseInit.headers);
+    if (!headers.has("Content-Type")) headers.set("Content-Type", "application/json; charset=utf-8");
+    return new Response(JSON.stringify(data), _extends({}, responseInit, {
+        headers
+    }));
+};
+class AbortedDeferredError extends Error {
+}
+class DeferredData {
+    constructor(data, responseInit){
+        this.pendingKeysSet = new Set();
+        this.subscribers = new Set();
+        this.deferredKeys = [];
+        invariant(data && typeof data === "object" && !Array.isArray(data), "defer() only accepts plain objects");
+        // Set up an AbortController + Promise we can race against to exit early
+        // cancellation
+        let reject;
+        this.abortPromise = new Promise((_, r)=>reject = r);
+        this.controller = new AbortController();
+        let onAbort = ()=>reject(new AbortedDeferredError("Deferred data aborted"));
+        this.unlistenAbortSignal = ()=>this.controller.signal.removeEventListener("abort", onAbort);
+        this.controller.signal.addEventListener("abort", onAbort);
+        this.data = Object.entries(data).reduce((acc, _ref)=>{
+            let [key, value] = _ref;
+            return Object.assign(acc, {
+                [key]: this.trackPromise(key, value)
+            });
+        }, {});
+        if (this.done) // All incoming values were resolved
+        this.unlistenAbortSignal();
+        this.init = responseInit;
     }
-    return navigator.createHref({
-        pathname: joinedPathname,
-        search,
-        hash
+    trackPromise(key, value) {
+        if (!(value instanceof Promise)) return value;
+        this.deferredKeys.push(key);
+        this.pendingKeysSet.add(key);
+        // We store a little wrapper promise that will be extended with
+        // _data/_error props upon resolve/reject
+        let promise = Promise.race([
+            value,
+            this.abortPromise
+        ]).then((data)=>this.onSettle(promise, key, undefined, data), (error)=>this.onSettle(promise, key, error));
+        // Register rejection listeners to avoid uncaught promise rejections on
+        // errors or aborted deferred values
+        promise.catch(()=>{});
+        Object.defineProperty(promise, "_tracked", {
+            get: ()=>true
+        });
+        return promise;
+    }
+    onSettle(promise, key, error, data) {
+        if (this.controller.signal.aborted && error instanceof AbortedDeferredError) {
+            this.unlistenAbortSignal();
+            Object.defineProperty(promise, "_error", {
+                get: ()=>error
+            });
+            return Promise.reject(error);
+        }
+        this.pendingKeysSet.delete(key);
+        if (this.done) // Nothing left to abort!
+        this.unlistenAbortSignal();
+        // If the promise was resolved/rejected with undefined, we'll throw an error as you
+        // should always resolve with a value or null
+        if (error === undefined && data === undefined) {
+            let undefinedError = new Error('Deferred data for key "' + key + '" resolved/rejected with `undefined`, ' + "you must resolve/reject with a value or `null`.");
+            Object.defineProperty(promise, "_error", {
+                get: ()=>undefinedError
+            });
+            this.emit(false, key);
+            return Promise.reject(undefinedError);
+        }
+        if (data === undefined) {
+            Object.defineProperty(promise, "_error", {
+                get: ()=>error
+            });
+            this.emit(false, key);
+            return Promise.reject(error);
+        }
+        Object.defineProperty(promise, "_data", {
+            get: ()=>data
+        });
+        this.emit(false, key);
+        return data;
+    }
+    emit(aborted, settledKey) {
+        this.subscribers.forEach((subscriber)=>subscriber(aborted, settledKey));
+    }
+    subscribe(fn) {
+        this.subscribers.add(fn);
+        return ()=>this.subscribers.delete(fn);
+    }
+    cancel() {
+        this.controller.abort();
+        this.pendingKeysSet.forEach((v, k)=>this.pendingKeysSet.delete(k));
+        this.emit(true);
+    }
+    async resolveData(signal) {
+        let aborted = false;
+        if (!this.done) {
+            let onAbort = ()=>this.cancel();
+            signal.addEventListener("abort", onAbort);
+            aborted = await new Promise((resolve)=>{
+                this.subscribe((aborted)=>{
+                    signal.removeEventListener("abort", onAbort);
+                    if (aborted || this.done) resolve(aborted);
+                });
+            });
+        }
+        return aborted;
+    }
+    get done() {
+        return this.pendingKeysSet.size === 0;
+    }
+    get unwrappedData() {
+        invariant(this.data !== null && this.done, "Can only unwrap data on initialized and settled deferreds");
+        return Object.entries(this.data).reduce((acc, _ref2)=>{
+            let [key, value] = _ref2;
+            return Object.assign(acc, {
+                [key]: unwrapTrackedPromise(value)
+            });
+        }, {});
+    }
+    get pendingKeys() {
+        return Array.from(this.pendingKeysSet);
+    }
+}
+function isTrackedPromise(value) {
+    return value instanceof Promise && value._tracked === true;
+}
+function unwrapTrackedPromise(value) {
+    if (!isTrackedPromise(value)) return value;
+    if (value._error) throw value._error;
+    return value._data;
+}
+const defer = function defer(data, init) {
+    if (init === void 0) init = {};
+    let responseInit = typeof init === "number" ? {
+        status: init
+    } : init;
+    return new DeferredData(data, responseInit);
+};
+/**
+ * A redirect response. Sets the status code and the `Location` header.
+ * Defaults to "302 Found".
+ */ const redirect = function redirect(url, init) {
+    if (init === void 0) init = 302;
+    let responseInit = init;
+    if (typeof responseInit === "number") responseInit = {
+        status: responseInit
+    };
+    else if (typeof responseInit.status === "undefined") responseInit.status = 302;
+    let headers = new Headers(responseInit.headers);
+    headers.set("Location", url);
+    return new Response(null, _extends({}, responseInit, {
+        headers
+    }));
+};
+/**
+ * A redirect response that will force a document reload to the new location.
+ * Sets the status code and the `Location` header.
+ * Defaults to "302 Found".
+ */ const redirectDocument = (url, init)=>{
+    let response = redirect(url, init);
+    response.headers.set("X-Remix-Reload-Document", "true");
+    return response;
+};
+/**
+ * @private
+ * Utility class we use to hold auto-unwrapped 4xx/5xx Response bodies
+ */ class ErrorResponseImpl {
+    constructor(status, statusText, data, internal){
+        if (internal === void 0) internal = false;
+        this.status = status;
+        this.statusText = statusText || "";
+        this.internal = internal;
+        if (data instanceof Error) {
+            this.data = data.toString();
+            this.error = data;
+        } else this.data = data;
+    }
+}
+/**
+ * Check if the given error is an ErrorResponse generated from a 4xx/5xx
+ * Response thrown from an action/loader
+ */ function isRouteErrorResponse(error) {
+    return error != null && typeof error.status === "number" && typeof error.statusText === "string" && typeof error.internal === "boolean" && "data" in error;
+}
+const validMutationMethodsArr = [
+    "post",
+    "put",
+    "patch",
+    "delete"
+];
+const validMutationMethods = new Set(validMutationMethodsArr);
+const validRequestMethodsArr = [
+    "get",
+    ...validMutationMethodsArr
+];
+const validRequestMethods = new Set(validRequestMethodsArr);
+const redirectStatusCodes = new Set([
+    301,
+    302,
+    303,
+    307,
+    308
+]);
+const redirectPreserveMethodStatusCodes = new Set([
+    307,
+    308
+]);
+const IDLE_NAVIGATION = {
+    state: "idle",
+    location: undefined,
+    formMethod: undefined,
+    formAction: undefined,
+    formEncType: undefined,
+    formData: undefined,
+    json: undefined,
+    text: undefined
+};
+const IDLE_FETCHER = {
+    state: "idle",
+    data: undefined,
+    formMethod: undefined,
+    formAction: undefined,
+    formEncType: undefined,
+    formData: undefined,
+    json: undefined,
+    text: undefined
+};
+const IDLE_BLOCKER = {
+    state: "unblocked",
+    proceed: undefined,
+    reset: undefined,
+    location: undefined
+};
+const ABSOLUTE_URL_REGEX = /^(?:[a-z][a-z0-9+.-]*:|\/\/)/i;
+const defaultMapRouteProperties = (route)=>({
+        hasErrorBoundary: Boolean(route.hasErrorBoundary)
     });
-}
+//#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region createRouter
+////////////////////////////////////////////////////////////////////////////////
 /**
- * Returns true if this component is a descendant of a <Router>.
- *
- * @see https://reactrouter.com/docs/en/v6/api#useinroutercontext
- */ function useInRouterContext() {
-    return (0, _react.useContext)(LocationContext) != null;
-}
-/**
- * Returns the current location object, which represents the current URL in web
- * browsers.
- *
- * Note: If you're using this it may mean you're doing some of your own
- * "routing" in your app, and we'd like to know what your use case is. We may
- * be able to provide something higher-level to better suit your needs.
- *
- * @see https://reactrouter.com/docs/en/v6/api#uselocation
- */ function useLocation() {
-    !useInRouterContext() && invariant(false, // router loaded. We can help them understand how to avoid that.
-    "useLocation() may be used only in the context of a <Router> component.");
-    return (0, _react.useContext)(LocationContext).location;
-}
-/**
- * Returns the current navigation action which describes how the router came to
- * the current location, either by a pop, push, or replace on the history stack.
- *
- * @see https://reactrouter.com/docs/en/v6/api#usenavigationtype
- */ function useNavigationType() {
-    return (0, _react.useContext)(LocationContext).navigationType;
-}
-/**
- * Returns true if the URL for the given "to" value matches the current URL.
- * This is useful for components that need to know "active" state, e.g.
- * <NavLink>.
- *
- * @see https://reactrouter.com/docs/en/v6/api#usematch
- */ function useMatch(pattern) {
-    !useInRouterContext() && invariant(false, // router loaded. We can help them understand how to avoid that.
-    "useMatch() may be used only in the context of a <Router> component.");
-    let { pathname } = useLocation();
-    return (0, _react.useMemo)(()=>matchPath(pattern, pathname), [
-        pathname,
-        pattern
-    ]);
-}
-/**
- * The interface for the navigate() function returned from useNavigate().
- */ /**
- * Returns an imperative method for changing the location. Used by <Link>s, but
- * may also be used by other elements to change the location.
- *
- * @see https://reactrouter.com/docs/en/v6/api#usenavigate
- */ function useNavigate() {
-    !useInRouterContext() && invariant(false, // router loaded. We can help them understand how to avoid that.
-    "useNavigate() may be used only in the context of a <Router> component.");
-    let { basename, navigator } = (0, _react.useContext)(NavigationContext);
-    let { matches } = (0, _react.useContext)(RouteContext);
-    let { pathname: locationPathname } = useLocation();
-    let routePathnamesJson = JSON.stringify(matches.map((match)=>match.pathnameBase));
-    let activeRef = (0, _react.useRef)(false);
-    (0, _react.useEffect)(()=>{
-        activeRef.current = true;
-    });
-    let navigate = (0, _react.useCallback)(function(to, options) {
-        if (options === void 0) options = {};
-        warning(activeRef.current, "You should call navigate() in a React.useEffect(), not when your component is first rendered.");
-        if (!activeRef.current) return;
+ * Create a router and listen to history POP navigations
+ */ function createRouter(init) {
+    const routerWindow = init.window ? init.window : typeof window !== "undefined" ? window : undefined;
+    const isBrowser = typeof routerWindow !== "undefined" && typeof routerWindow.document !== "undefined" && typeof routerWindow.document.createElement !== "undefined";
+    const isServer = !isBrowser;
+    invariant(init.routes.length > 0, "You must provide a non-empty routes array to createRouter");
+    let mapRouteProperties;
+    if (init.mapRouteProperties) mapRouteProperties = init.mapRouteProperties;
+    else if (init.detectErrorBoundary) {
+        // If they are still using the deprecated version, wrap it with the new API
+        let detectErrorBoundary = init.detectErrorBoundary;
+        mapRouteProperties = (route)=>({
+                hasErrorBoundary: detectErrorBoundary(route)
+            });
+    } else mapRouteProperties = defaultMapRouteProperties;
+    // Routes keyed by ID
+    let manifest = {};
+    // Routes in tree format for matching
+    let dataRoutes = convertRoutesToDataRoutes(init.routes, mapRouteProperties, undefined, manifest);
+    let inFlightDataRoutes;
+    let basename = init.basename || "/";
+    // Config driven behavior flags
+    let future = _extends({
+        v7_normalizeFormMethod: false,
+        v7_prependBasename: false
+    }, init.future);
+    // Cleanup function for history
+    let unlistenHistory = null;
+    // Externally-provided functions to call on all state changes
+    let subscribers = new Set();
+    // Externally-provided object to hold scroll restoration locations during routing
+    let savedScrollPositions = null;
+    // Externally-provided function to get scroll restoration keys
+    let getScrollRestorationKey = null;
+    // Externally-provided function to get current scroll position
+    let getScrollPosition = null;
+    // One-time flag to control the initial hydration scroll restoration.  Because
+    // we don't get the saved positions from <ScrollRestoration /> until _after_
+    // the initial render, we need to manually trigger a separate updateState to
+    // send along the restoreScrollPosition
+    // Set to true if we have `hydrationData` since we assume we were SSR'd and that
+    // SSR did the initial scroll restoration.
+    let initialScrollRestored = init.hydrationData != null;
+    let initialMatches = matchRoutes(dataRoutes, init.history.location, basename);
+    let initialErrors = null;
+    if (initialMatches == null) {
+        // If we do not match a user-provided-route, fall back to the root
+        // to allow the error boundary to take over
+        let error = getInternalRouterError(404, {
+            pathname: init.history.location.pathname
+        });
+        let { matches, route } = getShortCircuitMatches(dataRoutes);
+        initialMatches = matches;
+        initialErrors = {
+            [route.id]: error
+        };
+    }
+    let initialized = // All initialMatches need to be loaded before we're ready.  If we have lazy
+    // functions around still then we'll need to run them in initialize()
+    !initialMatches.some((m)=>m.route.lazy) && // And we have to either have no loaders or have been provided hydrationData
+    (!initialMatches.some((m)=>m.route.loader) || init.hydrationData != null);
+    let router;
+    let state = {
+        historyAction: init.history.action,
+        location: init.history.location,
+        matches: initialMatches,
+        initialized,
+        navigation: IDLE_NAVIGATION,
+        // Don't restore on initial updateState() if we were SSR'd
+        restoreScrollPosition: init.hydrationData != null ? false : null,
+        preventScrollReset: false,
+        revalidation: "idle",
+        loaderData: init.hydrationData && init.hydrationData.loaderData || {},
+        actionData: init.hydrationData && init.hydrationData.actionData || null,
+        errors: init.hydrationData && init.hydrationData.errors || initialErrors,
+        fetchers: new Map(),
+        blockers: new Map()
+    };
+    // -- Stateful internal variables to manage navigations --
+    // Current navigation in progress (to be committed in completeNavigation)
+    let pendingAction = Action.Pop;
+    // Should the current navigation prevent the scroll reset if scroll cannot
+    // be restored?
+    let pendingPreventScrollReset = false;
+    // AbortController for the active navigation
+    let pendingNavigationController;
+    // We use this to avoid touching history in completeNavigation if a
+    // revalidation is entirely uninterrupted
+    let isUninterruptedRevalidation = false;
+    // Use this internal flag to force revalidation of all loaders:
+    //  - submissions (completed or interrupted)
+    //  - useRevalidator()
+    //  - X-Remix-Revalidate (from redirect)
+    let isRevalidationRequired = false;
+    // Use this internal array to capture routes that require revalidation due
+    // to a cancelled deferred on action submission
+    let cancelledDeferredRoutes = [];
+    // Use this internal array to capture fetcher loads that were cancelled by an
+    // action navigation and require revalidation
+    let cancelledFetcherLoads = [];
+    // AbortControllers for any in-flight fetchers
+    let fetchControllers = new Map();
+    // Track loads based on the order in which they started
+    let incrementingLoadId = 0;
+    // Track the outstanding pending navigation data load to be compared against
+    // the globally incrementing load when a fetcher load lands after a completed
+    // navigation
+    let pendingNavigationLoadId = -1;
+    // Fetchers that triggered data reloads as a result of their actions
+    let fetchReloadIds = new Map();
+    // Fetchers that triggered redirect navigations
+    let fetchRedirectIds = new Set();
+    // Most recent href/match for fetcher.load calls for fetchers
+    let fetchLoadMatches = new Map();
+    // Store DeferredData instances for active route matches.  When a
+    // route loader returns defer() we stick one in here.  Then, when a nested
+    // promise resolves we update loaderData.  If a new navigation starts we
+    // cancel active deferreds for eliminated routes.
+    let activeDeferreds = new Map();
+    // Store blocker functions in a separate Map outside of router state since
+    // we don't need to update UI state if they change
+    let blockerFunctions = new Map();
+    // Flag to ignore the next history update, so we can revert the URL change on
+    // a POP navigation that was blocked by the user without touching router state
+    let ignoreNextHistoryUpdate = false;
+    // Initialize the router, all side effects should be kicked off from here.
+    // Implemented as a Fluent API for ease of:
+    //   let router = createRouter(init).initialize();
+    function initialize() {
+        // If history informs us of a POP navigation, start the navigation but do not update
+        // state.  We'll update our own state once the navigation completes
+        unlistenHistory = init.history.listen((_ref)=>{
+            let { action: historyAction, location, delta } = _ref;
+            // Ignore this event if it was just us resetting the URL from a
+            // blocked POP navigation
+            if (ignoreNextHistoryUpdate) {
+                ignoreNextHistoryUpdate = false;
+                return;
+            }
+            warning(blockerFunctions.size === 0 || delta != null, "You are trying to use a blocker on a POP navigation to a location that was not created by @remix-run/router. This will fail silently in production. This can happen if you are navigating outside the router via `window.history.pushState`/`window.location.hash` instead of using router navigation APIs.  This can also happen if you are using createHashRouter and the user manually changes the URL.");
+            let blockerKey = shouldBlockNavigation({
+                currentLocation: state.location,
+                nextLocation: location,
+                historyAction
+            });
+            if (blockerKey && delta != null) {
+                // Restore the URL to match the current UI, but don't update router state
+                ignoreNextHistoryUpdate = true;
+                init.history.go(delta * -1);
+                // Put the blocker into a blocked state
+                updateBlocker(blockerKey, {
+                    state: "blocked",
+                    location,
+                    proceed () {
+                        updateBlocker(blockerKey, {
+                            state: "proceeding",
+                            proceed: undefined,
+                            reset: undefined,
+                            location
+                        });
+                        // Re-do the same POP navigation we just blocked
+                        init.history.go(delta);
+                    },
+                    reset () {
+                        let blockers = new Map(state.blockers);
+                        blockers.set(blockerKey, IDLE_BLOCKER);
+                        updateState({
+                            blockers
+                        });
+                    }
+                });
+                return;
+            }
+            return startNavigation(historyAction, location);
+        });
+        // Kick off initial data load if needed.  Use Pop to avoid modifying history
+        // Note we don't do any handling of lazy here.  For SPA's it'll get handled
+        // in the normal navigation flow.  For SSR it's expected that lazy modules are
+        // resolved prior to router creation since we can't go into a fallbackElement
+        // UI for SSR'd apps
+        if (!state.initialized) startNavigation(Action.Pop, state.location);
+        return router;
+    }
+    // Clean up a router and it's side effects
+    function dispose() {
+        if (unlistenHistory) unlistenHistory();
+        subscribers.clear();
+        pendingNavigationController && pendingNavigationController.abort();
+        state.fetchers.forEach((_, key)=>deleteFetcher(key));
+        state.blockers.forEach((_, key)=>deleteBlocker(key));
+    }
+    // Subscribe to state updates for the router
+    function subscribe(fn) {
+        subscribers.add(fn);
+        return ()=>subscribers.delete(fn);
+    }
+    // Update our state and notify the calling context of the change
+    function updateState(newState) {
+        state = _extends({}, state, newState);
+        subscribers.forEach((subscriber)=>subscriber(state));
+    }
+    // Complete a navigation returning the state.navigation back to the IDLE_NAVIGATION
+    // and setting state.[historyAction/location/matches] to the new route.
+    // - Location is a required param
+    // - Navigation will always be set to IDLE_NAVIGATION
+    // - Can pass any other state in newState
+    function completeNavigation(location, newState) {
+        var _location$state, _location$state2;
+        // Deduce if we're in a loading/actionReload state:
+        // - We have committed actionData in the store
+        // - The current navigation was a mutation submission
+        // - We're past the submitting state and into the loading state
+        // - The location being loaded is not the result of a redirect
+        let isActionReload = state.actionData != null && state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && state.navigation.state === "loading" && ((_location$state = location.state) == null ? void 0 : _location$state._isRedirect) !== true;
+        let actionData;
+        if (newState.actionData) {
+            if (Object.keys(newState.actionData).length > 0) actionData = newState.actionData;
+            else // Empty actionData -> clear prior actionData due to an action error
+            actionData = null;
+        } else if (isActionReload) // Keep the current data if we're wrapping up the action reload
+        actionData = state.actionData;
+        else // Clear actionData on any other completed navigations
+        actionData = null;
+        // Always preserve any existing loaderData from re-used routes
+        let loaderData = newState.loaderData ? mergeLoaderData(state.loaderData, newState.loaderData, newState.matches || [], newState.errors) : state.loaderData;
+        // On a successful navigation we can assume we got through all blockers
+        // so we can start fresh
+        let blockers = state.blockers;
+        if (blockers.size > 0) {
+            blockers = new Map(blockers);
+            blockers.forEach((_, k)=>blockers.set(k, IDLE_BLOCKER));
+        }
+        // Always respect the user flag.  Otherwise don't reset on mutation
+        // submission navigations unless they redirect
+        let preventScrollReset = pendingPreventScrollReset === true || state.navigation.formMethod != null && isMutationMethod(state.navigation.formMethod) && ((_location$state2 = location.state) == null ? void 0 : _location$state2._isRedirect) !== true;
+        if (inFlightDataRoutes) {
+            dataRoutes = inFlightDataRoutes;
+            inFlightDataRoutes = undefined;
+        }
+        if (isUninterruptedRevalidation) ;
+        else if (pendingAction === Action.Pop) ;
+        else if (pendingAction === Action.Push) init.history.push(location, location.state);
+        else if (pendingAction === Action.Replace) init.history.replace(location, location.state);
+        updateState(_extends({}, newState, {
+            actionData,
+            loaderData,
+            historyAction: pendingAction,
+            location,
+            initialized: true,
+            navigation: IDLE_NAVIGATION,
+            revalidation: "idle",
+            restoreScrollPosition: getSavedScrollPosition(location, newState.matches || state.matches),
+            preventScrollReset,
+            blockers
+        }));
+        // Reset stateful navigation vars
+        pendingAction = Action.Pop;
+        pendingPreventScrollReset = false;
+        isUninterruptedRevalidation = false;
+        isRevalidationRequired = false;
+        cancelledDeferredRoutes = [];
+        cancelledFetcherLoads = [];
+    }
+    // Trigger a navigation event, which can either be a numerical POP or a PUSH
+    // replace with an optional submission
+    async function navigate(to, opts) {
         if (typeof to === "number") {
-            navigator.go(to);
+            init.history.go(to);
             return;
         }
-        let path = resolveTo(to, JSON.parse(routePathnamesJson), locationPathname);
-        if (basename !== "/") path.pathname = joinPaths([
-            basename,
-            path.pathname
-        ]);
-        (!!options.replace ? navigator.replace : navigator.push)(path, options.state);
-    }, [
-        basename,
-        navigator,
-        routePathnamesJson,
-        locationPathname
-    ]);
-    return navigate;
-}
-const OutletContext = /*#__PURE__*/ (0, _react.createContext)(null);
-/**
- * Returns the context (if provided) for the child route at this level of the route
- * hierarchy.
- * @see https://reactrouter.com/docs/en/v6/api#useoutletcontext
- */ function useOutletContext() {
-    return (0, _react.useContext)(OutletContext);
-}
-/**
- * Returns the element for the child route at this level of the route
- * hierarchy. Used internally by <Outlet> to render child routes.
- *
- * @see https://reactrouter.com/docs/en/v6/api#useoutlet
- */ function useOutlet(context) {
-    let outlet = (0, _react.useContext)(RouteContext).outlet;
-    if (outlet) return /*#__PURE__*/ (0, _react.createElement)(OutletContext.Provider, {
-        value: context
-    }, outlet);
-    return outlet;
-}
-/**
- * Returns an object of key/value pairs of the dynamic params from the current
- * URL that were matched by the route path.
- *
- * @see https://reactrouter.com/docs/en/v6/api#useparams
- */ function useParams() {
-    let { matches } = (0, _react.useContext)(RouteContext);
-    let routeMatch = matches[matches.length - 1];
-    return routeMatch ? routeMatch.params : {};
-}
-/**
- * Resolves the pathname of the given `to` value against the current location.
- *
- * @see https://reactrouter.com/docs/en/v6/api#useresolvedpath
- */ function useResolvedPath(to) {
-    let { matches } = (0, _react.useContext)(RouteContext);
-    let { pathname: locationPathname } = useLocation();
-    let routePathnamesJson = JSON.stringify(matches.map((match)=>match.pathnameBase));
-    return (0, _react.useMemo)(()=>resolveTo(to, JSON.parse(routePathnamesJson), locationPathname), [
-        to,
-        routePathnamesJson,
-        locationPathname
-    ]);
-}
-/**
- * Returns the element of the route that matched the current location, prepared
- * with the correct context to render the remainder of the route tree. Route
- * elements in the tree must render an <Outlet> to render their child route's
- * element.
- *
- * @see https://reactrouter.com/docs/en/v6/api#useroutes
- */ function useRoutes(routes, locationArg) {
-    !useInRouterContext() && invariant(false, // router loaded. We can help them understand how to avoid that.
-    "useRoutes() may be used only in the context of a <Router> component.");
-    let { matches: parentMatches } = (0, _react.useContext)(RouteContext);
-    let routeMatch = parentMatches[parentMatches.length - 1];
-    let parentParams = routeMatch ? routeMatch.params : {};
-    let parentPathname = routeMatch ? routeMatch.pathname : "/";
-    let parentPathnameBase = routeMatch ? routeMatch.pathnameBase : "/";
-    let parentRoute = routeMatch && routeMatch.route;
-    {
-        // You won't get a warning about 2 different <Routes> under a <Route>
-        // without a trailing *, but this is a best-effort warning anyway since we
-        // cannot even give the warning unless they land at the parent route.
-        //
-        // Example:
-        //
-        // <Routes>
-        //   {/* This route path MUST end with /* because otherwise
-        //       it will never match /blog/post/123 */}
-        //   <Route path="blog" element={<Blog />} />
-        //   <Route path="blog/feed" element={<BlogFeed />} />
-        // </Routes>
-        //
-        // function Blog() {
-        //   return (
-        //     <Routes>
-        //       <Route path="post/:id" element={<Post />} />
-        //     </Routes>
-        //   );
-        // }
-        let parentPath = parentRoute && parentRoute.path || "";
-        warningOnce(parentPathname, !parentRoute || parentPath.endsWith("*"), "You rendered descendant <Routes> (or called `useRoutes()`) at " + ('"' + parentPathname + '" (under <Route path="' + parentPath + '">) but the ') + 'parent route path has no trailing "*". This means if you navigate ' + "deeper, the parent won't match anymore and therefore the child " + "routes will never render.\n\n" + ('Please change the parent <Route path="' + parentPath + '"> to <Route ') + ('path="' + (parentPath === "/" ? "*" : parentPath + "/*") + '">.'));
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, to, opts == null ? void 0 : opts.fromRouteId, opts == null ? void 0 : opts.relative);
+        let { path, submission, error } = normalizeNavigateOptions(future.v7_normalizeFormMethod, false, normalizedPath, opts);
+        let currentLocation = state.location;
+        let nextLocation = createLocation(state.location, path, opts && opts.state);
+        // When using navigate as a PUSH/REPLACE we aren't reading an already-encoded
+        // URL from window.location, so we need to encode it here so the behavior
+        // remains the same as POP and non-data-router usages.  new URL() does all
+        // the same encoding we'd get from a history.pushState/window.location read
+        // without having to touch history
+        nextLocation = _extends({}, nextLocation, init.history.encodeLocation(nextLocation));
+        let userReplace = opts && opts.replace != null ? opts.replace : undefined;
+        let historyAction = Action.Push;
+        if (userReplace === true) historyAction = Action.Replace;
+        else if (userReplace === false) ;
+        else if (submission != null && isMutationMethod(submission.formMethod) && submission.formAction === state.location.pathname + state.location.search) // By default on submissions to the current location we REPLACE so that
+        // users don't have to double-click the back button to get to the prior
+        // location.  If the user redirects to a different location from the
+        // action/loader this will be ignored and the redirect will be a PUSH
+        historyAction = Action.Replace;
+        let preventScrollReset = opts && "preventScrollReset" in opts ? opts.preventScrollReset === true : undefined;
+        let blockerKey = shouldBlockNavigation({
+            currentLocation,
+            nextLocation,
+            historyAction
+        });
+        if (blockerKey) {
+            // Put the blocker into a blocked state
+            updateBlocker(blockerKey, {
+                state: "blocked",
+                location: nextLocation,
+                proceed () {
+                    updateBlocker(blockerKey, {
+                        state: "proceeding",
+                        proceed: undefined,
+                        reset: undefined,
+                        location: nextLocation
+                    });
+                    // Send the same navigation through
+                    navigate(to, opts);
+                },
+                reset () {
+                    let blockers = new Map(state.blockers);
+                    blockers.set(blockerKey, IDLE_BLOCKER);
+                    updateState({
+                        blockers
+                    });
+                }
+            });
+            return;
+        }
+        return await startNavigation(historyAction, nextLocation, {
+            submission,
+            // Send through the formData serialization error if we have one so we can
+            // render at the right error boundary after we match routes
+            pendingError: error,
+            preventScrollReset,
+            replace: opts && opts.replace
+        });
     }
-    let locationFromContext = useLocation();
-    let location;
-    if (locationArg) {
-        var _parsedLocationArg$pa;
-        let parsedLocationArg = typeof locationArg === "string" ? (0, _history.parsePath)(locationArg) : locationArg;
-        !(parentPathnameBase === "/" || ((_parsedLocationArg$pa = parsedLocationArg.pathname) == null ? void 0 : _parsedLocationArg$pa.startsWith(parentPathnameBase))) && invariant(false, "When overriding the location using `<Routes location>` or `useRoutes(routes, location)`, the location pathname must begin with the portion of the URL pathname that was " + ('matched by all parent routes. The current pathname base is "' + parentPathnameBase + '" ') + ('but pathname "' + parsedLocationArg.pathname + '" was given in the `location` prop.'));
-        location = parsedLocationArg;
-    } else location = locationFromContext;
-    let pathname = location.pathname || "/";
-    let remainingPathname = parentPathnameBase === "/" ? pathname : pathname.slice(parentPathnameBase.length) || "/";
-    let matches = matchRoutes(routes, {
-        pathname: remainingPathname
-    });
-    warning(parentRoute || matches != null, 'No routes matched location "' + location.pathname + location.search + location.hash + '" ');
-    warning(matches == null || matches[matches.length - 1].route.element !== undefined, 'Matched leaf route at location "' + location.pathname + location.search + location.hash + '" does not have an element. ' + 'This means it will render an <Outlet /> with a null value by default resulting in an "empty" page.');
-    return _renderMatches(matches && matches.map((match)=>Object.assign({}, match, {
-            params: Object.assign({}, parentParams, match.params),
-            pathname: joinPaths([
-                parentPathnameBase,
-                match.pathname
-            ]),
-            pathnameBase: match.pathnameBase === "/" ? parentPathnameBase : joinPaths([
-                parentPathnameBase,
-                match.pathnameBase
-            ])
-        })), parentMatches);
-}
-function _renderMatches(matches, parentMatches) {
-    if (parentMatches === void 0) parentMatches = [];
-    if (matches == null) return null;
-    return matches.reduceRight((outlet, match, index)=>{
-        return /*#__PURE__*/ (0, _react.createElement)(RouteContext.Provider, {
-            children: match.route.element !== undefined ? match.route.element : outlet,
-            value: {
-                outlet,
-                matches: parentMatches.concat(matches.slice(0, index + 1))
+    // Revalidate all current loaders.  If a navigation is in progress or if this
+    // is interrupted by a navigation, allow this to "succeed" by calling all
+    // loaders during the next loader round
+    function revalidate() {
+        interruptActiveLoads();
+        updateState({
+            revalidation: "loading"
+        });
+        // If we're currently submitting an action, we don't need to start a new
+        // navigation, we'll just let the follow up loader execution call all loaders
+        if (state.navigation.state === "submitting") return;
+        // If we're currently in an idle state, start a new navigation for the current
+        // action/location and mark it as uninterrupted, which will skip the history
+        // update in completeNavigation
+        if (state.navigation.state === "idle") {
+            startNavigation(state.historyAction, state.location, {
+                startUninterruptedRevalidation: true
+            });
+            return;
+        }
+        // Otherwise, if we're currently in a loading state, just start a new
+        // navigation to the navigation.location but do not trigger an uninterrupted
+        // revalidation so that history correctly updates once the navigation completes
+        startNavigation(pendingAction || state.historyAction, state.navigation.location, {
+            overrideNavigation: state.navigation
+        });
+    }
+    // Start a navigation to the given action/location.  Can optionally provide a
+    // overrideNavigation which will override the normalLoad in the case of a redirect
+    // navigation
+    async function startNavigation(historyAction, location, opts) {
+        // Abort any in-progress navigations and start a new one. Unset any ongoing
+        // uninterrupted revalidations unless told otherwise, since we want this
+        // new navigation to update history normally
+        pendingNavigationController && pendingNavigationController.abort();
+        pendingNavigationController = null;
+        pendingAction = historyAction;
+        isUninterruptedRevalidation = (opts && opts.startUninterruptedRevalidation) === true;
+        // Save the current scroll position every time we start a new navigation,
+        // and track whether we should reset scroll on completion
+        saveScrollPosition(state.location, state.matches);
+        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let loadingNavigation = opts && opts.overrideNavigation;
+        let matches = matchRoutes(routesToUse, location, basename);
+        // Short circuit with a 404 on the root error boundary if we match nothing
+        if (!matches) {
+            let error = getInternalRouterError(404, {
+                pathname: location.pathname
+            });
+            let { matches: notFoundMatches, route } = getShortCircuitMatches(routesToUse);
+            // Cancel all pending deferred on 404s since we don't keep any routes
+            cancelActiveDeferreds();
+            completeNavigation(location, {
+                matches: notFoundMatches,
+                loaderData: {},
+                errors: {
+                    [route.id]: error
+                }
+            });
+            return;
+        }
+        // Short circuit if it's only a hash change and not a revalidation or
+        // mutation submission.
+        //
+        // Ignore on initial page loads because since the initial load will always
+        // be "same hash".  For example, on /page#hash and submit a <Form method="post">
+        // which will default to a navigation to /page
+        if (state.initialized && !isRevalidationRequired && isHashChangeOnly(state.location, location) && !(opts && opts.submission && isMutationMethod(opts.submission.formMethod))) {
+            completeNavigation(location, {
+                matches
+            });
+            return;
+        }
+        // Create a controller/Request for this navigation
+        pendingNavigationController = new AbortController();
+        let request = createClientSideRequest(init.history, location, pendingNavigationController.signal, opts && opts.submission);
+        let pendingActionData;
+        let pendingError;
+        if (opts && opts.pendingError) // If we have a pendingError, it means the user attempted a GET submission
+        // with binary FormData so assign here and skip to handleLoaders.  That
+        // way we handle calling loaders above the boundary etc.  It's not really
+        // different from an actionError in that sense.
+        pendingError = {
+            [findNearestBoundary(matches).route.id]: opts.pendingError
+        };
+        else if (opts && opts.submission && isMutationMethod(opts.submission.formMethod)) {
+            // Call action if we received an action submission
+            let actionOutput = await handleAction(request, location, opts.submission, matches, {
+                replace: opts.replace
+            });
+            if (actionOutput.shortCircuited) return;
+            pendingActionData = actionOutput.pendingActionData;
+            pendingError = actionOutput.pendingActionError;
+            loadingNavigation = getLoadingNavigation(location, opts.submission);
+            // Create a GET request for the loaders
+            request = new Request(request.url, {
+                signal: request.signal
+            });
+        }
+        // Call loaders
+        let { shortCircuited, loaderData, errors } = await handleLoaders(request, location, matches, loadingNavigation, opts && opts.submission, opts && opts.fetcherSubmission, opts && opts.replace, pendingActionData, pendingError);
+        if (shortCircuited) return;
+        // Clean up now that the action/loaders have completed.  Don't clean up if
+        // we short circuited because pendingNavigationController will have already
+        // been assigned to a new controller for the next navigation
+        pendingNavigationController = null;
+        completeNavigation(location, _extends({
+            matches
+        }, pendingActionData ? {
+            actionData: pendingActionData
+        } : {}, {
+            loaderData,
+            errors
+        }));
+    }
+    // Call the action matched by the leaf route for this navigation and handle
+    // redirects/errors
+    async function handleAction(request, location, submission, matches, opts) {
+        if (opts === void 0) opts = {};
+        interruptActiveLoads();
+        // Put us in a submitting state
+        let navigation = getSubmittingNavigation(location, submission);
+        updateState({
+            navigation
+        });
+        // Call our action and get the result
+        let result;
+        let actionMatch = getTargetMatch(matches, location);
+        if (!actionMatch.route.action && !actionMatch.route.lazy) result = {
+            type: ResultType.error,
+            error: getInternalRouterError(405, {
+                method: request.method,
+                pathname: location.pathname,
+                routeId: actionMatch.route.id
+            })
+        };
+        else {
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename);
+            if (request.signal.aborted) return {
+                shortCircuited: true
+            };
+        }
+        if (isRedirectResult(result)) {
+            let replace;
+            if (opts && opts.replace != null) replace = opts.replace;
+            else // If the user didn't explicity indicate replace behavior, replace if
+            // we redirected to the exact same location we're currently at to avoid
+            // double back-buttons
+            replace = result.location === state.location.pathname + state.location.search;
+            await startRedirectNavigation(state, result, {
+                submission,
+                replace
+            });
+            return {
+                shortCircuited: true
+            };
+        }
+        if (isErrorResult(result)) {
+            // Store off the pending error - we use it to determine which loaders
+            // to call and will commit it when we complete the navigation
+            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id);
+            // By default, all submissions are REPLACE navigations, but if the
+            // action threw an error that'll be rendered in an errorElement, we fall
+            // back to PUSH so that the user can use the back button to get back to
+            // the pre-submission form location to try again
+            if ((opts && opts.replace) !== true) pendingAction = Action.Push;
+            return {
+                // Send back an empty object we can use to clear out any prior actionData
+                pendingActionData: {},
+                pendingActionError: {
+                    [boundaryMatch.route.id]: result.error
+                }
+            };
+        }
+        if (isDeferredResult(result)) throw getInternalRouterError(400, {
+            type: "defer-action"
+        });
+        return {
+            pendingActionData: {
+                [actionMatch.route.id]: result.data
+            }
+        };
+    }
+    // Call all applicable loaders for the given matches, handling redirects,
+    // errors, etc.
+    async function handleLoaders(request, location, matches, overrideNavigation, submission, fetcherSubmission, replace, pendingActionData, pendingError) {
+        // Figure out the right navigation we want to use for data loading
+        let loadingNavigation = overrideNavigation || getLoadingNavigation(location, submission);
+        // If this was a redirect from an action we don't have a "submission" but
+        // we have it on the loading navigation so use that if available
+        let activeSubmission = submission || fetcherSubmission || getSubmissionFromNavigation(loadingNavigation);
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, activeSubmission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError);
+        // Cancel pending deferreds for no-longer-matched routes or routes we're
+        // about to reload.  Note that if this is an action reload we would have
+        // already cancelled all pending deferreds so this would be a no-op
+        cancelActiveDeferreds((routeId)=>!(matches && matches.some((m)=>m.route.id === routeId)) || matchesToLoad && matchesToLoad.some((m)=>m.route.id === routeId));
+        pendingNavigationLoadId = ++incrementingLoadId;
+        // Short circuit if we have no loaders to run
+        if (matchesToLoad.length === 0 && revalidatingFetchers.length === 0) {
+            let updatedFetchers = markFetchRedirectsDone();
+            completeNavigation(location, _extends({
+                matches,
+                loaderData: {},
+                // Commit pending error if we're short circuiting
+                errors: pendingError || null
+            }, pendingActionData ? {
+                actionData: pendingActionData
+            } : {}, updatedFetchers ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+            return {
+                shortCircuited: true
+            };
+        }
+        // If this is an uninterrupted revalidation, we remain in our current idle
+        // state.  If not, we need to switch to our loading state and load data,
+        // preserving any new action data or existing action data (in the case of
+        // a revalidation interrupting an actionReload)
+        if (!isUninterruptedRevalidation) {
+            revalidatingFetchers.forEach((rf)=>{
+                let fetcher = state.fetchers.get(rf.key);
+                let revalidatingFetcher = getLoadingFetcher(undefined, fetcher ? fetcher.data : undefined);
+                state.fetchers.set(rf.key, revalidatingFetcher);
+            });
+            let actionData = pendingActionData || state.actionData;
+            updateState(_extends({
+                navigation: loadingNavigation
+            }, actionData ? Object.keys(actionData).length === 0 ? {
+                actionData: null
+            } : {
+                actionData
+            } : {}, revalidatingFetchers.length > 0 ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+        }
+        revalidatingFetchers.forEach((rf)=>{
+            if (fetchControllers.has(rf.key)) abortFetcher(rf.key);
+            if (rf.controller) // Fetchers use an independent AbortController so that aborting a fetcher
+            // (via deleteFetcher) does not abort the triggering navigation that
+            // triggered the revalidation
+            fetchControllers.set(rf.key, rf.controller);
+        });
+        // Proxy navigation abort through to revalidation fetchers
+        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((f)=>abortFetcher(f.key));
+        if (pendingNavigationController) pendingNavigationController.signal.addEventListener("abort", abortPendingFetchRevalidations);
+        let { results, loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, request);
+        if (request.signal.aborted) return {
+            shortCircuited: true
+        };
+        // Clean up _after_ loaders have completed.  Don't clean up if we short
+        // circuited because fetchControllers would have been aborted and
+        // reassigned to new controllers for the next navigation
+        if (pendingNavigationController) pendingNavigationController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
+        revalidatingFetchers.forEach((rf)=>fetchControllers.delete(rf.key));
+        // If any loaders returned a redirect Response, start a new REPLACE navigation
+        let redirect = findRedirect(results);
+        if (redirect) {
+            if (redirect.idx >= matchesToLoad.length) {
+                // If this redirect came from a fetcher make sure we mark it in
+                // fetchRedirectIds so it doesn't get revalidated on the next set of
+                // loader executions
+                let fetcherKey = revalidatingFetchers[redirect.idx - matchesToLoad.length].key;
+                fetchRedirectIds.add(fetcherKey);
+            }
+            await startRedirectNavigation(state, redirect.result, {
+                replace
+            });
+            return {
+                shortCircuited: true
+            };
+        }
+        // Process and commit output from loaders
+        let { loaderData, errors } = processLoaderData(state, matches, matchesToLoad, loaderResults, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds);
+        // Wire up subscribers to update loaderData as promises settle
+        activeDeferreds.forEach((deferredData, routeId)=>{
+            deferredData.subscribe((aborted)=>{
+                // Note: No need to updateState here since the TrackedPromise on
+                // loaderData is stable across resolve/reject
+                // Remove this instance if we were aborted or if promises have settled
+                if (aborted || deferredData.done) activeDeferreds.delete(routeId);
+            });
+        });
+        let updatedFetchers = markFetchRedirectsDone();
+        let didAbortFetchLoads = abortStaleFetchLoads(pendingNavigationLoadId);
+        let shouldUpdateFetchers = updatedFetchers || didAbortFetchLoads || revalidatingFetchers.length > 0;
+        return _extends({
+            loaderData,
+            errors
+        }, shouldUpdateFetchers ? {
+            fetchers: new Map(state.fetchers)
+        } : {});
+    }
+    function getFetcher(key) {
+        return state.fetchers.get(key) || IDLE_FETCHER;
+    }
+    // Trigger a fetcher load/submit for the given fetcher key
+    function fetch(key, routeId, href, opts) {
+        if (isServer) throw new Error("router.fetch() was called during the server render, but it shouldn't be. You are likely calling a useFetcher() method in the body of your component. Try moving it to a useEffect or a callback.");
+        if (fetchControllers.has(key)) abortFetcher(key);
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let normalizedPath = normalizeTo(state.location, state.matches, basename, future.v7_prependBasename, href, routeId, opts == null ? void 0 : opts.relative);
+        let matches = matchRoutes(routesToUse, normalizedPath, basename);
+        if (!matches) {
+            setFetcherError(key, routeId, getInternalRouterError(404, {
+                pathname: normalizedPath
+            }));
+            return;
+        }
+        let { path, submission, error } = normalizeNavigateOptions(future.v7_normalizeFormMethod, true, normalizedPath, opts);
+        if (error) {
+            setFetcherError(key, routeId, error);
+            return;
+        }
+        let match = getTargetMatch(matches, path);
+        pendingPreventScrollReset = (opts && opts.preventScrollReset) === true;
+        if (submission && isMutationMethod(submission.formMethod)) {
+            handleFetcherAction(key, routeId, path, match, matches, submission);
+            return;
+        }
+        // Store off the match so we can call it's shouldRevalidate on subsequent
+        // revalidations
+        fetchLoadMatches.set(key, {
+            routeId,
+            path
+        });
+        handleFetcherLoader(key, routeId, path, match, matches, submission);
+    }
+    // Call the action for the matched fetcher.submit(), and then handle redirects,
+    // errors, and revalidation
+    async function handleFetcherAction(key, routeId, path, match, requestMatches, submission) {
+        interruptActiveLoads();
+        fetchLoadMatches.delete(key);
+        if (!match.route.action && !match.route.lazy) {
+            let error = getInternalRouterError(405, {
+                method: submission.formMethod,
+                pathname: path,
+                routeId: routeId
+            });
+            setFetcherError(key, routeId, error);
+            return;
+        }
+        // Put this fetcher into it's submitting state
+        let existingFetcher = state.fetchers.get(key);
+        let fetcher = getSubmittingFetcher(submission, existingFetcher);
+        state.fetchers.set(key, fetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+        // Call the action for the fetcher
+        let abortController = new AbortController();
+        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal, submission);
+        fetchControllers.set(key, abortController);
+        let originatingLoadId = incrementingLoadId;
+        let actionResult = await callLoaderOrAction("action", fetchRequest, match, requestMatches, manifest, mapRouteProperties, basename);
+        if (fetchRequest.signal.aborted) {
+            // We can delete this so long as we weren't aborted by ou our own fetcher
+            // re-submit which would have put _new_ controller is in fetchControllers
+            if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
+            return;
+        }
+        if (isRedirectResult(actionResult)) {
+            fetchControllers.delete(key);
+            if (pendingNavigationLoadId > originatingLoadId) {
+                // A new navigation was kicked off after our action started, so that
+                // should take precedence over this redirect navigation.  We already
+                // set isRevalidationRequired so all loaders for the new route should
+                // fire unless opted out via shouldRevalidate
+                let doneFetcher = getDoneFetcher(undefined);
+                state.fetchers.set(key, doneFetcher);
+                updateState({
+                    fetchers: new Map(state.fetchers)
+                });
+                return;
+            } else {
+                fetchRedirectIds.add(key);
+                let loadingFetcher = getLoadingFetcher(submission);
+                state.fetchers.set(key, loadingFetcher);
+                updateState({
+                    fetchers: new Map(state.fetchers)
+                });
+                return startRedirectNavigation(state, actionResult, {
+                    fetcherSubmission: submission
+                });
+            }
+        }
+        // Process any non-redirect errors thrown
+        if (isErrorResult(actionResult)) {
+            setFetcherError(key, routeId, actionResult.error);
+            return;
+        }
+        if (isDeferredResult(actionResult)) throw getInternalRouterError(400, {
+            type: "defer-action"
+        });
+        // Start the data load for current matches, or the next location if we're
+        // in the middle of a navigation
+        let nextLocation = state.navigation.location || state.location;
+        let revalidationRequest = createClientSideRequest(init.history, nextLocation, abortController.signal);
+        let routesToUse = inFlightDataRoutes || dataRoutes;
+        let matches = state.navigation.state !== "idle" ? matchRoutes(routesToUse, state.navigation.location, basename) : state.matches;
+        invariant(matches, "Didn't find any matches after fetcher action");
+        let loadId = ++incrementingLoadId;
+        fetchReloadIds.set(key, loadId);
+        let loadFetcher = getLoadingFetcher(submission, actionResult.data);
+        state.fetchers.set(key, loadFetcher);
+        let [matchesToLoad, revalidatingFetchers] = getMatchesToLoad(init.history, state, matches, submission, nextLocation, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, {
+            [match.route.id]: actionResult.data
+        }, undefined // No need to send through errors since we short circuit above
+        );
+        // Put all revalidating fetchers into the loading state, except for the
+        // current fetcher which we want to keep in it's current loading state which
+        // contains it's action submission info + action data
+        revalidatingFetchers.filter((rf)=>rf.key !== key).forEach((rf)=>{
+            let staleKey = rf.key;
+            let existingFetcher = state.fetchers.get(staleKey);
+            let revalidatingFetcher = getLoadingFetcher(undefined, existingFetcher ? existingFetcher.data : undefined);
+            state.fetchers.set(staleKey, revalidatingFetcher);
+            if (fetchControllers.has(staleKey)) abortFetcher(staleKey);
+            if (rf.controller) fetchControllers.set(staleKey, rf.controller);
+        });
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+        let abortPendingFetchRevalidations = ()=>revalidatingFetchers.forEach((rf)=>abortFetcher(rf.key));
+        abortController.signal.addEventListener("abort", abortPendingFetchRevalidations);
+        let { results, loaderResults, fetcherResults } = await callLoadersAndMaybeResolveData(state.matches, matches, matchesToLoad, revalidatingFetchers, revalidationRequest);
+        if (abortController.signal.aborted) return;
+        abortController.signal.removeEventListener("abort", abortPendingFetchRevalidations);
+        fetchReloadIds.delete(key);
+        fetchControllers.delete(key);
+        revalidatingFetchers.forEach((r)=>fetchControllers.delete(r.key));
+        let redirect = findRedirect(results);
+        if (redirect) {
+            if (redirect.idx >= matchesToLoad.length) {
+                // If this redirect came from a fetcher make sure we mark it in
+                // fetchRedirectIds so it doesn't get revalidated on the next set of
+                // loader executions
+                let fetcherKey = revalidatingFetchers[redirect.idx - matchesToLoad.length].key;
+                fetchRedirectIds.add(fetcherKey);
+            }
+            return startRedirectNavigation(state, redirect.result);
+        }
+        // Process and commit output from loaders
+        let { loaderData, errors } = processLoaderData(state, state.matches, matchesToLoad, loaderResults, undefined, revalidatingFetchers, fetcherResults, activeDeferreds);
+        // Since we let revalidations complete even if the submitting fetcher was
+        // deleted, only put it back to idle if it hasn't been deleted
+        if (state.fetchers.has(key)) {
+            let doneFetcher = getDoneFetcher(actionResult.data);
+            state.fetchers.set(key, doneFetcher);
+        }
+        let didAbortFetchLoads = abortStaleFetchLoads(loadId);
+        // If we are currently in a navigation loading state and this fetcher is
+        // more recent than the navigation, we want the newer data so abort the
+        // navigation and complete it with the fetcher data
+        if (state.navigation.state === "loading" && loadId > pendingNavigationLoadId) {
+            invariant(pendingAction, "Expected pending action");
+            pendingNavigationController && pendingNavigationController.abort();
+            completeNavigation(state.navigation.location, {
+                matches,
+                loaderData,
+                errors,
+                fetchers: new Map(state.fetchers)
+            });
+        } else {
+            // otherwise just update with the fetcher data, preserving any existing
+            // loaderData for loaders that did not need to reload.  We have to
+            // manually merge here since we aren't going through completeNavigation
+            updateState(_extends({
+                errors,
+                loaderData: mergeLoaderData(state.loaderData, loaderData, matches, errors)
+            }, didAbortFetchLoads || revalidatingFetchers.length > 0 ? {
+                fetchers: new Map(state.fetchers)
+            } : {}));
+            isRevalidationRequired = false;
+        }
+    }
+    // Call the matched loader for fetcher.load(), handling redirects, errors, etc.
+    async function handleFetcherLoader(key, routeId, path, match, matches, submission) {
+        let existingFetcher = state.fetchers.get(key);
+        // Put this fetcher into it's loading state
+        let loadingFetcher = getLoadingFetcher(submission, existingFetcher ? existingFetcher.data : undefined);
+        state.fetchers.set(key, loadingFetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+        // Call the loader for this fetcher route match
+        let abortController = new AbortController();
+        let fetchRequest = createClientSideRequest(init.history, path, abortController.signal);
+        fetchControllers.set(key, abortController);
+        let originatingLoadId = incrementingLoadId;
+        let result = await callLoaderOrAction("loader", fetchRequest, match, matches, manifest, mapRouteProperties, basename);
+        // Deferred isn't supported for fetcher loads, await everything and treat it
+        // as a normal load.  resolveDeferredData will return undefined if this
+        // fetcher gets aborted, so we just leave result untouched and short circuit
+        // below if that happens
+        if (isDeferredResult(result)) result = await resolveDeferredData(result, fetchRequest.signal, true) || result;
+        // We can delete this so long as we weren't aborted by our our own fetcher
+        // re-load which would have put _new_ controller is in fetchControllers
+        if (fetchControllers.get(key) === abortController) fetchControllers.delete(key);
+        if (fetchRequest.signal.aborted) return;
+        // If the loader threw a redirect Response, start a new REPLACE navigation
+        if (isRedirectResult(result)) {
+            if (pendingNavigationLoadId > originatingLoadId) {
+                // A new navigation was kicked off after our loader started, so that
+                // should take precedence over this redirect navigation
+                let doneFetcher = getDoneFetcher(undefined);
+                state.fetchers.set(key, doneFetcher);
+                updateState({
+                    fetchers: new Map(state.fetchers)
+                });
+                return;
+            } else {
+                fetchRedirectIds.add(key);
+                await startRedirectNavigation(state, result);
+                return;
+            }
+        }
+        // Process any non-redirect errors thrown
+        if (isErrorResult(result)) {
+            let boundaryMatch = findNearestBoundary(state.matches, routeId);
+            state.fetchers.delete(key);
+            // TODO: In remix, this would reset to IDLE_NAVIGATION if it was a catch -
+            // do we need to behave any differently with our non-redirect errors?
+            // What if it was a non-redirect Response?
+            updateState({
+                fetchers: new Map(state.fetchers),
+                errors: {
+                    [boundaryMatch.route.id]: result.error
+                }
+            });
+            return;
+        }
+        invariant(!isDeferredResult(result), "Unhandled fetcher deferred data");
+        // Put the fetcher back into an idle state
+        let doneFetcher = getDoneFetcher(result.data);
+        state.fetchers.set(key, doneFetcher);
+        updateState({
+            fetchers: new Map(state.fetchers)
+        });
+    }
+    /**
+   * Utility function to handle redirects returned from an action or loader.
+   * Normally, a redirect "replaces" the navigation that triggered it.  So, for
+   * example:
+   *
+   *  - user is on /a
+   *  - user clicks a link to /b
+   *  - loader for /b redirects to /c
+   *
+   * In a non-JS app the browser would track the in-flight navigation to /b and
+   * then replace it with /c when it encountered the redirect response.  In
+   * the end it would only ever update the URL bar with /c.
+   *
+   * In client-side routing using pushState/replaceState, we aim to emulate
+   * this behavior and we also do not update history until the end of the
+   * navigation (including processed redirects).  This means that we never
+   * actually touch history until we've processed redirects, so we just use
+   * the history action from the original navigation (PUSH or REPLACE).
+   */ async function startRedirectNavigation(state, redirect, _temp) {
+        let { submission, fetcherSubmission, replace } = _temp === void 0 ? {} : _temp;
+        if (redirect.revalidate) isRevalidationRequired = true;
+        let redirectLocation = createLocation(state.location, redirect.location, {
+            _isRedirect: true
+        });
+        invariant(redirectLocation, "Expected a location on the redirect navigation");
+        if (isBrowser) {
+            let isDocumentReload = false;
+            if (redirect.reloadDocument) // Hard reload if the response contained X-Remix-Reload-Document
+            isDocumentReload = true;
+            else if (ABSOLUTE_URL_REGEX.test(redirect.location)) {
+                const url = init.history.createURL(redirect.location);
+                isDocumentReload = // Hard reload if it's an absolute URL to a new origin
+                url.origin !== routerWindow.location.origin || // Hard reload if it's an absolute URL that does not match our basename
+                stripBasename(url.pathname, basename) == null;
+            }
+            if (isDocumentReload) {
+                if (replace) routerWindow.location.replace(redirect.location);
+                else routerWindow.location.assign(redirect.location);
+                return;
+            }
+        }
+        // There's no need to abort on redirects, since we don't detect the
+        // redirect until the action/loaders have settled
+        pendingNavigationController = null;
+        let redirectHistoryAction = replace === true ? Action.Replace : Action.Push;
+        // Use the incoming submission if provided, fallback on the active one in
+        // state.navigation
+        let { formMethod, formAction, formEncType } = state.navigation;
+        if (!submission && !fetcherSubmission && formMethod && formAction && formEncType) submission = getSubmissionFromNavigation(state.navigation);
+        // If this was a 307/308 submission we want to preserve the HTTP method and
+        // re-submit the GET/POST/PUT/PATCH/DELETE as a submission navigation to the
+        // redirected location
+        let activeSubmission = submission || fetcherSubmission;
+        if (redirectPreserveMethodStatusCodes.has(redirect.status) && activeSubmission && isMutationMethod(activeSubmission.formMethod)) await startNavigation(redirectHistoryAction, redirectLocation, {
+            submission: _extends({}, activeSubmission, {
+                formAction: redirect.location
+            }),
+            // Preserve this flag across redirects
+            preventScrollReset: pendingPreventScrollReset
+        });
+        else {
+            // If we have a navigation submission, we will preserve it through the
+            // redirect navigation
+            let overrideNavigation = getLoadingNavigation(redirectLocation, submission);
+            await startNavigation(redirectHistoryAction, redirectLocation, {
+                overrideNavigation,
+                // Send fetcher submissions through for shouldRevalidate
+                fetcherSubmission,
+                // Preserve this flag across redirects
+                preventScrollReset: pendingPreventScrollReset
+            });
+        }
+    }
+    async function callLoadersAndMaybeResolveData(currentMatches, matches, matchesToLoad, fetchersToLoad, request) {
+        // Call all navigation loaders and revalidating fetcher loaders in parallel,
+        // then slice off the results into separate arrays so we can handle them
+        // accordingly
+        let results = await Promise.all([
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename)),
+            ...fetchersToLoad.map((f)=>{
+                if (f.matches && f.match && f.controller) return callLoaderOrAction("loader", createClientSideRequest(init.history, f.path, f.controller.signal), f.match, f.matches, manifest, mapRouteProperties, basename);
+                else {
+                    let error = {
+                        type: ResultType.error,
+                        error: getInternalRouterError(404, {
+                            pathname: f.path
+                        })
+                    };
+                    return error;
+                }
+            })
+        ]);
+        let loaderResults = results.slice(0, matchesToLoad.length);
+        let fetcherResults = results.slice(matchesToLoad.length);
+        await Promise.all([
+            resolveDeferredResults(currentMatches, matchesToLoad, loaderResults, loaderResults.map(()=>request.signal), false, state.loaderData),
+            resolveDeferredResults(currentMatches, fetchersToLoad.map((f)=>f.match), fetcherResults, fetchersToLoad.map((f)=>f.controller ? f.controller.signal : null), true)
+        ]);
+        return {
+            results,
+            loaderResults,
+            fetcherResults
+        };
+    }
+    function interruptActiveLoads() {
+        // Every interruption triggers a revalidation
+        isRevalidationRequired = true;
+        // Cancel pending route-level deferreds and mark cancelled routes for
+        // revalidation
+        cancelledDeferredRoutes.push(...cancelActiveDeferreds());
+        // Abort in-flight fetcher loads
+        fetchLoadMatches.forEach((_, key)=>{
+            if (fetchControllers.has(key)) {
+                cancelledFetcherLoads.push(key);
+                abortFetcher(key);
             }
         });
-    }, null);
-}
-/**
- * A <Router> that stores all entries in memory.
- *
- * @see https://reactrouter.com/docs/en/v6/api#memoryrouter
- */ function MemoryRouter(_ref) {
-    let { basename, children, initialEntries, initialIndex } = _ref;
-    let historyRef = (0, _react.useRef)();
-    if (historyRef.current == null) historyRef.current = (0, _history.createMemoryHistory)({
-        initialEntries,
-        initialIndex
-    });
-    let history = historyRef.current;
-    let [state, setState] = (0, _react.useState)({
-        action: history.action,
-        location: history.location
-    });
-    (0, _react.useLayoutEffect)(()=>history.listen(setState), [
-        history
-    ]);
-    return /*#__PURE__*/ (0, _react.createElement)(Router, {
-        basename: basename,
-        children: children,
-        location: state.location,
-        navigationType: state.action,
-        navigator: history
-    });
-}
-/**
- * Changes the current location.
- *
- * Note: This API is mostly useful in React.Component subclasses that are not
- * able to use hooks. In functional components, we recommend you use the
- * `useNavigate` hook instead.
- *
- * @see https://reactrouter.com/docs/en/v6/api#navigate
- */ function Navigate(_ref2) {
-    let { to, replace, state } = _ref2;
-    !useInRouterContext() && invariant(false, // the router loaded. We can help them understand how to avoid that.
-    "<Navigate> may be used only in the context of a <Router> component.");
-    warning(!(0, _react.useContext)(NavigationContext).static, "<Navigate> must not be used on the initial render in a <StaticRouter>. This is a no-op, but you should modify your code so the <Navigate> is only ever rendered in response to some user interaction or state change.");
-    let navigate = useNavigate();
-    (0, _react.useEffect)(()=>{
-        navigate(to, {
-            replace,
-            state
+    }
+    function setFetcherError(key, routeId, error) {
+        let boundaryMatch = findNearestBoundary(state.matches, routeId);
+        deleteFetcher(key);
+        updateState({
+            errors: {
+                [boundaryMatch.route.id]: error
+            },
+            fetchers: new Map(state.fetchers)
         });
-    });
-    return null;
-}
-/**
- * Renders the child route's element, if there is one.
- *
- * @see https://reactrouter.com/docs/en/v6/api#outlet
- */ function Outlet(props) {
-    return useOutlet(props.context);
-}
-/**
- * Declares an element that should be rendered at a certain URL path.
- *
- * @see https://reactrouter.com/docs/en/v6/api#route
- */ function Route(_props) {
-    invariant(false, "A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes>.");
-}
-/**
- * Provides location context for the rest of the app.
- *
- * Note: You usually won't render a <Router> directly. Instead, you'll render a
- * router that is more specific to your environment such as a <BrowserRouter>
- * in web browsers or a <StaticRouter> for server rendering.
- *
- * @see https://reactrouter.com/docs/en/v6/api#router
- */ function Router(_ref3) {
-    let { basename: basenameProp = "/", children = null, location: locationProp, navigationType = (0, _history.Action).Pop, navigator, static: staticProp = false } = _ref3;
-    !!useInRouterContext() && invariant(false, "You cannot render a <Router> inside another <Router>. You should never have more than one in your app.");
-    let basename = normalizePathname(basenameProp);
-    let navigationContext = (0, _react.useMemo)(()=>({
-            basename,
-            navigator,
-            static: staticProp
-        }), [
-        basename,
-        navigator,
-        staticProp
-    ]);
-    if (typeof locationProp === "string") locationProp = (0, _history.parsePath)(locationProp);
-    let { pathname = "/", search = "", hash = "", state = null, key = "default" } = locationProp;
-    let location = (0, _react.useMemo)(()=>{
-        let trailingPathname = stripBasename(pathname, basename);
-        if (trailingPathname == null) return null;
-        return {
-            pathname: trailingPathname,
-            search,
-            hash,
-            state,
-            key
-        };
-    }, [
-        basename,
-        pathname,
-        search,
-        hash,
-        state,
-        key
-    ]);
-    warning(location != null, '<Router basename="' + basename + '"> is not able to match the URL ' + ('"' + pathname + search + hash + '" because it does not start with the ') + "basename, so the <Router> won't render anything.");
-    if (location == null) return null;
-    return /*#__PURE__*/ (0, _react.createElement)(NavigationContext.Provider, {
-        value: navigationContext
-    }, /*#__PURE__*/ (0, _react.createElement)(LocationContext.Provider, {
-        children: children,
-        value: {
-            location,
-            navigationType
+    }
+    function deleteFetcher(key) {
+        let fetcher = state.fetchers.get(key);
+        // Don't abort the controller if this is a deletion of a fetcher.submit()
+        // in it's loading phase since - we don't want to abort the corresponding
+        // revalidation and want them to complete and land
+        if (fetchControllers.has(key) && !(fetcher && fetcher.state === "loading" && fetchReloadIds.has(key))) abortFetcher(key);
+        fetchLoadMatches.delete(key);
+        fetchReloadIds.delete(key);
+        fetchRedirectIds.delete(key);
+        state.fetchers.delete(key);
+    }
+    function abortFetcher(key) {
+        let controller = fetchControllers.get(key);
+        invariant(controller, "Expected fetch controller: " + key);
+        controller.abort();
+        fetchControllers.delete(key);
+    }
+    function markFetchersDone(keys) {
+        for (let key of keys){
+            let fetcher = getFetcher(key);
+            let doneFetcher = getDoneFetcher(fetcher.data);
+            state.fetchers.set(key, doneFetcher);
         }
-    }));
-}
-/**
- * A container for a nested tree of <Route> elements that renders the branch
- * that best matches the current location.
- *
- * @see https://reactrouter.com/docs/en/v6/api#routes
- */ function Routes(_ref4) {
-    let { children, location } = _ref4;
-    return useRoutes(createRoutesFromChildren(children), location);
-} ///////////////////////////////////////////////////////////////////////////////
-// UTILS
-///////////////////////////////////////////////////////////////////////////////
-/**
- * Creates a route config from a React "children" object, which is usually
- * either a `<Route>` element or an array of them. Used internally by
- * `<Routes>` to create a route config from its children.
- *
- * @see https://reactrouter.com/docs/en/v6/api#createroutesfromchildren
- */ function createRoutesFromChildren(children) {
-    let routes = [];
-    (0, _react.Children).forEach(children, (element)=>{
-        if (!/*#__PURE__*/ (0, _react.isValidElement)(element)) // Ignore non-elements. This allows people to more easily inline
-        // conditionals in their route config.
+    }
+    function markFetchRedirectsDone() {
+        let doneKeys = [];
+        let updatedFetchers = false;
+        for (let key of fetchRedirectIds){
+            let fetcher = state.fetchers.get(key);
+            invariant(fetcher, "Expected fetcher: " + key);
+            if (fetcher.state === "loading") {
+                fetchRedirectIds.delete(key);
+                doneKeys.push(key);
+                updatedFetchers = true;
+            }
+        }
+        markFetchersDone(doneKeys);
+        return updatedFetchers;
+    }
+    function abortStaleFetchLoads(landedId) {
+        let yeetedKeys = [];
+        for (let [key, id] of fetchReloadIds)if (id < landedId) {
+            let fetcher = state.fetchers.get(key);
+            invariant(fetcher, "Expected fetcher: " + key);
+            if (fetcher.state === "loading") {
+                abortFetcher(key);
+                fetchReloadIds.delete(key);
+                yeetedKeys.push(key);
+            }
+        }
+        markFetchersDone(yeetedKeys);
+        return yeetedKeys.length > 0;
+    }
+    function getBlocker(key, fn) {
+        let blocker = state.blockers.get(key) || IDLE_BLOCKER;
+        if (blockerFunctions.get(key) !== fn) blockerFunctions.set(key, fn);
+        return blocker;
+    }
+    function deleteBlocker(key) {
+        state.blockers.delete(key);
+        blockerFunctions.delete(key);
+    }
+    // Utility function to update blockers, ensuring valid state transitions
+    function updateBlocker(key, newBlocker) {
+        let blocker = state.blockers.get(key) || IDLE_BLOCKER;
+        // Poor mans state machine :)
+        // https://mermaid.live/edit#pako:eNqVkc9OwzAMxl8l8nnjAYrEtDIOHEBIgwvKJTReGy3_lDpIqO27k6awMG0XcrLlnz87nwdonESogKXXBuE79rq75XZO3-yHds0RJVuv70YrPlUrCEe2HfrORS3rubqZfuhtpg5C9wk5tZ4VKcRUq88q9Z8RS0-48cE1iHJkL0ugbHuFLus9L6spZy8nX9MP2CNdomVaposqu3fGayT8T8-jJQwhepo_UtpgBQaDEUom04dZhAN1aJBDlUKJBxE1ceB2Smj0Mln-IBW5AFU2dwUiktt_2Qaq2dBfaKdEup85UV7Yd-dKjlnkabl2Pvr0DTkTreM
+        invariant(blocker.state === "unblocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "blocked" || blocker.state === "blocked" && newBlocker.state === "proceeding" || blocker.state === "blocked" && newBlocker.state === "unblocked" || blocker.state === "proceeding" && newBlocker.state === "unblocked", "Invalid blocker state transition: " + blocker.state + " -> " + newBlocker.state);
+        let blockers = new Map(state.blockers);
+        blockers.set(key, newBlocker);
+        updateState({
+            blockers
+        });
+    }
+    function shouldBlockNavigation(_ref2) {
+        let { currentLocation, nextLocation, historyAction } = _ref2;
+        if (blockerFunctions.size === 0) return;
+        // We ony support a single active blocker at the moment since we don't have
+        // any compelling use cases for multi-blocker yet
+        if (blockerFunctions.size > 1) warning(false, "A router only supports one blocker at a time");
+        let entries = Array.from(blockerFunctions.entries());
+        let [blockerKey, blockerFunction] = entries[entries.length - 1];
+        let blocker = state.blockers.get(blockerKey);
+        if (blocker && blocker.state === "proceeding") // If the blocker is currently proceeding, we don't need to re-check
+        // it and can let this navigation continue
         return;
-        if (element.type === (0, _react.Fragment)) {
-            // Transparently support React.Fragment and its children.
-            routes.push.apply(routes, createRoutesFromChildren(element.props.children));
+        // At this point, we know we're unblocked/blocked so we need to check the
+        // user-provided blocker function
+        if (blockerFunction({
+            currentLocation,
+            nextLocation,
+            historyAction
+        })) return blockerKey;
+    }
+    function cancelActiveDeferreds(predicate) {
+        let cancelledRouteIds = [];
+        activeDeferreds.forEach((dfd, routeId)=>{
+            if (!predicate || predicate(routeId)) {
+                // Cancel the deferred - but do not remove from activeDeferreds here -
+                // we rely on the subscribers to do that so our tests can assert proper
+                // cleanup via _internalActiveDeferreds
+                dfd.cancel();
+                cancelledRouteIds.push(routeId);
+                activeDeferreds.delete(routeId);
+            }
+        });
+        return cancelledRouteIds;
+    }
+    // Opt in to capturing and reporting scroll positions during navigations,
+    // used by the <ScrollRestoration> component
+    function enableScrollRestoration(positions, getPosition, getKey) {
+        savedScrollPositions = positions;
+        getScrollPosition = getPosition;
+        getScrollRestorationKey = getKey || null;
+        // Perform initial hydration scroll restoration, since we miss the boat on
+        // the initial updateState() because we've not yet rendered <ScrollRestoration/>
+        // and therefore have no savedScrollPositions available
+        if (!initialScrollRestored && state.navigation === IDLE_NAVIGATION) {
+            initialScrollRestored = true;
+            let y = getSavedScrollPosition(state.location, state.matches);
+            if (y != null) updateState({
+                restoreScrollPosition: y
+            });
+        }
+        return ()=>{
+            savedScrollPositions = null;
+            getScrollPosition = null;
+            getScrollRestorationKey = null;
+        };
+    }
+    function getScrollKey(location, matches) {
+        if (getScrollRestorationKey) {
+            let key = getScrollRestorationKey(location, matches.map((m)=>convertRouteMatchToUiMatch(m, state.loaderData)));
+            return key || location.key;
+        }
+        return location.key;
+    }
+    function saveScrollPosition(location, matches) {
+        if (savedScrollPositions && getScrollPosition) {
+            let key = getScrollKey(location, matches);
+            savedScrollPositions[key] = getScrollPosition();
+        }
+    }
+    function getSavedScrollPosition(location, matches) {
+        if (savedScrollPositions) {
+            let key = getScrollKey(location, matches);
+            let y = savedScrollPositions[key];
+            if (typeof y === "number") return y;
+        }
+        return null;
+    }
+    function _internalSetRoutes(newRoutes) {
+        manifest = {};
+        inFlightDataRoutes = convertRoutesToDataRoutes(newRoutes, mapRouteProperties, undefined, manifest);
+    }
+    router = {
+        get basename () {
+            return basename;
+        },
+        get state () {
+            return state;
+        },
+        get routes () {
+            return dataRoutes;
+        },
+        initialize,
+        subscribe,
+        enableScrollRestoration,
+        navigate,
+        fetch,
+        revalidate,
+        // Passthrough to history-aware createHref used by useHref so we get proper
+        // hash-aware URLs in DOM paths
+        createHref: (to)=>init.history.createHref(to),
+        encodeLocation: (to)=>init.history.encodeLocation(to),
+        getFetcher,
+        deleteFetcher,
+        dispose,
+        getBlocker,
+        deleteBlocker,
+        _internalFetchControllers: fetchControllers,
+        _internalActiveDeferreds: activeDeferreds,
+        // TODO: Remove setRoutes, it's temporary to avoid dealing with
+        // updating the tree while validating the update algorithm.
+        _internalSetRoutes
+    };
+    return router;
+}
+//#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region createStaticHandler
+////////////////////////////////////////////////////////////////////////////////
+const UNSAFE_DEFERRED_SYMBOL = Symbol("deferred");
+function createStaticHandler(routes, opts) {
+    invariant(routes.length > 0, "You must provide a non-empty routes array to createStaticHandler");
+    let manifest = {};
+    let basename = (opts ? opts.basename : null) || "/";
+    let mapRouteProperties;
+    if (opts != null && opts.mapRouteProperties) mapRouteProperties = opts.mapRouteProperties;
+    else if (opts != null && opts.detectErrorBoundary) {
+        // If they are still using the deprecated version, wrap it with the new API
+        let detectErrorBoundary = opts.detectErrorBoundary;
+        mapRouteProperties = (route)=>({
+                hasErrorBoundary: detectErrorBoundary(route)
+            });
+    } else mapRouteProperties = defaultMapRouteProperties;
+    let dataRoutes = convertRoutesToDataRoutes(routes, mapRouteProperties, undefined, manifest);
+    /**
+   * The query() method is intended for document requests, in which we want to
+   * call an optional action and potentially multiple loaders for all nested
+   * routes.  It returns a StaticHandlerContext object, which is very similar
+   * to the router state (location, loaderData, actionData, errors, etc.) and
+   * also adds SSR-specific information such as the statusCode and headers
+   * from action/loaders Responses.
+   *
+   * It _should_ never throw and should report all errors through the
+   * returned context.errors object, properly associating errors to their error
+   * boundary.  Additionally, it tracks _deepestRenderedBoundaryId which can be
+   * used to emulate React error boundaries during SSr by performing a second
+   * pass only down to the boundaryId.
+   *
+   * The one exception where we do not return a StaticHandlerContext is when a
+   * redirect response is returned or thrown from any action/loader.  We
+   * propagate that out and return the raw Response so the HTTP server can
+   * return it directly.
+   */ async function query(request, _temp2) {
+        let { requestContext } = _temp2 === void 0 ? {} : _temp2;
+        let url = new URL(request.url);
+        let method = request.method;
+        let location = createLocation("", createPath(url), null, "default");
+        let matches = matchRoutes(dataRoutes, location, basename);
+        // SSR supports HEAD requests while SPA doesn't
+        if (!isValidMethod(method) && method !== "HEAD") {
+            let error = getInternalRouterError(405, {
+                method
+            });
+            let { matches: methodNotAllowedMatches, route } = getShortCircuitMatches(dataRoutes);
+            return {
+                basename,
+                location,
+                matches: methodNotAllowedMatches,
+                loaderData: {},
+                actionData: null,
+                errors: {
+                    [route.id]: error
+                },
+                statusCode: error.status,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        } else if (!matches) {
+            let error = getInternalRouterError(404, {
+                pathname: location.pathname
+            });
+            let { matches: notFoundMatches, route } = getShortCircuitMatches(dataRoutes);
+            return {
+                basename,
+                location,
+                matches: notFoundMatches,
+                loaderData: {},
+                actionData: null,
+                errors: {
+                    [route.id]: error
+                },
+                statusCode: error.status,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        }
+        let result = await queryImpl(request, location, matches, requestContext);
+        if (isResponse(result)) return result;
+        // When returning StaticHandlerContext, we patch back in the location here
+        // since we need it for React Context.  But this helps keep our submit and
+        // loadRouteData operating on a Request instead of a Location
+        return _extends({
+            location,
+            basename
+        }, result);
+    }
+    /**
+   * The queryRoute() method is intended for targeted route requests, either
+   * for fetch ?_data requests or resource route requests.  In this case, we
+   * are only ever calling a single action or loader, and we are returning the
+   * returned value directly.  In most cases, this will be a Response returned
+   * from the action/loader, but it may be a primitive or other value as well -
+   * and in such cases the calling context should handle that accordingly.
+   *
+   * We do respect the throw/return differentiation, so if an action/loader
+   * throws, then this method will throw the value.  This is important so we
+   * can do proper boundary identification in Remix where a thrown Response
+   * must go to the Catch Boundary but a returned Response is happy-path.
+   *
+   * One thing to note is that any Router-initiated Errors that make sense
+   * to associate with a status code will be thrown as an ErrorResponse
+   * instance which include the raw Error, such that the calling context can
+   * serialize the error as they see fit while including the proper response
+   * code.  Examples here are 404 and 405 errors that occur prior to reaching
+   * any user-defined loaders.
+   */ async function queryRoute(request, _temp3) {
+        let { routeId, requestContext } = _temp3 === void 0 ? {} : _temp3;
+        let url = new URL(request.url);
+        let method = request.method;
+        let location = createLocation("", createPath(url), null, "default");
+        let matches = matchRoutes(dataRoutes, location, basename);
+        // SSR supports HEAD requests while SPA doesn't
+        if (!isValidMethod(method) && method !== "HEAD" && method !== "OPTIONS") throw getInternalRouterError(405, {
+            method
+        });
+        else if (!matches) throw getInternalRouterError(404, {
+            pathname: location.pathname
+        });
+        let match = routeId ? matches.find((m)=>m.route.id === routeId) : getTargetMatch(matches, location);
+        if (routeId && !match) throw getInternalRouterError(403, {
+            pathname: location.pathname,
+            routeId
+        });
+        else if (!match) // This should never hit I don't think?
+        throw getInternalRouterError(404, {
+            pathname: location.pathname
+        });
+        let result = await queryImpl(request, location, matches, requestContext, match);
+        if (isResponse(result)) return result;
+        let error = result.errors ? Object.values(result.errors)[0] : undefined;
+        if (error !== undefined) // If we got back result.errors, that means the loader/action threw
+        // _something_ that wasn't a Response, but it's not guaranteed/required
+        // to be an `instanceof Error` either, so we have to use throw here to
+        // preserve the "error" state outside of queryImpl.
+        throw error;
+        // Pick off the right state value to return
+        if (result.actionData) return Object.values(result.actionData)[0];
+        if (result.loaderData) {
+            var _result$activeDeferre;
+            let data = Object.values(result.loaderData)[0];
+            if ((_result$activeDeferre = result.activeDeferreds) != null && _result$activeDeferre[match.route.id]) data[UNSAFE_DEFERRED_SYMBOL] = result.activeDeferreds[match.route.id];
+            return data;
+        }
+        return undefined;
+    }
+    async function queryImpl(request, location, matches, requestContext, routeMatch) {
+        invariant(request.signal, "query()/queryRoute() requests must contain an AbortController signal");
+        try {
+            if (isMutationMethod(request.method.toLowerCase())) {
+                let result = await submit(request, matches, routeMatch || getTargetMatch(matches, location), requestContext, routeMatch != null);
+                return result;
+            }
+            let result = await loadRouteData(request, matches, requestContext, routeMatch);
+            return isResponse(result) ? result : _extends({}, result, {
+                actionData: null,
+                actionHeaders: {}
+            });
+        } catch (e) {
+            // If the user threw/returned a Response in callLoaderOrAction, we throw
+            // it to bail out and then return or throw here based on whether the user
+            // returned or threw
+            if (isQueryRouteResponse(e)) {
+                if (e.type === ResultType.error) throw e.response;
+                return e.response;
+            }
+            // Redirects are always returned since they don't propagate to catch
+            // boundaries
+            if (isRedirectResponse(e)) return e;
+            throw e;
+        }
+    }
+    async function submit(request, matches, actionMatch, requestContext, isRouteRequest) {
+        let result;
+        if (!actionMatch.route.action && !actionMatch.route.lazy) {
+            let error = getInternalRouterError(405, {
+                method: request.method,
+                pathname: new URL(request.url).pathname,
+                routeId: actionMatch.route.id
+            });
+            if (isRouteRequest) throw error;
+            result = {
+                type: ResultType.error,
+                error
+            };
+        } else {
+            result = await callLoaderOrAction("action", request, actionMatch, matches, manifest, mapRouteProperties, basename, {
+                isStaticRequest: true,
+                isRouteRequest,
+                requestContext
+            });
+            if (request.signal.aborted) {
+                let method = isRouteRequest ? "queryRoute" : "query";
+                throw new Error(method + "() call aborted: " + request.method + " " + request.url);
+            }
+        }
+        if (isRedirectResult(result)) // Uhhhh - this should never happen, we should always throw these from
+        // callLoaderOrAction, but the type narrowing here keeps TS happy and we
+        // can get back on the "throw all redirect responses" train here should
+        // this ever happen :/
+        throw new Response(null, {
+            status: result.status,
+            headers: {
+                Location: result.location
+            }
+        });
+        if (isDeferredResult(result)) {
+            let error = getInternalRouterError(400, {
+                type: "defer-action"
+            });
+            if (isRouteRequest) throw error;
+            result = {
+                type: ResultType.error,
+                error
+            };
+        }
+        if (isRouteRequest) {
+            // Note: This should only be non-Response values if we get here, since
+            // isRouteRequest should throw any Response received in callLoaderOrAction
+            if (isErrorResult(result)) throw result.error;
+            return {
+                matches: [
+                    actionMatch
+                ],
+                loaderData: {},
+                actionData: {
+                    [actionMatch.route.id]: result.data
+                },
+                errors: null,
+                // Note: statusCode + headers are unused here since queryRoute will
+                // return the raw Response or value
+                statusCode: 200,
+                loaderHeaders: {},
+                actionHeaders: {},
+                activeDeferreds: null
+            };
+        }
+        if (isErrorResult(result)) {
+            // Store off the pending error - we use it to determine which loaders
+            // to call and will commit it when we complete the navigation
+            let boundaryMatch = findNearestBoundary(matches, actionMatch.route.id);
+            let context = await loadRouteData(request, matches, requestContext, undefined, {
+                [boundaryMatch.route.id]: result.error
+            });
+            // action status codes take precedence over loader status codes
+            return _extends({}, context, {
+                statusCode: isRouteErrorResponse(result.error) ? result.error.status : 500,
+                actionData: null,
+                actionHeaders: _extends({}, result.headers ? {
+                    [actionMatch.route.id]: result.headers
+                } : {})
+            });
+        }
+        // Create a GET request for the loaders
+        let loaderRequest = new Request(request.url, {
+            headers: request.headers,
+            redirect: request.redirect,
+            signal: request.signal
+        });
+        let context = await loadRouteData(loaderRequest, matches, requestContext);
+        return _extends({}, context, result.statusCode ? {
+            statusCode: result.statusCode
+        } : {}, {
+            actionData: {
+                [actionMatch.route.id]: result.data
+            },
+            actionHeaders: _extends({}, result.headers ? {
+                [actionMatch.route.id]: result.headers
+            } : {})
+        });
+    }
+    async function loadRouteData(request, matches, requestContext, routeMatch, pendingActionError) {
+        let isRouteRequest = routeMatch != null;
+        // Short circuit if we have no loaders to run (queryRoute())
+        if (isRouteRequest && !(routeMatch != null && routeMatch.route.loader) && !(routeMatch != null && routeMatch.route.lazy)) throw getInternalRouterError(400, {
+            method: request.method,
+            pathname: new URL(request.url).pathname,
+            routeId: routeMatch == null ? void 0 : routeMatch.route.id
+        });
+        let requestMatches = routeMatch ? [
+            routeMatch
+        ] : getLoaderMatchesUntilBoundary(matches, Object.keys(pendingActionError || {})[0]);
+        let matchesToLoad = requestMatches.filter((m)=>m.route.loader || m.route.lazy);
+        // Short circuit if we have no loaders to run (query())
+        if (matchesToLoad.length === 0) return {
+            matches,
+            // Add a null for all matched routes for proper revalidation on the client
+            loaderData: matches.reduce((acc, m)=>Object.assign(acc, {
+                    [m.route.id]: null
+                }), {}),
+            errors: pendingActionError || null,
+            statusCode: 200,
+            loaderHeaders: {},
+            activeDeferreds: null
+        };
+        let results = await Promise.all([
+            ...matchesToLoad.map((match)=>callLoaderOrAction("loader", request, match, matches, manifest, mapRouteProperties, basename, {
+                    isStaticRequest: true,
+                    isRouteRequest,
+                    requestContext
+                }))
+        ]);
+        if (request.signal.aborted) {
+            let method = isRouteRequest ? "queryRoute" : "query";
+            throw new Error(method + "() call aborted: " + request.method + " " + request.url);
+        }
+        // Process and commit output from loaders
+        let activeDeferreds = new Map();
+        let context = processRouteLoaderData(matches, matchesToLoad, results, pendingActionError, activeDeferreds);
+        // Add a null for any non-loader matches for proper revalidation on the client
+        let executedLoaders = new Set(matchesToLoad.map((match)=>match.route.id));
+        matches.forEach((match)=>{
+            if (!executedLoaders.has(match.route.id)) context.loaderData[match.route.id] = null;
+        });
+        return _extends({}, context, {
+            matches,
+            activeDeferreds: activeDeferreds.size > 0 ? Object.fromEntries(activeDeferreds.entries()) : null
+        });
+    }
+    return {
+        dataRoutes,
+        query,
+        queryRoute
+    };
+}
+//#endregion
+////////////////////////////////////////////////////////////////////////////////
+//#region Helpers
+////////////////////////////////////////////////////////////////////////////////
+/**
+ * Given an existing StaticHandlerContext and an error thrown at render time,
+ * provide an updated StaticHandlerContext suitable for a second SSR render
+ */ function getStaticContextFromError(routes, context, error) {
+    let newContext = _extends({}, context, {
+        statusCode: 500,
+        errors: {
+            [context._deepestRenderedBoundaryId || routes[0].id]: error
+        }
+    });
+    return newContext;
+}
+function isSubmissionNavigation(opts) {
+    return opts != null && ("formData" in opts && opts.formData != null || "body" in opts && opts.body !== undefined);
+}
+function normalizeTo(location, matches, basename, prependBasename, to, fromRouteId, relative) {
+    let contextualMatches;
+    let activeRouteMatch;
+    if (fromRouteId != null && relative !== "path") {
+        // Grab matches up to the calling route so our route-relative logic is
+        // relative to the correct source route.  When using relative:path,
+        // fromRouteId is ignored since that is always relative to the current
+        // location path
+        contextualMatches = [];
+        for (let match of matches){
+            contextualMatches.push(match);
+            if (match.route.id === fromRouteId) {
+                activeRouteMatch = match;
+                break;
+            }
+        }
+    } else {
+        contextualMatches = matches;
+        activeRouteMatch = matches[matches.length - 1];
+    }
+    // Resolve the relative path
+    let path = resolveTo(to ? to : ".", getPathContributingMatches(contextualMatches).map((m)=>m.pathnameBase), stripBasename(location.pathname, basename) || location.pathname, relative === "path");
+    // When `to` is not specified we inherit search/hash from the current
+    // location, unlike when to="." and we just inherit the path.
+    // See https://github.com/remix-run/remix/issues/927
+    if (to == null) {
+        path.search = location.search;
+        path.hash = location.hash;
+    }
+    // Add an ?index param for matched index routes if we don't already have one
+    if ((to == null || to === "" || to === ".") && activeRouteMatch && activeRouteMatch.route.index && !hasNakedIndexQuery(path.search)) path.search = path.search ? path.search.replace(/^\?/, "?index&") : "?index";
+    // If we're operating within a basename, prepend it to the pathname.  If
+    // this is a root navigation, then just use the raw basename which allows
+    // the basename to have full control over the presence of a trailing slash
+    // on root actions
+    if (prependBasename && basename !== "/") path.pathname = path.pathname === "/" ? basename : joinPaths([
+        basename,
+        path.pathname
+    ]);
+    return createPath(path);
+}
+// Normalize navigation options by converting formMethod=GET formData objects to
+// URLSearchParams so they behave identically to links with query params
+function normalizeNavigateOptions(normalizeFormMethod, isFetcher, path, opts) {
+    // Return location verbatim on non-submission navigations
+    if (!opts || !isSubmissionNavigation(opts)) return {
+        path
+    };
+    if (opts.formMethod && !isValidMethod(opts.formMethod)) return {
+        path,
+        error: getInternalRouterError(405, {
+            method: opts.formMethod
+        })
+    };
+    let getInvalidBodyError = ()=>({
+            path,
+            error: getInternalRouterError(400, {
+                type: "invalid-body"
+            })
+        });
+    // Create a Submission on non-GET navigations
+    let rawFormMethod = opts.formMethod || "get";
+    let formMethod = normalizeFormMethod ? rawFormMethod.toUpperCase() : rawFormMethod.toLowerCase();
+    let formAction = stripHashFromPath(path);
+    if (opts.body !== undefined) {
+        if (opts.formEncType === "text/plain") {
+            // text only support POST/PUT/PATCH/DELETE submissions
+            if (!isMutationMethod(formMethod)) return getInvalidBodyError();
+            let text = typeof opts.body === "string" ? opts.body : opts.body instanceof FormData || opts.body instanceof URLSearchParams ? // https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#plain-text-form-data
+            Array.from(opts.body.entries()).reduce((acc, _ref3)=>{
+                let [name, value] = _ref3;
+                return "" + acc + name + "=" + value + "\n";
+            }, "") : String(opts.body);
+            return {
+                path,
+                submission: {
+                    formMethod,
+                    formAction,
+                    formEncType: opts.formEncType,
+                    formData: undefined,
+                    json: undefined,
+                    text
+                }
+            };
+        } else if (opts.formEncType === "application/json") {
+            // json only supports POST/PUT/PATCH/DELETE submissions
+            if (!isMutationMethod(formMethod)) return getInvalidBodyError();
+            try {
+                let json = typeof opts.body === "string" ? JSON.parse(opts.body) : opts.body;
+                return {
+                    path,
+                    submission: {
+                        formMethod,
+                        formAction,
+                        formEncType: opts.formEncType,
+                        formData: undefined,
+                        json,
+                        text: undefined
+                    }
+                };
+            } catch (e) {
+                return getInvalidBodyError();
+            }
+        }
+    }
+    invariant(typeof FormData === "function", "FormData is not available in this environment");
+    let searchParams;
+    let formData;
+    if (opts.formData) {
+        searchParams = convertFormDataToSearchParams(opts.formData);
+        formData = opts.formData;
+    } else if (opts.body instanceof FormData) {
+        searchParams = convertFormDataToSearchParams(opts.body);
+        formData = opts.body;
+    } else if (opts.body instanceof URLSearchParams) {
+        searchParams = opts.body;
+        formData = convertSearchParamsToFormData(searchParams);
+    } else if (opts.body == null) {
+        searchParams = new URLSearchParams();
+        formData = new FormData();
+    } else try {
+        searchParams = new URLSearchParams(opts.body);
+        formData = convertSearchParamsToFormData(searchParams);
+    } catch (e) {
+        return getInvalidBodyError();
+    }
+    let submission = {
+        formMethod,
+        formAction,
+        formEncType: opts && opts.formEncType || "application/x-www-form-urlencoded",
+        formData,
+        json: undefined,
+        text: undefined
+    };
+    if (isMutationMethod(submission.formMethod)) return {
+        path,
+        submission
+    };
+    // Flatten submission onto URLSearchParams for GET submissions
+    let parsedPath = parsePath(path);
+    // On GET navigation submissions we can drop the ?index param from the
+    // resulting location since all loaders will run.  But fetcher GET submissions
+    // only run a single loader so we need to preserve any incoming ?index params
+    if (isFetcher && parsedPath.search && hasNakedIndexQuery(parsedPath.search)) searchParams.append("index", "");
+    parsedPath.search = "?" + searchParams;
+    return {
+        path: createPath(parsedPath),
+        submission
+    };
+}
+// Filter out all routes below any caught error as they aren't going to
+// render so we don't need to load them
+function getLoaderMatchesUntilBoundary(matches, boundaryId) {
+    let boundaryMatches = matches;
+    if (boundaryId) {
+        let index = matches.findIndex((m)=>m.route.id === boundaryId);
+        if (index >= 0) boundaryMatches = matches.slice(0, index);
+    }
+    return boundaryMatches;
+}
+function getMatchesToLoad(history, state, matches, submission, location, isRevalidationRequired, cancelledDeferredRoutes, cancelledFetcherLoads, fetchLoadMatches, fetchRedirectIds, routesToUse, basename, pendingActionData, pendingError) {
+    let actionResult = pendingError ? Object.values(pendingError)[0] : pendingActionData ? Object.values(pendingActionData)[0] : undefined;
+    let currentUrl = history.createURL(state.location);
+    let nextUrl = history.createURL(location);
+    // Pick navigation matches that are net-new or qualify for revalidation
+    let boundaryId = pendingError ? Object.keys(pendingError)[0] : undefined;
+    let boundaryMatches = getLoaderMatchesUntilBoundary(matches, boundaryId);
+    let navigationMatches = boundaryMatches.filter((match, index)=>{
+        if (match.route.lazy) // We haven't loaded this route yet so we don't know if it's got a loader!
+        return true;
+        if (match.route.loader == null) return false;
+        // Always call the loader on new route instances and pending defer cancellations
+        if (isNewLoader(state.loaderData, state.matches[index], match) || cancelledDeferredRoutes.some((id)=>id === match.route.id)) return true;
+        // This is the default implementation for when we revalidate.  If the route
+        // provides it's own implementation, then we give them full control but
+        // provide this value so they can leverage it if needed after they check
+        // their own specific use cases
+        let currentRouteMatch = state.matches[index];
+        let nextRouteMatch = match;
+        return shouldRevalidateLoader(match, _extends({
+            currentUrl,
+            currentParams: currentRouteMatch.params,
+            nextUrl,
+            nextParams: nextRouteMatch.params
+        }, submission, {
+            actionResult,
+            defaultShouldRevalidate: // Forced revalidation due to submission, useRevalidator, or X-Remix-Revalidate
+            isRevalidationRequired || // Clicked the same link, resubmitted a GET form
+            currentUrl.pathname + currentUrl.search === nextUrl.pathname + nextUrl.search || // Search params affect all loaders
+            currentUrl.search !== nextUrl.search || isNewRouteInstance(currentRouteMatch, nextRouteMatch)
+        }));
+    });
+    // Pick fetcher.loads that need to be revalidated
+    let revalidatingFetchers = [];
+    fetchLoadMatches.forEach((f, key)=>{
+        // Don't revalidate if fetcher won't be present in the subsequent render
+        if (!matches.some((m)=>m.route.id === f.routeId)) return;
+        let fetcherMatches = matchRoutes(routesToUse, f.path, basename);
+        // If the fetcher path no longer matches, push it in with null matches so
+        // we can trigger a 404 in callLoadersAndMaybeResolveData.  Note this is
+        // currently only a use-case for Remix HMR where the route tree can change
+        // at runtime and remove a route previously loaded via a fetcher
+        if (!fetcherMatches) {
+            revalidatingFetchers.push({
+                key,
+                routeId: f.routeId,
+                path: f.path,
+                matches: null,
+                match: null,
+                controller: null
+            });
             return;
         }
-        !(element.type === Route) && invariant(false, "[" + (typeof element.type === "string" ? element.type : element.type.name) + "] is not a <Route> component. All component children of <Routes> must be a <Route> or <React.Fragment>");
-        let route = {
-            caseSensitive: element.props.caseSensitive,
-            element: element.props.element,
-            index: element.props.index,
-            path: element.props.path
-        };
-        if (element.props.children) route.children = createRoutesFromChildren(element.props.children);
-        routes.push(route);
+        // Revalidating fetchers are decoupled from the route matches since they
+        // load from a static href.  They revalidate based on explicit revalidation
+        // (submission, useRevalidator, or X-Remix-Revalidate)
+        let fetcher = state.fetchers.get(key);
+        let fetcherMatch = getTargetMatch(fetcherMatches, f.path);
+        let shouldRevalidate = false;
+        if (fetchRedirectIds.has(key)) // Never trigger a revalidation of an actively redirecting fetcher
+        shouldRevalidate = false;
+        else if (cancelledFetcherLoads.includes(key)) // Always revalidate if the fetcher was cancelled
+        shouldRevalidate = true;
+        else if (fetcher && fetcher.state !== "idle" && fetcher.data === undefined) // If the fetcher hasn't ever completed loading yet, then this isn't a
+        // revalidation, it would just be a brand new load if an explicit
+        // revalidation is required
+        shouldRevalidate = isRevalidationRequired;
+        else // Otherwise fall back on any user-defined shouldRevalidate, defaulting
+        // to explicit revalidations only
+        shouldRevalidate = shouldRevalidateLoader(fetcherMatch, _extends({
+            currentUrl,
+            currentParams: state.matches[state.matches.length - 1].params,
+            nextUrl,
+            nextParams: matches[matches.length - 1].params
+        }, submission, {
+            actionResult,
+            defaultShouldRevalidate: isRevalidationRequired
+        }));
+        if (shouldRevalidate) revalidatingFetchers.push({
+            key,
+            routeId: f.routeId,
+            path: f.path,
+            matches: fetcherMatches,
+            match: fetcherMatch,
+            controller: new AbortController()
+        });
     });
-    return routes;
+    return [
+        navigationMatches,
+        revalidatingFetchers
+    ];
+}
+function isNewLoader(currentLoaderData, currentMatch, match) {
+    let isNew = // [a] -> [a, b]
+    !currentMatch || // [a, b] -> [a, c]
+    match.route.id !== currentMatch.route.id;
+    // Handle the case that we don't have data for a re-used route, potentially
+    // from a prior error or from a cancelled pending deferred
+    let isMissingData = currentLoaderData[match.route.id] === undefined;
+    // Always load if this is a net-new route or we don't yet have data
+    return isNew || isMissingData;
+}
+function isNewRouteInstance(currentMatch, match) {
+    let currentPath = currentMatch.route.path;
+    return(// param change for this match, /users/123 -> /users/456
+    currentMatch.pathname !== match.pathname || // splat param changed, which is not present in match.path
+    // e.g. /files/images/avatar.jpg -> files/finances.xls
+    currentPath != null && currentPath.endsWith("*") && currentMatch.params["*"] !== match.params["*"]);
+}
+function shouldRevalidateLoader(loaderMatch, arg) {
+    if (loaderMatch.route.shouldRevalidate) {
+        let routeChoice = loaderMatch.route.shouldRevalidate(arg);
+        if (typeof routeChoice === "boolean") return routeChoice;
+    }
+    return arg.defaultShouldRevalidate;
 }
 /**
- * Renders the result of `matchRoutes()` into a React element.
- */ function renderMatches(matches) {
-    return _renderMatches(matches);
+ * Execute route.lazy() methods to lazily load route modules (loader, action,
+ * shouldRevalidate) and update the routeManifest in place which shares objects
+ * with dataRoutes so those get updated as well.
+ */ async function loadLazyRouteModule(route, mapRouteProperties, manifest) {
+    if (!route.lazy) return;
+    let lazyRoute = await route.lazy();
+    // If the lazy route function was executed and removed by another parallel
+    // call then we can return - first lazy() to finish wins because the return
+    // value of lazy is expected to be static
+    if (!route.lazy) return;
+    let routeToUpdate = manifest[route.id];
+    invariant(routeToUpdate, "No route found in manifest");
+    // Update the route in place.  This should be safe because there's no way
+    // we could yet be sitting on this route as we can't get there without
+    // resolving lazy() first.
+    //
+    // This is different than the HMR "update" use-case where we may actively be
+    // on the route being updated.  The main concern boils down to "does this
+    // mutation affect any ongoing navigations or any current state.matches
+    // values?".  If not, it should be safe to update in place.
+    let routeUpdates = {};
+    for(let lazyRouteProperty in lazyRoute){
+        let staticRouteValue = routeToUpdate[lazyRouteProperty];
+        let isPropertyStaticallyDefined = staticRouteValue !== undefined && // This property isn't static since it should always be updated based
+        // on the route updates
+        lazyRouteProperty !== "hasErrorBoundary";
+        warning(!isPropertyStaticallyDefined, 'Route "' + routeToUpdate.id + '" has a static property "' + lazyRouteProperty + '" ' + "defined but its lazy function is also returning a value for this property. " + ('The lazy route property "' + lazyRouteProperty + '" will be ignored.'));
+        if (!isPropertyStaticallyDefined && !immutableRouteKeys.has(lazyRouteProperty)) routeUpdates[lazyRouteProperty] = lazyRoute[lazyRouteProperty];
+    }
+    // Mutate the route with the provided updates.  Do this first so we pass
+    // the updated version to mapRouteProperties
+    Object.assign(routeToUpdate, routeUpdates);
+    // Mutate the `hasErrorBoundary` property on the route based on the route
+    // updates and remove the `lazy` function so we don't resolve the lazy
+    // route again.
+    Object.assign(routeToUpdate, _extends({}, mapRouteProperties(routeToUpdate), {
+        lazy: undefined
+    }));
+}
+async function callLoaderOrAction(type, request, match, matches, manifest, mapRouteProperties, basename, opts) {
+    if (opts === void 0) opts = {};
+    let resultType;
+    let result;
+    let onReject;
+    let runHandler = (handler)=>{
+        // Setup a promise we can race against so that abort signals short circuit
+        let reject;
+        let abortPromise = new Promise((_, r)=>reject = r);
+        onReject = ()=>reject();
+        request.signal.addEventListener("abort", onReject);
+        return Promise.race([
+            handler({
+                request,
+                params: match.params,
+                context: opts.requestContext
+            }),
+            abortPromise
+        ]);
+    };
+    try {
+        let handler = match.route[type];
+        if (match.route.lazy) {
+            if (handler) {
+                // Run statically defined handler in parallel with lazy()
+                let handlerError;
+                let values = await Promise.all([
+                    // If the handler throws, don't let it immediately bubble out,
+                    // since we need to let the lazy() execution finish so we know if this
+                    // route has a boundary that can handle the error
+                    runHandler(handler).catch((e)=>{
+                        handlerError = e;
+                    }),
+                    loadLazyRouteModule(match.route, mapRouteProperties, manifest)
+                ]);
+                if (handlerError) throw handlerError;
+                result = values[0];
+            } else {
+                // Load lazy route module, then run any returned handler
+                await loadLazyRouteModule(match.route, mapRouteProperties, manifest);
+                handler = match.route[type];
+                if (handler) // Handler still run even if we got interrupted to maintain consistency
+                // with un-abortable behavior of handler execution on non-lazy or
+                // previously-lazy-loaded routes
+                result = await runHandler(handler);
+                else if (type === "action") {
+                    let url = new URL(request.url);
+                    let pathname = url.pathname + url.search;
+                    throw getInternalRouterError(405, {
+                        method: request.method,
+                        pathname,
+                        routeId: match.route.id
+                    });
+                } else // lazy() route has no loader to run.  Short circuit here so we don't
+                // hit the invariant below that errors on returning undefined.
+                return {
+                    type: ResultType.data,
+                    data: undefined
+                };
+            }
+        } else if (!handler) {
+            let url = new URL(request.url);
+            let pathname = url.pathname + url.search;
+            throw getInternalRouterError(404, {
+                pathname
+            });
+        } else result = await runHandler(handler);
+        invariant(result !== undefined, "You defined " + (type === "action" ? "an action" : "a loader") + " for route " + ('"' + match.route.id + "\" but didn't return anything from your `" + type + "` ") + "function. Please return a value or `null`.");
+    } catch (e) {
+        resultType = ResultType.error;
+        result = e;
+    } finally{
+        if (onReject) request.signal.removeEventListener("abort", onReject);
+    }
+    if (isResponse(result)) {
+        let status = result.status;
+        // Process redirects
+        if (redirectStatusCodes.has(status)) {
+            let location = result.headers.get("Location");
+            invariant(location, "Redirects returned/thrown from loaders/actions must have a Location header");
+            // Support relative routing in internal redirects
+            if (!ABSOLUTE_URL_REGEX.test(location)) location = normalizeTo(new URL(request.url), matches.slice(0, matches.indexOf(match) + 1), basename, true, location);
+            else if (!opts.isStaticRequest) {
+                // Strip off the protocol+origin for same-origin + same-basename absolute
+                // redirects. If this is a static request, we can let it go back to the
+                // browser as-is
+                let currentUrl = new URL(request.url);
+                let url = location.startsWith("//") ? new URL(currentUrl.protocol + location) : new URL(location);
+                let isSameBasename = stripBasename(url.pathname, basename) != null;
+                if (url.origin === currentUrl.origin && isSameBasename) location = url.pathname + url.search + url.hash;
+            }
+            // Don't process redirects in the router during static requests requests.
+            // Instead, throw the Response and let the server handle it with an HTTP
+            // redirect.  We also update the Location header in place in this flow so
+            // basename and relative routing is taken into account
+            if (opts.isStaticRequest) {
+                result.headers.set("Location", location);
+                throw result;
+            }
+            return {
+                type: ResultType.redirect,
+                status,
+                location,
+                revalidate: result.headers.get("X-Remix-Revalidate") !== null,
+                reloadDocument: result.headers.get("X-Remix-Reload-Document") !== null
+            };
+        }
+        // For SSR single-route requests, we want to hand Responses back directly
+        // without unwrapping.  We do this with the QueryRouteResponse wrapper
+        // interface so we can know whether it was returned or thrown
+        if (opts.isRouteRequest) {
+            let queryRouteResponse = {
+                type: resultType === ResultType.error ? ResultType.error : ResultType.data,
+                response: result
+            };
+            throw queryRouteResponse;
+        }
+        let data;
+        let contentType = result.headers.get("Content-Type");
+        // Check between word boundaries instead of startsWith() due to the last
+        // paragraph of https://httpwg.org/specs/rfc9110.html#field.content-type
+        if (contentType && /\bapplication\/json\b/.test(contentType)) data = await result.json();
+        else data = await result.text();
+        if (resultType === ResultType.error) return {
+            type: resultType,
+            error: new ErrorResponseImpl(status, result.statusText, data),
+            headers: result.headers
+        };
+        return {
+            type: ResultType.data,
+            data,
+            statusCode: result.status,
+            headers: result.headers
+        };
+    }
+    if (resultType === ResultType.error) return {
+        type: resultType,
+        error: result
+    };
+    if (isDeferredData(result)) {
+        var _result$init, _result$init2;
+        return {
+            type: ResultType.deferred,
+            deferredData: result,
+            statusCode: (_result$init = result.init) == null ? void 0 : _result$init.status,
+            headers: ((_result$init2 = result.init) == null ? void 0 : _result$init2.headers) && new Headers(result.init.headers)
+        };
+    }
+    return {
+        type: ResultType.data,
+        data: result
+    };
+}
+// Utility method for creating the Request instances for loaders/actions during
+// client-side navigations and fetches.  During SSR we will always have a
+// Request instance from the static handler (query/queryRoute)
+function createClientSideRequest(history, location, signal, submission) {
+    let url = history.createURL(stripHashFromPath(location)).toString();
+    let init = {
+        signal
+    };
+    if (submission && isMutationMethod(submission.formMethod)) {
+        let { formMethod, formEncType } = submission;
+        // Didn't think we needed this but it turns out unlike other methods, patch
+        // won't be properly normalized to uppercase and results in a 405 error.
+        // See: https://fetch.spec.whatwg.org/#concept-method
+        init.method = formMethod.toUpperCase();
+        if (formEncType === "application/json") {
+            init.headers = new Headers({
+                "Content-Type": formEncType
+            });
+            init.body = JSON.stringify(submission.json);
+        } else if (formEncType === "text/plain") // Content-Type is inferred (https://fetch.spec.whatwg.org/#dom-request)
+        init.body = submission.text;
+        else if (formEncType === "application/x-www-form-urlencoded" && submission.formData) // Content-Type is inferred (https://fetch.spec.whatwg.org/#dom-request)
+        init.body = convertFormDataToSearchParams(submission.formData);
+        else // Content-Type is inferred (https://fetch.spec.whatwg.org/#dom-request)
+        init.body = submission.formData;
+    }
+    return new Request(url, init);
+}
+function convertFormDataToSearchParams(formData) {
+    let searchParams = new URLSearchParams();
+    for (let [key, value] of formData.entries())// https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#converting-an-entry-list-to-a-list-of-name-value-pairs
+    searchParams.append(key, typeof value === "string" ? value : value.name);
+    return searchParams;
+}
+function convertSearchParamsToFormData(searchParams) {
+    let formData = new FormData();
+    for (let [key, value] of searchParams.entries())formData.append(key, value);
+    return formData;
+}
+function processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds) {
+    // Fill in loaderData/errors from our loaders
+    let loaderData = {};
+    let errors = null;
+    let statusCode;
+    let foundError = false;
+    let loaderHeaders = {};
+    // Process loader results into state.loaderData/state.errors
+    results.forEach((result, index)=>{
+        let id = matchesToLoad[index].route.id;
+        invariant(!isRedirectResult(result), "Cannot handle redirect results in processLoaderData");
+        if (isErrorResult(result)) {
+            // Look upwards from the matched route for the closest ancestor
+            // error boundary, defaulting to the root match
+            let boundaryMatch = findNearestBoundary(matches, id);
+            let error = result.error;
+            // If we have a pending action error, we report it at the highest-route
+            // that throws a loader error, and then clear it out to indicate that
+            // it was consumed
+            if (pendingError) {
+                error = Object.values(pendingError)[0];
+                pendingError = undefined;
+            }
+            errors = errors || {};
+            // Prefer higher error values if lower errors bubble to the same boundary
+            if (errors[boundaryMatch.route.id] == null) errors[boundaryMatch.route.id] = error;
+            // Clear our any prior loaderData for the throwing route
+            loaderData[id] = undefined;
+            // Once we find our first (highest) error, we set the status code and
+            // prevent deeper status codes from overriding
+            if (!foundError) {
+                foundError = true;
+                statusCode = isRouteErrorResponse(result.error) ? result.error.status : 500;
+            }
+            if (result.headers) loaderHeaders[id] = result.headers;
+        } else {
+            if (isDeferredResult(result)) {
+                activeDeferreds.set(id, result.deferredData);
+                loaderData[id] = result.deferredData.data;
+            } else loaderData[id] = result.data;
+            // Error status codes always override success status codes, but if all
+            // loaders are successful we take the deepest status code.
+            if (result.statusCode != null && result.statusCode !== 200 && !foundError) statusCode = result.statusCode;
+            if (result.headers) loaderHeaders[id] = result.headers;
+        }
+    });
+    // If we didn't consume the pending action error (i.e., all loaders
+    // resolved), then consume it here.  Also clear out any loaderData for the
+    // throwing route
+    if (pendingError) {
+        errors = pendingError;
+        loaderData[Object.keys(pendingError)[0]] = undefined;
+    }
+    return {
+        loaderData,
+        errors,
+        statusCode: statusCode || 200,
+        loaderHeaders
+    };
+}
+function processLoaderData(state, matches, matchesToLoad, results, pendingError, revalidatingFetchers, fetcherResults, activeDeferreds) {
+    let { loaderData, errors } = processRouteLoaderData(matches, matchesToLoad, results, pendingError, activeDeferreds);
+    // Process results from our revalidating fetchers
+    for(let index = 0; index < revalidatingFetchers.length; index++){
+        let { key, match, controller } = revalidatingFetchers[index];
+        invariant(fetcherResults !== undefined && fetcherResults[index] !== undefined, "Did not find corresponding fetcher result");
+        let result = fetcherResults[index];
+        // Process fetcher non-redirect errors
+        if (controller && controller.signal.aborted) continue;
+        else if (isErrorResult(result)) {
+            let boundaryMatch = findNearestBoundary(state.matches, match == null ? void 0 : match.route.id);
+            if (!(errors && errors[boundaryMatch.route.id])) errors = _extends({}, errors, {
+                [boundaryMatch.route.id]: result.error
+            });
+            state.fetchers.delete(key);
+        } else if (isRedirectResult(result)) // Should never get here, redirects should get processed above, but we
+        // keep this to type narrow to a success result in the else
+        invariant(false, "Unhandled fetcher revalidation redirect");
+        else if (isDeferredResult(result)) // Should never get here, deferred data should be awaited for fetchers
+        // in resolveDeferredResults
+        invariant(false, "Unhandled fetcher deferred data");
+        else {
+            let doneFetcher = getDoneFetcher(result.data);
+            state.fetchers.set(key, doneFetcher);
+        }
+    }
+    return {
+        loaderData,
+        errors
+    };
+}
+function mergeLoaderData(loaderData, newLoaderData, matches, errors) {
+    let mergedLoaderData = _extends({}, newLoaderData);
+    for (let match of matches){
+        let id = match.route.id;
+        if (newLoaderData.hasOwnProperty(id)) {
+            if (newLoaderData[id] !== undefined) mergedLoaderData[id] = newLoaderData[id];
+        } else if (loaderData[id] !== undefined && match.route.loader) // Preserve existing keys not included in newLoaderData and where a loader
+        // wasn't removed by HMR
+        mergedLoaderData[id] = loaderData[id];
+        if (errors && errors.hasOwnProperty(id)) break;
+    }
+    return mergedLoaderData;
+}
+// Find the nearest error boundary, looking upwards from the leaf route (or the
+// route specified by routeId) for the closest ancestor error boundary,
+// defaulting to the root match
+function findNearestBoundary(matches, routeId) {
+    let eligibleMatches = routeId ? matches.slice(0, matches.findIndex((m)=>m.route.id === routeId) + 1) : [
+        ...matches
+    ];
+    return eligibleMatches.reverse().find((m)=>m.route.hasErrorBoundary === true) || matches[0];
+}
+function getShortCircuitMatches(routes) {
+    // Prefer a root layout route if present, otherwise shim in a route object
+    let route = routes.find((r)=>r.index || !r.path || r.path === "/") || {
+        id: "__shim-error-route__"
+    };
+    return {
+        matches: [
+            {
+                params: {},
+                pathname: "",
+                pathnameBase: "",
+                route
+            }
+        ],
+        route
+    };
+}
+function getInternalRouterError(status, _temp4) {
+    let { pathname, routeId, method, type } = _temp4 === void 0 ? {} : _temp4;
+    let statusText = "Unknown Server Error";
+    let errorMessage = "Unknown @remix-run/router error";
+    if (status === 400) {
+        statusText = "Bad Request";
+        if (method && pathname && routeId) errorMessage = "You made a " + method + ' request to "' + pathname + '" but ' + ('did not provide a `loader` for route "' + routeId + '", ') + "so there is no way to handle the request.";
+        else if (type === "defer-action") errorMessage = "defer() is not supported in actions";
+        else if (type === "invalid-body") errorMessage = "Unable to encode submission body";
+    } else if (status === 403) {
+        statusText = "Forbidden";
+        errorMessage = 'Route "' + routeId + '" does not match URL "' + pathname + '"';
+    } else if (status === 404) {
+        statusText = "Not Found";
+        errorMessage = 'No route matches URL "' + pathname + '"';
+    } else if (status === 405) {
+        statusText = "Method Not Allowed";
+        if (method && pathname && routeId) errorMessage = "You made a " + method.toUpperCase() + ' request to "' + pathname + '" but ' + ('did not provide an `action` for route "' + routeId + '", ') + "so there is no way to handle the request.";
+        else if (method) errorMessage = 'Invalid request method "' + method.toUpperCase() + '"';
+    }
+    return new ErrorResponseImpl(status || 500, statusText, new Error(errorMessage), true);
+}
+// Find any returned redirect errors, starting from the lowest match
+function findRedirect(results) {
+    for(let i = results.length - 1; i >= 0; i--){
+        let result = results[i];
+        if (isRedirectResult(result)) return {
+            result,
+            idx: i
+        };
+    }
+}
+function stripHashFromPath(path) {
+    let parsedPath = typeof path === "string" ? parsePath(path) : path;
+    return createPath(_extends({}, parsedPath, {
+        hash: ""
+    }));
+}
+function isHashChangeOnly(a, b) {
+    if (a.pathname !== b.pathname || a.search !== b.search) return false;
+    if (a.hash === "") // /page -> /page#hash
+    return b.hash !== "";
+    else if (a.hash === b.hash) // /page#hash -> /page#hash
+    return true;
+    else if (b.hash !== "") // /page#hash -> /page#other
+    return true;
+    // If the hash is removed the browser will re-perform a request to the server
+    // /page#hash -> /page
+    return false;
+}
+function isDeferredResult(result) {
+    return result.type === ResultType.deferred;
+}
+function isErrorResult(result) {
+    return result.type === ResultType.error;
+}
+function isRedirectResult(result) {
+    return (result && result.type) === ResultType.redirect;
+}
+function isDeferredData(value) {
+    let deferred = value;
+    return deferred && typeof deferred === "object" && typeof deferred.data === "object" && typeof deferred.subscribe === "function" && typeof deferred.cancel === "function" && typeof deferred.resolveData === "function";
+}
+function isResponse(value) {
+    return value != null && typeof value.status === "number" && typeof value.statusText === "string" && typeof value.headers === "object" && typeof value.body !== "undefined";
+}
+function isRedirectResponse(result) {
+    if (!isResponse(result)) return false;
+    let status = result.status;
+    let location = result.headers.get("Location");
+    return status >= 300 && status <= 399 && location != null;
+}
+function isQueryRouteResponse(obj) {
+    return obj && isResponse(obj.response) && (obj.type === ResultType.data || obj.type === ResultType.error);
+}
+function isValidMethod(method) {
+    return validRequestMethods.has(method.toLowerCase());
+}
+function isMutationMethod(method) {
+    return validMutationMethods.has(method.toLowerCase());
+}
+async function resolveDeferredResults(currentMatches, matchesToLoad, results, signals, isFetcher, currentLoaderData) {
+    for(let index = 0; index < results.length; index++){
+        let result = results[index];
+        let match = matchesToLoad[index];
+        // If we don't have a match, then we can have a deferred result to do
+        // anything with.  This is for revalidating fetchers where the route was
+        // removed during HMR
+        if (!match) continue;
+        let currentMatch = currentMatches.find((m)=>m.route.id === match.route.id);
+        let isRevalidatingLoader = currentMatch != null && !isNewRouteInstance(currentMatch, match) && (currentLoaderData && currentLoaderData[match.route.id]) !== undefined;
+        if (isDeferredResult(result) && (isFetcher || isRevalidatingLoader)) {
+            // Note: we do not have to touch activeDeferreds here since we race them
+            // against the signal in resolveDeferredData and they'll get aborted
+            // there if needed
+            let signal = signals[index];
+            invariant(signal, "Expected an AbortSignal for revalidating fetcher deferred result");
+            await resolveDeferredData(result, signal, isFetcher).then((result)=>{
+                if (result) results[index] = result || results[index];
+            });
+        }
+    }
+}
+async function resolveDeferredData(result, signal, unwrap) {
+    if (unwrap === void 0) unwrap = false;
+    let aborted = await result.deferredData.resolveData(signal);
+    if (aborted) return;
+    if (unwrap) try {
+        return {
+            type: ResultType.data,
+            data: result.deferredData.unwrappedData
+        };
+    } catch (e) {
+        // Handle any TrackedPromise._error values encountered while unwrapping
+        return {
+            type: ResultType.error,
+            error: e
+        };
+    }
+    return {
+        type: ResultType.data,
+        data: result.deferredData.data
+    };
+}
+function hasNakedIndexQuery(search) {
+    return new URLSearchParams(search).getAll("index").some((v)=>v === "");
+}
+function getTargetMatch(matches, location) {
+    let search = typeof location === "string" ? parsePath(location).search : location.search;
+    if (matches[matches.length - 1].route.index && hasNakedIndexQuery(search || "")) // Return the leaf index route when index is present
+    return matches[matches.length - 1];
+    // Otherwise grab the deepest "path contributing" match (ignoring index and
+    // pathless layout routes)
+    let pathMatches = getPathContributingMatches(matches);
+    return pathMatches[pathMatches.length - 1];
+}
+function getSubmissionFromNavigation(navigation) {
+    let { formMethod, formAction, formEncType, text, formData, json } = navigation;
+    if (!formMethod || !formAction || !formEncType) return;
+    if (text != null) return {
+        formMethod,
+        formAction,
+        formEncType,
+        formData: undefined,
+        json: undefined,
+        text
+    };
+    else if (formData != null) return {
+        formMethod,
+        formAction,
+        formEncType,
+        formData,
+        json: undefined,
+        text: undefined
+    };
+    else if (json !== undefined) return {
+        formMethod,
+        formAction,
+        formEncType,
+        formData: undefined,
+        json,
+        text: undefined
+    };
+}
+function getLoadingNavigation(location, submission) {
+    if (submission) {
+        let navigation = {
+            state: "loading",
+            location,
+            formMethod: submission.formMethod,
+            formAction: submission.formAction,
+            formEncType: submission.formEncType,
+            formData: submission.formData,
+            json: submission.json,
+            text: submission.text
+        };
+        return navigation;
+    } else {
+        let navigation = {
+            state: "loading",
+            location,
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined,
+            json: undefined,
+            text: undefined
+        };
+        return navigation;
+    }
+}
+function getSubmittingNavigation(location, submission) {
+    let navigation = {
+        state: "submitting",
+        location,
+        formMethod: submission.formMethod,
+        formAction: submission.formAction,
+        formEncType: submission.formEncType,
+        formData: submission.formData,
+        json: submission.json,
+        text: submission.text
+    };
+    return navigation;
+}
+function getLoadingFetcher(submission, data) {
+    if (submission) {
+        let fetcher = {
+            state: "loading",
+            formMethod: submission.formMethod,
+            formAction: submission.formAction,
+            formEncType: submission.formEncType,
+            formData: submission.formData,
+            json: submission.json,
+            text: submission.text,
+            data
+        };
+        return fetcher;
+    } else {
+        let fetcher = {
+            state: "loading",
+            formMethod: undefined,
+            formAction: undefined,
+            formEncType: undefined,
+            formData: undefined,
+            json: undefined,
+            text: undefined,
+            data
+        };
+        return fetcher;
+    }
+}
+function getSubmittingFetcher(submission, existingFetcher) {
+    let fetcher = {
+        state: "submitting",
+        formMethod: submission.formMethod,
+        formAction: submission.formAction,
+        formEncType: submission.formEncType,
+        formData: submission.formData,
+        json: submission.json,
+        text: submission.text,
+        data: existingFetcher ? existingFetcher.data : undefined
+    };
+    return fetcher;
+}
+function getDoneFetcher(data) {
+    let fetcher = {
+        state: "idle",
+        formMethod: undefined,
+        formAction: undefined,
+        formEncType: undefined,
+        formData: undefined,
+        json: undefined,
+        text: undefined,
+        data
+    };
+    return fetcher;
 }
 
-},{"history":"iE5Zp","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"d6HH4":[function() {},{}],"69EKn":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"d6HH4":[function() {},{}],"f6h3t":[function(require,module,exports) {
 "use strict";
-var Refresh = require("b4cf2cd119e30e43");
+var Refresh = require("9c44ae1f88b07d6");
 function debounce(func, delay) {
     {
         let timeout = undefined;
@@ -42725,7 +46790,7 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"b4cf2cd119e30e43":"d6M0a"}],"ggaUx":[function(require,module,exports) {
+},{"9c44ae1f88b07d6":"84p6H"}],"ggaUx":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$e9f6 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -42969,7 +47034,7 @@ $RefreshReg$(_c, "MovieView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn","./movie-view.scss":"jnlR5"}],"jnlR5":[function() {},{}],"9YtA0":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","prop-types":"7wKI2","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","react":"21dqq","./movie-view.scss":"jnlR5","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"jnlR5":[function() {},{}],"9YtA0":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9fee = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -43186,7 +47251,7 @@ $RefreshReg$(_c, "LoginView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"4OGiN":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"4OGiN":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$73d1 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -43462,7 +47527,7 @@ $RefreshReg$(_c, "SignupView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"bsPVM":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"bsPVM":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$abf5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -43583,7 +47648,7 @@ $RefreshReg$(_c, "NavigationBar");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"2vVqf":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2vVqf":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$3c12 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -43836,7 +47901,7 @@ $RefreshReg$(_c, "ProfileView");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"fdOAw","./update-form":"7yKw6","../movie-card/movie-card":"bwuIu","date-fns":"h4JBu","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"7yKw6":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","react-router-dom":"9xmpe","./update-form":"7yKw6","../movie-card/movie-card":"bwuIu","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t","date-fns":"h4JBu"}],"7yKw6":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$33b0 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -44045,7 +48110,7 @@ $RefreshReg$(_c, "UpdateForm");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"h4JBu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-bootstrap":"3AD9A","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"h4JBu":[function(require,module,exports) {
 // This file is generated automatically by `scripts/build/indices.ts`. Please, don't change it.
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -44769,7 +48834,7 @@ var _indexJsDefault238 = parcelHelpers.interopDefault(_indexJs238);
 var _indexJs239 = require("./constants/index.js");
 parcelHelpers.exportAll(_indexJs239, exports);
 
-},{"./add/index.js":"41zOn","./addBusinessDays/index.js":"lIar7","./addDays/index.js":"dIkqe","./addHours/index.js":"WawY2","./addISOWeekYears/index.js":"dL2yS","./addMilliseconds/index.js":"8FakJ","./addMinutes/index.js":"k642X","./addMonths/index.js":"97zxM","./addQuarters/index.js":"6iqct","./addSeconds/index.js":"hwycE","./addWeeks/index.js":"eMkmx","./addYears/index.js":"3cXli","./areIntervalsOverlapping/index.js":"hxcQe","./clamp/index.js":"la5zQ","./closestIndexTo/index.js":"jM3IG","./closestTo/index.js":"e19AR","./compareAsc/index.js":"lT0BK","./compareDesc/index.js":"7xn98","./daysToWeeks/index.js":"a6OrI","./differenceInBusinessDays/index.js":"4fZ7o","./differenceInCalendarDays/index.js":"8NsKL","./differenceInCalendarISOWeekYears/index.js":"cBvz5","./differenceInCalendarISOWeeks/index.js":"PboM2","./differenceInCalendarMonths/index.js":"LhJEt","./differenceInCalendarQuarters/index.js":"2oNqd","./differenceInCalendarWeeks/index.js":"3jF3Q","./differenceInCalendarYears/index.js":"3hfYt","./differenceInDays/index.js":"eNpmW","./differenceInHours/index.js":"kYXLi","./differenceInISOWeekYears/index.js":"UlstI","./differenceInMilliseconds/index.js":"ghq0u","./differenceInMinutes/index.js":"jnS5n","./differenceInMonths/index.js":"gahsc","./differenceInQuarters/index.js":"9OpiM","./differenceInSeconds/index.js":"6VVMM","./differenceInWeeks/index.js":"1xGjG","./differenceInYears/index.js":"6a6dX","./eachDayOfInterval/index.js":"4b7RJ","./eachHourOfInterval/index.js":"joit3","./eachMinuteOfInterval/index.js":"3e3Go","./eachMonthOfInterval/index.js":"crROE","./eachQuarterOfInterval/index.js":"6wXGT","./eachWeekOfInterval/index.js":"7JopV","./eachWeekendOfInterval/index.js":"lRPpI","./eachWeekendOfMonth/index.js":"l2IOX","./eachWeekendOfYear/index.js":"jbXKL","./eachYearOfInterval/index.js":"1eRMC","./endOfDay/index.js":"jdhNS","./endOfDecade/index.js":"8ukfs","./endOfHour/index.js":"5qdR1","./endOfISOWeek/index.js":"1fnlm","./endOfISOWeekYear/index.js":"gqDqi","./endOfMinute/index.js":"9RJzt","./endOfMonth/index.js":"9JZuJ","./endOfQuarter/index.js":"7lVn9","./endOfSecond/index.js":"dZwMS","./endOfToday/index.js":"eXz9i","./endOfTomorrow/index.js":"pYGos","./endOfWeek/index.js":"hn3Mn","./endOfYear/index.js":"7IwvV","./endOfYesterday/index.js":"782pb","./format/index.js":"9QYyH","./formatDistance/index.js":"a8iC4","./formatDistanceStrict/index.js":"fFzAn","./formatDistanceToNow/index.js":"fMaXW","./formatDistanceToNowStrict/index.js":"iXte7","./formatDuration/index.js":"kCjwJ","./formatISO/index.js":"aVOBk","./formatISO9075/index.js":"jeSZW","./formatISODuration/index.js":"1pxtN","./formatRFC3339/index.js":"b3tor","./formatRFC7231/index.js":"aaPeH","./formatRelative/index.js":"eMG2f","./fromUnixTime/index.js":"4G2qo","./getDate/index.js":"kfvXf","./getDay/index.js":"a35dM","./getDayOfYear/index.js":"jJLUT","./getDaysInMonth/index.js":"8UuX8","./getDaysInYear/index.js":"lRa1C","./getDecade/index.js":"02onI","./getDefaultOptions/index.js":"3Tp8I","./getHours/index.js":"e1NpZ","./getISODay/index.js":"f8pof","./getISOWeek/index.js":"93hUF","./getISOWeekYear/index.js":"iVWIQ","./getISOWeeksInYear/index.js":"ebHmW","./getMilliseconds/index.js":"faXce","./getMinutes/index.js":"3m4lN","./getMonth/index.js":"b1WO6","./getOverlappingDaysInIntervals/index.js":"5qm46","./getQuarter/index.js":"e8NaG","./getSeconds/index.js":"fXWdF","./getTime/index.js":"cBPGS","./getUnixTime/index.js":"hxuIP","./getWeek/index.js":"1XDpK","./getWeekOfMonth/index.js":"ewSbQ","./getWeekYear/index.js":"j9phs","./getWeeksInMonth/index.js":"eacv1","./getYear/index.js":"gXg0x","./hoursToMilliseconds/index.js":"jdsRH","./hoursToMinutes/index.js":"kBOiQ","./hoursToSeconds/index.js":"hNAuw","./intervalToDuration/index.js":"h4z6A","./intlFormat/index.js":"cu7AL","./intlFormatDistance/index.js":"d76s4","./isAfter/index.js":"8WhoB","./isBefore/index.js":"k0Upu","./isDate/index.js":"8nhz2","./isEqual/index.js":"51Hde","./isExists/index.js":"1jzuJ","./isFirstDayOfMonth/index.js":"cv2ds","./isFriday/index.js":"chdum","./isFuture/index.js":"e6BoL","./isLastDayOfMonth/index.js":"8CBip","./isLeapYear/index.js":"lrMBH","./isMatch/index.js":"7pYM3","./isMonday/index.js":"hOOIU","./isPast/index.js":"ehyp9","./isSameDay/index.js":"2Ly8E","./isSameHour/index.js":"95wM5","./isSameISOWeek/index.js":"f2BdZ","./isSameISOWeekYear/index.js":"4xc2L","./isSameMinute/index.js":"713XW","./isSameMonth/index.js":"gD9c7","./isSameQuarter/index.js":"aiqVY","./isSameSecond/index.js":"be9PG","./isSameWeek/index.js":"3ukLg","./isSameYear/index.js":"6GrIQ","./isSaturday/index.js":"cQi7V","./isSunday/index.js":"dJBio","./isThisHour/index.js":"bWPV1","./isThisISOWeek/index.js":"6yDt8","./isThisMinute/index.js":"2n6Bs","./isThisMonth/index.js":"4kjzi","./isThisQuarter/index.js":"cnXhj","./isThisSecond/index.js":"8bNog","./isThisWeek/index.js":"63hGE","./isThisYear/index.js":"7ODJo","./isThursday/index.js":"c20b0","./isToday/index.js":"9BItG","./isTomorrow/index.js":"fmXLK","./isTuesday/index.js":"1FZeb","./isValid/index.js":"leBpy","./isWednesday/index.js":"4dMyp","./isWeekend/index.js":"3qVZD","./isWithinInterval/index.js":"cfkDU","./isYesterday/index.js":"bQn59","./lastDayOfDecade/index.js":"jtmZ7","./lastDayOfISOWeek/index.js":"eifcf","./lastDayOfISOWeekYear/index.js":"kxUtu","./lastDayOfMonth/index.js":"lfNVq","./lastDayOfQuarter/index.js":"fuNF7","./lastDayOfWeek/index.js":"5mPVi","./lastDayOfYear/index.js":"9I2ux","./lightFormat/index.js":"iStgh","./max/index.js":"1CNw8","./milliseconds/index.js":"cRI2I","./millisecondsToHours/index.js":"2VucU","./millisecondsToMinutes/index.js":"eh9Hm","./millisecondsToSeconds/index.js":"3zetZ","./min/index.js":"1TYrG","./minutesToHours/index.js":"eq0l0","./minutesToMilliseconds/index.js":"hPesA","./minutesToSeconds/index.js":"foGAG","./monthsToQuarters/index.js":"8Ov2a","./monthsToYears/index.js":"e95qs","./nextDay/index.js":"3yA7C","./nextFriday/index.js":"8h2I8","./nextMonday/index.js":"4C2Hm","./nextSaturday/index.js":"eLw19","./nextSunday/index.js":"kopU0","./nextThursday/index.js":"lAExQ","./nextTuesday/index.js":"5W4Cz","./nextWednesday/index.js":"fldsK","./parse/index.js":"4Juzp","./parseISO/index.js":"3ZcqV","./parseJSON/index.js":"eYmvF","./previousDay/index.js":"gv79y","./previousFriday/index.js":"2Mbmj","./previousMonday/index.js":"1fDQG","./previousSaturday/index.js":"3vOvT","./previousSunday/index.js":"caLg3","./previousThursday/index.js":"f7vlW","./previousTuesday/index.js":"5j5CA","./previousWednesday/index.js":"iTKJo","./quartersToMonths/index.js":"bRtXU","./quartersToYears/index.js":"i3XzC","./roundToNearestMinutes/index.js":"dnmWk","./secondsToHours/index.js":"jNPGk","./secondsToMilliseconds/index.js":"bkqBp","./secondsToMinutes/index.js":"e5BKQ","./set/index.js":"cVcCi","./setDate/index.js":"l8igi","./setDay/index.js":"gHd89","./setDayOfYear/index.js":"dIUsp","./setDefaultOptions/index.js":"dXLaQ","./setHours/index.js":"6mxe0","./setISODay/index.js":"5MPjU","./setISOWeek/index.js":"kVXjt","./setISOWeekYear/index.js":"13hUM","./setMilliseconds/index.js":"8Ydox","./setMinutes/index.js":"hnYiq","./setMonth/index.js":"40U8W","./setQuarter/index.js":"fgMUY","./setSeconds/index.js":"bRQ0J","./setWeek/index.js":"e75sx","./setWeekYear/index.js":"ctL4r","./setYear/index.js":"3T0aO","./startOfDay/index.js":"6896y","./startOfDecade/index.js":"jBxUz","./startOfHour/index.js":"18KGk","./startOfISOWeek/index.js":"8hBDU","./startOfISOWeekYear/index.js":"dWUn9","./startOfMinute/index.js":"lvIUp","./startOfMonth/index.js":"a7He0","./startOfQuarter/index.js":"6HbXS","./startOfSecond/index.js":"cQ2Qx","./startOfToday/index.js":"8Kfzx","./startOfTomorrow/index.js":"bGz0G","./startOfWeek/index.js":"gBjzb","./startOfWeekYear/index.js":"1gklq","./startOfYear/index.js":"61Trs","./startOfYesterday/index.js":"2oAjD","./sub/index.js":"iNM4e","./subBusinessDays/index.js":"27mm8","./subDays/index.js":"3Wkyt","./subHours/index.js":"akbs7","./subISOWeekYears/index.js":"b7Fgu","./subMilliseconds/index.js":"ckMtI","./subMinutes/index.js":"1LqGl","./subMonths/index.js":"2QgWY","./subQuarters/index.js":"do8aw","./subSeconds/index.js":"8B08b","./subWeeks/index.js":"3RF3r","./subYears/index.js":"aMJwy","./toDate/index.js":"bFvM9","./weeksToDays/index.js":"itttB","./yearsToMonths/index.js":"5jjaj","./yearsToQuarters/index.js":"CCmtw","./constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"41zOn":[function(require,module,exports) {
+},{"./add/index.js":"41zOn","./addBusinessDays/index.js":"lIar7","./addDays/index.js":"dIkqe","./addHours/index.js":"WawY2","./addISOWeekYears/index.js":"dL2yS","./addMilliseconds/index.js":"8FakJ","./addMinutes/index.js":"k642X","./addMonths/index.js":"97zxM","./addQuarters/index.js":"6iqct","./addSeconds/index.js":"hwycE","./addWeeks/index.js":"eMkmx","./addYears/index.js":"3cXli","./areIntervalsOverlapping/index.js":"hxcQe","./clamp/index.js":"la5zQ","./closestIndexTo/index.js":"jM3IG","./closestTo/index.js":"e19AR","./compareAsc/index.js":"lT0BK","./compareDesc/index.js":"7xn98","./daysToWeeks/index.js":"a6OrI","./differenceInBusinessDays/index.js":"4fZ7o","./differenceInCalendarDays/index.js":"8NsKL","./differenceInCalendarISOWeekYears/index.js":"cBvz5","./differenceInCalendarISOWeeks/index.js":"PboM2","./differenceInCalendarMonths/index.js":"LhJEt","./differenceInCalendarQuarters/index.js":"2oNqd","./differenceInCalendarWeeks/index.js":"3jF3Q","./differenceInCalendarYears/index.js":"3hfYt","./differenceInDays/index.js":"eNpmW","./differenceInHours/index.js":"kYXLi","./differenceInISOWeekYears/index.js":"UlstI","./differenceInMilliseconds/index.js":"ghq0u","./differenceInMinutes/index.js":"jnS5n","./differenceInMonths/index.js":"gahsc","./differenceInQuarters/index.js":"9OpiM","./differenceInSeconds/index.js":"6VVMM","./differenceInWeeks/index.js":"1xGjG","./differenceInYears/index.js":"6a6dX","./eachDayOfInterval/index.js":"4b7RJ","./eachHourOfInterval/index.js":"joit3","./eachMinuteOfInterval/index.js":"3e3Go","./eachMonthOfInterval/index.js":"crROE","./eachQuarterOfInterval/index.js":"6wXGT","./eachWeekOfInterval/index.js":"7JopV","./eachWeekendOfInterval/index.js":"lRPpI","./eachWeekendOfMonth/index.js":"l2IOX","./eachWeekendOfYear/index.js":"jbXKL","./eachYearOfInterval/index.js":"1eRMC","./endOfDay/index.js":"jdhNS","./endOfDecade/index.js":"8ukfs","./endOfHour/index.js":"5qdR1","./endOfISOWeek/index.js":"1fnlm","./endOfISOWeekYear/index.js":"gqDqi","./endOfMinute/index.js":"9RJzt","./endOfMonth/index.js":"9JZuJ","./endOfQuarter/index.js":"7lVn9","./endOfSecond/index.js":"dZwMS","./endOfToday/index.js":"eXz9i","./endOfTomorrow/index.js":"pYGos","./endOfWeek/index.js":"hn3Mn","./endOfYear/index.js":"7IwvV","./endOfYesterday/index.js":"782pb","./format/index.js":"9QYyH","./formatDistance/index.js":"a8iC4","./formatDistanceStrict/index.js":"fFzAn","./formatDistanceToNow/index.js":"fMaXW","./formatDistanceToNowStrict/index.js":"iXte7","./formatDuration/index.js":"kCjwJ","./formatISO/index.js":"aVOBk","./formatISO9075/index.js":"jeSZW","./formatISODuration/index.js":"1pxtN","./formatRFC3339/index.js":"b3tor","./formatRFC7231/index.js":"aaPeH","./formatRelative/index.js":"eMG2f","./fromUnixTime/index.js":"4G2qo","./getDate/index.js":"kfvXf","./getDay/index.js":"a35dM","./getDayOfYear/index.js":"jJLUT","./getDaysInMonth/index.js":"8UuX8","./getDaysInYear/index.js":"lRa1C","./getDecade/index.js":"02onI","./getDefaultOptions/index.js":"3Tp8I","./getHours/index.js":"e1NpZ","./getISODay/index.js":"f8pof","./getISOWeek/index.js":"93hUF","./getISOWeekYear/index.js":"iVWIQ","./getISOWeeksInYear/index.js":"ebHmW","./getMilliseconds/index.js":"faXce","./getMinutes/index.js":"3m4lN","./getMonth/index.js":"b1WO6","./getOverlappingDaysInIntervals/index.js":"5qm46","./getQuarter/index.js":"e8NaG","./getSeconds/index.js":"fXWdF","./getTime/index.js":"cBPGS","./getUnixTime/index.js":"hxuIP","./getWeek/index.js":"1XDpK","./getWeekOfMonth/index.js":"ewSbQ","./getWeekYear/index.js":"j9phs","./getWeeksInMonth/index.js":"eacv1","./getYear/index.js":"gXg0x","./hoursToMilliseconds/index.js":"jdsRH","./hoursToMinutes/index.js":"kBOiQ","./hoursToSeconds/index.js":"hNAuw","./intervalToDuration/index.js":"h4z6A","./intlFormat/index.js":"cu7AL","./intlFormatDistance/index.js":"d76s4","./isAfter/index.js":"8WhoB","./isBefore/index.js":"k0Upu","./isDate/index.js":"8nhz2","./isEqual/index.js":"51Hde","./isExists/index.js":"1jzuJ","./isFirstDayOfMonth/index.js":"cv2ds","./isFriday/index.js":"chdum","./isFuture/index.js":"e6BoL","./isLastDayOfMonth/index.js":"8CBip","./isLeapYear/index.js":"lrMBH","./isMatch/index.js":"7pYM3","./isMonday/index.js":"hOOIU","./isPast/index.js":"ehyp9","./isSameDay/index.js":"2Ly8E","./isSameHour/index.js":"95wM5","./isSameISOWeek/index.js":"f2BdZ","./isSameISOWeekYear/index.js":"4xc2L","./isSameMinute/index.js":"713XW","./isSameMonth/index.js":"gD9c7","./isSameQuarter/index.js":"aiqVY","./isSameSecond/index.js":"be9PG","./isSameWeek/index.js":"3ukLg","./isSameYear/index.js":"6GrIQ","./isSaturday/index.js":"cQi7V","./isSunday/index.js":"dJBio","./isThisHour/index.js":"bWPV1","./isThisISOWeek/index.js":"6yDt8","./isThisMinute/index.js":"2n6Bs","./isThisMonth/index.js":"4kjzi","./isThisQuarter/index.js":"cnXhj","./isThisSecond/index.js":"8bNog","./isThisWeek/index.js":"63hGE","./isThisYear/index.js":"7ODJo","./isThursday/index.js":"c20b0","./isToday/index.js":"9BItG","./isTomorrow/index.js":"fmXLK","./isTuesday/index.js":"1FZeb","./isValid/index.js":"leBpy","./isWednesday/index.js":"4dMyp","./isWeekend/index.js":"3qVZD","./isWithinInterval/index.js":"cfkDU","./isYesterday/index.js":"bQn59","./lastDayOfDecade/index.js":"jtmZ7","./lastDayOfISOWeek/index.js":"eifcf","./lastDayOfISOWeekYear/index.js":"kxUtu","./lastDayOfMonth/index.js":"lfNVq","./lastDayOfQuarter/index.js":"fuNF7","./lastDayOfWeek/index.js":"5mPVi","./lastDayOfYear/index.js":"9I2ux","./lightFormat/index.js":"iStgh","./max/index.js":"1CNw8","./milliseconds/index.js":"cRI2I","./millisecondsToHours/index.js":"2VucU","./millisecondsToMinutes/index.js":"eh9Hm","./millisecondsToSeconds/index.js":"3zetZ","./min/index.js":"1TYrG","./minutesToHours/index.js":"eq0l0","./minutesToMilliseconds/index.js":"hPesA","./minutesToSeconds/index.js":"foGAG","./monthsToQuarters/index.js":"8Ov2a","./monthsToYears/index.js":"e95qs","./nextDay/index.js":"3yA7C","./nextFriday/index.js":"8h2I8","./nextMonday/index.js":"4C2Hm","./nextSaturday/index.js":"eLw19","./nextSunday/index.js":"kopU0","./nextThursday/index.js":"lAExQ","./nextTuesday/index.js":"5W4Cz","./nextWednesday/index.js":"fldsK","./parse/index.js":"4Juzp","./parseISO/index.js":"3ZcqV","./parseJSON/index.js":"eYmvF","./previousDay/index.js":"gv79y","./previousFriday/index.js":"2Mbmj","./previousMonday/index.js":"1fDQG","./previousSaturday/index.js":"3vOvT","./previousSunday/index.js":"caLg3","./previousThursday/index.js":"f7vlW","./previousTuesday/index.js":"5j5CA","./previousWednesday/index.js":"iTKJo","./quartersToMonths/index.js":"bRtXU","./quartersToYears/index.js":"i3XzC","./roundToNearestMinutes/index.js":"dnmWk","./secondsToHours/index.js":"jNPGk","./secondsToMilliseconds/index.js":"bkqBp","./secondsToMinutes/index.js":"e5BKQ","./set/index.js":"cVcCi","./setDate/index.js":"l8igi","./setDay/index.js":"gHd89","./setDayOfYear/index.js":"dIUsp","./setDefaultOptions/index.js":"dXLaQ","./setHours/index.js":"6mxe0","./setISODay/index.js":"5MPjU","./setISOWeek/index.js":"kVXjt","./setISOWeekYear/index.js":"13hUM","./setMilliseconds/index.js":"8Ydox","./setMinutes/index.js":"hnYiq","./setMonth/index.js":"40U8W","./setQuarter/index.js":"fgMUY","./setSeconds/index.js":"bRQ0J","./setWeek/index.js":"e75sx","./setWeekYear/index.js":"ctL4r","./setYear/index.js":"3T0aO","./startOfDay/index.js":"6896y","./startOfDecade/index.js":"jBxUz","./startOfHour/index.js":"18KGk","./startOfISOWeek/index.js":"8hBDU","./startOfISOWeekYear/index.js":"dWUn9","./startOfMinute/index.js":"lvIUp","./startOfMonth/index.js":"a7He0","./startOfQuarter/index.js":"6HbXS","./startOfSecond/index.js":"cQ2Qx","./startOfToday/index.js":"8Kfzx","./startOfTomorrow/index.js":"bGz0G","./startOfWeek/index.js":"gBjzb","./startOfWeekYear/index.js":"1gklq","./startOfYear/index.js":"61Trs","./startOfYesterday/index.js":"2oAjD","./sub/index.js":"iNM4e","./subBusinessDays/index.js":"27mm8","./subDays/index.js":"3Wkyt","./subHours/index.js":"akbs7","./subISOWeekYears/index.js":"b7Fgu","./subMilliseconds/index.js":"ckMtI","./subMinutes/index.js":"1LqGl","./subMonths/index.js":"2QgWY","./subQuarters/index.js":"do8aw","./subSeconds/index.js":"8B08b","./subWeeks/index.js":"3RF3r","./subYears/index.js":"aMJwy","./toDate/index.js":"bFvM9","./weeksToDays/index.js":"itttB","./yearsToMonths/index.js":"5jjaj","./yearsToQuarters/index.js":"CCmtw","./constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"41zOn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>add);
@@ -44808,7 +48873,7 @@ function add(dirtyDate, duration) {
     return finalDate;
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../addDays/index.js":"dIkqe","../addMonths/index.js":"97zxM","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jfWXw":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../addDays/index.js":"dIkqe","../addMonths/index.js":"97zxM","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jfWXw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_typeof);
@@ -44821,7 +48886,7 @@ function _typeof(o) {
     }, _typeof(o);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dIkqe":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dIkqe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addDays);
@@ -44842,7 +48907,7 @@ function addDays(dirtyDate, dirtyAmount) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kClKA":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kClKA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>toInteger);
@@ -44853,7 +48918,7 @@ function toInteger(dirtyNumber) {
     return number < 0 ? Math.ceil(number) : Math.floor(number);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bFvM9":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bFvM9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>toDate);
@@ -44879,7 +48944,7 @@ function toDate(argument) {
     }
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"d2tiq":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"d2tiq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>requiredArgs);
@@ -44887,7 +48952,7 @@ function requiredArgs(required, args) {
     if (args.length < required) throw new TypeError(required + " argument" + (required > 1 ? "s" : "") + " required, but only " + args.length + " present");
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"97zxM":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"97zxM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addMonths);
@@ -44932,7 +48997,7 @@ function addMonths(dirtyDate, dirtyAmount) {
     }
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lIar7":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lIar7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addBusinessDays);
@@ -44979,7 +49044,7 @@ function addBusinessDays(dirtyDate, dirtyAmount) {
     return date;
 }
 
-},{"../isWeekend/index.js":"3qVZD","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../isSunday/index.js":"dJBio","../isSaturday/index.js":"cQi7V","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3qVZD":[function(require,module,exports) {
+},{"../isWeekend/index.js":"3qVZD","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../isSunday/index.js":"dJBio","../isSaturday/index.js":"cQi7V","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3qVZD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isWeekend);
@@ -44994,7 +49059,7 @@ function isWeekend(dirtyDate) {
     return day === 0 || day === 6;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dJBio":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dJBio":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSunday);
@@ -45007,7 +49072,7 @@ function isSunday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getDay() === 0;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cQi7V":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cQi7V":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSaturday);
@@ -45020,7 +49085,7 @@ function isSaturday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getDay() === 6;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"WawY2":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"WawY2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addHours);
@@ -45037,7 +49102,7 @@ function addHours(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, amount * MILLISECONDS_IN_HOUR);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8FakJ":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8FakJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addMilliseconds);
@@ -45054,7 +49119,7 @@ function addMilliseconds(dirtyDate, dirtyAmount) {
     return new Date(timestamp + amount);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dL2yS":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dL2yS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addISOWeekYears);
@@ -45072,7 +49137,7 @@ function addISOWeekYears(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault2.default)(dirtyDate, (0, _indexJsDefault1.default)(dirtyDate) + amount);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../getISOWeekYear/index.js":"iVWIQ","../setISOWeekYear/index.js":"13hUM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iVWIQ":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../getISOWeekYear/index.js":"iVWIQ","../setISOWeekYear/index.js":"13hUM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iVWIQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getISOWeekYear);
@@ -45099,7 +49164,7 @@ function getISOWeekYear(dirtyDate) {
     else return year - 1;
 }
 
-},{"../toDate/index.js":"bFvM9","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8hBDU":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8hBDU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfISOWeek);
@@ -45114,7 +49179,7 @@ function startOfISOWeek(dirtyDate) {
     });
 }
 
-},{"../startOfWeek/index.js":"gBjzb","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gBjzb":[function(require,module,exports) {
+},{"../startOfWeek/index.js":"gBjzb","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gBjzb":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfWeek);
@@ -45140,7 +49205,7 @@ function startOfWeek(dirtyDate, options) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4x0TQ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4x0TQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getDefaultOptions", ()=>getDefaultOptions);
@@ -45153,7 +49218,7 @@ function setDefaultOptions(newOptions) {
     defaultOptions = newOptions;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"13hUM":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"13hUM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setISOWeekYear);
@@ -45180,7 +49245,7 @@ function setISOWeekYear(dirtyDate, dirtyISOWeekYear) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../startOfISOWeekYear/index.js":"dWUn9","../differenceInCalendarDays/index.js":"8NsKL","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dWUn9":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../startOfISOWeekYear/index.js":"dWUn9","../differenceInCalendarDays/index.js":"8NsKL","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dWUn9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfISOWeekYear);
@@ -45200,7 +49265,7 @@ function startOfISOWeekYear(dirtyDate) {
     return date;
 }
 
-},{"../getISOWeekYear/index.js":"iVWIQ","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8NsKL":[function(require,module,exports) {
+},{"../getISOWeekYear/index.js":"iVWIQ","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8NsKL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInCalendarDays);
@@ -45223,7 +49288,7 @@ function differenceInCalendarDays(dirtyDateLeft, dirtyDateRight) {
     return Math.round((timestampLeft - timestampRight) / MILLISECONDS_IN_DAY);
 }
 
-},{"../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../startOfDay/index.js":"6896y","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"k0hlE":[function(require,module,exports) {
+},{"../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../startOfDay/index.js":"6896y","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"k0hlE":[function(require,module,exports) {
 /**
  * Google Chrome as of 67.0.3396.87 introduced timezones with offset that includes seconds.
  * They usually appear for dates that denote time before the timezones were introduced
@@ -45243,7 +49308,7 @@ function getTimezoneOffsetInMilliseconds(date) {
     return date.getTime() - utcDate.getTime();
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6896y":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6896y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfDay);
@@ -45258,7 +49323,7 @@ function startOfDay(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"k642X":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"k642X":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addMinutes);
@@ -45275,7 +49340,7 @@ function addMinutes(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, amount * MILLISECONDS_IN_MINUTE);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6iqct":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6iqct":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addQuarters);
@@ -45292,7 +49357,7 @@ function addQuarters(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, months);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addMonths/index.js":"97zxM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hwycE":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addMonths/index.js":"97zxM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hwycE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addSeconds);
@@ -45308,7 +49373,7 @@ function addSeconds(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, amount * 1000);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eMkmx":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eMkmx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addWeeks);
@@ -45325,7 +49390,7 @@ function addWeeks(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, days);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addDays/index.js":"dIkqe","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3cXli":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addDays/index.js":"dIkqe","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3cXli":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addYears);
@@ -45341,7 +49406,7 @@ function addYears(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, amount * 12);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addMonths/index.js":"97zxM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hxcQe":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addMonths/index.js":"97zxM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hxcQe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>areIntervalsOverlapping);
@@ -45361,7 +49426,7 @@ function areIntervalsOverlapping(intervalLeft, intervalRight, options) {
     return leftStartTime < rightEndTime && rightStartTime < leftEndTime;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"la5zQ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"la5zQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>clamp);
@@ -45383,7 +49448,7 @@ function clamp(date, _ref) {
     ]);
 }
 
-},{"../max/index.js":"1CNw8","../min/index.js":"1TYrG","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1CNw8":[function(require,module,exports) {
+},{"../max/index.js":"1CNw8","../min/index.js":"1TYrG","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1CNw8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>max);
@@ -45409,7 +49474,7 @@ function max(dirtyDatesArray) {
     return result || new Date(NaN);
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1TYrG":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1TYrG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>min);
@@ -45435,7 +49500,7 @@ function min(dirtyDatesArray) {
     return result || new Date(NaN);
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jM3IG":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jM3IG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>closestIndexTo);
@@ -45471,7 +49536,7 @@ function closestIndexTo(dirtyDateToCompare, dirtyDatesArray) {
     return result;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e19AR":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e19AR":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>closestTo);
@@ -45507,7 +49572,7 @@ function closestTo(dirtyDateToCompare, dirtyDatesArray) {
     return result;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lT0BK":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lT0BK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>compareAsc);
@@ -45525,7 +49590,7 @@ function compareAsc(dirtyDateLeft, dirtyDateRight) {
     else return diff;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7xn98":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7xn98":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>compareDesc);
@@ -45543,7 +49608,7 @@ function compareDesc(dirtyDateLeft, dirtyDateRight) {
     else return diff;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a6OrI":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a6OrI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>daysToWeeks);
@@ -45556,7 +49621,7 @@ function daysToWeeks(days) {
     return Math.floor(weeks);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fWGGJ":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fWGGJ":[function(require,module,exports) {
 /**
  * Days in 1 week.
  *
@@ -45603,7 +49668,7 @@ var secondsInYear = secondsInDay * daysInYear;
 var secondsInMonth = secondsInYear / 12;
 var secondsInQuarter = secondsInMonth * 3;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4fZ7o":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4fZ7o":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInBusinessDays);
@@ -45642,7 +49707,7 @@ function differenceInBusinessDays(dirtyDateLeft, dirtyDateRight) {
     return result === 0 ? 0 : result;
 }
 
-},{"../addDays/index.js":"dIkqe","../differenceInCalendarDays/index.js":"8NsKL","../isSameDay/index.js":"2Ly8E","../isValid/index.js":"leBpy","../isWeekend/index.js":"3qVZD","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2Ly8E":[function(require,module,exports) {
+},{"../addDays/index.js":"dIkqe","../differenceInCalendarDays/index.js":"8NsKL","../isSameDay/index.js":"2Ly8E","../isValid/index.js":"leBpy","../isWeekend/index.js":"3qVZD","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2Ly8E":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameDay);
@@ -45657,7 +49722,7 @@ function isSameDay(dirtyDateLeft, dirtyDateRight) {
     return dateLeftStartOfDay.getTime() === dateRightStartOfDay.getTime();
 }
 
-},{"../startOfDay/index.js":"6896y","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"leBpy":[function(require,module,exports) {
+},{"../startOfDay/index.js":"6896y","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"leBpy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isValid);
@@ -45674,7 +49739,7 @@ function isValid(dirtyDate) {
     return !isNaN(Number(date));
 }
 
-},{"../isDate/index.js":"8nhz2","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8nhz2":[function(require,module,exports) {
+},{"../isDate/index.js":"8nhz2","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8nhz2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isDate);
@@ -45687,7 +49752,7 @@ function isDate(value) {
     return value instanceof Date || (0, _typeofDefault.default)(value) === "object" && Object.prototype.toString.call(value) === "[object Date]";
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cBvz5":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cBvz5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInCalendarISOWeekYears);
@@ -45700,7 +49765,7 @@ function differenceInCalendarISOWeekYears(dirtyDateLeft, dirtyDateRight) {
     return (0, _indexJsDefault.default)(dirtyDateLeft) - (0, _indexJsDefault.default)(dirtyDateRight);
 }
 
-},{"../getISOWeekYear/index.js":"iVWIQ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"PboM2":[function(require,module,exports) {
+},{"../getISOWeekYear/index.js":"iVWIQ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"PboM2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInCalendarISOWeeks);
@@ -45723,7 +49788,7 @@ function differenceInCalendarISOWeeks(dirtyDateLeft, dirtyDateRight) {
     return Math.round((timestampLeft - timestampRight) / MILLISECONDS_IN_WEEK);
 }
 
-},{"../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"LhJEt":[function(require,module,exports) {
+},{"../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"LhJEt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInCalendarMonths);
@@ -45740,7 +49805,7 @@ function differenceInCalendarMonths(dirtyDateLeft, dirtyDateRight) {
     return yearDiff * 12 + monthDiff;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2oNqd":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2oNqd":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInCalendarQuarters);
@@ -45759,7 +49824,7 @@ function differenceInCalendarQuarters(dirtyDateLeft, dirtyDateRight) {
     return yearDiff * 4 + quarterDiff;
 }
 
-},{"../getQuarter/index.js":"e8NaG","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e8NaG":[function(require,module,exports) {
+},{"../getQuarter/index.js":"e8NaG","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e8NaG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getQuarter);
@@ -45774,7 +49839,7 @@ function getQuarter(dirtyDate) {
     return quarter;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3jF3Q":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3jF3Q":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInCalendarWeeks);
@@ -45797,7 +49862,7 @@ function differenceInCalendarWeeks(dirtyDateLeft, dirtyDateRight, options) {
     return Math.round((timestampLeft - timestampRight) / MILLISECONDS_IN_WEEK);
 }
 
-},{"../startOfWeek/index.js":"gBjzb","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3hfYt":[function(require,module,exports) {
+},{"../startOfWeek/index.js":"gBjzb","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3hfYt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInCalendarYears);
@@ -45812,7 +49877,7 @@ function differenceInCalendarYears(dirtyDateLeft, dirtyDateRight) {
     return dateLeft.getFullYear() - dateRight.getFullYear();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eNpmW":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eNpmW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInDays);
@@ -45846,7 +49911,7 @@ function differenceInDays(dirtyDateLeft, dirtyDateRight) {
     return result === 0 ? 0 : result;
 }
 
-},{"../toDate/index.js":"bFvM9","../differenceInCalendarDays/index.js":"8NsKL","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kYXLi":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../differenceInCalendarDays/index.js":"8NsKL","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kYXLi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInHours);
@@ -45862,7 +49927,7 @@ function differenceInHours(dateLeft, dateRight, options) {
     return (0, _indexJs3.getRoundingMethod)(options === null || options === void 0 ? void 0 : options.roundingMethod)(diff);
 }
 
-},{"../constants/index.js":"fWGGJ","../differenceInMilliseconds/index.js":"ghq0u","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ghq0u":[function(require,module,exports) {
+},{"../constants/index.js":"fWGGJ","../differenceInMilliseconds/index.js":"ghq0u","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ghq0u":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInMilliseconds);
@@ -45875,7 +49940,7 @@ function differenceInMilliseconds(dateLeft, dateRight) {
     return (0, _indexJsDefault.default)(dateLeft).getTime() - (0, _indexJsDefault.default)(dateRight).getTime();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lJxNJ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lJxNJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "getRoundingMethod", ()=>getRoundingMethod);
@@ -45892,7 +49957,7 @@ function getRoundingMethod(method) {
     return method ? roundingMap[method] : roundingMap[defaultRoundingMethod];
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"UlstI":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"UlstI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInISOWeekYears);
@@ -45922,7 +49987,7 @@ function differenceInISOWeekYears(dirtyDateLeft, dirtyDateRight) {
     return result === 0 ? 0 : result;
 }
 
-},{"../toDate/index.js":"bFvM9","../differenceInCalendarISOWeekYears/index.js":"cBvz5","../compareAsc/index.js":"lT0BK","../subISOWeekYears/index.js":"b7Fgu","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"b7Fgu":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../differenceInCalendarISOWeekYears/index.js":"cBvz5","../compareAsc/index.js":"lT0BK","../subISOWeekYears/index.js":"b7Fgu","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"b7Fgu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subISOWeekYears);
@@ -45938,7 +50003,7 @@ function subISOWeekYears(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault.default)(dirtyDate, -amount);
 }
 
-},{"../addISOWeekYears/index.js":"dL2yS","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jnS5n":[function(require,module,exports) {
+},{"../addISOWeekYears/index.js":"dL2yS","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jnS5n":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInMinutes);
@@ -45954,7 +50019,7 @@ function differenceInMinutes(dateLeft, dateRight, options) {
     return (0, _indexJs3.getRoundingMethod)(options === null || options === void 0 ? void 0 : options.roundingMethod)(diff);
 }
 
-},{"../constants/index.js":"fWGGJ","../differenceInMilliseconds/index.js":"ghq0u","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gahsc":[function(require,module,exports) {
+},{"../constants/index.js":"fWGGJ","../differenceInMilliseconds/index.js":"ghq0u","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gahsc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInMonths);
@@ -45993,7 +50058,7 @@ function differenceInMonths(dirtyDateLeft, dirtyDateRight) {
     return result === 0 ? 0 : result;
 }
 
-},{"../toDate/index.js":"bFvM9","../differenceInCalendarMonths/index.js":"LhJEt","../compareAsc/index.js":"lT0BK","../_lib/requiredArgs/index.js":"d2tiq","../isLastDayOfMonth/index.js":"8CBip","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8CBip":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../differenceInCalendarMonths/index.js":"LhJEt","../compareAsc/index.js":"lT0BK","../_lib/requiredArgs/index.js":"d2tiq","../isLastDayOfMonth/index.js":"8CBip","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8CBip":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isLastDayOfMonth);
@@ -46011,7 +50076,7 @@ function isLastDayOfMonth(dirtyDate) {
     return (0, _indexJsDefault1.default)(date).getTime() === (0, _indexJsDefault2.default)(date).getTime();
 }
 
-},{"../toDate/index.js":"bFvM9","../endOfDay/index.js":"jdhNS","../endOfMonth/index.js":"9JZuJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jdhNS":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../endOfDay/index.js":"jdhNS","../endOfMonth/index.js":"9JZuJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jdhNS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfDay);
@@ -46026,7 +50091,7 @@ function endOfDay(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9JZuJ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9JZuJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfMonth);
@@ -46043,7 +50108,7 @@ function endOfMonth(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9OpiM":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9OpiM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInQuarters);
@@ -46058,7 +50123,7 @@ function differenceInQuarters(dateLeft, dateRight, options) {
     return (0, _indexJs2.getRoundingMethod)(options === null || options === void 0 ? void 0 : options.roundingMethod)(diff);
 }
 
-},{"../differenceInMonths/index.js":"gahsc","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6VVMM":[function(require,module,exports) {
+},{"../differenceInMonths/index.js":"gahsc","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6VVMM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInSeconds);
@@ -46073,7 +50138,7 @@ function differenceInSeconds(dateLeft, dateRight, options) {
     return (0, _indexJs2.getRoundingMethod)(options === null || options === void 0 ? void 0 : options.roundingMethod)(diff);
 }
 
-},{"../differenceInMilliseconds/index.js":"ghq0u","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1xGjG":[function(require,module,exports) {
+},{"../differenceInMilliseconds/index.js":"ghq0u","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1xGjG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInWeeks);
@@ -46088,7 +50153,7 @@ function differenceInWeeks(dateLeft, dateRight, options) {
     return (0, _indexJs2.getRoundingMethod)(options === null || options === void 0 ? void 0 : options.roundingMethod)(diff);
 }
 
-},{"../differenceInDays/index.js":"eNpmW","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6a6dX":[function(require,module,exports) {
+},{"../differenceInDays/index.js":"eNpmW","../_lib/requiredArgs/index.js":"d2tiq","../_lib/roundingMethods/index.js":"lJxNJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6a6dX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>differenceInYears);
@@ -46118,7 +50183,7 @@ function differenceInYears(dirtyDateLeft, dirtyDateRight) {
     return result === 0 ? 0 : result;
 }
 
-},{"../toDate/index.js":"bFvM9","../differenceInCalendarYears/index.js":"3hfYt","../compareAsc/index.js":"lT0BK","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4b7RJ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../differenceInCalendarYears/index.js":"3hfYt","../compareAsc/index.js":"lT0BK","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4b7RJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachDayOfInterval);
@@ -46148,7 +50213,7 @@ function eachDayOfInterval(dirtyInterval, options) {
     return dates;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"joit3":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"joit3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachHourOfInterval);
@@ -46180,7 +50245,7 @@ function eachHourOfInterval(dirtyInterval, options) {
     return dates;
 }
 
-},{"../addHours/index.js":"WawY2","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3e3Go":[function(require,module,exports) {
+},{"../addHours/index.js":"WawY2","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3e3Go":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachMinuteOfInterval);
@@ -46211,7 +50276,7 @@ function eachMinuteOfInterval(interval, options) {
     return dates;
 }
 
-},{"../addMinutes/index.js":"k642X","../toDate/index.js":"bFvM9","../startOfMinute/index.js":"lvIUp","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lvIUp":[function(require,module,exports) {
+},{"../addMinutes/index.js":"k642X","../toDate/index.js":"bFvM9","../startOfMinute/index.js":"lvIUp","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lvIUp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfMinute);
@@ -46226,7 +50291,7 @@ function startOfMinute(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"crROE":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"crROE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachMonthOfInterval);
@@ -46253,7 +50318,7 @@ function eachMonthOfInterval(dirtyInterval) {
     return dates;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6wXGT":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6wXGT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachQuarterOfInterval);
@@ -46285,7 +50350,7 @@ function eachQuarterOfInterval(dirtyInterval) {
     return quarters;
 }
 
-},{"../addQuarters/index.js":"6iqct","../startOfQuarter/index.js":"6HbXS","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6HbXS":[function(require,module,exports) {
+},{"../addQuarters/index.js":"6iqct","../startOfQuarter/index.js":"6HbXS","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6HbXS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfQuarter);
@@ -46303,7 +50368,7 @@ function startOfQuarter(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7JopV":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7JopV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachWeekOfInterval);
@@ -46340,7 +50405,7 @@ function eachWeekOfInterval(dirtyInterval, options) {
     return weeks;
 }
 
-},{"../addWeeks/index.js":"eMkmx","../startOfWeek/index.js":"gBjzb","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lRPpI":[function(require,module,exports) {
+},{"../addWeeks/index.js":"eMkmx","../startOfWeek/index.js":"gBjzb","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lRPpI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachWeekendOfInterval);
@@ -46367,7 +50432,7 @@ function eachWeekendOfInterval(interval) {
     return weekends;
 }
 
-},{"../eachDayOfInterval/index.js":"4b7RJ","../isSunday/index.js":"dJBio","../isWeekend/index.js":"3qVZD","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"l2IOX":[function(require,module,exports) {
+},{"../eachDayOfInterval/index.js":"4b7RJ","../isSunday/index.js":"dJBio","../isWeekend/index.js":"3qVZD","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"l2IOX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachWeekendOfMonth);
@@ -46390,7 +50455,7 @@ function eachWeekendOfMonth(dirtyDate) {
     });
 }
 
-},{"../eachWeekendOfInterval/index.js":"lRPpI","../startOfMonth/index.js":"a7He0","../endOfMonth/index.js":"9JZuJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a7He0":[function(require,module,exports) {
+},{"../eachWeekendOfInterval/index.js":"lRPpI","../startOfMonth/index.js":"a7He0","../endOfMonth/index.js":"9JZuJ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a7He0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfMonth);
@@ -46406,7 +50471,7 @@ function startOfMonth(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jbXKL":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jbXKL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachWeekendOfYear);
@@ -46428,7 +50493,7 @@ function eachWeekendOfYear(dirtyDate) {
     });
 }
 
-},{"../eachWeekendOfInterval/index.js":"lRPpI","../endOfYear/index.js":"7IwvV","../startOfYear/index.js":"61Trs","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7IwvV":[function(require,module,exports) {
+},{"../eachWeekendOfInterval/index.js":"lRPpI","../endOfYear/index.js":"7IwvV","../startOfYear/index.js":"61Trs","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7IwvV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfYear);
@@ -46445,7 +50510,7 @@ function endOfYear(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"61Trs":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"61Trs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfYear);
@@ -46462,7 +50527,7 @@ function startOfYear(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1eRMC":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1eRMC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>eachYearOfInterval);
@@ -46489,7 +50554,7 @@ function eachYearOfInterval(dirtyInterval) {
     return dates;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8ukfs":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8ukfs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfDecade);
@@ -46507,7 +50572,7 @@ function endOfDecade(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5qdR1":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5qdR1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfHour);
@@ -46522,7 +50587,7 @@ function endOfHour(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1fnlm":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1fnlm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfISOWeek);
@@ -46537,7 +50602,7 @@ function endOfISOWeek(dirtyDate) {
     });
 }
 
-},{"../endOfWeek/index.js":"hn3Mn","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hn3Mn":[function(require,module,exports) {
+},{"../endOfWeek/index.js":"hn3Mn","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hn3Mn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfWeek);
@@ -46563,7 +50628,7 @@ function endOfWeek(dirtyDate, options) {
     return date;
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gqDqi":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gqDqi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfISOWeekYear);
@@ -46584,7 +50649,7 @@ function endOfISOWeekYear(dirtyDate) {
     return date;
 }
 
-},{"../getISOWeekYear/index.js":"iVWIQ","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9RJzt":[function(require,module,exports) {
+},{"../getISOWeekYear/index.js":"iVWIQ","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9RJzt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfMinute);
@@ -46599,7 +50664,7 @@ function endOfMinute(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7lVn9":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7lVn9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfQuarter);
@@ -46617,7 +50682,7 @@ function endOfQuarter(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dZwMS":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dZwMS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfSecond);
@@ -46632,7 +50697,7 @@ function endOfSecond(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eXz9i":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eXz9i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>endOfToday);
@@ -46642,7 +50707,7 @@ function endOfToday() {
     return (0, _indexJsDefault.default)(Date.now());
 }
 
-},{"../endOfDay/index.js":"jdhNS","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"pYGos":[function(require,module,exports) {
+},{"../endOfDay/index.js":"jdhNS","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"pYGos":[function(require,module,exports) {
 /**
  * @name endOfTomorrow
  * @category Day Helpers
@@ -46675,7 +50740,7 @@ function endOfTomorrow() {
     return date;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"782pb":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"782pb":[function(require,module,exports) {
 /**
  * @name endOfYesterday
  * @category Day Helpers
@@ -46708,7 +50773,7 @@ function endOfYesterday() {
     return date;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9QYyH":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9QYyH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>format);
@@ -46805,7 +50870,7 @@ function cleanEscapedString(input) {
     return matched[1].replace(doubleQuoteRegExp, "'");
 }
 
-},{"../isValid/index.js":"leBpy","../subMilliseconds/index.js":"ckMtI","../toDate/index.js":"bFvM9","../_lib/format/formatters/index.js":"bgkL3","../_lib/format/longFormatters/index.js":"4jo3U","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/protectedTokens/index.js":"93u7M","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","../_lib/defaultLocale/index.js":"jkyYz","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ckMtI":[function(require,module,exports) {
+},{"../isValid/index.js":"leBpy","../subMilliseconds/index.js":"ckMtI","../toDate/index.js":"bFvM9","../_lib/format/formatters/index.js":"bgkL3","../_lib/format/longFormatters/index.js":"4jo3U","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/protectedTokens/index.js":"93u7M","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","../_lib/defaultLocale/index.js":"jkyYz","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ckMtI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subMilliseconds);
@@ -46821,7 +50886,7 @@ function subMilliseconds(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault.default)(dirtyDate, -amount);
 }
 
-},{"../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bgkL3":[function(require,module,exports) {
+},{"../addMilliseconds/index.js":"8FakJ","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bgkL3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _indexJs = require("../../../_lib/getUTCDayOfYear/index.js");
@@ -47561,7 +51626,7 @@ function formatTimezone(offset, dirtyDelimiter) {
 }
 exports.default = formatters;
 
-},{"../../../_lib/getUTCDayOfYear/index.js":"8MGGz","../../../_lib/getUTCISOWeek/index.js":"93V9n","../../../_lib/getUTCISOWeekYear/index.js":"3T88Z","../../../_lib/getUTCWeek/index.js":"d51UI","../../../_lib/getUTCWeekYear/index.js":"fDNhJ","../../addLeadingZeros/index.js":"lyCvr","../lightFormatters/index.js":"dQUym","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8MGGz":[function(require,module,exports) {
+},{"../../../_lib/getUTCDayOfYear/index.js":"8MGGz","../../../_lib/getUTCISOWeek/index.js":"93V9n","../../../_lib/getUTCISOWeekYear/index.js":"3T88Z","../../../_lib/getUTCWeek/index.js":"d51UI","../../../_lib/getUTCWeekYear/index.js":"fDNhJ","../../addLeadingZeros/index.js":"lyCvr","../lightFormatters/index.js":"dQUym","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8MGGz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getUTCDayOfYear);
@@ -47581,7 +51646,7 @@ function getUTCDayOfYear(dirtyDate) {
     return Math.floor(difference / MILLISECONDS_IN_DAY) + 1;
 }
 
-},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"93V9n":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"93V9n":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getUTCISOWeek);
@@ -47604,7 +51669,7 @@ function getUTCISOWeek(dirtyDate) {
     return Math.round(diff / MILLISECONDS_IN_WEEK) + 1;
 }
 
-},{"../../toDate/index.js":"bFvM9","../startOfUTCISOWeek/index.js":"dkavi","../startOfUTCISOWeekYear/index.js":"9ylFw","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dkavi":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../startOfUTCISOWeek/index.js":"dkavi","../startOfUTCISOWeekYear/index.js":"9ylFw","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dkavi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfUTCISOWeek);
@@ -47623,7 +51688,7 @@ function startOfUTCISOWeek(dirtyDate) {
     return date;
 }
 
-},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9ylFw":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9ylFw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfUTCISOWeekYear);
@@ -47643,7 +51708,7 @@ function startOfUTCISOWeekYear(dirtyDate) {
     return date;
 }
 
-},{"../getUTCISOWeekYear/index.js":"3T88Z","../startOfUTCISOWeek/index.js":"dkavi","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3T88Z":[function(require,module,exports) {
+},{"../getUTCISOWeekYear/index.js":"3T88Z","../startOfUTCISOWeek/index.js":"dkavi","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3T88Z":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getUTCISOWeekYear);
@@ -47670,7 +51735,7 @@ function getUTCISOWeekYear(dirtyDate) {
     else return year - 1;
 }
 
-},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../startOfUTCISOWeek/index.js":"dkavi","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"d51UI":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../startOfUTCISOWeek/index.js":"dkavi","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"d51UI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getUTCWeek);
@@ -47693,7 +51758,7 @@ function getUTCWeek(dirtyDate, options) {
     return Math.round(diff / MILLISECONDS_IN_WEEK) + 1;
 }
 
-},{"../../toDate/index.js":"bFvM9","../startOfUTCWeek/index.js":"2EBEb","../startOfUTCWeekYear/index.js":"eiDhY","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2EBEb":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../startOfUTCWeek/index.js":"2EBEb","../startOfUTCWeekYear/index.js":"eiDhY","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2EBEb":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfUTCWeek);
@@ -47719,7 +51784,7 @@ function startOfUTCWeek(dirtyDate, options) {
     return date;
 }
 
-},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eiDhY":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eiDhY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfUTCWeekYear);
@@ -47745,7 +51810,7 @@ function startOfUTCWeekYear(dirtyDate, options) {
     return date;
 }
 
-},{"../getUTCWeekYear/index.js":"fDNhJ","../requiredArgs/index.js":"d2tiq","../startOfUTCWeek/index.js":"2EBEb","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fDNhJ":[function(require,module,exports) {
+},{"../getUTCWeekYear/index.js":"fDNhJ","../requiredArgs/index.js":"d2tiq","../startOfUTCWeek/index.js":"2EBEb","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fDNhJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getUTCWeekYear);
@@ -47780,7 +51845,7 @@ function getUTCWeekYear(dirtyDate, options) {
     else return year - 1;
 }
 
-},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../startOfUTCWeek/index.js":"2EBEb","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lyCvr":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../startOfUTCWeek/index.js":"2EBEb","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lyCvr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>addLeadingZeros);
@@ -47791,7 +51856,7 @@ function addLeadingZeros(number, targetLength) {
     return sign + output;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dQUym":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dQUym":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _indexJs = require("../../addLeadingZeros/index.js");
@@ -47874,7 +51939,7 @@ var _indexJsDefault = parcelHelpers.interopDefault(_indexJs);
 };
 exports.default = formatters;
 
-},{"../../addLeadingZeros/index.js":"lyCvr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4jo3U":[function(require,module,exports) {
+},{"../../addLeadingZeros/index.js":"lyCvr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4jo3U":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var dateLongFormatter = function dateLongFormatter(pattern, formatLong) {
@@ -47956,7 +52021,7 @@ var longFormatters = {
 };
 exports.default = longFormatters;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"93u7M":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"93u7M":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "isProtectedDayOfYearToken", ()=>isProtectedDayOfYearToken);
@@ -47983,14 +52048,14 @@ function throwProtectedError(token, format, input) {
     else if (token === "DD") throw new RangeError("Use `dd` instead of `DD` (in `".concat(format, "`) for formatting days of the month to the input `").concat(input, "`; see: https://github.com/date-fns/date-fns/blob/master/docs/unicodeTokens.md"));
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jkyYz":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jkyYz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _indexJs = require("../../locale/en-US/index.js");
 var _indexJsDefault = parcelHelpers.interopDefault(_indexJs);
 exports.default = (0, _indexJsDefault.default);
 
-},{"../../locale/en-US/index.js":"x77l1","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"x77l1":[function(require,module,exports) {
+},{"../../locale/en-US/index.js":"x77l1","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"x77l1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _indexJs = require("./_lib/formatDistance/index.js");
@@ -48025,7 +52090,7 @@ var _indexJsDefault4 = parcelHelpers.interopDefault(_indexJs4);
 };
 exports.default = locale;
 
-},{"./_lib/formatDistance/index.js":"iaSl7","./_lib/formatLong/index.js":"8FZcO","./_lib/formatRelative/index.js":"9AtEC","./_lib/localize/index.js":"i2z8d","./_lib/match/index.js":"kMnYJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iaSl7":[function(require,module,exports) {
+},{"./_lib/formatDistance/index.js":"iaSl7","./_lib/formatLong/index.js":"8FZcO","./_lib/formatRelative/index.js":"9AtEC","./_lib/localize/index.js":"i2z8d","./_lib/match/index.js":"kMnYJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iaSl7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var formatDistanceLocale = {
@@ -48105,7 +52170,7 @@ var formatDistance = function formatDistance(token, count, options) {
 };
 exports.default = formatDistance;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8FZcO":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8FZcO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _indexJs = require("../../../_lib/buildFormatLongFn/index.js");
@@ -48144,7 +52209,7 @@ var formatLong = {
 };
 exports.default = formatLong;
 
-},{"../../../_lib/buildFormatLongFn/index.js":"2HBiX","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2HBiX":[function(require,module,exports) {
+},{"../../../_lib/buildFormatLongFn/index.js":"2HBiX","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2HBiX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>buildFormatLongFn);
@@ -48158,7 +52223,7 @@ function buildFormatLongFn(args) {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9AtEC":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9AtEC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var formatRelativeLocale = {
@@ -48174,7 +52239,7 @@ var formatRelative = function formatRelative(token, _date, _baseDate, _options) 
 };
 exports.default = formatRelative;
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"i2z8d":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"i2z8d":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _indexJs = require("../../../_lib/buildLocalizeFn/index.js");
@@ -48412,7 +52477,7 @@ var localize = {
 };
 exports.default = localize;
 
-},{"../../../_lib/buildLocalizeFn/index.js":"aKGAY","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aKGAY":[function(require,module,exports) {
+},{"../../../_lib/buildLocalizeFn/index.js":"aKGAY","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aKGAY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>buildLocalizeFn);
@@ -48435,7 +52500,7 @@ function buildLocalizeFn(args) {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kMnYJ":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kMnYJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _indexJs = require("../../../_lib/buildMatchFn/index.js");
@@ -48589,7 +52654,7 @@ var match = {
 };
 exports.default = match;
 
-},{"../../../_lib/buildMatchFn/index.js":"7eHpy","../../../_lib/buildMatchPatternFn/index.js":"kCuAG","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7eHpy":[function(require,module,exports) {
+},{"../../../_lib/buildMatchFn/index.js":"7eHpy","../../../_lib/buildMatchPatternFn/index.js":"kCuAG","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7eHpy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>buildMatchFn);
@@ -48630,7 +52695,7 @@ function findIndex(array, predicate) {
     return undefined;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kCuAG":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kCuAG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>buildMatchPatternFn);
@@ -48652,7 +52717,7 @@ function buildMatchPatternFn(args) {
     };
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a8iC4":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a8iC4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatDistance);
@@ -48748,7 +52813,7 @@ function formatDistance(dirtyDate, dirtyBaseDate, options) {
     }
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../compareAsc/index.js":"lT0BK","../differenceInMonths/index.js":"gahsc","../differenceInSeconds/index.js":"6VVMM","../_lib/defaultLocale/index.js":"jkyYz","../toDate/index.js":"bFvM9","../_lib/cloneObject/index.js":"04xBp","../_lib/assign/index.js":"07c9i","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"04xBp":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../compareAsc/index.js":"lT0BK","../differenceInMonths/index.js":"gahsc","../differenceInSeconds/index.js":"6VVMM","../_lib/defaultLocale/index.js":"jkyYz","../toDate/index.js":"bFvM9","../_lib/cloneObject/index.js":"04xBp","../_lib/assign/index.js":"07c9i","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"04xBp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>cloneObject);
@@ -48758,7 +52823,7 @@ function cloneObject(object) {
     return (0, _indexJsDefault.default)({}, object);
 }
 
-},{"../assign/index.js":"07c9i","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"07c9i":[function(require,module,exports) {
+},{"../assign/index.js":"07c9i","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"07c9i":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>assign);
@@ -48768,7 +52833,7 @@ function assign(target, object) {
     return target;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fFzAn":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fFzAn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatDistanceStrict);
@@ -48862,7 +52927,7 @@ function formatDistanceStrict(dirtyDate, dirtyBaseDate, options) {
     throw new RangeError("unit must be 'second', 'minute', 'hour', 'day', 'month' or 'year'");
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../compareAsc/index.js":"lT0BK","../toDate/index.js":"bFvM9","../_lib/cloneObject/index.js":"04xBp","../_lib/assign/index.js":"07c9i","../_lib/defaultLocale/index.js":"jkyYz","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fMaXW":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../compareAsc/index.js":"lT0BK","../toDate/index.js":"bFvM9","../_lib/cloneObject/index.js":"04xBp","../_lib/assign/index.js":"07c9i","../_lib/defaultLocale/index.js":"jkyYz","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fMaXW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatDistanceToNow);
@@ -48875,7 +52940,7 @@ function formatDistanceToNow(dirtyDate, options) {
     return (0, _indexJsDefault.default)(dirtyDate, Date.now(), options);
 }
 
-},{"../formatDistance/index.js":"a8iC4","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iXte7":[function(require,module,exports) {
+},{"../formatDistance/index.js":"a8iC4","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iXte7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatDistanceToNowStrict);
@@ -48888,7 +52953,7 @@ function formatDistanceToNowStrict(dirtyDate, options) {
     return (0, _indexJsDefault.default)(dirtyDate, Date.now(), options);
 }
 
-},{"../formatDistanceStrict/index.js":"fFzAn","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kCjwJ":[function(require,module,exports) {
+},{"../formatDistanceStrict/index.js":"fFzAn","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kCjwJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatDuration);
@@ -48924,7 +52989,7 @@ function formatDuration(duration, options) {
     return result;
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/defaultLocale/index.js":"jkyYz","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aVOBk":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/defaultLocale/index.js":"jkyYz","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aVOBk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatISO);
@@ -48984,7 +53049,7 @@ function formatISO(date, options) {
     return result;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/addLeadingZeros/index.js":"lyCvr","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jeSZW":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/addLeadingZeros/index.js":"lyCvr","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jeSZW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatISO9075);
@@ -49027,7 +53092,7 @@ function formatISO9075(dirtyDate, options) {
     return result;
 }
 
-},{"../toDate/index.js":"bFvM9","../isValid/index.js":"leBpy","../_lib/addLeadingZeros/index.js":"lyCvr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1pxtN":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../isValid/index.js":"leBpy","../_lib/addLeadingZeros/index.js":"lyCvr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1pxtN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatISODuration);
@@ -49042,7 +53107,7 @@ function formatISODuration(duration) {
     return "P".concat(years, "Y").concat(months, "M").concat(days, "DT").concat(hours, "H").concat(minutes, "M").concat(seconds, "S");
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"b3tor":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"b3tor":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatRFC3339);
@@ -49087,7 +53152,7 @@ function formatRFC3339(dirtyDate, options) {
     return "".concat(year, "-").concat(month, "-").concat(day, "T").concat(hour, ":").concat(minute, ":").concat(second).concat(fractionalSecond).concat(offset);
 }
 
-},{"../toDate/index.js":"bFvM9","../isValid/index.js":"leBpy","../_lib/addLeadingZeros/index.js":"lyCvr","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aaPeH":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../isValid/index.js":"leBpy","../_lib/addLeadingZeros/index.js":"lyCvr","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aaPeH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatRFC7231);
@@ -49135,7 +53200,7 @@ function formatRFC7231(dirtyDate) {
     return "".concat(dayName, ", ").concat(dayOfMonth, " ").concat(monthName, " ").concat(year, " ").concat(hour, ":").concat(minute, ":").concat(second, " GMT");
 }
 
-},{"../toDate/index.js":"bFvM9","../isValid/index.js":"leBpy","../_lib/addLeadingZeros/index.js":"lyCvr","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eMG2f":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../isValid/index.js":"leBpy","../_lib/addLeadingZeros/index.js":"lyCvr","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eMG2f":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>formatRelative);
@@ -49189,7 +53254,7 @@ function formatRelative(dirtyDate, dirtyBaseDate, options) {
     });
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../differenceInCalendarDays/index.js":"8NsKL","../format/index.js":"9QYyH","../_lib/defaultLocale/index.js":"jkyYz","../subMilliseconds/index.js":"ckMtI","../toDate/index.js":"bFvM9","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4G2qo":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../differenceInCalendarDays/index.js":"8NsKL","../format/index.js":"9QYyH","../_lib/defaultLocale/index.js":"jkyYz","../subMilliseconds/index.js":"ckMtI","../toDate/index.js":"bFvM9","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4G2qo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>fromUnixTime);
@@ -49205,7 +53270,7 @@ function fromUnixTime(dirtyUnixTime) {
     return (0, _indexJsDefault.default)(unixTime * 1000);
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kfvXf":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kfvXf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDate);
@@ -49220,7 +53285,7 @@ function getDate(dirtyDate) {
     return dayOfMonth;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"a35dM":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"a35dM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDay);
@@ -49235,7 +53300,7 @@ function getDay(dirtyDate) {
     return day;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jJLUT":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jJLUT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDayOfYear);
@@ -49255,7 +53320,7 @@ function getDayOfYear(dirtyDate) {
     return dayOfYear;
 }
 
-},{"../toDate/index.js":"bFvM9","../startOfYear/index.js":"61Trs","../differenceInCalendarDays/index.js":"8NsKL","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8UuX8":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../startOfYear/index.js":"61Trs","../differenceInCalendarDays/index.js":"8NsKL","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8UuX8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDaysInMonth);
@@ -49274,7 +53339,7 @@ function getDaysInMonth(dirtyDate) {
     return lastDayOfMonth.getDate();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lRa1C":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lRa1C":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDaysInYear);
@@ -49291,7 +53356,7 @@ function getDaysInYear(dirtyDate) {
     return (0, _indexJsDefault1.default)(date) ? 366 : 365;
 }
 
-},{"../toDate/index.js":"bFvM9","../isLeapYear/index.js":"lrMBH","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lrMBH":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../isLeapYear/index.js":"lrMBH","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lrMBH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isLeapYear);
@@ -49306,7 +53371,7 @@ function isLeapYear(dirtyDate) {
     return year % 400 === 0 || year % 4 === 0 && year % 100 !== 0;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"02onI":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"02onI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDecade);
@@ -49322,7 +53387,7 @@ function getDecade(dirtyDate) {
     return decade;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3Tp8I":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3Tp8I":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getDefaultOptions);
@@ -49333,7 +53398,7 @@ function getDefaultOptions() {
     return (0, _indexJsDefault.default)({}, (0, _indexJs.getDefaultOptions)());
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/assign/index.js":"07c9i","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e1NpZ":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/assign/index.js":"07c9i","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e1NpZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getHours);
@@ -49348,7 +53413,7 @@ function getHours(dirtyDate) {
     return hours;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"f8pof":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"f8pof":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getISODay);
@@ -49364,7 +53429,7 @@ function getISODay(dirtyDate) {
     return day;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"93hUF":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"93hUF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getISOWeek);
@@ -49387,7 +53452,7 @@ function getISOWeek(dirtyDate) {
     return Math.round(diff / MILLISECONDS_IN_WEEK) + 1;
 }
 
-},{"../toDate/index.js":"bFvM9","../startOfISOWeek/index.js":"8hBDU","../startOfISOWeekYear/index.js":"dWUn9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ebHmW":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../startOfISOWeek/index.js":"8hBDU","../startOfISOWeekYear/index.js":"dWUn9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ebHmW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getISOWeeksInYear);
@@ -49409,7 +53474,7 @@ function getISOWeeksInYear(dirtyDate) {
     return Math.round(diff / MILLISECONDS_IN_WEEK);
 }
 
-},{"../startOfISOWeekYear/index.js":"dWUn9","../addWeeks/index.js":"eMkmx","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"faXce":[function(require,module,exports) {
+},{"../startOfISOWeekYear/index.js":"dWUn9","../addWeeks/index.js":"eMkmx","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"faXce":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getMilliseconds);
@@ -49424,7 +53489,7 @@ function getMilliseconds(dirtyDate) {
     return milliseconds;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3m4lN":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3m4lN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getMinutes);
@@ -49439,7 +53504,7 @@ function getMinutes(dirtyDate) {
     return minutes;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"b1WO6":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"b1WO6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getMonth);
@@ -49454,7 +53519,7 @@ function getMonth(dirtyDate) {
     return month;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5qm46":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5qm46":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getOverlappingDaysInIntervals);
@@ -49481,7 +53546,7 @@ function getOverlappingDaysInIntervals(dirtyIntervalLeft, dirtyIntervalRight) {
     return Math.ceil(differenceInMs / MILLISECONDS_IN_DAY);
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fXWdF":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fXWdF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getSeconds);
@@ -49496,7 +53561,7 @@ function getSeconds(dirtyDate) {
     return seconds;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cBPGS":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cBPGS":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getTime);
@@ -49511,7 +53576,7 @@ function getTime(dirtyDate) {
     return timestamp;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hxuIP":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hxuIP":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getUnixTime);
@@ -49524,7 +53589,7 @@ function getUnixTime(dirtyDate) {
     return Math.floor((0, _indexJsDefault.default)(dirtyDate) / 1000);
 }
 
-},{"../getTime/index.js":"cBPGS","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1XDpK":[function(require,module,exports) {
+},{"../getTime/index.js":"cBPGS","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1XDpK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getWeek);
@@ -49547,7 +53612,7 @@ function getWeek(dirtyDate, options) {
     return Math.round(diff / MILLISECONDS_IN_WEEK) + 1;
 }
 
-},{"../startOfWeek/index.js":"gBjzb","../startOfWeekYear/index.js":"1gklq","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1gklq":[function(require,module,exports) {
+},{"../startOfWeek/index.js":"gBjzb","../startOfWeekYear/index.js":"1gklq","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1gklq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfWeekYear);
@@ -49573,7 +53638,7 @@ function startOfWeekYear(dirtyDate, options) {
     return date;
 }
 
-},{"../getWeekYear/index.js":"j9phs","../startOfWeek/index.js":"gBjzb","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"j9phs":[function(require,module,exports) {
+},{"../getWeekYear/index.js":"j9phs","../startOfWeek/index.js":"gBjzb","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"j9phs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getWeekYear);
@@ -49608,7 +53673,7 @@ function getWeekYear(dirtyDate, options) {
     else return year - 1;
 }
 
-},{"../startOfWeek/index.js":"gBjzb","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ewSbQ":[function(require,module,exports) {
+},{"../startOfWeek/index.js":"gBjzb","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ewSbQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getWeekOfMonth);
@@ -49638,7 +53703,7 @@ function getWeekOfMonth(date, options) {
     return Math.ceil(remainingDaysAfterFirstWeek / 7) + 1;
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../getDate/index.js":"kfvXf","../getDay/index.js":"a35dM","../startOfMonth/index.js":"a7He0","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eacv1":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../getDate/index.js":"kfvXf","../getDay/index.js":"a35dM","../startOfMonth/index.js":"a7He0","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eacv1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getWeeksInMonth);
@@ -49655,7 +53720,7 @@ function getWeeksInMonth(date, options) {
     return (0, _indexJsDefault.default)((0, _indexJsDefault1.default)(date), (0, _indexJsDefault2.default)(date), options) + 1;
 }
 
-},{"../differenceInCalendarWeeks/index.js":"3jF3Q","../lastDayOfMonth/index.js":"lfNVq","../startOfMonth/index.js":"a7He0","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lfNVq":[function(require,module,exports) {
+},{"../differenceInCalendarWeeks/index.js":"3jF3Q","../lastDayOfMonth/index.js":"lfNVq","../startOfMonth/index.js":"a7He0","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lfNVq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lastDayOfMonth);
@@ -49672,7 +53737,7 @@ function lastDayOfMonth(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gXg0x":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gXg0x":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>getYear);
@@ -49685,7 +53750,7 @@ function getYear(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getFullYear();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jdsRH":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jdsRH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>hoursToMilliseconds);
@@ -49697,7 +53762,7 @@ function hoursToMilliseconds(hours) {
     return Math.floor(hours * (0, _indexJs1.millisecondsInHour));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kBOiQ":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kBOiQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>hoursToMinutes);
@@ -49709,7 +53774,7 @@ function hoursToMinutes(hours) {
     return Math.floor(hours * (0, _indexJs1.minutesInHour));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hNAuw":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hNAuw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>hoursToSeconds);
@@ -49721,7 +53786,7 @@ function hoursToSeconds(hours) {
     return Math.floor(hours * (0, _indexJs1.secondsInHour));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"h4z6A":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"h4z6A":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>intervalToDuration);
@@ -49777,7 +53842,7 @@ function intervalToDuration(interval) {
     return duration;
 }
 
-},{"../compareAsc/index.js":"lT0BK","../add/index.js":"41zOn","../differenceInDays/index.js":"eNpmW","../differenceInHours/index.js":"kYXLi","../differenceInMinutes/index.js":"jnS5n","../differenceInMonths/index.js":"gahsc","../differenceInSeconds/index.js":"6VVMM","../differenceInYears/index.js":"6a6dX","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cu7AL":[function(require,module,exports) {
+},{"../compareAsc/index.js":"lT0BK","../add/index.js":"41zOn","../differenceInDays/index.js":"eNpmW","../differenceInHours/index.js":"kYXLi","../differenceInMinutes/index.js":"jnS5n","../differenceInMonths/index.js":"gahsc","../differenceInSeconds/index.js":"6VVMM","../differenceInYears/index.js":"6a6dX","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cu7AL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>intlFormat);
@@ -49795,7 +53860,7 @@ function isFormatOptions(opts) {
     return opts !== undefined && !("locale" in opts);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"d76s4":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"d76s4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>intlFormatDistance);
@@ -49878,7 +53943,7 @@ function intlFormatDistance(date, baseDate, options) {
     return rtf.format(value, unit);
 }
 
-},{"../constants/index.js":"fWGGJ","../differenceInCalendarDays/index.js":"8NsKL","../differenceInCalendarMonths/index.js":"LhJEt","../differenceInCalendarQuarters/index.js":"2oNqd","../differenceInCalendarWeeks/index.js":"3jF3Q","../differenceInCalendarYears/index.js":"3hfYt","../differenceInHours/index.js":"kYXLi","../differenceInMinutes/index.js":"jnS5n","../differenceInSeconds/index.js":"6VVMM","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8WhoB":[function(require,module,exports) {
+},{"../constants/index.js":"fWGGJ","../differenceInCalendarDays/index.js":"8NsKL","../differenceInCalendarMonths/index.js":"LhJEt","../differenceInCalendarQuarters/index.js":"2oNqd","../differenceInCalendarWeeks/index.js":"3jF3Q","../differenceInCalendarYears/index.js":"3hfYt","../differenceInHours/index.js":"kYXLi","../differenceInMinutes/index.js":"jnS5n","../differenceInSeconds/index.js":"6VVMM","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8WhoB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isAfter);
@@ -49893,7 +53958,7 @@ function isAfter(dirtyDate, dirtyDateToCompare) {
     return date.getTime() > dateToCompare.getTime();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"k0Upu":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"k0Upu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isBefore);
@@ -49908,7 +53973,7 @@ function isBefore(dirtyDate, dirtyDateToCompare) {
     return date.getTime() < dateToCompare.getTime();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"51Hde":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"51Hde":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isEqual);
@@ -49923,7 +53988,7 @@ function isEqual(dirtyLeftDate, dirtyRightDate) {
     return dateLeft.getTime() === dateRight.getTime();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1jzuJ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1jzuJ":[function(require,module,exports) {
 /**
  * @name isExists
  * @category Common Helpers
@@ -49956,7 +54021,7 @@ function isExists(year, month, day) {
     return date.getFullYear() === year && date.getMonth() === month && date.getDate() === day;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cv2ds":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cv2ds":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isFirstDayOfMonth);
@@ -49969,7 +54034,7 @@ function isFirstDayOfMonth(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getDate() === 1;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"chdum":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"chdum":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isFriday);
@@ -49982,7 +54047,7 @@ function isFriday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getDay() === 5;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e6BoL":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e6BoL":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isFuture);
@@ -49995,7 +54060,7 @@ function isFuture(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getTime() > Date.now();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7pYM3":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7pYM3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isMatch);
@@ -50010,7 +54075,7 @@ function isMatch(dateString, formatString, options) {
     return (0, _indexJsDefault1.default)((0, _indexJsDefault.default)(dateString, formatString, new Date(), options));
 }
 
-},{"../parse/index.js":"4Juzp","../isValid/index.js":"leBpy","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4Juzp":[function(require,module,exports) {
+},{"../parse/index.js":"4Juzp","../isValid/index.js":"leBpy","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4Juzp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>parse);
@@ -50185,7 +54250,7 @@ function cleanEscapedString(input) {
     return input.match(escapedStringRegExp)[1].replace(doubleQuoteRegExp, "'");
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","@babel/runtime/helpers/esm/createForOfIteratorHelper":"lkFPr","../_lib/defaultLocale/index.js":"jkyYz","../subMilliseconds/index.js":"ckMtI","../toDate/index.js":"bFvM9","../_lib/assign/index.js":"07c9i","../_lib/format/longFormatters/index.js":"4jo3U","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/protectedTokens/index.js":"93u7M","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","./_lib/Setter.js":"1FdbQ","./_lib/parsers/index.js":"2p7oW","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lkFPr":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","@babel/runtime/helpers/esm/createForOfIteratorHelper":"lkFPr","../_lib/defaultLocale/index.js":"jkyYz","../subMilliseconds/index.js":"ckMtI","../toDate/index.js":"bFvM9","../_lib/assign/index.js":"07c9i","../_lib/format/longFormatters/index.js":"4jo3U","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../_lib/protectedTokens/index.js":"93u7M","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","./_lib/Setter.js":"1FdbQ","./_lib/parsers/index.js":"2p7oW","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lkFPr":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_createForOfIteratorHelper);
@@ -50241,7 +54306,7 @@ function _createForOfIteratorHelper(o, allowArrayLike) {
     };
 }
 
-},{"./unsupportedIterableToArray.js":"46mM1","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"46mM1":[function(require,module,exports) {
+},{"./unsupportedIterableToArray.js":"46mM1","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"46mM1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_unsupportedIterableToArray);
@@ -50256,7 +54321,7 @@ function _unsupportedIterableToArray(o, minLen) {
     if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return (0, _arrayLikeToArrayJsDefault.default)(o, minLen);
 }
 
-},{"./arrayLikeToArray.js":"gDASh","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gDASh":[function(require,module,exports) {
+},{"./arrayLikeToArray.js":"gDASh","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gDASh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_arrayLikeToArray);
@@ -50266,7 +54331,7 @@ function _arrayLikeToArray(arr, len) {
     return arr2;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1FdbQ":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1FdbQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Setter", ()=>Setter);
@@ -50360,7 +54425,7 @@ var DateToSystemTimezoneSetter = /*#__PURE__*/ function(_Setter2) {
     return DateToSystemTimezoneSetter;
 }(Setter);
 
-},{"@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/defineProperty":"9gv9l","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8w3jf":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/defineProperty":"9gv9l","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8w3jf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_assertThisInitialized);
@@ -50369,7 +54434,7 @@ function _assertThisInitialized(self) {
     return self;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jH9tI":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jH9tI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_inherits);
@@ -50390,7 +54455,7 @@ function _inherits(subClass, superClass) {
     if (superClass) (0, _setPrototypeOfJsDefault.default)(subClass, superClass);
 }
 
-},{"./setPrototypeOf.js":"aVedC","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aVedC":[function(require,module,exports) {
+},{"./setPrototypeOf.js":"aVedC","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aVedC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_setPrototypeOf);
@@ -50402,7 +54467,7 @@ function _setPrototypeOf(o, p) {
     return _setPrototypeOf(o, p);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lwvrC":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lwvrC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_createSuper);
@@ -50424,7 +54489,7 @@ function _createSuper(Derived) {
     };
 }
 
-},{"./getPrototypeOf.js":"g2hxZ","./isNativeReflectConstruct.js":"irX9Z","./possibleConstructorReturn.js":"1Qxt2","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"g2hxZ":[function(require,module,exports) {
+},{"./getPrototypeOf.js":"g2hxZ","./isNativeReflectConstruct.js":"irX9Z","./possibleConstructorReturn.js":"1Qxt2","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"g2hxZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_getPrototypeOf);
@@ -50435,7 +54500,7 @@ function _getPrototypeOf(o) {
     return _getPrototypeOf(o);
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"irX9Z":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"irX9Z":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_isNativeReflectConstruct);
@@ -50451,7 +54516,7 @@ function _isNativeReflectConstruct() {
     }
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1Qxt2":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1Qxt2":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_possibleConstructorReturn);
@@ -50465,7 +54530,7 @@ function _possibleConstructorReturn(self, call) {
     return (0, _assertThisInitializedJsDefault.default)(self);
 }
 
-},{"./typeof.js":"jfWXw","./assertThisInitialized.js":"8w3jf","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dXJPn":[function(require,module,exports) {
+},{"./typeof.js":"jfWXw","./assertThisInitialized.js":"8w3jf","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dXJPn":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_classCallCheck);
@@ -50473,7 +54538,7 @@ function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cGlFi":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cGlFi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_createClass);
@@ -50497,7 +54562,7 @@ function _createClass(Constructor, protoProps, staticProps) {
     return Constructor;
 }
 
-},{"./toPropertyKey.js":"5n2K1","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5n2K1":[function(require,module,exports) {
+},{"./toPropertyKey.js":"5n2K1","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5n2K1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_toPropertyKey);
@@ -50510,7 +54575,7 @@ function _toPropertyKey(arg) {
     return (0, _typeofJsDefault.default)(key) === "symbol" ? key : String(key);
 }
 
-},{"./typeof.js":"jfWXw","./toPrimitive.js":"TWVQT","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"TWVQT":[function(require,module,exports) {
+},{"./typeof.js":"jfWXw","./toPrimitive.js":"TWVQT","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"TWVQT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_toPrimitive);
@@ -50527,7 +54592,7 @@ function _toPrimitive(input, hint) {
     return (hint === "string" ? String : Number)(input);
 }
 
-},{"./typeof.js":"jfWXw","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9gv9l":[function(require,module,exports) {
+},{"./typeof.js":"jfWXw","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9gv9l":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>_defineProperty);
@@ -50545,7 +54610,7 @@ function _defineProperty(obj, key, value) {
     return obj;
 }
 
-},{"./toPropertyKey.js":"5n2K1","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2p7oW":[function(require,module,exports) {
+},{"./toPropertyKey.js":"5n2K1","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2p7oW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "parsers", ()=>parsers);
@@ -50614,7 +54679,7 @@ var parsers = {
     T: new (0, _timestampMillisecondsParserJs.TimestampMillisecondsParser)()
 };
 
-},{"./EraParser.js":"kXXPa","./YearParser.js":"5CIaZ","./LocalWeekYearParser.js":"3GnPs","./ISOWeekYearParser.js":"hxVFD","./ExtendedYearParser.js":"do8Ld","./QuarterParser.js":"8GiEJ","./StandAloneQuarterParser.js":"kZe38","./MonthParser.js":"7WhJA","./StandAloneMonthParser.js":"bbflH","./LocalWeekParser.js":"jqf41","./ISOWeekParser.js":"c5Ref","./DateParser.js":"cPhW7","./DayOfYearParser.js":"fM9VH","./DayParser.js":"brMQN","./LocalDayParser.js":"76ygl","./StandAloneLocalDayParser.js":"fMDoC","./ISODayParser.js":"gs8jQ","./AMPMParser.js":"awUE3","./AMPMMidnightParser.js":"7HkQ3","./DayPeriodParser.js":"85Sv4","./Hour1to12Parser.js":"13vWH","./Hour0to23Parser.js":"2Fw5V","./Hour0To11Parser.js":"eoW6S","./Hour1To24Parser.js":"2Lk3h","./MinuteParser.js":"bMMcE","./SecondParser.js":"674oe","./FractionOfSecondParser.js":"gf4S6","./ISOTimezoneWithZParser.js":"8R4Dm","./ISOTimezoneParser.js":"4XR4E","./TimestampSecondsParser.js":"cOsRF","./TimestampMillisecondsParser.js":"bO9ai","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kXXPa":[function(require,module,exports) {
+},{"./EraParser.js":"kXXPa","./YearParser.js":"5CIaZ","./LocalWeekYearParser.js":"3GnPs","./ISOWeekYearParser.js":"hxVFD","./ExtendedYearParser.js":"do8Ld","./QuarterParser.js":"8GiEJ","./StandAloneQuarterParser.js":"kZe38","./MonthParser.js":"7WhJA","./StandAloneMonthParser.js":"bbflH","./LocalWeekParser.js":"jqf41","./ISOWeekParser.js":"c5Ref","./DateParser.js":"cPhW7","./DayOfYearParser.js":"fM9VH","./DayParser.js":"brMQN","./LocalDayParser.js":"76ygl","./StandAloneLocalDayParser.js":"fMDoC","./ISODayParser.js":"gs8jQ","./AMPMParser.js":"awUE3","./AMPMMidnightParser.js":"7HkQ3","./DayPeriodParser.js":"85Sv4","./Hour1to12Parser.js":"13vWH","./Hour0to23Parser.js":"2Fw5V","./Hour0To11Parser.js":"eoW6S","./Hour1To24Parser.js":"2Lk3h","./MinuteParser.js":"bMMcE","./SecondParser.js":"674oe","./FractionOfSecondParser.js":"gf4S6","./ISOTimezoneWithZParser.js":"8R4Dm","./ISOTimezoneParser.js":"4XR4E","./TimestampSecondsParser.js":"cOsRF","./TimestampMillisecondsParser.js":"bO9ai","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kXXPa":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "EraParser", ()=>EraParser);
@@ -50695,7 +54760,7 @@ var EraParser = /*#__PURE__*/ function(_Parser) {
     return EraParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eGzsX":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eGzsX":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Parser", ()=>Parser);
@@ -50735,7 +54800,7 @@ var Parser = /*#__PURE__*/ function() {
     return Parser;
 }();
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/defineProperty":"9gv9l","./Setter.js":"1FdbQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5CIaZ":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/defineProperty":"9gv9l","./Setter.js":"1FdbQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5CIaZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "YearParser", ()=>YearParser);
@@ -50826,7 +54891,7 @@ var YearParser = /*#__PURE__*/ function(_Parser) {
     return YearParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8cXvc":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8cXvc":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "mapValue", ()=>mapValue);
@@ -50941,7 +55006,7 @@ function isLeapYearIndex(year) {
     return year % 400 === 0 || year % 4 === 0 && year % 100 !== 0;
 }
 
-},{"../../constants/index.js":"fWGGJ","./constants.js":"bNzwq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bNzwq":[function(require,module,exports) {
+},{"../../constants/index.js":"fWGGJ","./constants.js":"bNzwq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bNzwq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "numericPatterns", ()=>numericPatterns);
@@ -50992,7 +55057,7 @@ var timezonePatterns = {
     extendedOptionalSeconds: /^([+-])(\d{2}):(\d{2})(:(\d{2}))?|Z/
 };
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3GnPs":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3GnPs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "LocalWeekYearParser", ()=>LocalWeekYearParser);
@@ -51090,7 +55155,7 @@ var LocalWeekYearParser = /*#__PURE__*/ function(_Parser) {
     return LocalWeekYearParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/getUTCWeekYear/index.js":"fDNhJ","../../../_lib/startOfUTCWeek/index.js":"2EBEb","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hxVFD":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/getUTCWeekYear/index.js":"fDNhJ","../../../_lib/startOfUTCWeek/index.js":"2EBEb","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hxVFD":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ISOWeekYearParser", ()=>ISOWeekYearParser);
@@ -51161,7 +55226,7 @@ var ISOWeekYearParser = /*#__PURE__*/ function(_Parser) {
     return ISOWeekYearParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/startOfUTCISOWeek/index.js":"dkavi","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"do8Ld":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/startOfUTCISOWeek/index.js":"dkavi","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"do8Ld":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ExtendedYearParser", ()=>ExtendedYearParser);
@@ -51225,7 +55290,7 @@ var ExtendedYearParser = /*#__PURE__*/ function(_Parser) {
     return ExtendedYearParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8GiEJ":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8GiEJ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "QuarterParser", ()=>QuarterParser);
@@ -51336,7 +55401,7 @@ var QuarterParser = /*#__PURE__*/ function(_Parser) {
     return QuarterParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kZe38":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kZe38":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "StandAloneQuarterParser", ()=>StandAloneQuarterParser);
@@ -51447,7 +55512,7 @@ var StandAloneQuarterParser = /*#__PURE__*/ function(_Parser) {
     return StandAloneQuarterParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7WhJA":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7WhJA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MonthParser", ()=>MonthParser);
@@ -51562,7 +55627,7 @@ var MonthParser = /*#__PURE__*/ function(_Parser) {
     return MonthParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../utils.js":"8cXvc","../Parser.js":"eGzsX","../constants.js":"bNzwq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bbflH":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../utils.js":"8cXvc","../Parser.js":"eGzsX","../constants.js":"bNzwq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bbflH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "StandAloneMonthParser", ()=>StandAloneMonthParser);
@@ -51677,7 +55742,7 @@ var StandAloneMonthParser = /*#__PURE__*/ function(_Parser) {
     return StandAloneMonthParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jqf41":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jqf41":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "LocalWeekParser", ()=>LocalWeekParser);
@@ -51760,7 +55825,7 @@ var LocalWeekParser = /*#__PURE__*/ function(_Parser) {
     return LocalWeekParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","../../../_lib/setUTCWeek/index.js":"b8a8e","../../../_lib/startOfUTCWeek/index.js":"2EBEb","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"b8a8e":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","../../../_lib/setUTCWeek/index.js":"b8a8e","../../../_lib/startOfUTCWeek/index.js":"2EBEb","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"b8a8e":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setUTCWeek);
@@ -51781,7 +55846,7 @@ function setUTCWeek(dirtyDate, dirtyWeek, options) {
     return date;
 }
 
-},{"../toInteger/index.js":"kClKA","../../toDate/index.js":"bFvM9","../getUTCWeek/index.js":"d51UI","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"c5Ref":[function(require,module,exports) {
+},{"../toInteger/index.js":"kClKA","../../toDate/index.js":"bFvM9","../getUTCWeek/index.js":"d51UI","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"c5Ref":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ISOWeekParser", ()=>ISOWeekParser);
@@ -51865,7 +55930,7 @@ var ISOWeekParser = /*#__PURE__*/ function(_Parser) {
     return ISOWeekParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","../../../_lib/setUTCISOWeek/index.js":"bRhvH","../../../_lib/startOfUTCISOWeek/index.js":"dkavi","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bRhvH":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","../../../_lib/setUTCISOWeek/index.js":"bRhvH","../../../_lib/startOfUTCISOWeek/index.js":"dkavi","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bRhvH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setUTCISOWeek);
@@ -51886,7 +55951,7 @@ function setUTCISOWeek(dirtyDate, dirtyISOWeek) {
     return date;
 }
 
-},{"../toInteger/index.js":"kClKA","../../toDate/index.js":"bFvM9","../getUTCISOWeek/index.js":"93V9n","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cPhW7":[function(require,module,exports) {
+},{"../toInteger/index.js":"kClKA","../../toDate/index.js":"bFvM9","../getUTCISOWeek/index.js":"93V9n","../requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cPhW7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "DateParser", ()=>DateParser);
@@ -51999,7 +56064,7 @@ var DateParser = /*#__PURE__*/ function(_Parser) {
     return DateParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../utils.js":"8cXvc","../Parser.js":"eGzsX","../constants.js":"bNzwq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fM9VH":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../utils.js":"8cXvc","../Parser.js":"eGzsX","../constants.js":"bNzwq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fM9VH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "DayOfYearParser", ()=>DayOfYearParser);
@@ -52087,7 +56152,7 @@ var DayOfYearParser = /*#__PURE__*/ function(_Parser) {
     return DayOfYearParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"brMQN":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"brMQN":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "DayParser", ()=>DayParser);
@@ -52198,7 +56263,7 @@ var DayParser = /*#__PURE__*/ function(_Parser) {
     return DayParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../../../_lib/setUTCDay/index.js":"5VRoI","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5VRoI":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../../../_lib/setUTCDay/index.js":"5VRoI","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5VRoI":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setUTCDay);
@@ -52226,7 +56291,7 @@ function setUTCDay(dirtyDate, dirtyDay, options) {
     return date;
 }
 
-},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"76ygl":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../toInteger/index.js":"kClKA","../defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"76ygl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "LocalDayParser", ()=>LocalDayParser);
@@ -52359,7 +56424,7 @@ var LocalDayParser = /*#__PURE__*/ function(_Parser) {
     return LocalDayParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/setUTCDay/index.js":"5VRoI","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fMDoC":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/setUTCDay/index.js":"5VRoI","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fMDoC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "StandAloneLocalDayParser", ()=>StandAloneLocalDayParser);
@@ -52492,7 +56557,7 @@ var StandAloneLocalDayParser = /*#__PURE__*/ function(_Parser) {
     return StandAloneLocalDayParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/setUTCDay/index.js":"5VRoI","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gs8jQ":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/setUTCDay/index.js":"5VRoI","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gs8jQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ISODayParser", ()=>ISODayParser);
@@ -52625,7 +56690,7 @@ var ISODayParser = /*#__PURE__*/ function(_Parser) {
     return ISODayParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/setUTCISODay/index.js":"4TUQw","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4TUQw":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","../../../_lib/setUTCISODay/index.js":"4TUQw","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4TUQw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setUTCISODay);
@@ -52649,7 +56714,7 @@ function setUTCISODay(dirtyDate, dirtyDay) {
     return date;
 }
 
-},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"awUE3":[function(require,module,exports) {
+},{"../../toDate/index.js":"bFvM9","../requiredArgs/index.js":"d2tiq","../toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"awUE3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AMPMParser", ()=>AMPMParser);
@@ -52734,7 +56799,7 @@ var AMPMParser = /*#__PURE__*/ function(_Parser) {
     return AMPMParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7HkQ3":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7HkQ3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AMPMMidnightParser", ()=>AMPMMidnightParser);
@@ -52819,7 +56884,7 @@ var AMPMMidnightParser = /*#__PURE__*/ function(_Parser) {
     return AMPMMidnightParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"85Sv4":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"85Sv4":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "DayPeriodParser", ()=>DayPeriodParser);
@@ -52902,7 +56967,7 @@ var DayPeriodParser = /*#__PURE__*/ function(_Parser) {
     return DayPeriodParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"13vWH":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"13vWH":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Hour1to12Parser", ()=>Hour1to12Parser);
@@ -52977,7 +57042,7 @@ var Hour1to12Parser = /*#__PURE__*/ function(_Parser) {
     return Hour1to12Parser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2Fw5V":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2Fw5V":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Hour0to23Parser", ()=>Hour0to23Parser);
@@ -53051,7 +57116,7 @@ var Hour0to23Parser = /*#__PURE__*/ function(_Parser) {
     return Hour0to23Parser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eoW6S":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eoW6S":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Hour0To11Parser", ()=>Hour0To11Parser);
@@ -53125,7 +57190,7 @@ var Hour0To11Parser = /*#__PURE__*/ function(_Parser) {
     return Hour0To11Parser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2Lk3h":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2Lk3h":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "Hour1To24Parser", ()=>Hour1To24Parser);
@@ -53200,7 +57265,7 @@ var Hour1To24Parser = /*#__PURE__*/ function(_Parser) {
     return Hour1To24Parser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bMMcE":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bMMcE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "MinuteParser", ()=>MinuteParser);
@@ -53269,7 +57334,7 @@ var MinuteParser = /*#__PURE__*/ function(_Parser) {
     return MinuteParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"674oe":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"674oe":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "SecondParser", ()=>SecondParser);
@@ -53338,7 +57403,7 @@ var SecondParser = /*#__PURE__*/ function(_Parser) {
     return SecondParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gf4S6":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gf4S6":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "FractionOfSecondParser", ()=>FractionOfSecondParser);
@@ -53394,7 +57459,7 @@ var FractionOfSecondParser = /*#__PURE__*/ function(_Parser) {
     return FractionOfSecondParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8R4Dm":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8R4Dm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ISOTimezoneWithZParser", ()=>ISOTimezoneWithZParser);
@@ -53461,7 +57526,7 @@ var ISOTimezoneWithZParser = /*#__PURE__*/ function(_Parser) {
     return ISOTimezoneWithZParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4XR4E":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4XR4E":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ISOTimezoneParser", ()=>ISOTimezoneParser);
@@ -53528,7 +57593,7 @@ var ISOTimezoneParser = /*#__PURE__*/ function(_Parser) {
     return ISOTimezoneParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cOsRF":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../constants.js":"bNzwq","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cOsRF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TimestampSecondsParser", ()=>TimestampSecondsParser);
@@ -53582,7 +57647,7 @@ var TimestampSecondsParser = /*#__PURE__*/ function(_Parser) {
     return TimestampSecondsParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bO9ai":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bO9ai":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "TimestampMillisecondsParser", ()=>TimestampMillisecondsParser);
@@ -53636,7 +57701,7 @@ var TimestampMillisecondsParser = /*#__PURE__*/ function(_Parser) {
     return TimestampMillisecondsParser;
 }((0, _parserJs.Parser));
 
-},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hOOIU":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/classCallCheck":"dXJPn","@babel/runtime/helpers/esm/createClass":"cGlFi","@babel/runtime/helpers/esm/assertThisInitialized":"8w3jf","@babel/runtime/helpers/esm/inherits":"jH9tI","@babel/runtime/helpers/esm/createSuper":"lwvrC","@babel/runtime/helpers/esm/defineProperty":"9gv9l","../Parser.js":"eGzsX","../utils.js":"8cXvc","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hOOIU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isMonday);
@@ -53649,7 +57714,7 @@ function isMonday(date) {
     return (0, _indexJsDefault.default)(date).getDay() === 1;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ehyp9":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ehyp9":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isPast);
@@ -53662,7 +57727,7 @@ function isPast(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getTime() < Date.now();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"95wM5":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"95wM5":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameHour);
@@ -53677,7 +57742,7 @@ function isSameHour(dirtyDateLeft, dirtyDateRight) {
     return dateLeftStartOfHour.getTime() === dateRightStartOfHour.getTime();
 }
 
-},{"../startOfHour/index.js":"18KGk","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"18KGk":[function(require,module,exports) {
+},{"../startOfHour/index.js":"18KGk","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"18KGk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfHour);
@@ -53692,7 +57757,7 @@ function startOfHour(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"f2BdZ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"f2BdZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameISOWeek);
@@ -53707,7 +57772,7 @@ function isSameISOWeek(dirtyDateLeft, dirtyDateRight) {
     });
 }
 
-},{"../isSameWeek/index.js":"3ukLg","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3ukLg":[function(require,module,exports) {
+},{"../isSameWeek/index.js":"3ukLg","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3ukLg":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameWeek);
@@ -53722,7 +57787,7 @@ function isSameWeek(dirtyDateLeft, dirtyDateRight, options) {
     return dateLeftStartOfWeek.getTime() === dateRightStartOfWeek.getTime();
 }
 
-},{"../startOfWeek/index.js":"gBjzb","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4xc2L":[function(require,module,exports) {
+},{"../startOfWeek/index.js":"gBjzb","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4xc2L":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameISOWeekYear);
@@ -53737,7 +57802,7 @@ function isSameISOWeekYear(dirtyDateLeft, dirtyDateRight) {
     return dateLeftStartOfYear.getTime() === dateRightStartOfYear.getTime();
 }
 
-},{"../startOfISOWeekYear/index.js":"dWUn9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"713XW":[function(require,module,exports) {
+},{"../startOfISOWeekYear/index.js":"dWUn9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"713XW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameMinute);
@@ -53752,7 +57817,7 @@ function isSameMinute(dirtyDateLeft, dirtyDateRight) {
     return dateLeftStartOfMinute.getTime() === dateRightStartOfMinute.getTime();
 }
 
-},{"../startOfMinute/index.js":"lvIUp","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gD9c7":[function(require,module,exports) {
+},{"../startOfMinute/index.js":"lvIUp","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gD9c7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameMonth);
@@ -53767,7 +57832,7 @@ function isSameMonth(dirtyDateLeft, dirtyDateRight) {
     return dateLeft.getFullYear() === dateRight.getFullYear() && dateLeft.getMonth() === dateRight.getMonth();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aiqVY":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aiqVY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameQuarter);
@@ -53782,7 +57847,7 @@ function isSameQuarter(dirtyDateLeft, dirtyDateRight) {
     return dateLeftStartOfQuarter.getTime() === dateRightStartOfQuarter.getTime();
 }
 
-},{"../startOfQuarter/index.js":"6HbXS","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"be9PG":[function(require,module,exports) {
+},{"../startOfQuarter/index.js":"6HbXS","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"be9PG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameSecond);
@@ -53797,7 +57862,7 @@ function isSameSecond(dirtyDateLeft, dirtyDateRight) {
     return dateLeftStartOfSecond.getTime() === dateRightStartOfSecond.getTime();
 }
 
-},{"../startOfSecond/index.js":"cQ2Qx","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cQ2Qx":[function(require,module,exports) {
+},{"../startOfSecond/index.js":"cQ2Qx","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cQ2Qx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfSecond);
@@ -53812,7 +57877,7 @@ function startOfSecond(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6GrIQ":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6GrIQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isSameYear);
@@ -53827,7 +57892,7 @@ function isSameYear(dirtyDateLeft, dirtyDateRight) {
     return dateLeft.getFullYear() === dateRight.getFullYear();
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bWPV1":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bWPV1":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisHour);
@@ -53840,7 +57905,7 @@ function isThisHour(dirtyDate) {
     return (0, _indexJsDefault.default)(Date.now(), dirtyDate);
 }
 
-},{"../isSameHour/index.js":"95wM5","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6yDt8":[function(require,module,exports) {
+},{"../isSameHour/index.js":"95wM5","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6yDt8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisISOWeek);
@@ -53853,7 +57918,7 @@ function isThisISOWeek(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate, Date.now());
 }
 
-},{"../isSameISOWeek/index.js":"f2BdZ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2n6Bs":[function(require,module,exports) {
+},{"../isSameISOWeek/index.js":"f2BdZ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2n6Bs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisMinute);
@@ -53866,7 +57931,7 @@ function isThisMinute(dirtyDate) {
     return (0, _indexJsDefault.default)(Date.now(), dirtyDate);
 }
 
-},{"../isSameMinute/index.js":"713XW","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4kjzi":[function(require,module,exports) {
+},{"../isSameMinute/index.js":"713XW","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4kjzi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisMonth);
@@ -53879,7 +57944,7 @@ function isThisMonth(dirtyDate) {
     return (0, _indexJsDefault.default)(Date.now(), dirtyDate);
 }
 
-},{"../isSameMonth/index.js":"gD9c7","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cnXhj":[function(require,module,exports) {
+},{"../isSameMonth/index.js":"gD9c7","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cnXhj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisQuarter);
@@ -53892,7 +57957,7 @@ function isThisQuarter(dirtyDate) {
     return (0, _indexJsDefault.default)(Date.now(), dirtyDate);
 }
 
-},{"../isSameQuarter/index.js":"aiqVY","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8bNog":[function(require,module,exports) {
+},{"../isSameQuarter/index.js":"aiqVY","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8bNog":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisSecond);
@@ -53905,7 +57970,7 @@ function isThisSecond(dirtyDate) {
     return (0, _indexJsDefault.default)(Date.now(), dirtyDate);
 }
 
-},{"../isSameSecond/index.js":"be9PG","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"63hGE":[function(require,module,exports) {
+},{"../isSameSecond/index.js":"be9PG","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"63hGE":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisWeek);
@@ -53918,7 +57983,7 @@ function isThisWeek(dirtyDate, options) {
     return (0, _indexJsDefault.default)(dirtyDate, Date.now(), options);
 }
 
-},{"../isSameWeek/index.js":"3ukLg","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"7ODJo":[function(require,module,exports) {
+},{"../isSameWeek/index.js":"3ukLg","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"7ODJo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThisYear);
@@ -53931,7 +57996,7 @@ function isThisYear(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate, Date.now());
 }
 
-},{"../isSameYear/index.js":"6GrIQ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"c20b0":[function(require,module,exports) {
+},{"../isSameYear/index.js":"6GrIQ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"c20b0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isThursday);
@@ -53944,7 +58009,7 @@ function isThursday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getDay() === 4;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9BItG":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9BItG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isToday);
@@ -53957,7 +58022,7 @@ function isToday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate, Date.now());
 }
 
-},{"../isSameDay/index.js":"2Ly8E","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fmXLK":[function(require,module,exports) {
+},{"../isSameDay/index.js":"2Ly8E","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fmXLK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isTomorrow);
@@ -53972,7 +58037,7 @@ function isTomorrow(dirtyDate) {
     return (0, _indexJsDefault1.default)(dirtyDate, (0, _indexJsDefault.default)(Date.now(), 1));
 }
 
-},{"../addDays/index.js":"dIkqe","../isSameDay/index.js":"2Ly8E","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1FZeb":[function(require,module,exports) {
+},{"../addDays/index.js":"dIkqe","../isSameDay/index.js":"2Ly8E","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1FZeb":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isTuesday);
@@ -53985,7 +58050,7 @@ function isTuesday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getDay() === 2;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4dMyp":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4dMyp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isWednesday);
@@ -53998,7 +58063,7 @@ function isWednesday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate).getDay() === 3;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cfkDU":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cfkDU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isWithinInterval);
@@ -54016,7 +58081,7 @@ function isWithinInterval(dirtyDate, interval) {
     return time >= startTime && time <= endTime;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bQn59":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bQn59":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>isYesterday);
@@ -54031,7 +58096,7 @@ function isYesterday(dirtyDate) {
     return (0, _indexJsDefault.default)(dirtyDate, (0, _indexJsDefault1.default)(Date.now(), 1));
 }
 
-},{"../isSameDay/index.js":"2Ly8E","../subDays/index.js":"3Wkyt","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3Wkyt":[function(require,module,exports) {
+},{"../isSameDay/index.js":"2Ly8E","../subDays/index.js":"3Wkyt","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3Wkyt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subDays);
@@ -54047,7 +58112,7 @@ function subDays(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault.default)(dirtyDate, -amount);
 }
 
-},{"../addDays/index.js":"dIkqe","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jtmZ7":[function(require,module,exports) {
+},{"../addDays/index.js":"dIkqe","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jtmZ7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lastDayOfDecade);
@@ -54065,7 +58130,7 @@ function lastDayOfDecade(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eifcf":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eifcf":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lastDayOfISOWeek);
@@ -54080,7 +58145,7 @@ function lastDayOfISOWeek(dirtyDate) {
     });
 }
 
-},{"../lastDayOfWeek/index.js":"5mPVi","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5mPVi":[function(require,module,exports) {
+},{"../lastDayOfWeek/index.js":"5mPVi","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5mPVi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lastDayOfWeek);
@@ -54106,7 +58171,7 @@ function lastDayOfWeek(dirtyDate, options) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kxUtu":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kxUtu":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lastDayOfISOWeekYear);
@@ -54127,7 +58192,7 @@ function lastDayOfISOWeekYear(dirtyDate) {
     return date;
 }
 
-},{"../getISOWeekYear/index.js":"iVWIQ","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fuNF7":[function(require,module,exports) {
+},{"../getISOWeekYear/index.js":"iVWIQ","../startOfISOWeek/index.js":"8hBDU","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fuNF7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lastDayOfQuarter);
@@ -54145,7 +58210,7 @@ function lastDayOfQuarter(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"9I2ux":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"9I2ux":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lastDayOfYear);
@@ -54162,7 +58227,7 @@ function lastDayOfYear(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iStgh":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iStgh":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>lightFormat);
@@ -54220,7 +58285,7 @@ function cleanEscapedString(input) {
     return matches[1].replace(doubleQuoteRegExp, "'");
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/format/lightFormatters/index.js":"dQUym","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../isValid/index.js":"leBpy","../subMilliseconds/index.js":"ckMtI","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cRI2I":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/format/lightFormatters/index.js":"dQUym","../_lib/getTimezoneOffsetInMilliseconds/index.js":"k0hlE","../isValid/index.js":"leBpy","../subMilliseconds/index.js":"ckMtI","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cRI2I":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>milliseconds);
@@ -54244,7 +58309,7 @@ function milliseconds(_ref) {
     return Math.round(totalSeconds * 1000);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2VucU":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2VucU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>millisecondsToHours);
@@ -54257,7 +58322,7 @@ function millisecondsToHours(milliseconds) {
     return Math.floor(hours);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eh9Hm":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eh9Hm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>millisecondsToMinutes);
@@ -54270,7 +58335,7 @@ function millisecondsToMinutes(milliseconds) {
     return Math.floor(minutes);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3zetZ":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3zetZ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>millisecondsToSeconds);
@@ -54283,7 +58348,7 @@ function millisecondsToSeconds(milliseconds) {
     return Math.floor(seconds);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eq0l0":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eq0l0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>minutesToHours);
@@ -54296,7 +58361,7 @@ function minutesToHours(minutes) {
     return Math.floor(hours);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hPesA":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hPesA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>minutesToMilliseconds);
@@ -54308,7 +58373,7 @@ function minutesToMilliseconds(minutes) {
     return Math.floor(minutes * (0, _indexJs1.millisecondsInMinute));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"foGAG":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"foGAG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>minutesToSeconds);
@@ -54320,7 +58385,7 @@ function minutesToSeconds(minutes) {
     return Math.floor(minutes * (0, _indexJs1.secondsInMinute));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8Ov2a":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8Ov2a":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>monthsToQuarters);
@@ -54333,7 +58398,7 @@ function monthsToQuarters(months) {
     return Math.floor(quarters);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e95qs":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e95qs":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>monthsToYears);
@@ -54346,7 +58411,7 @@ function monthsToYears(months) {
     return Math.floor(years);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3yA7C":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3yA7C":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextDay);
@@ -54363,7 +58428,7 @@ function nextDay(date, day) {
     return (0, _indexJsDefault.default)(date, delta);
 }
 
-},{"../addDays/index.js":"dIkqe","../getDay/index.js":"a35dM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8h2I8":[function(require,module,exports) {
+},{"../addDays/index.js":"dIkqe","../getDay/index.js":"a35dM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8h2I8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextFriday);
@@ -54376,7 +58441,7 @@ function nextFriday(date) {
     return (0, _indexJsDefault.default)(date, 5);
 }
 
-},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"4C2Hm":[function(require,module,exports) {
+},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"4C2Hm":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextMonday);
@@ -54389,7 +58454,7 @@ function nextMonday(date) {
     return (0, _indexJsDefault.default)(date, 1);
 }
 
-},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eLw19":[function(require,module,exports) {
+},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eLw19":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextSaturday);
@@ -54402,7 +58467,7 @@ function nextSaturday(date) {
     return (0, _indexJsDefault.default)(date, 6);
 }
 
-},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kopU0":[function(require,module,exports) {
+},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kopU0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextSunday);
@@ -54415,7 +58480,7 @@ function nextSunday(date) {
     return (0, _indexJsDefault.default)(date, 0);
 }
 
-},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"lAExQ":[function(require,module,exports) {
+},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"lAExQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextThursday);
@@ -54428,7 +58493,7 @@ function nextThursday(date) {
     return (0, _indexJsDefault.default)(date, 4);
 }
 
-},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5W4Cz":[function(require,module,exports) {
+},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5W4Cz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextTuesday);
@@ -54441,7 +58506,7 @@ function nextTuesday(date) {
     return (0, _indexJsDefault.default)(date, 2);
 }
 
-},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fldsK":[function(require,module,exports) {
+},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fldsK":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>nextWednesday);
@@ -54454,7 +58519,7 @@ function nextWednesday(date) {
     return (0, _indexJsDefault.default)(date, 3);
 }
 
-},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3ZcqV":[function(require,module,exports) {
+},{"../nextDay/index.js":"3yA7C","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3ZcqV":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>parseISO);
@@ -54640,7 +58705,7 @@ function validateTimezone(_hours, minutes) {
     return minutes >= 0 && minutes <= 59;
 }
 
-},{"../constants/index.js":"fWGGJ","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"eYmvF":[function(require,module,exports) {
+},{"../constants/index.js":"fWGGJ","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"eYmvF":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>parseJSON);
@@ -54659,7 +58724,7 @@ function parseJSON(argument) {
     return (0, _indexJsDefault.default)(argument);
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gv79y":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gv79y":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousDay);
@@ -54676,7 +58741,7 @@ function previousDay(date, day) {
     return (0, _indexJsDefault2.default)(date, delta);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../getDay/index.js":"a35dM","../subDays/index.js":"3Wkyt","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2Mbmj":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../getDay/index.js":"a35dM","../subDays/index.js":"3Wkyt","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2Mbmj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousFriday);
@@ -54689,7 +58754,7 @@ function previousFriday(date) {
     return (0, _indexJsDefault1.default)(date, 5);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1fDQG":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1fDQG":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousMonday);
@@ -54702,7 +58767,7 @@ function previousMonday(date) {
     return (0, _indexJsDefault1.default)(date, 1);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3vOvT":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3vOvT":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousSaturday);
@@ -54715,7 +58780,7 @@ function previousSaturday(date) {
     return (0, _indexJsDefault1.default)(date, 6);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"caLg3":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"caLg3":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousSunday);
@@ -54728,7 +58793,7 @@ function previousSunday(date) {
     return (0, _indexJsDefault1.default)(date, 0);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"f7vlW":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"f7vlW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousThursday);
@@ -54741,7 +58806,7 @@ function previousThursday(date) {
     return (0, _indexJsDefault1.default)(date, 4);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5j5CA":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5j5CA":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousTuesday);
@@ -54754,7 +58819,7 @@ function previousTuesday(date) {
     return (0, _indexJsDefault1.default)(date, 2);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iTKJo":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iTKJo":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>previousWednesday);
@@ -54767,7 +58832,7 @@ function previousWednesday(date) {
     return (0, _indexJsDefault1.default)(date, 3);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bRtXU":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../previousDay/index.js":"gv79y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bRtXU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>quartersToMonths);
@@ -54779,7 +58844,7 @@ function quartersToMonths(quarters) {
     return Math.floor(quarters * (0, _indexJs1.monthsInQuarter));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"i3XzC":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"i3XzC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>quartersToYears);
@@ -54792,7 +58857,7 @@ function quartersToYears(quarters) {
     return Math.floor(years);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dnmWk":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dnmWk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>roundToNearestMinutes);
@@ -54816,7 +58881,7 @@ function roundToNearestMinutes(dirtyDate, options) {
     return new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), roundedMinutes + addedMinutes);
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/roundingMethods/index.js":"lJxNJ","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jNPGk":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/roundingMethods/index.js":"lJxNJ","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jNPGk":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>secondsToHours);
@@ -54829,7 +58894,7 @@ function secondsToHours(seconds) {
     return Math.floor(hours);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bkqBp":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bkqBp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>secondsToMilliseconds);
@@ -54841,7 +58906,7 @@ function secondsToMilliseconds(seconds) {
     return seconds * (0, _indexJs1.millisecondsInSecond);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e5BKQ":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e5BKQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>secondsToMinutes);
@@ -54854,7 +58919,7 @@ function secondsToMinutes(seconds) {
     return Math.floor(minutes);
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"cVcCi":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"cVcCi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>set);
@@ -54884,7 +58949,7 @@ function set(dirtyDate, values) {
     return date;
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../toDate/index.js":"bFvM9","../setMonth/index.js":"40U8W","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"40U8W":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../toDate/index.js":"bFvM9","../setMonth/index.js":"40U8W","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"40U8W":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setMonth);
@@ -54912,7 +58977,7 @@ function setMonth(dirtyDate, dirtyMonth) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../getDaysInMonth/index.js":"8UuX8","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"l8igi":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../getDaysInMonth/index.js":"8UuX8","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"l8igi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setDate);
@@ -54930,7 +58995,7 @@ function setDate(dirtyDate, dirtyDayOfMonth) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"gHd89":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"gHd89":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setDay);
@@ -54960,7 +59025,7 @@ function setDay(dirtyDate, dirtyDay, options) {
     return (0, _indexJsDefault.default)(date, diff);
 }
 
-},{"../addDays/index.js":"dIkqe","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dIUsp":[function(require,module,exports) {
+},{"../addDays/index.js":"dIkqe","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dIUsp":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setDayOfYear);
@@ -54979,7 +59044,7 @@ function setDayOfYear(dirtyDate, dirtyDayOfYear) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"dXLaQ":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"dXLaQ":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setDefaultOptions);
@@ -54998,7 +59063,7 @@ function setDefaultOptions(newOptions) {
     (0, _indexJs.setDefaultOptions)(result);
 }
 
-},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"6mxe0":[function(require,module,exports) {
+},{"../_lib/defaultOptions/index.js":"4x0TQ","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"6mxe0":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setHours);
@@ -55016,7 +59081,7 @@ function setHours(dirtyDate, dirtyHours) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5MPjU":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5MPjU":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setISODay);
@@ -55039,7 +59104,7 @@ function setISODay(dirtyDate, dirtyDay) {
     return (0, _indexJsDefault2.default)(date, diff);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../addDays/index.js":"dIkqe","../getISODay/index.js":"f8pof","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"kVXjt":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../addDays/index.js":"dIkqe","../getISODay/index.js":"f8pof","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"kVXjt":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setISOWeek);
@@ -55060,7 +59125,7 @@ function setISOWeek(dirtyDate, dirtyISOWeek) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../getISOWeek/index.js":"93hUF","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8Ydox":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../getISOWeek/index.js":"93hUF","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8Ydox":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setMilliseconds);
@@ -55078,7 +59143,7 @@ function setMilliseconds(dirtyDate, dirtyMilliseconds) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"hnYiq":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"hnYiq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setMinutes);
@@ -55096,7 +59161,7 @@ function setMinutes(dirtyDate, dirtyMinutes) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"fgMUY":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"fgMUY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setQuarter);
@@ -55117,7 +59182,7 @@ function setQuarter(dirtyDate, dirtyQuarter) {
     return (0, _indexJsDefault2.default)(date, date.getMonth() + diff * 3);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../setMonth/index.js":"40U8W","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bRQ0J":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../setMonth/index.js":"40U8W","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bRQ0J":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setSeconds);
@@ -55135,7 +59200,7 @@ function setSeconds(dirtyDate, dirtySeconds) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"e75sx":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"e75sx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setWeek);
@@ -55156,7 +59221,7 @@ function setWeek(dirtyDate, dirtyWeek, options) {
     return date;
 }
 
-},{"../getWeek/index.js":"1XDpK","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"ctL4r":[function(require,module,exports) {
+},{"../getWeek/index.js":"1XDpK","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"ctL4r":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setWeekYear);
@@ -55187,7 +59252,7 @@ function setWeekYear(dirtyDate, dirtyWeekYear, options) {
     return date;
 }
 
-},{"../differenceInCalendarDays/index.js":"8NsKL","../startOfWeekYear/index.js":"1gklq","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3T0aO":[function(require,module,exports) {
+},{"../differenceInCalendarDays/index.js":"8NsKL","../startOfWeekYear/index.js":"1gklq","../toDate/index.js":"bFvM9","../_lib/toInteger/index.js":"kClKA","../_lib/requiredArgs/index.js":"d2tiq","../_lib/defaultOptions/index.js":"4x0TQ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3T0aO":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>setYear);
@@ -55207,7 +59272,7 @@ function setYear(dirtyDate, dirtyYear) {
     return date;
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"jBxUz":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"jBxUz":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfDecade);
@@ -55225,7 +59290,7 @@ function startOfDecade(dirtyDate) {
     return date;
 }
 
-},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8Kfzx":[function(require,module,exports) {
+},{"../toDate/index.js":"bFvM9","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8Kfzx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>startOfToday);
@@ -55235,7 +59300,7 @@ function startOfToday() {
     return (0, _indexJsDefault.default)(Date.now());
 }
 
-},{"../startOfDay/index.js":"6896y","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"bGz0G":[function(require,module,exports) {
+},{"../startOfDay/index.js":"6896y","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"bGz0G":[function(require,module,exports) {
 /**
  * @name startOfTomorrow
  * @category Day Helpers
@@ -55268,7 +59333,7 @@ function startOfTomorrow() {
     return date;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2oAjD":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2oAjD":[function(require,module,exports) {
 /**
  * @name startOfYesterday
  * @category Day Helpers
@@ -55301,7 +59366,7 @@ function startOfYesterday() {
     return date;
 }
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"iNM4e":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"iNM4e":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>sub);
@@ -55337,7 +59402,7 @@ function sub(date, duration) {
     return finalDate;
 }
 
-},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../subDays/index.js":"3Wkyt","../subMonths/index.js":"2QgWY","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"2QgWY":[function(require,module,exports) {
+},{"@babel/runtime/helpers/esm/typeof":"jfWXw","../subDays/index.js":"3Wkyt","../subMonths/index.js":"2QgWY","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"2QgWY":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subMonths);
@@ -55353,7 +59418,7 @@ function subMonths(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, -amount);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addMonths/index.js":"97zxM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"27mm8":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addMonths/index.js":"97zxM","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"27mm8":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subBusinessDays);
@@ -55369,7 +59434,7 @@ function subBusinessDays(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault.default)(dirtyDate, -amount);
 }
 
-},{"../addBusinessDays/index.js":"lIar7","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"akbs7":[function(require,module,exports) {
+},{"../addBusinessDays/index.js":"lIar7","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"akbs7":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subHours);
@@ -55385,7 +59450,7 @@ function subHours(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault.default)(dirtyDate, -amount);
 }
 
-},{"../addHours/index.js":"WawY2","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"1LqGl":[function(require,module,exports) {
+},{"../addHours/index.js":"WawY2","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"1LqGl":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subMinutes);
@@ -55401,7 +59466,7 @@ function subMinutes(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault.default)(dirtyDate, -amount);
 }
 
-},{"../addMinutes/index.js":"k642X","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"do8aw":[function(require,module,exports) {
+},{"../addMinutes/index.js":"k642X","../_lib/requiredArgs/index.js":"d2tiq","../_lib/toInteger/index.js":"kClKA","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"do8aw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subQuarters);
@@ -55417,7 +59482,7 @@ function subQuarters(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, -amount);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addQuarters/index.js":"6iqct","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"8B08b":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addQuarters/index.js":"6iqct","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"8B08b":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subSeconds);
@@ -55433,7 +59498,7 @@ function subSeconds(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, -amount);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addSeconds/index.js":"hwycE","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"3RF3r":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addSeconds/index.js":"hwycE","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"3RF3r":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subWeeks);
@@ -55449,7 +59514,7 @@ function subWeeks(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, -amount);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addWeeks/index.js":"eMkmx","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"aMJwy":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addWeeks/index.js":"eMkmx","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"aMJwy":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>subYears);
@@ -55465,7 +59530,7 @@ function subYears(dirtyDate, dirtyAmount) {
     return (0, _indexJsDefault1.default)(dirtyDate, -amount);
 }
 
-},{"../_lib/toInteger/index.js":"kClKA","../addYears/index.js":"3cXli","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"itttB":[function(require,module,exports) {
+},{"../_lib/toInteger/index.js":"kClKA","../addYears/index.js":"3cXli","../_lib/requiredArgs/index.js":"d2tiq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"itttB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>weeksToDays);
@@ -55477,7 +59542,7 @@ function weeksToDays(weeks) {
     return Math.floor(weeks * (0, _indexJs1.daysInWeek));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"5jjaj":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"5jjaj":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>yearsToMonths);
@@ -55489,7 +59554,7 @@ function yearsToMonths(years) {
     return Math.floor(years * (0, _indexJs1.monthsInYear));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"CCmtw":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"CCmtw":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "default", ()=>yearsToQuarters);
@@ -55501,7 +59566,7 @@ function yearsToQuarters(years) {
     return Math.floor(years * (0, _indexJs1.quartersInYear));
 }
 
-},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n"}],"62QHU":[function(require,module,exports) {
+},{"../_lib/requiredArgs/index.js":"d2tiq","../constants/index.js":"fWGGJ","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te"}],"62QHU":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$16af = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -55547,6 +59612,6 @@ $RefreshReg$(_c, "NotFound");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"iBa6n","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"69EKn"}],"lJZlQ":[function() {},{}]},["9bWNJ","59UVK","d8Dch"], "d8Dch", "parcelRequire028f")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"hD7Te","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"f6h3t"}],"lJZlQ":[function() {},{}]},["lmXJc","4z7pq","d8Dch"], "d8Dch", "parcelRequire028f")
 
 //# sourceMappingURL=index.b4b6dfad.js.map
