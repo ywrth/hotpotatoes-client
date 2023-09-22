@@ -1,16 +1,26 @@
-.movieCard{
+.movieCard {
     margin: 20px;
-    padding:20px;
+    padding: 20px;
     text-align: left;
     border-bottom: 1px solid rgb(61, 114, 226);
-     
- }
- .movieCard:hover{
-     background-color:  rgb(95, 137, 230);
- }
-
- .card-image{
+    color: rgb(25, 190, 25);
+    background-color: transparent; /* Explicitly set background-color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .movieCard:hover {
+    background-color: rgb(177, 211, 227);
+  }
+  
+  .card-image {
     max-height: 20%;
     max-width: 30%;
     margin: 20 auto;
- }
+  }
+  
+  .card-body {
+ background-color: rgb(169, 175, 206); // specify the color you want on hover
+ &:hover {
+  background-color: rgb(177, 211, 227);
+  }
+}

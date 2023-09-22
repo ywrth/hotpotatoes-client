@@ -9,6 +9,7 @@ import { ProfileView } from "../profile-view/profile-view";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { Container, Row, Col } from "react-bootstrap";
 import NotFound from "../not-found/not-found"; // Import the 404 component
+import { SearchBar } from "../search-bar/search-bar"; // Update the path according to your file structure
 
 export const MainView = () => {
   const storedUser = JSON.parse(localStorage.getItem("userProfile"));
@@ -17,6 +18,7 @@ export const MainView = () => {
   const [token, setToken] = useState(storedToken ? storedToken : null);
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
+  const [searchQuery, setSearchQuery] = React.useState('');
 
   useEffect(() => {
     if (!token) return;
@@ -63,7 +65,12 @@ export const MainView = () => {
 
   return (
     <BrowserRouter>
-      <NavigationBar user={user} onLogout={handleLogout} />
+      <NavigationBar 
+        user={user} 
+        onLogout={handleLogout}
+        onSearch={setSearchQuery} // Pass setSearchQuery to NavigationBar
+        searchQuery={searchQuery} // Pass searchQuery to NavigationBar
+      />
       <Container fluid className="mt-5">
         <Routes>
           {/* Signup Route */}
@@ -136,24 +143,30 @@ export const MainView = () => {
                 </Row>
               ) : (
                 <Row>
-                  {movies.map((movie) => (
-                    <Col
-                      className="mb-5 d-flex"
-                      key={movie._id}
-                      xs={12}
-                      sm={6}
-                      md={4}
-                      lg={3}
-                    >
-                      <MovieCard
-                        movie={movie}
-                        onMovieClick={handleMovieClick}
-                        user={user}
-                        token={token}
-                        setuser={setUser}
-                      />
-                    </Col>
-                  ))}
+                  {movies
+                    .filter((movie) =>
+                      movie.Title.toLowerCase().includes(
+                        searchQuery.toLowerCase()
+                      )
+                    )
+                    .map((filteredMovie) => (
+                      <Col
+                        className="mb-5 d-flex"
+                        key={filteredMovie._id}
+                        xs={12}
+                        sm={6}
+                        md={4}
+                        lg={3}
+                      >
+                        <MovieCard
+                          movie={filteredMovie}
+                          onMovieClick={handleMovieClick}
+                          user={user}
+                          token={token}
+                          setuser={setUser}
+                        />
+                      </Col>
+                    ))}
                 </Row>
               )
             }
