@@ -18,7 +18,7 @@ export const MainView = () => {
   const [token, setToken] = useState(storedToken ? storedToken : null);
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQuery] = React.useState('');
 
   useEffect(() => {
     if (!token) return;
@@ -65,9 +65,13 @@ export const MainView = () => {
 
   return (
     <BrowserRouter>
-      <NavigationBar user={user} onLogout={handleLogout} />
+      <NavigationBar 
+        user={user} 
+        onLogout={handleLogout}
+        onSearch={setSearchQuery} // Pass setSearchQuery to NavigationBar
+        searchQuery={searchQuery} // Pass searchQuery to NavigationBar
+      />
       <Container fluid className="mt-5">
-        <SearchBar onSearch={setSearchQuery} /> {/* Place the SearchBar here */}
         <Routes>
           {/* Signup Route */}
           <Route

@@ -7,11 +7,13 @@
   }
 
   .movie-view-container {
+    margin-top: 50px; // Adjust this value to give enough space for the Navbar.
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* This centers the content vertically on the page */
+    height: 70vh;
   }
+  
   
   .movie-view-content {
     padding: 20px; /* Add some padding around the content */
