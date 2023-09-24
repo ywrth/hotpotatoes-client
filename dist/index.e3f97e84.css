@@ -26514,15 +26514,17 @@ textarea.form-control-lg {
   margin-top: 3px;
 }
 
-.userDetails, .updateForm, .favoriteMovies {
+.userDetails, .updateForm {
   background-color: #d1d1d1;
   width: 100%;
   margin: 0;
   padding: 10px;
 }
 
-.favoriteMovies:hover {
-  background-color: #d1d1d1 !important;
+.favoriteMovies {
+  width: 100%;
+  margin: 0;
+  padding: 10px;
 }
 
 @media (width <= 768px) {
@@ -26539,13 +26541,6 @@ profile-container {
   width: 100%;
   margin: 0;
   padding: 0;
-}
-
-.no-hover:hover {
-  width: 100%;
-  background-color: inherit !important;
-  color: inherit !important;
-  transform: none !important;
 }
 
 @media (prefers-reduced-motion: no-preference) {

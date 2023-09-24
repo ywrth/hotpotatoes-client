@@ -86,7 +86,7 @@ export const ProfileView = ({
               {favoriteMovies.length === 0 ? (
                 <span>No favorite movies selected</span>
               ) : (
-                <Row>
+                <Row style={{ backgroundColor: "white" }}>
                   {favoriteMovies.map((movie) => (
                     <Col key={movie._id} xs={12} md={6} lg={4} className="mb-3">
                       {" "}

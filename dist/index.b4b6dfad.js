@@ -47918,6 +47918,9 @@ const ProfileView = ({ user, movies, addToFavorites, removeFromFavorites })=>{
                                     lineNumber: 87,
                                     columnNumber: 17
                                 }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Row), {
+                                    style: {
+                                        backgroundColor: "white"
+                                    },
                                     children: favoriteMovies.map((movie)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactBootstrap.Col), {
                                             xs: 12,
                                             md: 6,
