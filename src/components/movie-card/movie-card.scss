@@ -7,7 +7,7 @@
   text-align: left;
   border-bottom: 1px solid $secondary;
   color: #2E2E33;
-  background-color: transparent;
+  background-color: #e4dcda !important;
   transition: background-color 0.3s ease;
   .card {
     text-decoration: none; // Prevents text underline
@@ -26,9 +26,10 @@
 }
 
 .card-body {
-  color: $text-color !important; // Forced Text Color
+  color: $text-color !important; // Forced Text Color,
+  background-color: #e4dcda !important;
   &:hover {
-    background-color: #FFC9B9;
+    background-color: #FFC9B9 !important;
   }
 }
 

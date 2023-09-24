@@ -13206,11 +13206,11 @@ textarea.form-control-lg {
 .movieCard {
   text-align: left;
   color: #2e2e33;
-  background-color: #0000;
   border-bottom: 1px solid #e18392;
   margin: 20px;
   padding: 20px;
   transition: background-color .3s;
+  background-color: #e4dcda !important;
 }
 
 .movieCard .card {
@@ -13230,10 +13230,11 @@ textarea.form-control-lg {
 
 .card-body {
   color: #2e2e33 !important;
+  background-color: #e4dcda !important;
 }
 
 .card-body:hover {
-  background-color: #ffc9b9;
+  background-color: #ffc9b9 !important;
 }
 
 .btn-custom {
@@ -26491,16 +26492,18 @@ textarea.form-control-lg {
 }
 
 .nav-link:hover {
-  color: #2c6e49 !important;
+  color: #d68c45 !important;
 }
 
 .search-form {
   margin-right: auto;
+  background-color: #fff !important;
 }
 
 .search-input {
   text-align: center;
   border-radius: 10px;
+  background-color: #fff !important;
 }
 
 #profile-container {
@@ -26513,6 +26516,8 @@ textarea.form-control-lg {
 
 .userDetails, .updateForm, .favoriteMovies {
   background-color: #d1d1d1;
+  width: 100%;
+  margin: 0;
   padding: 10px;
 }
 
@@ -26530,7 +26535,14 @@ textarea.form-control-lg {
   }
 }
 
+profile-container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 .no-hover:hover {
+  width: 100%;
   background-color: inherit !important;
   color: inherit !important;
   transform: none !important;
@@ -52461,16 +52473,18 @@ textarea.form-control-lg {
 }
 
 .nav-link:hover {
-  color: #2c6e49 !important;
+  color: #d68c45 !important;
 }
 
 .search-form {
   margin-right: auto;
+  background-color: #fff !important;
 }
 
 .search-input {
   text-align: center;
   border-radius: 10px;
+  background-color: #fff !important;
 }
 
 /*# sourceMappingURL=index.e3f97e84.css.map */

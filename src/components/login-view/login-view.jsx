@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Form, Button, Row, Col, Alert, Container } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 export const LoginView = ({ onLoggedIn }) => {
   const [username, setUsername] = useState("");
@@ -70,14 +71,21 @@ export const LoginView = ({ onLoggedIn }) => {
     }
   }, [onLoggedIn]);
 
+  const navigate = useNavigate();
+
+  const handleRegisterClick = () => {
+    navigate("/signup"); // replace with your signup route
+  };
+
   return (
     <Container className="mt-5">
       <Row className="justify-content-center">
         <Col xs={12} sm={8} md={6} lg={10}>
           <Form className="form" onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Username</Form.Label>
+              <Form.Label className="white-label">Username</Form.Label>
               <Form.Control
+                style={{ backgroundColor: "white", borderColor: "#ccc" }}
                 type="text"
                 placeholder="Enter username"
                 value={username}
@@ -90,8 +98,9 @@ export const LoginView = ({ onLoggedIn }) => {
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
+              <Form.Label className="white-label">Password</Form.Label>
               <Form.Control
+                style={{ backgroundColor: "white", borderColor: "#ccc" }}
                 type="password"
                 placeholder="Password"
                 value={password}
@@ -107,13 +116,12 @@ export const LoginView = ({ onLoggedIn }) => {
                 {error}
               </Alert>
             )}
-            <Form.Text className="text-muted text-center mt-2">
+            <Form.Text className="text-muted text-center mt-2 custom-text-color">
               Don't have an account?{" "}
               <Button
                 variant="link"
-                onClick={() => {
-                  /* Handle navigation to signup view */
-                }}
+                onClick={handleRegisterClick}
+                className="custom-text-color"
               >
                 Register
               </Button>

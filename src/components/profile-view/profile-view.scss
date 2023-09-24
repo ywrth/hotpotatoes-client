@@ -12,16 +12,22 @@
 .userDetails {
   background-color: #d1d1d1; /* Just an example; replace with actual color */
   padding: 10px;
+  margin: 0; 
+  width: 100%; // Ensure it takes full width of its container
 }
 
 .updateForm {
   background-color: #d1d1d1; /* Just an example; replace with actual color */
   padding: 10px;
+  margin: 0; 
+  width: 100%; // Ensure it takes full width of its container
 }
 
 .favoriteMovies {
   background-color: #d1d1d1; /* Just an example; replace with actual color */
   padding: 10px;
+  margin: 0; 
+  width: 100%; // Ensure it takes full width of its container
   &:hover {
     background-color: #d1d1d1 !important;
   }
@@ -36,9 +42,15 @@
   }
 }
 
+profile-container {
+  width: 100%; // Ensure it takes full width of its container
+  margin: 0; // Adjust as needed
+  padding: 0; // Adjust as needed
+}
+
 .no-hover:hover {
   background-color: inherit !important; /* If the hover effect changes the background color */
   color: inherit !important;            /* If the hover effect changes the text color */
   transform: none !important;           /* If the hover effect has a transform property */
-  /* Add any other properties that are changed on hover and you want to override */
+  width: 100%; // Ensure it takes full width of its container
 }

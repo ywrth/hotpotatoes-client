@@ -1,0 +1,22 @@
+@import '../../custom-bootstrap.scss';
+
+.form {
+    // existing styles if any
+  
+    .text-muted {
+      color: #333; // use a color that is easily visible on your background
+    }
+  
+    Button.btn-link {
+        color: #D68C45;
+        
+        &:hover {
+          color: #B07437; // you can use a slightly different shade for hover
+          text-decoration: underline; // if you want underline on hover
+        }
+      }
+  }
+
+  .white-label {
+    color: $soft-white !important; 
+  }

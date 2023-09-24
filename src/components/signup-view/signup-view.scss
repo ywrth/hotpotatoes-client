@@ -1,0 +1,11 @@
+.custom-input {
+    .custom-input {
+        --bs-body-bg: #ffffff !important;
+      }
+    &:focus {
+      outline: none !important;
+      box-shadow: none !important;
+      border-color: #ccc !important;
+    }
+  }
+  

@@ -23,15 +23,17 @@
 }
 
 .nav-link:hover {
-  color: $primary !important;
+  color: #D68C45 !important;
 }
 
 .search-form {
   margin-right: auto;
+  background-color: white !important; // Set the background color to white
   
 }
 
 .search-input {
   text-align: center;
   border-radius: 10px;
+  background-color: white !important; // Set the background color to white
 }

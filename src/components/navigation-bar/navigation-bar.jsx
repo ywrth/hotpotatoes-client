@@ -1,9 +1,11 @@
 import React from "react";
 import { Navbar, Container, Form, FormControl, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import "./navigation-bar.scss";
 
 export const NavigationBar = ({ user, onLogout, onSearch, searchQuery }) => {
+  const location = useLocation();
+
   return (
     <Navbar expand="lg" className="navbar-main">
       <Container>
@@ -41,12 +43,16 @@ export const NavigationBar = ({ user, onLogout, onSearch, searchQuery }) => {
               </>
             ) : (
               <>
-                <Nav.Link as={Link} to="/login" className="nav-link">
-                  Login
-                </Nav.Link>
-                <Nav.Link as={Link} to="/signup" className="nav-link">
-                  Signup
-                </Nav.Link>
+                {location.pathname === "/signup" && (
+                  <Nav.Link as={Link} to="/login" className="nav-link">
+                    Login
+                  </Nav.Link>
+                )}
+                {location.pathname === "/login" && (
+                  <Nav.Link as={Link} to="/signup" className="nav-link">
+                    Signup
+                  </Nav.Link>
+                )}
               </>
             )}
           </Nav>
