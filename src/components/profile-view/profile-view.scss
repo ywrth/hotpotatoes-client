@@ -6,3 +6,39 @@
   .d-grid {
     margin-top: 3px;
   }
+
+  /* ProfileView.css */
+
+.userDetails {
+  background-color: #d1d1d1; /* Just an example; replace with actual color */
+  padding: 10px;
+}
+
+.updateForm {
+  background-color: #d1d1d1; /* Just an example; replace with actual color */
+  padding: 10px;
+}
+
+.favoriteMovies {
+  background-color: #d1d1d1; /* Just an example; replace with actual color */
+  padding: 10px;
+  &:hover {
+    background-color: #d1d1d1 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .userDetails {
+    background-color: #ff0000;
+  }
+  .updateForm {
+    background-color: #00ff00;
+  }
+}
+
+.no-hover:hover {
+  background-color: inherit !important; /* If the hover effect changes the background color */
+  color: inherit !important;            /* If the hover effect changes the text color */
+  transform: none !important;           /* If the hover effect has a transform property */
+  /* Add any other properties that are changed on hover and you want to override */
+}

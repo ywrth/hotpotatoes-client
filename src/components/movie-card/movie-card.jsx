@@ -11,33 +11,29 @@ export const MovieCard = ({
   showLogoutButton,
   handleLogout,
 }) => {
-  const handleCardClick = () => {
-    onMovieClick(movie);
-  };
-
   return (
     <Col xs={12} sm={12} md={12} lg={12}>
-      <div className="movie-card" onClick={handleCardClick}>
-        <Card>
-          <Card.Img variant="top" src={movie.ImageURL} />
-          <Card.Body>
-            <Card.Title>{movie.Title}</Card.Title>
-            <Card.Text>Director: {movie.Director.Name}</Card.Text>
-            <Card.Text>Genre: {movie.Genre.Name}</Card.Text>
-            <Link to={`/movies/${movie.Title}`}>
-              <Button variant="link">Open</Button>
-            </Link>
-
-            {showLogoutButton && (
-              <div className="mt-2">
-                <Button variant="primary" onClick={handleLogout}>
-                  Logout
-                </Button>
-              </div>
-            )}
-          </Card.Body>
-        </Card>
-      </div>
+      <Link to={`/movies/${movie.Title}`} className="text-decoration-none">
+        {" "}
+        {/* Wrap Card with Link */}
+        <div className="movie-card" onClick={() => onMovieClick(movie)}>
+          <Card>
+            <Card.Img variant="top" src={movie.ImageURL} />
+            <Card.Body>
+              <Card.Title>{movie.Title}</Card.Title>
+              <Card.Text>Director: {movie.Director.Name}</Card.Text>
+              <Card.Text>Genre: {movie.Genre.Name}</Card.Text>
+            </Card.Body>
+          </Card>
+        </div>
+      </Link>
+      {showLogoutButton && (
+        <div className="mt-2">
+          <Button variant="primary" onClick={handleLogout}>
+            Logout
+          </Button>
+        </div>
+      )}
     </Col>
   );
 };

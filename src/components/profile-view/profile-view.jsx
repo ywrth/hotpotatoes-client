@@ -3,7 +3,7 @@ import { Card, Container, Row, Col, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { UpdateForm } from "./update-form";
 import { MovieCard } from "../movie-card/movie-card";
-import { format } from "date-fns";
+import "./profile-view.scss"; // Adjust the path if needed
 
 export const ProfileView = ({
   user,
@@ -52,11 +52,10 @@ export const ProfileView = ({
   return (
     <Container>
       <Row className="mb-4">
-        <Col xs={12} className="mb-3">
-          <Button onClick={handleBack}>Back</Button>
-        </Col>
-        <Col xs={12} md={6} className="mb-3">
-          <Card>
+        <Col xs={12} md={6} className="mb-3 userDetails">
+          {" "}
+          {/* Added className */}
+          <Card className="no-hover">
             <Card.Body>
               <div>
                 <h4>User Details</h4>
@@ -67,8 +66,11 @@ export const ProfileView = ({
             </Card.Body>
           </Card>
         </Col>
-        <Col xs={12} md={6} className="mb-3">
-          <Card>
+
+        <Col xs={12} md={6} className="mb-3 updateForm">
+          {" "}
+          {/* Added className */}
+          <Card className="no-hover">
             <Card.Body>
               <UpdateForm user={user} />
             </Card.Body>
@@ -76,8 +78,10 @@ export const ProfileView = ({
         </Col>
       </Row>
       <Row className="mb-4">
-        <Col xs={12}>
-          <Card>
+        <Col xs={12} className="favoriteMovies">
+          {" "}
+          {/* Added className */}
+          <Card className="no-hover">
             <Card.Body>
               {favoriteMovies.length === 0 ? (
                 <span>No favorite movies selected</span>

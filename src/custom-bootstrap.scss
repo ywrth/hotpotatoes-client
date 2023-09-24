@@ -1,5 +1,9 @@
-$primary: rgb(253, 253, 253);
-$body-bg: rgb(196, 199, 212);
+$primary: #2C6E49 !default; // Dark Green
+$secondary: #e18392; // Soft Pink
+$accent: #DAA520; // Goldenrod for accent
+$body-bg: #4C956C; // Off-White
+$text-color: #2E2E33; // Very Dark Gray
+$soft-white: #F0F0F0; // Soft White
 
 @import '~bootstrap/scss/bootstrap.scss';
 

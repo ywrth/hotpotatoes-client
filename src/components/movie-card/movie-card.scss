@@ -1,26 +1,42 @@
+
+@import '../../custom-bootstrap.scss'; 
+
 .movieCard {
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-    border-bottom: 1px solid rgb(61, 114, 226);
-    color: rgb(25, 190, 25);
-    background-color: transparent; /* Explicitly set background-color */
-    transition: background-color 0.3s ease; /* Smooth transition */
-  }
-  
-  .movieCard:hover {
-    background-color: rgb(177, 211, 227);
-  }
-  
-  .card-image {
-    max-height: 20%;
-    max-width: 30%;
-    margin: 20 auto;
-  }
-  
-  .card-body {
- background-color: rgb(169, 175, 206); // specify the color you want on hover
- &:hover {
-  background-color: rgb(177, 211, 227);
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  border-bottom: 1px solid $secondary;
+  color: #2E2E33;
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  .card {
+    text-decoration: none; // Prevents text underline
+    color: rgb(53, 31, 53); // Ensures text inside the card has correct color
   }
 }
+
+.movieCard:hover {
+  background-color: #FFC9B9;
+}
+
+.card-image {
+  max-height: 20%;
+  max-width: 30%;
+  margin: 20 auto;
+}
+
+.card-body {
+  color: $text-color !important; // Forced Text Color
+  &:hover {
+    background-color: #FFC9B9;
+  }
+}
+
+.btn-custom {
+  background-color: #FFC9B9; // Change to the desired color
+  color: #FFC9B9; // Text color, usually white is preferred for contrast
+  border: none; // Remove default border
+  box-shadow: none !important;
+
+}
+

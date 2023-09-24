@@ -1,0 +1,37 @@
+@import '../../custom-bootstrap.scss'; 
+  
+.navbar-main {
+  background-color: $primary;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: $soft-white !important;
+}
+
+.logo-text {
+  color: #D68C45;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: $soft-white !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: $primary !important;
+}
+
+.search-form {
+  margin-right: auto;
+  
+}
+
+.search-input {
+  text-align: center;
+  border-radius: 10px;
+}
