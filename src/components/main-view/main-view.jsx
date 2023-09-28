@@ -18,11 +18,9 @@ export const MainView = () => {
   const [token, setToken] = useState(storedToken ? storedToken : null);
   const [movies, setMovies] = useState([]);
   const [selectedMovie, setSelectedMovie] = useState(null);
-  const [searchQuery, setSearchQuery] = React.useState('');
+  const [searchQuery, setSearchQuery] = React.useState("");
 
   useEffect(() => {
-    if (!token) return;
-
     fetch("https://hotpotatoes.onrender.com/movies", {
       headers: { Authorization: `Bearer ${token}` },
     })
@@ -65,8 +63,8 @@ export const MainView = () => {
 
   return (
     <BrowserRouter>
-      <NavigationBar 
-        user={user} 
+      <NavigationBar
+        user={user}
         onLogout={handleLogout}
         onSearch={setSearchQuery} // Pass setSearchQuery to NavigationBar
         searchQuery={searchQuery} // Pass searchQuery to NavigationBar
